@@ -6,6 +6,8 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
 import static java.lang.Thread.sleep;
+import static org.hamcrest.CoreMatchers.is;
+import static org.junit.Assert.assertThat;
 
 public class MontereyProjectCheck {
 
@@ -35,5 +37,14 @@ public class MontereyProjectCheck {
 
         sleep(5000);
         driver.quit();
+    }
+
+    @Test
+    public void checkJunit()    {
+
+        int x = 3;
+        int y = 3;
+
+        assertThat(x+y, is(6));
     }
 }
