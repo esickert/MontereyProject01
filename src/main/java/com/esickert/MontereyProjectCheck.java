@@ -14,7 +14,6 @@ public class MontereyProjectCheck {
     @Test
     public void thisIsATest()  {
         System.out.println("This is a test of the new project and POM file");
-
     }
 
     @Test
@@ -44,7 +43,6 @@ public class MontereyProjectCheck {
 
         int x = 3;
         int y = 3;
-
         assertThat(x+y, is(6));
     }
 }
