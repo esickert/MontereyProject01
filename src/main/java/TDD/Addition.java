@@ -1,0 +1,7 @@
+package TDD;
+
+public interface Addition {
+
+    public  int add(int x, int y);
+
+}
