@@ -2,7 +2,7 @@ package NodeInnerClass;
 
 public class IntLinkedList {
 
-    private Node head;
+    private Node head = null;
 
     private class Node {
 
@@ -18,7 +18,7 @@ public class IntLinkedList {
             this.num = newNum;
             this.link = newLink;
         }
-/********************************************************************************************
+/**************************************************************************************
         public void setNum(int newNum) {
             num = newNum;
         }
@@ -34,6 +34,6 @@ public class IntLinkedList {
         public Node getLink()   {
             return link;
         }
- ********************************************************************************************/
+ ***************************************************************************************/
     }//end of class Node
 }
