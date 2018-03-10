@@ -4,13 +4,19 @@ public class IntLinkedList {
 
     private Node head = null;
 
-    public void length()    {
+    public int length()    {
         Node position = head;
         int count = 0;
         while (position != null)    {
-            position =     ;
+            position = position.link;     ;
             count++;
         }
+        return count;
+    }
+
+    public void addNode(int addData)   {
+        Node position = head;
+        position = new Node(addData, head);
     }
 
     private class Node {
