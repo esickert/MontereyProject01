@@ -4,7 +4,7 @@ public class IntLinkedList {
 
     private Node head = null;
 
-    public int length()    {
+    public int length()    {  ///////Wrong
         Node position = head;
         int count = 0;
         while (position != null)    {
