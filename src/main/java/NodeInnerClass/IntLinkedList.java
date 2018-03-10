@@ -4,6 +4,15 @@ public class IntLinkedList {
 
     private Node head = null;
 
+    public void length()    {
+        Node position = head;
+        int count = 0;
+        while (position != null)    {
+            position =     ;
+            count++;
+        }
+    }
+
     private class Node {
 
         int num;
