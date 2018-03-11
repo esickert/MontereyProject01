@@ -6,12 +6,12 @@ public class Node {
     private Node link;
 
     Node()  {
-        stuff = null;
+        stuff = null;   //constructor
         link = null;
     }
 
     Node(String newStuff, Node newLink) {
-        this.stuff = newStuff;
+        this.stuff = newStuff;             //construtor
         this.link = newLink;
     }
 

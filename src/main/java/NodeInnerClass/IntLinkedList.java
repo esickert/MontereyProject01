@@ -8,15 +8,16 @@ public class IntLinkedList {
         Node position = head;
         int count = 0;
         while (position != null)    {
-            position = position.link;     ;
+            position = position.link;
+
             count++;
         }
         return count;
     }
 
     public void addNode(int addData)   {
-        Node position = head;
-        position = new Node(addData, head);
+ //       Node position = head;
+        head = new Node(addData, head);
     }
 
     private class Node {
