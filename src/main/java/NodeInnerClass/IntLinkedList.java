@@ -29,7 +29,22 @@ public class IntLinkedList {
         }
     }
 
-    private class Node {
+//    @Override
+    public int[] toArray()    {
+        Node position = head;
+        int[] nums = new int[length()];
+        int i = 0;
+        while (position != null)    {
+            nums[i] = position.num;
+            i++;
+            position = position.link;
+
+        }
+        return nums;
+
+    }
+
+    private static class Node {
 
         int num;
         Node link;
