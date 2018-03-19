@@ -38,7 +38,6 @@ public class StringLinkedListWithIterator {
         if (current != null) {
             previous = current;
             current = current.link;
-            System.out.println(current.item);
         } else if (head != null) {
             System.out.println("Iterated too many times or uninitialized iteration.");
             exit(0);
