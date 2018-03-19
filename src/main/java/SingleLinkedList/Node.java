@@ -11,7 +11,7 @@ public class Node {
     }
 
     Node(String newStuff, Node newLink) {
-        this.stuff = newStuff;             //construtor
+        this.stuff = newStuff;             //constructor
         this.link = newLink;
     }
 
