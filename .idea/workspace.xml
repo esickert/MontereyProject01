@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="078280d5-5042-4862-850d-0c24f97ab4a9" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MontereyProject01/src/main/java/LinkedListIterator/Node.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MontereyProject01/src/main/java/LinkedListIterator/TheLinkedListWithIteratorItself.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../MontereyProject01/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../MontereyProject01/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../MontereyProject01/src/main/java/SingleLinkedList/Node.java" afterPath="$PROJECT_DIR$/../MontereyProject01/src/main/java/SingleLinkedList/Node.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../MontereyProject01/src/main/java/LinkedListIterator/TheLinkedListWithIteratorItself.java" afterPath="$PROJECT_DIR$/../MontereyProject01/src/main/java/LinkedListIterator/TheLinkedListWithIteratorItself.java" />
     </list>
     <ignored path="$PROJECT_DIR$/../MontereyProject01/out/" />
     <ignored path="$PROJECT_DIR$/../MontereyProject01/target/" />
@@ -31,21 +29,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StringLinkedListWithIterator.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="StringLinkedListWithIterator.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../MontereyProject01/src/main/java/LinkedListIterator/StringLinkedListWithIterator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="720">
+            <state relative-caret-position="180">
               <caret line="40" column="8" lean-forward="false" selection-start-line="40" selection-start-column="8" selection-end-line="40" selection-end-column="8" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TheLinkedListWithIteratorItself.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="TheLinkedListWithIteratorItself.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../MontereyProject01/src/main/java/LinkedListIterator/TheLinkedListWithIteratorItself.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+            <state relative-caret-position="126">
+              <caret line="7" column="26" lean-forward="false" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -90,8 +88,8 @@
         <option value="$PROJECT_DIR$/../MontereyProject01/src/main/java/NodeInnerClass/TheLinkedList.java" />
         <option value="$PROJECT_DIR$/../MontereyProject01/src/main/java/SingleLinkedList/Node.java" />
         <option value="$PROJECT_DIR$/../MontereyProject01/src/main/java/LinkedListIterator/Node.java" />
-        <option value="$PROJECT_DIR$/../MontereyProject01/src/main/java/LinkedListIterator/TheLinkedListWithIteratorItself.java" />
         <option value="$PROJECT_DIR$/../MontereyProject01/src/main/java/LinkedListIterator/StringLinkedListWithIterator.java" />
+        <option value="$PROJECT_DIR$/../MontereyProject01/src/main/java/LinkedListIterator/TheLinkedListWithIteratorItself.java" />
       </list>
     </option>
   </component>
@@ -645,7 +643,14 @@
       <option name="project" value="LOCAL" />
       <updated>1521502269343</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="plus">
+      <created>1521502309761</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1521502309761</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1080,18 +1085,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../MontereyProject01/src/main/java/LinkedListIterator/TheLinkedListWithIteratorItself.java">
+    <entry file="file://$PROJECT_DIR$/../MontereyProject01/src/main/java/LinkedListIterator/StringLinkedListWithIterator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+        <state relative-caret-position="180">
+          <caret line="40" column="8" lean-forward="false" selection-start-line="40" selection-start-column="8" selection-end-line="40" selection-end-column="8" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../MontereyProject01/src/main/java/LinkedListIterator/StringLinkedListWithIterator.java">
+    <entry file="file://$PROJECT_DIR$/../MontereyProject01/src/main/java/LinkedListIterator/TheLinkedListWithIteratorItself.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="40" column="8" lean-forward="false" selection-start-line="40" selection-start-column="8" selection-end-line="40" selection-end-column="8" />
+        <state relative-caret-position="126">
+          <caret line="7" column="26" lean-forward="false" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
           <folding />
         </state>
       </provider>
