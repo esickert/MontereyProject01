@@ -23,7 +23,7 @@ public void fibonacci() {
 
 @Test
 public void palandrome()    {
-    
+
 }
 
 }
