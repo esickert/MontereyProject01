@@ -10,7 +10,7 @@ public void fibonacci() {
     int y = 1;
     int z;
     int count = 10;
-    System.out.print(x + y + " ");
+    System.out.print(x + " " + y);
 
     for(int i = 2; i <= count; i++) {
         z = x + y;
