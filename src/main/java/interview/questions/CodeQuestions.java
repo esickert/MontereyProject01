@@ -23,7 +23,16 @@ public void fibonacci() {
 
 @Test
 public void palandrome()    {
-
+    String x = "abcdcba";
+    String temp = "";
+    for(int i = x.length()-1; i >= 0; i--)  {
+        temp = temp + x.substring(i,i+1);
+        System.out.println(temp);
+    }
+    if (temp.equals(x))
+        System.out.println(x + " is a palindrome");
+    else
+        System.out.println(x + " is NOT a palindrome.");
 }
 
-}
+} //end of class CodeQuestions
