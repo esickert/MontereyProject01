@@ -19,7 +19,7 @@ public class MontereyProjectCheck {
     }
 
     @Test
-    public void testChrome() throws Exception  {
+    public void checkChrome() throws Exception  {
         System.setProperty("webdriver.chrome.driver","c://SeleniumDrivers//chromedriver.exe");
         WebDriver driver = new ChromeDriver();
 
@@ -30,7 +30,7 @@ public class MontereyProjectCheck {
     }
 
     @Test
-    public void testFirefox() throws Exception   {
+    public void checkFirefox() throws Exception   {
         System.setProperty("webdriver.gecko.driver","c://SeleniumDrivers//geckodriver.exe");
         WebDriver driver = new FirefoxDriver();
 
@@ -42,7 +42,6 @@ public class MontereyProjectCheck {
 
     @Test
     public void checkJunit()    {
-
         int x = 3;
         int y = 3;
         assertThat(x+y, is(6));
