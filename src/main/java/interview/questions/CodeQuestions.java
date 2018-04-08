@@ -36,4 +36,9 @@ public void palandrome()    {
         System.out.println(x + " is NOT a palindrome.");
 }
 
+@Test
+public void aList() {
+    
+}
+
 } //end of class CodeQuestions
