@@ -38,7 +38,7 @@ public void palandrome()    {
 
 @Test
 public void aList() {
-    
+
 }
 
 } //end of class CodeQuestions
