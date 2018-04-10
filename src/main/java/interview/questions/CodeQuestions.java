@@ -2,6 +2,11 @@ package interview.questions;
 
 import org.junit.Test;
 
+import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.List;
+import java.util.Set;
+
 public class CodeQuestions {
 
 @Test
@@ -33,10 +38,28 @@ public void palandrome()    {
         System.out.println(x + " is a palindrome!!!!");
     else
         System.out.println("NOT!!!");
+
+
 }
 
 @Test
 public void aList() {
+
+    List<String> aList = new ArrayList<String>();
+    aList.add("dog");
+    aList.add("cat");
+    for(int i = 0; i <= 2; i++) {
+        aList.add("bird");
+    }
+    for(String temp:aList)  {
+        System.out.print(temp + " ");
+    }
+
+    Set<String> aSet = new HashSet<String>(aList);
+    System.out.println();
+    for(String temp: aSet)  {
+        System.out.print(temp + " ");
+    }
 
 }
 
