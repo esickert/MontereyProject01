@@ -26,6 +26,20 @@ public void fibonacci() {
     System.out.println("\nThe Fibonacci Sequence");
 }
 
+@Test
+public void fibonacciRecursive()    {
+    int number = 10;
+    for(int i = 0; i <= number; i++) {
+        System.out.print(fib(i) + " ");
+    }
+}
+public int fib(int num)   {
+    if ((num == 0)||(num == 1))
+        return num;
+    else
+        return (fib(num - 1)+ fib(num - 2));
+}
+
 //*******************************************************************
 @Test
 public void palandrome()    {
