@@ -28,7 +28,7 @@ public void fibonacci() {
 
 @Test
 public void fibonacciRecursive()    {
-    int number = 10;
+    int number = 11;
     for(int i = 0; i <= number; i++) {
         System.out.print(fib(i) + " ");
     }
