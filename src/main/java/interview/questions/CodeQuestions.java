@@ -87,6 +87,7 @@ public class CodeQuestions {
                 temp = anArray[i];
                 System.out.print(temp + " ");
             }
+
             System.out.println("\nThe largest number is " + temp);
     }
 } //end of class CodeQuestions
