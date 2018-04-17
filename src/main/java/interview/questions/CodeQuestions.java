@@ -30,17 +30,15 @@ public class CodeQuestions {
 
     @Test
     public void fibonacciRecursive() {
-        int number = 11;
-        for (int i = 0; i <= number; i++) {
+        for(int i = 0; i <= 10; i++)
             System.out.print(fib(i) + " ");
-        }
     }
 
-    public int fib(int num) {
-        if ((num == 0) || (num == 1))
-            return num;
+    public static int fib(int x)    {
+        if ((x ==0)||(x==1))
+            return x;
         else
-            return (fib(num - 1) + fib(num - 2));
+            return (fib(x -1) + fib(x-2));
     }
 
     //*******************************************************************
@@ -80,6 +78,15 @@ public class CodeQuestions {
 
     }
 
-
-
+    @Test
+    public void findLargest()   {
+        int[] anArray = {1,5,4,7,8,9,12,33,4,2,1};
+        int temp = 0;
+        for(int i = 0; i < anArray.length-1; i++)
+            if (anArray[i]> temp) {
+                temp = anArray[i];
+                System.out.print(temp + " ");
+            }
+            System.out.println("\nThe largest number is " + temp);
+    }
 } //end of class CodeQuestions
