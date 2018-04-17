@@ -80,7 +80,7 @@ public class CodeQuestions {
 
     @Test
     public void findLargest()   {
-        int[] anArray = {1,5,4,7,8,9,12,33,4,2,1};
+        int[] anArray = {1,5,4,7,8,9,12,33,2,1};
         int temp = 0;
         for(int i = 0; i < anArray.length-1; i++)
             if (anArray[i]> temp) {
