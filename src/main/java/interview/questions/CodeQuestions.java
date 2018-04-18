@@ -11,6 +11,8 @@ import java.util.Set;
 
 public class CodeQuestions {
 
+//**********************************************************************
+// Fibinacci sequence NON recursive
     @Test
     public void fibonacci() {
         int x = 0;
@@ -28,6 +30,8 @@ public class CodeQuestions {
         System.out.println("\nThe Fibonacci Sequence");
     }
 
+//**********************************************************************
+//Fibanacci sequence recurssively
     @Test
     public void fibonacciRecursive() {
         for(int i = 0; i <= 10; i++)
@@ -42,6 +46,7 @@ public class CodeQuestions {
     }
 
     //*******************************************************************
+    //  Palindrome
     @Test
     public void palandrome() {
         String x = "abcdcba";
@@ -56,6 +61,9 @@ public class CodeQuestions {
 
 
     }
+
+    //******************************************************************
+    // Remove duplicates from a list.
 
     @Test
     public void aList() {
@@ -75,8 +83,10 @@ public class CodeQuestions {
         for (String temp : aSet) {
             System.out.print(temp + " ");
         }
-
     }
+
+    //****************************************************************
+    //Find the largest number in an array.
 
     @Test
     public void findLargest()   {
@@ -85,7 +95,7 @@ public class CodeQuestions {
         for(int i = 0; i < anArray.length-1; i++)
             if (anArray[i]> temp) {
                 temp = anArray[i];
-                System.out.print(temp + " ");
+ //               System.out.print(temp + " ");
             }
 
             System.out.println("\nThe largest number is " + temp);
