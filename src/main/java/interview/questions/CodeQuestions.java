@@ -4,10 +4,7 @@ import org.junit.Test;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-import java.util.ArrayList;
-import java.util.HashSet;
-import java.util.List;
-import java.util.Set;
+import java.util.*;
 
 public class CodeQuestions {
 
@@ -98,6 +95,10 @@ public class CodeQuestions {
  //               System.out.print(temp + " ");
             }
 
-            System.out.println("\nThe largest number is " + temp);
+        System.out.println("\nThe largest number is " + temp);
+
+        List<Integer> aList = new ArrayList<Integer>();
+        aList = Arrays.asList(anArray);
+        System.out.println(aList);
     }
 } //end of class CodeQuestions
