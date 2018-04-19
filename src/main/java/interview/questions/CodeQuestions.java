@@ -6,6 +6,8 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 import java.util.*;
 
+import static java.util.Collections.sort;
+
 public class CodeQuestions {
 
 //**********************************************************************
@@ -87,7 +89,7 @@ public class CodeQuestions {
 
     @Test
     public void findLargest()   {
-        int[] anArray = {1,5,4,7,8,9,12,33,2,1};
+        int[] anArray = {1,5,4,7,33,44,3,33,33,33,2};
         int temp = 0;
         for(int i = 0; i < anArray.length-1; i++)
             if (anArray[i]> temp) {
@@ -97,8 +99,13 @@ public class CodeQuestions {
 
         System.out.println("\nThe largest number is " + temp);
 
-        List<Integer> aList = new ArrayList<Integer>();
-        aList = Arrays.asList(anArray);
-        System.out.println(aList);
+//        List<Integer> list2 = Arrays.asList();
+        List<Integer> aList = new ArrayList<>();
+        for(int tmp: anArray)  {
+            aList.add(tmp);
+        }
+      System.out.println("This is a unsorted list "  + aList);  //lists are not sorted
+      SortedSet<Integer> aSet = new TreeSet<>(aList);
+      System.out.println("This is a sorted Set: "  + aSet);
     }
 } //end of class CodeQuestions
