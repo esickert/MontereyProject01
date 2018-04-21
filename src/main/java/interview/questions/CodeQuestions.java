@@ -105,7 +105,7 @@ public class CodeQuestions {
             aList.add(tmp);
         }
       System.out.println("This is a unsorted list "  + aList);  //lists are not sorted
-      SortedSet<Integer> aSet = new TreeSet<>(aList);
+      SortedSet<Integer> aSet = new TreeSet<>(aList); //converts list to set and sorts that set.
       System.out.println("This is a sorted Set with no dups: "  + aSet);
  //     aSet.add("string");
     }
