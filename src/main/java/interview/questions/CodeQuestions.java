@@ -109,4 +109,32 @@ public class CodeQuestions {
       System.out.println("This is a sorted Set with no dups: "  + aSet);
  //     aSet.add("string");
     }
+
+    //********************************************************************
+    @Test
+    public void findLargestMethod() {
+        int a = 12;
+        int b = 123;
+        int c = -54;
+        int d = 2;
+        int e = 1090;
+        int f = 33;
+        int g = -456;
+
+        System.out.println("\nThe largest number is " + findBiggest(a,b,c,d,e,f,g));
+    }
+
+    public int findBiggest(int h, int i, int j, int k, int l, int m, int n )    {
+        int[] anArray = {h,i,j,k,l,m,n};
+        for(int temp: anArray)
+            System.out.print(temp + " ");
+        int temp = h;
+        for(int x = 0; x <= anArray.length-1; x++)   {
+            if (temp < anArray[x])
+                temp = anArray[x];
+        }
+        return temp;
+    }
+
+    //**********************************************************************
 } //end of class CodeQuestions
