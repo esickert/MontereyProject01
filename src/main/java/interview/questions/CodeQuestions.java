@@ -139,6 +139,9 @@ public class CodeQuestions {
     //**********************************************************************
 
     @Test
-    public void find33rdIPAdress()  {}
+    public void find33rdIPAdress()  {
+
+        String IPAdress = "192.168.1.13";
+    }
 
 } //end of class CodeQuestions
