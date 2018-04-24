@@ -150,10 +150,12 @@ public class CodeQuestions {
         String IPAddress = "192.168.1.13";
         String[] ipArray = IPAddress.split("\\.");
         System.out.println("String ip address as array of strings " + Arrays.toString(ipArray));
+        
         firstOctet = convertToInteger(ipArray, 0);
         secondOctet = convertToInteger(ipArray, 1);
         thirdOctet = convertToInteger(ipArray, 2);
         fourthOctet = convertToInteger(ipArray, 3);
+
         System.out.println("This is the first octet: " + firstOctet);
         System.out.println("This is the second octet: " + secondOctet);
         System.out.println("This is the third octet: " + thirdOctet);
