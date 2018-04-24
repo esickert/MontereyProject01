@@ -149,17 +149,17 @@ public class CodeQuestions {
         int fourthOctet;
         String IPAddress = "192.168.1.13";
         String[] ipArray = IPAddress.split("\\.");
-        System.out.println(Arrays.toString(ipArray));
+        System.out.println("String ip address as array of strings " + Arrays.toString(ipArray));
         firstOctet = convertToInteger(ipArray, 0);
         secondOctet = convertToInteger(ipArray, 1);
         thirdOctet = convertToInteger(ipArray, 2);
         fourthOctet = convertToInteger(ipArray, 3);
         System.out.println("This is the first octet: " + firstOctet);
         System.out.println("This is the second octet: " + secondOctet);
-        System.out.println("This is the thirdOctet octet: " + thirdOctet);
-        System.out.println("This is the fourthOctet octet: " + fourthOctet);
+        System.out.println("This is the third octet: " + thirdOctet);
+        System.out.println("This is the fourth octet: " + fourthOctet);
 
-        System.out.println("FufirstOctet + "." + secondOctet + "." + thirdOctet + "." + firstOctet);
+        System.out.println("Full IP adress as integers : " + firstOctet + "." + secondOctet + "." + thirdOctet + "." + firstOctet);
     }
 
     public static int convertToInteger(String[] num,int x)  {
