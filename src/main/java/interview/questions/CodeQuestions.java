@@ -149,7 +149,8 @@ public class CodeQuestions {
         System.out.println(Arrays.toString(ipArray));
  //       firstOctet = Integer.parseInt(ipArray[0]);
         System.out.println(convertToInteger(ipArray, 0));
- //       System.out.println("This is the first octet: " + firstOctet);
+        firstOctet = convertToInteger(ipArray, 0);
+        System.out.println("This is the first octet: " + firstOctet);
     }
 
     public static int convertToInteger(String[] num,int x)  {
