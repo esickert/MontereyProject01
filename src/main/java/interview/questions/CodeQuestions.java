@@ -148,12 +148,12 @@ public class CodeQuestions {
         String[] ipArray = IPAddress.split("\\.");
         System.out.println(Arrays.toString(ipArray));
  //       firstOctet = Integer.parseInt(ipArray[0]);
-        System.out.println(convertToInteger(ipArray));
+        System.out.println(convertToInteger(ipArray, 0));
  //       System.out.println("This is the first octet: " + firstOctet);
     }
 
-    public static int convertToInteger(String[] num)  {
-        int octet = Integer.parseInt(num[0]);
+    public static int convertToInteger(String[] num,int x)  {
+        int octet = Integer.parseInt(num[x]);
         return octet;
     }
 
