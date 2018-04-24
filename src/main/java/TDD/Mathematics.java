@@ -8,6 +8,9 @@ public class Mathematics implements Subtraction, Addition {
 
     public int minus(int x, int y)  {
         return 0;
+    }
 
+    public int multiplication(int x, int y) {
+        return 0;
     }
 }
