@@ -141,16 +141,20 @@ public class CodeQuestions {
     //**********************************************************************
 
     @Test
-    public void find33rdIPAddress()  {
+    public void find33rdIPAddress() {
 
         int firstOctet;
+        int secondOctet;
         String IPAddress = "192.168.1.13";
         String[] ipArray = IPAddress.split("\\.");
         System.out.println(Arrays.toString(ipArray));
- //       firstOctet = Integer.parseInt(ipArray[0]);
+        //       firstOctet = Integer.parseInt(ipArray[0]);
         System.out.println(convertToInteger(ipArray, 0));
         firstOctet = convertToInteger(ipArray, 0);
+        secondOctet = convertToInteger(ipArray, 1);
         System.out.println("This is the first octet: " + firstOctet);
+        System.out.println("This is the second octet: " + secondOctet);
+
     }
 
     public static int convertToInteger(String[] num,int x)  {
