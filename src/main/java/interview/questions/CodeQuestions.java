@@ -3,6 +3,8 @@ package interview.questions;
 import org.junit.Test;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import sun.security.x509.IPAddressName;
+import java.util.*;
 
 import java.util.*;
 
@@ -139,9 +141,20 @@ public class CodeQuestions {
     //**********************************************************************
 
     @Test
-    public void find33rdIPAdress()  {
+    public void find33rdIPAddress()  {
 
-        String IPAdress = "192.168.1.13";
+        int firstOctet;
+        String IPAddress = "192.168.1.13";
+        String[] ipArray = IPAddress.split("\\.");
+        System.out.println(Arrays.toString(ipArray));
+ //       firstOctet = Integer.parseInt(ipArray[0]);
+        System.out.println(convertToInteger(ipArray));
+ //       System.out.println("This is the first octet: " + firstOctet);
+    }
+
+    public static int convertToInteger(String[] num)  {
+        int octet = Integer.parseInt(num[0]);
+        return octet;
     }
 
 } //end of class CodeQuestions
