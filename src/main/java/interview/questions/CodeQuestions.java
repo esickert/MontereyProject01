@@ -150,7 +150,7 @@ public class CodeQuestions {
         String IPAddress = "192.168.1.13";
         String[] ipArray = IPAddress.split("\\.");
         System.out.println("String ip address as array of strings " + Arrays.toString(ipArray));
-        
+
         firstOctet = convertToInteger(ipArray, 0);
         secondOctet = convertToInteger(ipArray, 1);
         thirdOctet = convertToInteger(ipArray, 2);
