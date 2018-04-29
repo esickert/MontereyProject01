@@ -17,7 +17,7 @@ public class HeadlessBrowserTest {
         java.util.logging.Logger.getLogger("com.gargoylesoftware").setLevel(Level.OFF);
         System.setProperty("org.apache.commons.logging.Log", "org.apache.commons.logging.impl.NoOpLog");
 
-
+  //      SoftAssertions softly = new SoftAssertions();
         //******************************************************************************
         // Declaring and initialising the HtmlUnitWebDriver
         HtmlUnitDriver unitDriver = new HtmlUnitDriver();
@@ -26,6 +26,7 @@ public class HeadlessBrowserTest {
         unitDriver.get("http://google.com");
 
         System.out.println("Title of the page is -> " + unitDriver.getTitle());
+        Assert.assertEquals("Google", unitDriver.getTitle());
 
         // find the search edit box on the google page
         WebElement searchBox = unitDriver.findElement(By.name("q"));
@@ -41,9 +42,9 @@ public class HeadlessBrowserTest {
         button.click();
 
         System.out.println("Title of the page is -> " + unitDriver.getTitle());
-       
-        Assert.assertEquals( "Selenium - Google Search", unitDriver.getTitle());
 
+        Assert.assertEquals( "Seleniu - Google Search", unitDriver.getTitle());
+ //       softly.assertAll();
     }
 }
 
