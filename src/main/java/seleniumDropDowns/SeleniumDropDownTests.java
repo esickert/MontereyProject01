@@ -10,6 +10,8 @@ import org.openqa.selenium.support.ui.Select;
 
 import java.util.List;
 
+import static org.openqa.selenium.By.xpath;
+
 public class SeleniumDropDownTests {
 
     @Test
@@ -52,25 +54,35 @@ public class SeleniumDropDownTests {
         driver.close();
     }
 
+    @Test
     public void test_ul_li()    {
 
         System.setProperty("webdriver.chrome.driver", "c://SeleniumDrivers//chromedriver.exe");
         WebDriver driver = new ChromeDriver();
-        driver.get("https://developer.mozilla.org/en-US/docs/Web/HTML/Element/select");
-        driver.manage().window().maximize();
+        driver.get("https://login20.monster.com/Login/SignIn?re=swoop&ch=MONS&intcid=skr_swoop_h1&r=http%3A%2F%2Fhome.monster.com%2F");
+ //       driver.manage().window().maximize();
 
-            driver.findElement(By.className("dropdown-menu")).click();
-            // Get all of the options
-            List<WebElement> options = driver.findElements(By.xpath("//ul[@class='dropdown-menu']/li"));
+        WebElement login = driver.findElement(By.cssSelector("#EmailAddress"));
+        login.sendKeys("esickert@gmail.com");
+        WebElement password = driver.findElement(By.cssSelector("#Password"));
+        password.sendKeys("Claude111");
+        driver.findElement(By.cssSelector("#btn-login")).click();
+
+
+        driver.findElement(By.cssSelector("#mobile-navbar-search > ul > li > ul")).click();  //selenium says this element not visible!!!!!!!
+
+//        driver.findElement(By.cssSelector("#mobile-navbar-search > ul > li > a")).click();
+        // Get all of the options
+        List<WebElement> options = driver.findElements(By.xpath("//ul[@class='dropdown-menu']/li"));
             // Loop through the options and select the one that matches
+
             for (WebElement opt : options) {
-     //           if (opt.getText().equals(option)) {
-                    opt.click();
-                    return;
+                System.out.println(opt.getText());
+//                    return;
                 }
             }
  //           throw new NoSuchElementException("Can't find " + option + " in dropdown");
 
     }
 
-//}
+
