@@ -5,6 +5,7 @@ import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.htmlunit.HtmlUnitDriver;
+import org.testng.asserts.SoftAssert;
 
 import java.util.logging.Level;
 
@@ -43,8 +44,8 @@ public class HeadlessBrowserTest {
 
         System.out.println("Title of the page is -> " + unitDriver.getTitle());
 
-        Assert.assertEquals( "Seleniu - Google Search", unitDriver.getTitle());
- //       softly.assertAll();
+        Assert.assertEquals( "Selenium - Google Search", unitDriver.getTitle());
+ //      softly.assertAll();
     }
 }
 
