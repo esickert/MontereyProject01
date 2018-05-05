@@ -30,7 +30,7 @@ public class InvalidLogin extends BaseClass
 
             driver.findElement(By.id("txtPassword")).sendKeys("admin2");
 
-            driver.findElement(By.id("btnLogin")).click();
+            driver.findElement(By.id("btn-Login")).click();
         }
 }
 
