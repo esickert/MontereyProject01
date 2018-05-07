@@ -17,13 +17,13 @@ public class InvalidLogin extends BaseClass
             driver.findElement(By.cssSelector("#btn-login")).click();
             Thread.sleep(5000);
 
-            driver.navigate().back();
+ //           driver.navigate().back();   doesn't work
 
             Thread.sleep(5000);
         }
-//***********************
 
-        @Test(description="This TC will perform invalid login")
+
+/*        @Test(description="This TC will perform invalid login")
         public void loginToApplication1()
         {
             driver.findElement(By.name("txtUsername")).sendKeys("admin1");
@@ -31,6 +31,6 @@ public class InvalidLogin extends BaseClass
             driver.findElement(By.id("txtPassword")).sendKeys("admin2");
 
             driver.findElement(By.id("btn-Login")).click();
-        }
+        }   */
 }
 
