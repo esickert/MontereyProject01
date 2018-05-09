@@ -9,8 +9,10 @@ import java.util.*;
 import java.util.*;
 
 import static java.util.Collections.sort;
+import static org.testng.AssertJUnit.assertEquals;
 
-public class CodeQuestions {
+//Sum the digits of a number
+    public class CodeQuestions {
 
 //**********************************************************************
 // Fibinacci sequence NON recursive
@@ -113,6 +115,7 @@ public class CodeQuestions {
     }
 
     //********************************************************************
+    //find the largest (or smallest) number in the array)
     @Test
     public void findLargestMethod() {
         int a = 12;
@@ -136,6 +139,21 @@ public class CodeQuestions {
                 temp = anArray[x];
         }
         return temp;
+    }
+
+//****************************************************************************
+@Test  //sum up the individual digits in a number
+    public void sumTheDigit()   {
+        int x = 123;
+        System.out.println(Sum(x));
+    }
+
+    public static int Sum(int x)    {
+        if (x == 0)
+            return x;
+        else
+            return ((x%10) + Sum(x/10));
+
     }
 
     //**********************************************************************
