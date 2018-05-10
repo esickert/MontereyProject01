@@ -145,14 +145,14 @@ import static org.testng.AssertJUnit.assertEquals;
 @Test  //sum up the individual digits in a number
     public void sumTheDigit()   {
         int x = 123;
-        System.out.println(Sum(x));
+        System.out.println(sum(x));
     }
 
-    public static int Sum(int x)    {
+    public static int sum(int x)    {
         if (x == 0)
             return x;
         else
-            return ((x%10) + Sum(x/10));
+            return ((x%10) + sum(x/10));
 
     }
 
