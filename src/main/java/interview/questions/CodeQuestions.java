@@ -85,7 +85,6 @@ import static org.testng.AssertJUnit.assertEquals;
         for(String temp : aList) {
             System.out.print(temp + " ");
         }
-
         Set<String> aSet = new HashSet<String>(aList);
         System.out.println();
         for (String temp : aSet) {
