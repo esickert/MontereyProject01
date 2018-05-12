@@ -69,7 +69,7 @@ import static org.testng.AssertJUnit.assertEquals;
     // Remove duplicates from a list.
 
     @Test
-    public void aList() {
+    public void aList() {  //THIS IS SOMETHING WEIRD HERE WITH JAVA 8 AND CONVEETING ARRAY TO LIST
 
         String[] pets = {"dog", "cat", "fish", "grass", "grass"};
         List<String> aList = new ArrayList<String>();
