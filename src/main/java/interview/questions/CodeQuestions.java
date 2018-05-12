@@ -71,13 +71,18 @@ import static org.testng.AssertJUnit.assertEquals;
     @Test
     public void aList() {
 
+        String[] pets = {"dog", "cat", "fish", "grass", "grass"};
         List<String> aList = new ArrayList<String>();
+        aList = new ArrayList<String>(Arrays.asList(pets));
+        System.out.println("An array converted to a list: " + aList);
+// I CAN'T SEEM TO MODIFY (ADD TO LIST) THE LIST THAT WAS CREATED FROM THE ARRAY...  NOW IT WORKS
         aList.add("dog");
         aList.add("cat");
         for (int i = 0; i <= 2; i++) {
             aList.add("bird");
         }
-        for (String temp : aList) {
+        System.out.println(aList);
+        for(String temp : aList) {
             System.out.print(temp + " ");
         }
 
