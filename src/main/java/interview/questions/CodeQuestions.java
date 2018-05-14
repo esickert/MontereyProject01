@@ -68,8 +68,6 @@ import static org.testng.AssertJUnit.assertEquals;
     //******************************************************************
     // Remove duplicates from a list.
 
-
-
     @Test
     public void aList() {  //THIS IS SOMETHING WEIRD HERE WITH JAVA 8 AND CONVEETING ARRAY TO LIST
 
