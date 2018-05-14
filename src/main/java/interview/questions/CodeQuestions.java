@@ -68,6 +68,8 @@ import static org.testng.AssertJUnit.assertEquals;
     //******************************************************************
     // Remove duplicates from a list.
 
+
+
     @Test
     public void aList() {  //THIS IS SOMETHING WEIRD HERE WITH JAVA 8 AND CONVEETING ARRAY TO LIST
 
@@ -81,16 +83,21 @@ import static org.testng.AssertJUnit.assertEquals;
         for (int i = 0; i <= 2; i++) {
             aList.add("bird");
         }
-        System.out.println(aList);
+        System.out.println("Sorting " + aList);
+
+        Collections.sort(aList);
         for(String temp : aList) {
             System.out.print(temp + " ");
         }
-        Set<String> aSet = new HashSet<String>(aList);
+        Set<String> aSet = new HashSet(aList);
+
         System.out.println();
-        for (String temp : aSet) {
+        for(String temp : aSet) {
             System.out.print(temp + " ");
         }
     }
+
+
 
     //****************************************************************
     //Find the largest number in an array.
