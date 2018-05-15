@@ -90,7 +90,7 @@ import static org.testng.AssertJUnit.assertEquals;
 
         System.out.println("\nIs this sorted ???" + aList);
         Set<String> aSet = new HashSet(aList);
-        
+
         System.out.println(aSet);
         for(String temp : aSet) {
             System.out.print(temp + " ");
