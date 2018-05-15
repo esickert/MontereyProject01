@@ -81,15 +81,17 @@ import static org.testng.AssertJUnit.assertEquals;
         for (int i = 0; i <= 2; i++) {
             aList.add("bird");
         }
-        System.out.println("Sorting " + aList);
+        System.out.println("\nSorting\n " + aList);
 
         Collections.sort(aList);
         for(String temp : aList) {
             System.out.print(temp + " ");
         }
-        Set<String> aSet = new HashSet(aList);
 
-        System.out.println();
+        System.out.println("\nIs this sorted ???" + aList);
+        Set<String> aSet = new HashSet(aList);
+        
+        System.out.println(aSet);
         for(String temp : aSet) {
             System.out.print(temp + " ");
         }
