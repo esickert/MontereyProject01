@@ -65,7 +65,7 @@ import static org.testng.AssertJUnit.assertEquals;
 
     }
 
-    //******************************************************************
+    //****************************************************************
     // Remove duplicates from a list.
 
     @Test
@@ -125,7 +125,7 @@ import static org.testng.AssertJUnit.assertEquals;
  //     aSet.add("string");
     }
 
-    //********************************************************************
+    //*****************************************************************
     //find the largest (or smallest) number in the array)
     @Test
     public void findLargestMethod() {
