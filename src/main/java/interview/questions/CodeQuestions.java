@@ -126,6 +126,27 @@ import static org.testng.AssertJUnit.assertEquals;
     }
 
     //*****************************************************************
+
+    @Test
+    public void findFirstTwoLargest()   {
+
+        int[] nums = {1,55,32,-45,66,-2,86,6789,-77};
+        int temp = nums[0];
+        int temp2 = nums[0];
+        for(int i = 0; i <= nums.length-1; i++) {
+            if (temp < nums[i]){
+                temp2 = temp;
+                temp = nums[i];
+            }
+            else if (temp2 < nums[i])
+                temp2 = nums[i];
+        }
+        System.out.println("Largest number is " + temp);
+        System.out.println("The second largest number is " + temp2);
+
+    }
+
+    //*****************************************************************
     //find the largest (or smallest) number in the array)
     @Test
     public void findLargestMethod() {
