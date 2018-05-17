@@ -219,4 +219,35 @@ import static org.testng.AssertJUnit.assertEquals;
         return octet;
     }
 
+//Given an array of package item weights and a weight limit, implement a function that finds two items whose sum of weights equals the weight limit.
+//Your function should return a pair [i, j] of the indices of the item weights, ordered such that i > j.
+//If such a pair doesn’t exist, return an empty array.
+    @Test
+    public void packageWeights()    {
+// I'm not sure this is completely correct.
+        int[] w = {2,45,7,3,5,1,8,9};
+        int limit = 10;
+//          Find 2 numbers in the array whose sum equal the limit, 9
+//            System.out.println(w[0] + w[2]);    //prints 9.
+        for(int i = 0; i<= w.length-1; i++) {
+            for(int j = i; j <= w.length-1; j++)    {
+                if (w[i] + w[j] == limit)
+                    System.out.println(w[i] + " " + w[j]);
+            }
+        }
+    }
+
+/* https://stackoverflow.com/questions/4720271/find-a-pair-of-elements-from-an-array-whose-sum-equals-a-given-number
+
+   //Method 3 - Brute Force O(n^2)
+    static void findPairs3(int[]a, int sum){
+
+        for(int i=0; i<a.length; i++){
+            for(int j=i; j<a.length;j++){
+                if(a[i]+a[j] == sum)
+                    System.out.println("("+a[i]+","+a[j]+")");
+            }
+        }
+    }
+*/
 } //end of class CodeQuestions
