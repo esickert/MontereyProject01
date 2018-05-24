@@ -25,10 +25,11 @@ public class capabilities {
 
 
 
-        Map capabilitiesMap = new HashMap();
-        capabilitiesMap.put("takeScreenShot",true);
-        DesiredCapabilities capabilities = new DesiredCapabilities(capabilitiesMap);
-        WebDriver driver = new FirefoxDriver(capabilities);
+  //      Map capabilitiesMap = new HashMap();
+ //       capabilitiesMap.put("takeScreenShot",true);
+ //       DesiredCapabilities capabilities = new DesiredCapabilities(capabilitiesMap);
+ //       WebDriver driver = new FirefoxDriver(capabilities);
+        WebDriver driver = new FirefoxDriver();
 
         driver.get("https://www.google.com");
         driver.manage().window().maximize();
