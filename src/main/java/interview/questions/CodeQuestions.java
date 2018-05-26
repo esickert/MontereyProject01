@@ -14,7 +14,7 @@ import static org.testng.AssertJUnit.assertEquals;
 //Sum the digits of a number
     public class CodeQuestions {
 
-//******************************************************************
+//*************************************************************
 // Fibinacci sequence NON recursive
     @Test
     public void fibonacci() {
