@@ -65,7 +65,7 @@ import static org.testng.AssertJUnit.assertEquals;
 
     }
 
-    //****************************************************************
+    //*************************************************************
     // Remove duplicates from a list.
 
     @Test
