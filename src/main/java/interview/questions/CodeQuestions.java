@@ -188,7 +188,22 @@ import static org.testng.AssertJUnit.assertEquals;
 
     }
 
-    //********************************************************************
+//********************************************************************
+//this will reverse the digits in a number
+@Test
+    public void reverseTheNumber()  {
+        int num = 1234567;
+        int temp = 0;
+
+        while (num != 0)    {
+            temp = (temp * 10) + (num % 10);
+            num = num / 10;
+            System.out.println(temp);
+        }
+
+}
+
+//*******************************************************************
    ///this is not done yet
     @Test
     public void find33rdIPAddress() {
