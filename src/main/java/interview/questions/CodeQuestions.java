@@ -189,7 +189,7 @@ import static org.testng.AssertJUnit.assertEquals;
     }
 
 //********************************************************************
-//this will reverse the digits in a number
+//this will reverse the digits of a number
 @Test
     public void reverseTheNumber()  {
         int num = 1234567;
@@ -200,7 +200,6 @@ import static org.testng.AssertJUnit.assertEquals;
             num = num / 10;
             System.out.println(temp);
         }
-
 }
 
 //*******************************************************************
