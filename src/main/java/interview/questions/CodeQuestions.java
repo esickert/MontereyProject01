@@ -4,6 +4,8 @@ import org.junit.Test;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import sun.security.x509.IPAddressName;
+
+import java.io.IOException;
 import java.util.*;
 
 import java.util.*;
@@ -231,6 +233,17 @@ import static org.testng.AssertJUnit.assertEquals;
     public static int convertToInteger(String[] num,int x)  {
         int octet = Integer.parseInt(num[x]);
         return octet;
+    }
+
+    @Test
+    public void maximizeSeleniumBrowser() throws IOException, InterruptedException {   ///IMPORTANT!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+        System.setProperty("webdriver.chrome.driver","c://SeleniumDrivers//chromeDriver.exe");
+        WebDriver driver = new ChromeDriver();
+        driver.get("http://www.google.com");
+        driver.manage().window().maximize();
+        Thread.sleep(5000);
+        driver.quit();
     }
 
 //???????????????????????????????????????????????????????????????????????????
