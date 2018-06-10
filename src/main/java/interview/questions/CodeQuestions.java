@@ -289,8 +289,29 @@ import static org.testng.AssertJUnit.assertEquals;
         }
     }
 */
+//NOTE this is from https://stackoverflow.com/questions/4720271/find-a-pair-of-elements-from-an-array-whose-sum-equals-a-given-number
+@Test
+    public void findPairs ()    {
+    int a[] = {1,10,5,8,2,12,6,4};
+    findPairs1(a,10);
+//        findPairs2(a,10);
+//        findPairs3(a,10);
+}
+
+//Method1 - O(N) use a Map to insert values as keys & check for number's complement in map
+    static void findPairs1(int[]a, int sum){
+        Map<Integer, Integer> pairs = new HashMap<Integer, Integer>();
+        for(int i=0; i<a.length; i++){
+            if(pairs.containsKey(sum-a[i]))   //I don't understand this
+                System.out.println("("+a[i]+","+(sum-a[i])+")");
+            else
+                pairs.put(a[i], 0);
+        }
+    }
 
 //?????????????????????????????????????????????????????????????????????????????
+
+    
 } //end of class CodeQuestions
 
 
