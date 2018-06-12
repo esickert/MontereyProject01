@@ -39,7 +39,7 @@ public class MontereyProjectCheck {
         sleep(5000);
         driver.quit();
 
-        
+
     }
 
     @Test
