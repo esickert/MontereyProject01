@@ -1,5 +1,6 @@
 package com.esickert;
 
+import org.apache.commons.validator.UrlValidator;
 import org.junit.Test;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -35,6 +36,10 @@ public class MontereyProjectCheck {
         WebDriver driver = new FirefoxDriver();
 
         driver.get("http://www.google.com");
+
+        //I don't know what these are ?????????????????  urlValidator
+ //       UrlValidator urlValidator = new UrlValidator();
+ //       System.out.println(urlValidator.isValid("http://my favorite site!"));
 
         sleep(5000);
         driver.quit();
