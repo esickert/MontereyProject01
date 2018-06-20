@@ -203,9 +203,29 @@ import static org.testng.AssertJUnit.assertEquals;
             System.out.println(temp);
         }
 }
-
 //*******************************************************************
-   ///this is not done yet
+//determine if a number is a palindrome
+@Test
+    public void integerPalindrome() {
+        int number = 1234567;
+        int num = number;
+        int temp= 0;
+
+        while (number != 0) {
+
+        temp = (temp * 10) + (number % 10);
+        number = number / 10;
+        }
+        System.out.println(temp);
+        if (num == temp)
+            System.out.println("\nPalindrome");
+        else
+            System.out.println("\nNOT!!!!!");
+    }//end of integerPalindrome
+
+//**********************************************************************************************************************
+
+                                                //this is not done yet
     @Test
     public void find33rdIPAddress() {
 
