@@ -63,8 +63,6 @@ import static org.testng.AssertJUnit.assertEquals;
             System.out.println(x + " is a palindrome!!!!");
         else
             System.out.println("NOT!!!");
-
-
     }
 
     //***********************************************************
