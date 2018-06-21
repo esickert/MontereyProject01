@@ -13,7 +13,7 @@ import java.util.*;
 import static java.util.Collections.sort;
 import static org.testng.AssertJUnit.assertEquals;
 
-//Sum the digits of a number
+
     public class CodeQuestions {
 
 //*************************************************************
