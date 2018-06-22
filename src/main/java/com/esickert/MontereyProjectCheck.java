@@ -39,7 +39,7 @@ public class MontereyProjectCheck {
 
         //I don't know what these are ?????????????????  urlValidator
  //       UrlValidator urlValidator = new UrlValidator();
- //       System.out.println(urlValidator.isValid("http://my favorite site!"));
+ //n       System.out.println(urlValidator.isValid("http://my favorite site!"));
 
         sleep(5000);
         driver.quit();
