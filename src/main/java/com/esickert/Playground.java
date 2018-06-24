@@ -5,20 +5,20 @@ import org.junit.Test;
 public class Playground {
 
 @Test
-    public void palindrome() {
-    String word = "abcdcbaz";
-    String temp = "";
-    int front = (word.length() - 1) / 2;
-    int back = word.length() - 1;
-    for (int i = word.length() - 1; i >= 0; i--) {
-        temp = temp + word.substring(i, i + 1);
-        System.out.println(temp);
+public void fib()   {
+    int a = 0;
+    int b = 1;
+    int c;
+    System.out.print(a + " " + b);
+    for(int i = 2; i <= 10; i++)    {
+        c = a + b;
+        System.out.print(" " + c);
+        a = b;
+        b = c;
     }
-    if (word.equals(temp))
-        System.out.println("\nPalindrome");
-    else
-        System.out.println("\nNOT!!!!!!!!!!!!!!");
 }
+
+
 }
 
 
