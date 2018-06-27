@@ -5,21 +5,6 @@ import org.junit.Test;
 public class Playground {
 
 @Test
-public void fib()   {
-    int a = 0;
-    int b = 1;
-    int c;
-    System.out.print(a + " " + b);
-    for(int i = 2; i <= 10; i++)    {
-        c = a + b;
-        System.out.print(" " + c);
-        a = b;
-        b = c;
-    }
-}
-
-//**********************************************************************************************************************
-@Test
 public void sortedArray()   {
     int[] a = {1,4,2,5,9,3,8,7};
     int temp = a[0];  //not used!!
@@ -40,7 +25,7 @@ public static void selectionSort(int[] anArray)  {
 
     for(int index= 0; index < anArray.length-1; index++)    {
         int indexOfNextSmallest = getIndexOfSmallest(index, anArray);
-//        System.out.print(indexOfNextSmallest);
+
        interchange(index, indexOfNextSmallest, anArray);
     }
 }
@@ -64,7 +49,9 @@ static void interchange(int i, int j, int[] a) {
     a[i] = a[j];
     a[j] = temp;
 }
+
 }
+
 
 
 
