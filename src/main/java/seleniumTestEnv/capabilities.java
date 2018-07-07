@@ -15,14 +15,14 @@ import java.util.Map;
 public class capabilities {
 
     @Test
-    public void openFirefox() {
+    public void openFirefox() throws Exception  {
 
  //       System.setProperty("Webdriver.driver.FirefoxDriver", "c://SeleniumDrivers//geckodriver.exe");
         System.setProperty("webdriver.gecko.driver","c://SeleniumDrivers//geckodriver.exe");
 
 
 
-
+//*************************************************************************************
   //      Map capabilitiesMap = new HashMap();
  //       capabilitiesMap.put("takeScreenShot",true);
  //       DesiredCapabilities capabilities = new DesiredCapabilities(capabilitiesMap);
@@ -48,6 +48,8 @@ public class capabilities {
             System.out.println(e.getMessage());
 
         }
+        Thread.sleep(3000);
+        driver.quit();
 
     }
 }
