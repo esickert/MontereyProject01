@@ -53,4 +53,14 @@ public class MontereyProjectCheck {
         int y = 3;
         assertThat(x+y, is(6));
     }
+
+    @Test  // note that in both cases third option is "driver" in "webdriver.chrome.driver".
+    public void testSeleniumChrome() throws Exception   {
+        System.setProperty("webdriver.chrome.driver","c://SeleniumDrivers//chromedriver.exe");
+        WebDriver driver = new ChromeDriver();
+        driver.get("http://www.google.com");
+
+        Thread.sleep(3000);
+        driver.quit();
+    }
 }
