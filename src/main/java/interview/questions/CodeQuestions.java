@@ -64,6 +64,16 @@ import static org.testng.AssertJUnit.assertEquals;
         else
             System.out.println("NOT!!!");
     }
+// another method for determining a palindrone usin StringBuffer
+    @Test
+    public void StringBufferPalindrone()    {
+        String word = "abcdcba";
+        StringBuffer str = new StringBuffer(word);
+        if (word.equals(str.reverse().toString()))
+            System.out.println("\nPalindrone");
+        else
+            System.out.println("\nNOT!!!!!!!");
+    }
 
     //***********************************************************
     // Remove duplicates from a list.
