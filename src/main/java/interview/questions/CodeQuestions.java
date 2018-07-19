@@ -319,7 +319,7 @@ import static org.testng.AssertJUnit.assertEquals;
 @Test
     public void findPairs ()    {
     int a[] = {1,10,5,8,2,12,6,4};
-    findPairs1(a,10);
+    findPairs1(a,15);
 //        findPairs2(a,10);
 //        findPairs3(a,10);
 }
