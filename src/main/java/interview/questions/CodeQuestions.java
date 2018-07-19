@@ -8,8 +8,6 @@ import sun.security.x509.IPAddressName;
 import java.io.IOException;
 import java.util.*;
 
-import java.util.*;
-
 import static java.util.Collections.sort;
 import static org.testng.AssertJUnit.assertEquals;
 
@@ -327,19 +325,31 @@ import static org.testng.AssertJUnit.assertEquals;
 }
 
 //Method1 - O(N) use a Map to insert values as keys & check for number's complement in map
-    static void findPairs1(int[]a, int sum){
+    static void findPairs1(int[]a, int sum) {
         Map<Integer, Integer> pairs = new HashMap<Integer, Integer>();
-        for(int i=0; i<a.length; i++){
-            if(pairs.containsKey(sum-a[i]))   //I don't understand this array gets into map
-                System.out.println("("+a[i]+","+(sum-a[i])+")");
-            else
+        for (int i = 0; i < a.length; i++) {
+            if (pairs.containsKey(sum - a[i]))   //I don't understand this array gets into map
+                System.out.println("(" + a[i] + "," + (sum - a[i]) + ")");
+            else {
                 pairs.put(a[i], 0);
+                pairs.get(a[i]);
+
+
+            }
         }
     }
 
-//    I still don't get this!!!!!!!!!'
+@Test
+    public void ahhMaps()   {
+        Map<Integer,String> aMap = new HashMap<>() ;
+        aMap.put(1,"Dog");
 
-//????????????????????????????????????????????????????????????????????
+        System.out.println(aMap.get(1));
+        System.out.println(aMap.get("dog"));
+    }
+
+
+
 
 
 } //end of class CodeQuestions
