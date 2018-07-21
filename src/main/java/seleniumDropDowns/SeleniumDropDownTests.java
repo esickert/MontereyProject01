@@ -3,6 +3,7 @@ package seleniumDropDowns;
 import org.junit.Assert;
 import org.junit.Test;
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -23,35 +24,44 @@ public class SeleniumDropDownTests {
         driver.get("https://developer.mozilla.org/en-US/docs/Web/HTML/Element/select");
         driver.manage().window().maximize();
 
-    /*    WebElement login = driver.findElement(By.cssSelector("#EmailAddress"));
-        login.sendKeys("esickert@gmail.com");
-        WebElement password = driver.findElement(By.cssSelector("#Password"));
-        password.sendKeys("Claude111");
-        driver.findElement(By.cssSelector("#btn-login")).click();  /*
+
+
+
+
+//     WebElement login = driver.findElement(By.cssSelector("#EmailAddress"));
+//        login.sendKeys("esickert@gmail.com");
+//        WebElement password = driver.findElement(By.cssSelector("#Password"));
+//        password.sendKeys("Claude111");
+//        driver.findElement(By.cssSelector("#btn-login")).click();  /*
 
     //open and select options in dropdown menu using the Select class.
-        WebElement dropdown = driver.findElement(By.className("dropdown-menu"));
+//        WebElement dropdown = driver.findElement(By.className("dropdown-menu"));
+        WebElement dropdown = driver.findElement(By.xpath("//*[@id=\"wikiArticle\"]/p[14]/select"));
         Select selectOption = new Select(dropdown);      //to use selenium Select class the tags need to be under the select tag
 /*****  org.openqa.selenium.support.ui.UnexpectedTagNameException: Element should have been "select" but was "ul"
         Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
         System info: host: 'TENOCHTITLAN', ip: '192.168.1.100', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_144'
         Driver info: driver.version: unknown    ***/
-        WebElement dropdown = driver.findElement(By.cssSelector("#wikiArticle > p:nth-child(10) > select"));
+ //       WebElement dropdown = driver.findElement(By.cssSelector("#wikiArticle > p:nth-child(10) > select"));
+  //      WebElement dropdown = driver.findElement(By.cssSelector("#wikiArticle > p:nth-child(23) > select"));
+//        WebElement dropdown = driver.findElement(By.id("pet-select"));
+        //#wikiArticle > p:nth-child(23) > select
 
-//        dropdown.click();
+        dropdown.click();
         Select drop = new Select(dropdown);
         Thread.sleep(3000);
         drop.selectByVisibleText("Value 3");
-        Thread.sleep(3000);
-        drop.selectByIndex(1);
-        Thread.sleep(3000);
-        drop.selectByVisibleText("Value 1");
+    //    Thread.sleep(3000);
+  //      drop.selectByIndex(1);
+     //   Thread.sleep(3000);
+  //      drop.selectByVisibleText("Value 1");
 
         WebElement x = drop.getFirstSelectedOption();
         System.out.println(x.getText());
         Assert.assertEquals(x.getText(), "Value 1");
 
         driver.close();
+
     }
 
     @Test
