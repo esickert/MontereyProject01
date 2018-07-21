@@ -18,8 +18,8 @@ public void openBrowser()   throws Exception    {
 //    Thread.sleep(3000);
     driver.manage().window().maximize();
 //Note the space in the className. That causes a problem!!!
-    WebElement popup = driver.findElement(By.cssSelector("a[class='gb_ed gb_Bd']"));
-    popup.click();
+ //   WebElement popup = driver.findElement(By.cssSelector("a[class='gb_ed gb_Bd']"));
+//    popup.click();
 // <a class="gb_ed gb_Bd" href="javascript:void(0)" aria-label="Close" title="" data-navigation="server" role="button">×</a>
  //   By.cssSelector("a[class='gb_ed gb_Bd']")      className has a space in it
 
