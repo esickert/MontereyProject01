@@ -9,6 +9,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.Select;
 
+import java.io.IOException;
 import java.util.List;
 
 import static org.openqa.selenium.By.xpath;
@@ -16,7 +17,7 @@ import static org.openqa.selenium.By.xpath;
 public class SeleniumDropDownTests {
 
     @Test
-    public void TestSelect() throws InterruptedException {
+    public void TestSelect()  {
 
     // login to Monster website
         System.setProperty("webdriver.chrome.driver", "c://SeleniumDrivers//chromedriver.exe");
@@ -48,19 +49,26 @@ public class SeleniumDropDownTests {
         //#wikiArticle > p:nth-child(23) > select
 
         dropdown.click();
+        //NOW WE WILL USE THE SELECT TAG ONLY PROBLEM IS DROPDOWN IS UL -> LI
         Select drop = new Select(dropdown);
-        Thread.sleep(3000);
-        drop.selectByVisibleText("Value 3");
-    //    Thread.sleep(3000);
-  //      drop.selectByIndex(1);
-     //   Thread.sleep(3000);
-  //      drop.selectByVisibleText("Value 1");
 
+        try {
+            Thread.sleep(3000);
+            drop.selectByVisibleText("Third Value");
+            Thread.sleep(3000);
+            drop.selectByIndex(1);
+            //   Thread.sleep(3000);
+            //      drop.selectByVisibleText("Value 1");
+        }
+        catch(InterruptedException e)
+        {
+            System.out.println("ERROR");
+        }
         WebElement x = drop.getFirstSelectedOption();
         System.out.println(x.getText());
-        Assert.assertEquals(x.getText(), "Value 1");
+        Assert.assertEquals(x.getText(), "Second Value");
 
-        driver.close();
+ //       driver.close();
 
     }
 
