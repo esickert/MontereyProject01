@@ -91,10 +91,10 @@ public class SeleniumDropDownTests {
 
 //        driver.findElement(By.cssSelector("#mobile-navbar-search > ul > li > a")).click();
         // Get all of the options
-        List<WebElement> options = driver.findElements(By.xpath("//ul[@class='dropdown-menu']/li"));
+        List<WebElement> pulldownOptions = driver.findElements(By.xpath("//ul[@class='dropdown-menu']/li"));
             // Loop through the options and select the one that matches
 
-            for (WebElement opt : options) {
+            for (WebElement opt : pulldownOptions) {
                 System.out.println("The option is " + opt.getText());
 //                    return;
                 }
