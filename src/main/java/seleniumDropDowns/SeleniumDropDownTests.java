@@ -81,9 +81,9 @@ public class SeleniumDropDownTests {
         driver.manage().window().maximize();
 
         WebElement login = driver.findElement(By.cssSelector("#EmailAddress"));
-        login.sendKeys("esickert@gmail.com");
+        login.sendKeys("test@paris.com");
         WebElement password = driver.findElement(By.cssSelector("#Password"));
-        password.sendKeys("Claude111");
+        password.sendKeys("Paris111");
         driver.findElement(By.cssSelector("#btn-login")).click();
 
 
@@ -94,10 +94,11 @@ public class SeleniumDropDownTests {
         List<WebElement> pulldownOptions = driver.findElements(By.xpath("//ul[@class='dropdown-menu']/li"));
             // Loop through the options and select the one that matches
 
-            for (WebElement opt : pulldownOptions) {
+            for (WebElement opt : pulldownOptions ) {
                 System.out.println("The option is " + opt.getText());
 //                    return;
-                }
+            }
+            pulldownOptions.get(7).click();   //this worked!!!!!!!!!!!!!!!!!!!!!!!   smiley face.
             }
  //           throw new NoSuchElementException("Can't find " + option + " in dropdown");
 
