@@ -88,17 +88,13 @@ public class SeleniumDropDownTests {
 
 
         driver.findElement(By.cssSelector("#mobile-navbar-search > ul > li > a")).click();  //selenium says this element not visible!!!!!!!
-
-//        driver.findElement(By.cssSelector("#mobile-navbar-search > ul > li > a")).click();
-        // Get all of the options
         List<WebElement> pulldownOptions = driver.findElements(By.xpath("//ul[@class='dropdown-menu']/li"));
             // Loop through the options and select the one that matches
 
-            for (WebElement opt : pulldownOptions ) {
-                System.out.println("The option is " + opt.getText());
-//                    return;
-            }
-            pulldownOptions.get(7).click();   //this worked!!!!!!!!!!!!!!!!!!!!!!!   smiley face.
+        for (WebElement opt : pulldownOptions ) {
+            System.out.println("The option is " + opt.getText());
+        }
+        pulldownOptions.get(7).click();   //this worked!!!!!!!!!!!!!!!!!!!!!!!   smiley face.
             }
  //           throw new NoSuchElementException("Can't find " + option + " in dropdown");
 
