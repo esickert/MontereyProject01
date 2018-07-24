@@ -57,8 +57,8 @@ public class SeleniumDropDownTests {
             drop.selectByVisibleText("Third Value");
             Thread.sleep(3000);
             drop.selectByIndex(1);
-            //   Thread.sleep(3000);
-            //      drop.selectByVisibleText("Value 1");
+            Thread.sleep(3000);
+            drop.selectByVisibleText("First Value");
         }
         catch(InterruptedException e)
         {
@@ -66,7 +66,7 @@ public class SeleniumDropDownTests {
         }
         WebElement x = drop.getFirstSelectedOption();
         System.out.println("Line 68: " +  x.getText());
-        Assert.assertEquals(x.getText(), "Second Value");
+        Assert.assertEquals(x.getText(), "First Value");
 
  //       driver.close();
 
