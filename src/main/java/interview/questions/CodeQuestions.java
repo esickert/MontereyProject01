@@ -302,7 +302,7 @@ import static org.testng.AssertJUnit.assertEquals;
         return anArray;
     } //end of addTwo
 
-/* https://stackoverflow.com/questions/4720271/find-a-pair-of-elements-from-an-array-whose-sum-equals-a-given-number
+/* 
 
    //Method 3 - Brute Force O(n^2)
     static void findPairs3(int[]a, int sum){
@@ -324,7 +324,7 @@ import static org.testng.AssertJUnit.assertEquals;
 //        findPairs3(a,10);
 }
 
-//Method1 - O(N) use a Map to insert values as keys & check for number's complement in map
+// O(N) use a Map to insert values as keys & check for number's complement in map
     static void findPairs1(int[]a, int sum) {
         Map<Integer, Integer> pairs = new HashMap<Integer, Integer>();
         for (int i = 0; i < a.length; i++) {
@@ -333,8 +333,6 @@ import static org.testng.AssertJUnit.assertEquals;
             else {
                 pairs.put(a[i], 0);
                 pairs.get(a[i]);
-
-
             }
         }
     }
@@ -347,11 +345,6 @@ import static org.testng.AssertJUnit.assertEquals;
         System.out.println(aMap.get(1));
         System.out.println(aMap.get("dog"));
     }
-
-
-
-
-
 } //end of class CodeQuestions
 
 
