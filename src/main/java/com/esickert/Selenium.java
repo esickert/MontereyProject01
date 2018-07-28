@@ -1,5 +1,6 @@
 package com.esickert;
 
+import org.junit.Assert;
 import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -17,11 +18,15 @@ public void openBrowser()   throws Exception    {
     driver.get("https://www.google.com");
 //    Thread.sleep(3000);
     driver.manage().window().maximize();
-//Note the space in the className. That causes a problem!!!
- //   WebElement popup = driver.findElement(By.cssSelector("a[class='gb_ed gb_Bd']"));
+//    Note the space in the className. That causes a problem!!!
+//    WebElement popup = driver.findElement(By.cssSelector("a[class='gb_ed gb_Bd']"));
 //    popup.click();
 // <a class="gb_ed gb_Bd" href="javascript:void(0)" aria-label="Close" title="" data-navigation="server" role="button">×</a>
- //   By.cssSelector("a[class='gb_ed gb_Bd']")      className has a space in it
+//   By.cssSelector("a[class='gb_ed gb_Bd']")                   className has a space in it
+
+    System.out.println(driver.getTitle());
+
+    Assert.assertTrue("Are they equal", driver.getTitle().equals("Google"));
 
 
 
