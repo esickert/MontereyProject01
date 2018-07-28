@@ -68,7 +68,7 @@ public class SeleniumDropDownTests {
         System.out.println("Line 68: " +  x.getText());
         Assert.assertEquals(x.getText(), "First Value");
 
- //       driver.close();
+ //     driver.close();
 
     }
 
