@@ -10,19 +10,34 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 public class Selenium {
 
 @Test
-public void openBrowser()   throws Exception    {
+public void openBrowser()       {
 
     System.setProperty("webdriver.gecko.driver","c://SeleniumDrivers//geckodriver.exe");
     WebDriver driver = new FirefoxDriver();
 
     driver.get("https://www.google.com");
-//    Thread.sleep(3000);
+    try {
+        Thread.sleep(3000);
+
+    }
+    catch(InterruptedException e)
+    {
+        System.out.println("ERROR - InterruptedException");
+    }
     driver.manage().window().maximize();
 //    Note the space in the className. That causes a problem!!!
 //    WebElement popup = driver.findElement(By.cssSelector("a[class='gb_ed gb_Bd']"));
 //    popup.click();
 // <a class="gb_ed gb_Bd" href="javascript:void(0)" aria-label="Close" title="" data-navigation="server" role="button">×</a>
 //   By.cssSelector("a[class='gb_ed gb_Bd']")                   className has a space in it
+//    System.out.println(3/0);  experimenting with devide by zero. Throughs a arimetic exception.
+    try {
+        System.out.println("Is this true " + 3.0 / 0);  // prints out "infinity".  ???????????????????????????????????????
+    }
+    catch (ArithmeticException e)
+    {
+            System.out.println("ERROR - What the fuck!!!!");
+    }
 
     System.out.println(driver.getTitle());
 
