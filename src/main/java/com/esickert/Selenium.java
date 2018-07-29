@@ -22,7 +22,7 @@ public void openBrowser()       {
     }
     catch(InterruptedException e)
     {
-        System.out.println("ERROR - InterruptedException");
+       e.printStackTrace();
     }
     driver.manage().window().maximize();
 //    Note the space in the className. That causes a problem!!!
@@ -36,11 +36,10 @@ public void openBrowser()       {
     }
     catch (ArithmeticException e)
     {
-            System.out.println("ERROR - What the fuck!!!!");
+            e.printStackTrace();    //??????????????????????????????????????REMEMBER
     }
 
     System.out.println(driver.getTitle());
-
     Assert.assertTrue("Are they equal", driver.getTitle().equals("Google"));
 
 
