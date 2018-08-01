@@ -36,7 +36,7 @@ public void openBrowser()       {
     }
     catch (ArithmeticException e)
     {
-            e.printStackTrace();    //REMEMBER  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+            e.printStackTrace();    //REMEMBER  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
     }
 
     System.out.println(driver.getTitle());
