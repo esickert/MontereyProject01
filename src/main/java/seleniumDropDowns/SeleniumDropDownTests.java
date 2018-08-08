@@ -94,7 +94,7 @@ public class SeleniumDropDownTests {
         for (WebElement opt : pulldownOptions ) {
             System.out.println("The option is " + opt.getText());
         }
-        pulldownOptions.get(7).click();   //this worked!!!!!!!!!!!!!!!!!!!!   smiley face.
+        pulldownOptions.get(7).click();   //this worked!!!!!!!!!!!!   smiley face.
             }
  //           throw new NoSuchElementException("Can't find " + option + " in dropdown");
 
