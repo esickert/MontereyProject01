@@ -32,7 +32,7 @@ public void openBrowser()       {
 //   By.cssSelector("a[class='gb_ed gb_Bd']")                   className has a space in it
 //    System.out.println(3/0);  experimenting with devide by zero. Throughs a arimetic exception.
     try {
-        System.out.println("This doesn't this trow anb exception??? " + 3.0 / 0);  // prints out "infinity".  ????????????
+        System.out.println("This doesn't this trow anb exception??? " + 3.0 / 0);  // prints out "infinity".  ?????????
     }
     catch (ArithmeticException e)
     {
