@@ -302,7 +302,7 @@ import static org.testng.AssertJUnit.assertEquals;
         return anArray;
     } //end of addTwo
 
-/* 
+/*
 
    //Method 3 - Brute Force O(n^2)
     static void findPairs3(int[]a, int sum){

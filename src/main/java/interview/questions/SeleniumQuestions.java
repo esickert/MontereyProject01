@@ -17,6 +17,7 @@ public class SeleniumQuestions {
     public WebDriver chromeDriver() {
         System.setProperty("webdriver.chrome.driver","C://SeleniumDrivers/chromeDriver.exe");
         WebDriver driver = new ChromeDriver();
+        driver.manage().window().maximize();
         return driver;
 
     }
@@ -31,6 +32,7 @@ public class SeleniumQuestions {
     public void openChrome()    {
 
         chromeDriver().get("http://www.yahoo.com");
+
     }
 
 }
