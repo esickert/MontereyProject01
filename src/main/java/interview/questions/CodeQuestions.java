@@ -345,6 +345,8 @@ import static org.testng.AssertJUnit.assertEquals;
         System.out.println(aMap.get(1));
         System.out.println(aMap.get("dog"));
     }
+
+
 } //end of class CodeQuestions
 
 
