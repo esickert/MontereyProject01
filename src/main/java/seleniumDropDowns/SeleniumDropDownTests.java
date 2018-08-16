@@ -23,17 +23,17 @@ public class SeleniumDropDownTests {
         System.setProperty("webdriver.chrome.driver", "c://SeleniumDrivers//chromedriver.exe");
         WebDriver driver = new ChromeDriver();
         driver.get("https://developer.mozilla.org/en-US/docs/Web/HTML/Element/select");
-        driver.get("http:esickert.github.io");
+ //       driver.get("http:esickert.github.io");
         driver.manage().window().maximize();
 
     //open and select options in dropdown menu using the Select class.
 
- /**       WebElement dropdown = driver.findElement(By.xpath("//*[@id=\"wikiArticle\"]/p[14]/select"));
+     WebElement dropdown = driver.findElement(By.xpath("//*[@id=\"wikiArticle\"]/p[14]/select"));
         Select selectOption = new Select(dropdown);      //to use selenium Select class the tags need to be under the select tag
-// org.openqa.selenium.support.ui.UnexpectedTagNameException: Element should have been "select" but was "ul"
+/** org.openqa.selenium.support.ui.UnexpectedTagNameException: Element should have been "select" but was "ul"
         Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
         System info: host: 'TENOCHTITLAN', ip: '192.168.1.100', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_144'
-        Driver info: driver.version: unknown
+       Driver info: driver.version: unknown  **/
 
         //#wikiArticle > p:nth-child(23) > select
 
@@ -63,7 +63,7 @@ public class SeleniumDropDownTests {
         {
             e.printStackTrace();
         }
-**/
+
 
      driver.close();
 
