@@ -13,11 +13,8 @@ public class Selenium2 {
         System.setProperty("webdriver.chrome.driver", "c://SeleniumDrivers//chromedriver.exe");
         WebDriver driver = new ChromeDriver();
 //        driver.get("https://developer.mozilla.org/en-US/docs/Web/HTML/Element/select");
-        driver.get("http:esickert.github.io");
-        if ((driver.getPageSource().contains("it")))
-            System.out.println("Found it");
-        if (driver.getPageSource().contains("Click"))
-            System.out.println("Clickme");
+        driver.get("https://www.google.com");
+
         driver.manage().window().maximize();
 
     }
