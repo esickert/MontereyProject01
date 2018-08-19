@@ -99,7 +99,7 @@ public class SeleniumDropDownTests {
             e.printStackTrace();
         }
         driver.close();
-            }
+    }
     }
 
 
