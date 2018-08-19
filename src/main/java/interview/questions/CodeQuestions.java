@@ -133,7 +133,7 @@ import static org.testng.AssertJUnit.assertEquals;
  //     aSet.add("string");
     }
 
-    //*****************************************************************
+    //**************************************************************
 
     @Test
     public void findFirstTwoLargest()   {
