@@ -23,6 +23,6 @@ public class Selenium2 {
         Actions build = new Actions(driver);
         WebElement element = driver.findElement(By.cssSelector("#hptl > a:nth-child(2)"));
         build.doubleClick(element).perform();
-        //and some more....
+        //and some more...
     }
 }
