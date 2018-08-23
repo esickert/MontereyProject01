@@ -21,8 +21,10 @@ public class Selenium2 {
         driver.manage().window().maximize();
 
         Actions build = new Actions(driver);
-        WebElement element = driver.findElement(By.cssSelector("#hptl > a:nth-child(2)"));
+        WebElement element = driver.findElement(By.cssSelector("#gbwa > div.gb_Pc > a"));
+ //       element.click();
         build.doubleClick(element).perform();
         //and some more...
     }
 }
+
