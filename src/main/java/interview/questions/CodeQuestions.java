@@ -346,6 +346,18 @@ import static org.testng.AssertJUnit.assertEquals;
         System.out.println(aMap.get("dog"));
     }
 
+@Test
+
+    public void QueueImplement()    {
+
+
+    }
+    
+    public void Queue() {
+
+    }
+
+
 
 } //end of class CodeQuestions
 
