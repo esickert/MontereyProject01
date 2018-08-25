@@ -15,7 +15,7 @@ public class Selenium2 {
         // login to Monster website
         System.setProperty("webdriver.chrome.driver", "c://SeleniumDrivers//chromedriver.exe");
         WebDriver driver = new ChromeDriver();
-//        driver.get("https://developer.mozilla.org/en-US/docs/Web/HTML/Element/select");
+//        driver.get("https://developer.mozilla.org/en-US/docs/Web/HTML/Element/select");   
         driver.get("https://www.google.com");
 
         driver.manage().window().maximize();
