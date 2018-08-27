@@ -19,6 +19,6 @@ public class Queue {
     }
 
     public void queue() {
-        if 
+        if
     }
 }
