@@ -18,7 +18,15 @@ public class Queue {
         return stk1.size() + stk2.size();
     }
 
-    public void queue() {
-        if
+    public int queue(int i)  {
+        return stk1.push(i);
+    }
+
+    public int dequeue() {
+        if (stk2.empty())
+            while (!stk1.empty())   {
+                stk2.push(stk1.pop());
+            }
+        return  stk2.pop();
     }
 }
