@@ -9,8 +9,10 @@ public class ImplementQueue {
         System.out.println(myQueue.size());
 
         myQueue.queue(100);
+        myQueue.queue(200);
+        myQueue.queue(300);
         System.out.println(myQueue.size());
-        myQueue.dequeue();
+        System.out.println(myQueue.dequeue());
         System.out.println(myQueue.size());
 
     }
