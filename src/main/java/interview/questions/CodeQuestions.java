@@ -111,7 +111,7 @@ import static org.testng.AssertJUnit.assertEquals;
         //Find the largest number in an array.
 
         @Test
-        public void findLargest() {
+        public void findLargest() {  //very simple. My fuckup.
             int[] anArray = {1, 5, 4, 7, 33, 44, 3, 33, 33, 33, 2};
             int temp = 0;
             for (int i = 0; i < anArray.length - 1; i++)
@@ -344,6 +344,17 @@ import static org.testng.AssertJUnit.assertEquals;
 
             System.out.println(aMap.get(1));
             System.out.println(aMap.get("dog"));
+        }
+
+        @Test
+        public void thirdVariable() { // very simple my fuckup!!
+            int a = 100;
+            int b = 2;
+            a = a + b;
+            b = a - b;
+            a = a - b;
+            System.out.println("a is " + a);
+            System.out.println("b is " + b);
         }
 
 } //end of class CodeQuestions
