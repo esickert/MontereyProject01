@@ -3,7 +3,6 @@ package interview.questions;
 import org.junit.Test;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import sun.security.x509.IPAddressName;
 
 import java.io.IOException;
 import java.util.*;
@@ -56,6 +55,7 @@ import static org.testng.AssertJUnit.assertEquals;
             String temp = "";
             for (int i = x.length() - 1; i >= 0; i--) {
                 temp = temp + x.substring(i, i + 1);
+     //           StringBuilder.append(x.substring(i, i + 1);)
             }
             if (temp.equals(x))
                 System.out.println(x + " is a palindrome!!!!");
@@ -67,7 +67,7 @@ import static org.testng.AssertJUnit.assertEquals;
         @Test
         public void StringBufferPalindrone() {
             String word = "abcdcba";
-            StringBuffer str = new StringBuffer(word);
+            StringBuilder str = new StringBuilder(word);
             if (word.equals(str.reverse().toString()))
                 System.out.println("\nPalindrone");
             else
@@ -355,6 +355,11 @@ import static org.testng.AssertJUnit.assertEquals;
             a = a - b;
             System.out.println("a is " + a);
             System.out.println("b is " + b);
+        }
+
+        @Test
+        public void saveTextToFile()    {
+            
         }
 
 } //end of class CodeQuestions
