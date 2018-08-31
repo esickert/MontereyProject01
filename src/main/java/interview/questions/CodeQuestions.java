@@ -326,7 +326,7 @@ import static org.testng.AssertJUnit.assertEquals;
 
         // O(N) use a Map to insert values as keys & check for number's complement in map
         static void findPairs1(int[] a, int sum) {
-            Map<Integer, Integer> pairs = new HashMap<Integer, Integer>();
+            Map<Integer, Integer> pairs = new HashMap<>();
             for (int i = 0; i < a.length; i++) {
                 if (pairs.containsKey(sum - a[i]))   //I don't understand this array gets into map
                     System.out.println("(" + a[i] + "," + (sum - a[i]) + ")");
