@@ -359,7 +359,9 @@ import static org.testng.AssertJUnit.assertEquals;
 
         @Test
         public void saveTextToFile()    {
-            
+
+            String filename = "c://tmp//file.txt";
+
         }
 
 } //end of class CodeQuestions
