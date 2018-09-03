@@ -26,9 +26,9 @@ public class Selenium2 {
  //       element.click();
         WebElement element2 = driver.findElement(By.cssSelector("#gb36 > span.gb_W"));
         build.click(element)
-             .click()
+
              .contextClick()
-             .click(element2)
+
              .perform();
         //and some more...
     }
