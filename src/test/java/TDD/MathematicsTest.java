@@ -9,6 +9,6 @@ public class MathematicsTest {
 
 @Test
    public void addSomeNumbers() {
-    assertEquals(5, math.add(3,2));
+    assertEquals(5, math.add(2,2));
     }
 }
