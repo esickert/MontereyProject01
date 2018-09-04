@@ -30,7 +30,7 @@ public class Selenium2 {
              .contextClick()
 
              .perform();
-        //and some more...
+        //and some more..
     }
 }
 
