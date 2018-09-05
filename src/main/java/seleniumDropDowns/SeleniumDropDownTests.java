@@ -48,6 +48,7 @@ public class SeleniumDropDownTests {
             drop.selectByIndex(1);
             Thread.sleep(2000);
             drop.selectByVisibleText("First Value");
+            
         }
         catch(InterruptedException e)
         {
