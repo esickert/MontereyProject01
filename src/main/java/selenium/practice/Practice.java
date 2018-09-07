@@ -48,7 +48,7 @@ public class Practice {
             Thread.sleep(5000);
 
         } catch (Exception e) {
-            System.out.println("ERROR");
+            e.printStackTrace();
         }
 
         driver.quit();
@@ -64,7 +64,7 @@ public class Practice {
         }
         catch (InterruptedException e)
         {
-        System.out.println("ERROR");
+        e.printStackTrace();
         }
 
 //       Select pulldown = new Select();
