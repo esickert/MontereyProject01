@@ -6,6 +6,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.interactions.Actions;
 import static org.openqa.selenium.Keys.ENTER;
+import static org.openqa.selenium.Keys.SHIFT;
 
 public class Practice   {
     public static void main(String[] erich) throws InterruptedException {
@@ -15,7 +16,7 @@ public class Practice   {
         driver = new FirefoxDriver();
 
         driver.navigate().to("http://www.google.com");
-        driver.manage().window().getSize();
+ //       driver.manage().window().maximize();
 
         Thread.sleep(3000);
 
