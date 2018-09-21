@@ -1,13 +1,20 @@
 package selenium.practice;
 
-import org.junit.Test;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
 
 public class Practice   {
+    public static void main(String[] eric)  {
 
-@Test
-    public void test()  {
+        System.setProperty("webdriver.gecko.driver", "c://SeleniumDrivers//geckodriver.exe");
+        WebDriver driver = new FirefoxDriver();
 
-    System.out.println("This is a test");
+        driver.get("http://www.yahoo.com");
+
+
+    }
 }
 
-}
