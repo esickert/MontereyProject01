@@ -41,15 +41,6 @@ public void openBrowser()       {
 
     System.out.println(driver.getTitle());
     Assert.assertTrue("Are they equal", driver.getTitle().equals("Google"));
-
-
-
-
-
-
-
-
-
 //    driver.quit();
 }
 }

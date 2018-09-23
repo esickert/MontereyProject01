@@ -18,7 +18,7 @@ public class Queue {
         return stk1.size() + stk2.size();
     }
 
-    public int queue(int i)  {
+    public int enqueue(int i)  {
         return stk1.push(i);
     }
 
@@ -28,5 +28,14 @@ public class Queue {
                 stk2.push(stk1.pop());
             }
         return  stk2.pop();
+    }
+
+    public int front()  {
+        if (stk2.empty())
+            while (!stk1.empty())   {
+                stk2.push(stk1.pop());
+            }
+        return  stk2.peek();
+
     }
 }
