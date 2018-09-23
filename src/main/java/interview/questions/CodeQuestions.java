@@ -364,6 +364,20 @@ import static org.testng.AssertJUnit.assertEquals;
 
         }
 
+        @Test
+        public void stringArraysCharacters()    {  // interview question for VideoSlick()
+
+            String[] pets = {"dog", "cat", "Bird"};
+            String[] colors = {"blue", "red", "yellow"};
+
+        //  expected result :   return/print result "dbolgucraetd...
+
+            for (int i = 0; i <= pets.length - 1; i++) {
+                System.out.println(pets[i]);
+            }
+        }
+
+
 } //end of class CodeQuestions
 
 
