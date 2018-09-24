@@ -374,6 +374,7 @@ import static org.testng.AssertJUnit.assertEquals;
 
             for (int i = 0; i <= pets.length - 1; i++) {
                 System.out.println(pets[i]);
+                System.out.println(colors[i]);
             }
         }
 
