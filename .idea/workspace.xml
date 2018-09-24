@@ -7,21 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="078280d5-5042-4862-850d-0c24f97ab4a9" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../MontereyProject01/src/main/java/StacksQueue/StacksQueue.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../MontereyProject01/target/classes/TDD/Mathematics.class" afterPath="$PROJECT_DIR$/../MontereyProject01/target/classes/TDD/Mathematics.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../MontereyProject01/target/classes/TDD/Multiplication.class" afterPath="$PROJECT_DIR$/../MontereyProject01/target/classes/TDD/Multiplication.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../MontereyProject01/target/classes/com/esickert/Selenium.class" afterPath="$PROJECT_DIR$/../MontereyProject01/target/classes/com/esickert/Selenium.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../MontereyProject01/target/classes/interview/questions/CodeQuestions.class" afterPath="$PROJECT_DIR$/../MontereyProject01/target/classes/interview/questions/CodeQuestions.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../MontereyProject01/target/classes/seleniumDropDowns/SeleniumDropDownTests.class" afterPath="$PROJECT_DIR$/../MontereyProject01/target/classes/seleniumDropDowns/SeleniumDropDownTests.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../MontereyProject01/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../MontereyProject01/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../MontereyProject01/src/main/java/TDD/Mathematics.java" afterPath="$PROJECT_DIR$/../MontereyProject01/src/main/java/TDD/Mathematics.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../MontereyProject01/src/main/java/TDD/Multiplication.java" afterPath="$PROJECT_DIR$/../MontereyProject01/src/main/java/TDD/Multiplication.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../MontereyProject01/src/main/java/com/esickert/Selenium.java" afterPath="$PROJECT_DIR$/../MontereyProject01/src/main/java/com/esickert/Selenium.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../MontereyProject01/src/main/java/com/esickert/Selenium2.java" afterPath="$PROJECT_DIR$/../MontereyProject01/src/main/java/com/esickert/Selenium2.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../MontereyProject01/src/main/java/selenium/practice/Practice.java" afterPath="$PROJECT_DIR$/../MontereyProject01/src/main/java/selenium/practice/Practice.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../MontereyProject01/src/main/java/seleniumDropDowns/SeleniumDropDownTests.java" afterPath="$PROJECT_DIR$/../MontereyProject01/src/main/java/seleniumDropDowns/SeleniumDropDownTests.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../MontereyProject01/src/main/java/stackQueue/Queue.java" afterPath="$PROJECT_DIR$/../MontereyProject01/src/main/java/stackQueue/Queue.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../MontereyProject01/src/test/java/TDD/MathematicsTest.java" afterPath="$PROJECT_DIR$/../MontereyProject01/src/test/java/TDD/MathematicsTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/../MontereyProject01/out/" />
     <ignored path="$PROJECT_DIR$/../MontereyProject01/target/" />
@@ -37,9 +24,11 @@
       <file leaf-file-name="CodeQuestions.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../MontereyProject01/src/main/java/interview/questions/CodeQuestions.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="245">
-              <caret line="274" column="68" lean-forward="false" selection-start-line="274" selection-start-column="68" selection-end-line="274" selection-end-column="68" />
-              <folding />
+            <state relative-caret-position="477">
+              <caret line="370" column="32" lean-forward="false" selection-start-line="370" selection-start-column="32" selection-end-line="370" selection-end-column="32" />
+              <folding>
+                <element signature="e#2614#2622#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -108,7 +97,6 @@
         <option value="$PROJECT_DIR$/../MontereyProject01/src/main/java/StacksQueue/StacksQueue.java" />
         <option value="$PROJECT_DIR$/../MontereyProject01/src/main/java/stackQueue/Queue.java" />
         <option value="$PROJECT_DIR$/../MontereyProject01/src/main/java/stackQueue/ImplementQueue.java" />
-        <option value="$PROJECT_DIR$/../MontereyProject01/src/main/java/interview/questions/CodeQuestions.java" />
         <option value="$PROJECT_DIR$/../MontereyProject01/src/main/java/TDD/Multiplication.java" />
         <option value="$PROJECT_DIR$/../MontereyProject01/src/main/java/TDD/Mathematics.java" />
         <option value="$PROJECT_DIR$/../MontereyProject01/src/main/java/TDD/TestMath.java" />
@@ -117,6 +105,7 @@
         <option value="$PROJECT_DIR$/../MontereyProject01/src/main/java/com/esickert/Selenium2.java" />
         <option value="$PROJECT_DIR$/../MontereyProject01/src/main/java/seleniumDropDowns/SeleniumDropDownTests.java" />
         <option value="$PROJECT_DIR$/../MontereyProject01/src/main/java/selenium/practice/Practice.java" />
+        <option value="$PROJECT_DIR$/../MontereyProject01/src/main/java/interview/questions/CodeQuestions.java" />
       </list>
     </option>
   </component>
@@ -187,8 +176,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -356,8 +343,10 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -399,21 +388,21 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Practice">
-    <configuration name="MathematicsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.CodeQuestions.stringArraysCharacters">
+    <configuration name="CodeQuestions.stringArraysCharacters" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="TDD.*" />
+          <option name="PATTERN" value="interview.questions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="MontereyProject01" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="TDD" />
-      <option name="MAIN_CLASS_NAME" value="TDD.MathematicsTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="interview.questions" />
+      <option name="MAIN_CLASS_NAME" value="interview.questions.CodeQuestions" />
+      <option name="METHOD_NAME" value="stringArraysCharacters" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -601,19 +590,19 @@
       <listeners />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.MathematicsTest" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.Selenium2.TestSelect" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.SeleniumQuestions" />
-      <item index="3" class="java.lang.String" itemvalue="Application.Practice" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.Practice.test" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.Selenium2.TestSelect" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.SeleniumQuestions" />
+      <item index="2" class="java.lang.String" itemvalue="Application.Practice" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.Practice.test" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.CodeQuestions.stringArraysCharacters" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.Practice" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.Practice.test" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.SeleniumQuestions" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.Selenium2.TestSelect" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.MathematicsTest" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.CodeQuestions.stringArraysCharacters" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Practice" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.Practice.test" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.SeleniumQuestions" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.Selenium2.TestSelect" />
       </list>
     </recent_temporary>
   </component>
@@ -630,27 +619,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1520195848238</updated>
-    </task>
-    <task id="LOCAL-00219" summary="plus">
-      <created>1534983277367</created>
-      <option name="number" value="00219" />
-      <option name="presentableId" value="LOCAL-00219" />
-      <option name="project" value="LOCAL" />
-      <updated>1534983277367</updated>
-    </task>
-    <task id="LOCAL-00220" summary="plus">
-      <created>1535162117613</created>
-      <option name="number" value="00220" />
-      <option name="presentableId" value="LOCAL-00220" />
-      <option name="project" value="LOCAL" />
-      <updated>1535162117613</updated>
-    </task>
-    <task id="LOCAL-00221" summary="plus">
-      <created>1535168577797</created>
-      <option name="number" value="00221" />
-      <option name="presentableId" value="LOCAL-00221" />
-      <option name="project" value="LOCAL" />
-      <updated>1535168577797</updated>
     </task>
     <task id="LOCAL-00222" summary="plus">
       <created>1535228957123</created>
@@ -974,12 +942,33 @@
       <option name="project" value="LOCAL" />
       <updated>1537493304652</updated>
     </task>
-    <option name="localTasksCounter" value="268" />
+    <task id="LOCAL-00268" summary="plus">
+      <created>1537664585797</created>
+      <option name="number" value="00268" />
+      <option name="presentableId" value="LOCAL-00268" />
+      <option name="project" value="LOCAL" />
+      <updated>1537664585798</updated>
+    </task>
+    <task id="LOCAL-00269" summary="plus">
+      <created>1537665419565</created>
+      <option name="number" value="00269" />
+      <option name="presentableId" value="LOCAL-00269" />
+      <option name="project" value="LOCAL" />
+      <updated>1537665419566</updated>
+    </task>
+    <task id="LOCAL-00270" summary="plus">
+      <created>1537749519361</created>
+      <option name="number" value="00270" />
+      <option name="presentableId" value="LOCAL-00270" />
+      <option name="project" value="LOCAL" />
+      <updated>1537749519361</updated>
+    </task>
+    <option name="localTasksCounter" value="271" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Practice_test - 2018.09.18 at 19h 56m 21s.xml">
-      <configuration name="Practice.test" configurationId="JUnit" />
+    <history-entry file="CodeQuestions_stringArraysCharacters - 2018.09.23 at 16h 48m 12s.xml">
+      <configuration name="CodeQuestions.stringArraysCharacters" configurationId="JUnit" />
     </history-entry>
     <history-entry file="Practice_test - 2018.09.19 at 18h 58m 32s.xml">
       <configuration name="Practice.test" configurationId="JUnit" />
@@ -1322,9 +1311,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../MontereyProject01/src/main/java/interview/questions/CodeQuestions.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="274" column="68" lean-forward="false" selection-start-line="274" selection-start-column="68" selection-end-line="274" selection-end-column="68" />
-          <folding />
+        <state relative-caret-position="477">
+          <caret line="370" column="32" lean-forward="false" selection-start-line="370" selection-start-column="32" selection-end-line="370" selection-end-column="32" />
+          <folding>
+            <element signature="e#2614#2622#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
