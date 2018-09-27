@@ -7,7 +7,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="078280d5-5042-4862-850d-0c24f97ab4a9" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../MontereyProject01/target/classes/interview/questions/CodeQuestions.class" afterPath="$PROJECT_DIR$/../MontereyProject01/target/classes/interview/questions/CodeQuestions.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../MontereyProject01/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../MontereyProject01/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/../MontereyProject01/out/" />
@@ -24,8 +23,8 @@
       <file leaf-file-name="CodeQuestions.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../MontereyProject01/src/main/java/interview/questions/CodeQuestions.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="477">
-              <caret line="370" column="32" lean-forward="false" selection-start-line="370" selection-start-column="32" selection-end-line="370" selection-end-column="32" />
+            <state relative-caret-position="369">
+              <caret line="365" column="86" lean-forward="false" selection-start-line="365" selection-start-column="86" selection-end-line="365" selection-end-column="86" />
               <folding>
                 <element signature="e#2614#2622#0" expanded="true" />
               </folding>
@@ -176,6 +175,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -343,9 +343,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -619,20 +618,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1520195848238</updated>
-    </task>
-    <task id="LOCAL-00222" summary="plus">
-      <created>1535228957123</created>
-      <option name="number" value="00222" />
-      <option name="presentableId" value="LOCAL-00222" />
-      <option name="project" value="LOCAL" />
-      <updated>1535228957123</updated>
-    </task>
-    <task id="LOCAL-00223" summary="plus">
-      <created>1535250711530</created>
-      <option name="number" value="00223" />
-      <option name="presentableId" value="LOCAL-00223" />
-      <option name="project" value="LOCAL" />
-      <updated>1535250711530</updated>
     </task>
     <task id="LOCAL-00224" summary="plus">
       <created>1535325844157</created>
@@ -963,11 +948,25 @@
       <option name="project" value="LOCAL" />
       <updated>1537749519361</updated>
     </task>
-    <option name="localTasksCounter" value="271" />
+    <task id="LOCAL-00271" summary="plus">
+      <created>1537753550856</created>
+      <option name="number" value="00271" />
+      <option name="presentableId" value="LOCAL-00271" />
+      <option name="project" value="LOCAL" />
+      <updated>1537753550856</updated>
+    </task>
+    <task id="LOCAL-00272" summary="plus">
+      <created>1538034224319</created>
+      <option name="number" value="00272" />
+      <option name="presentableId" value="LOCAL-00272" />
+      <option name="project" value="LOCAL" />
+      <updated>1538034224319</updated>
+    </task>
+    <option name="localTasksCounter" value="273" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CodeQuestions_stringArraysCharacters - 2018.09.23 at 16h 48m 12s.xml">
+    <history-entry file="CodeQuestions_stringArraysCharacters - 2018.09.27 at 00h 43m 01s.xml">
       <configuration name="CodeQuestions.stringArraysCharacters" configurationId="JUnit" />
     </history-entry>
     <history-entry file="Practice_test - 2018.09.19 at 18h 58m 32s.xml">
@@ -1023,7 +1022,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3283433" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19461243" sideWeight="0.5427215" order="5" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19461243" sideWeight="0.5427215" order="5" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24958768" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1311,8 +1310,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../MontereyProject01/src/main/java/interview/questions/CodeQuestions.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="477">
-          <caret line="370" column="32" lean-forward="false" selection-start-line="370" selection-start-column="32" selection-end-line="370" selection-end-column="32" />
+        <state relative-caret-position="369">
+          <caret line="365" column="86" lean-forward="false" selection-start-line="365" selection-start-column="86" selection-end-line="365" selection-end-column="86" />
           <folding>
             <element signature="e#2614#2622#0" expanded="true" />
           </folding>
