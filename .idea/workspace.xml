@@ -23,11 +23,9 @@
       <file leaf-file-name="CodeQuestions.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../MontereyProject01/src/main/java/interview/questions/CodeQuestions.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="477">
-              <caret line="365" column="79" lean-forward="false" selection-start-line="365" selection-start-column="79" selection-end-line="365" selection-end-column="79" />
-              <folding>
-                <element signature="e#2614#2622#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="475">
+              <caret line="365" column="78" lean-forward="false" selection-start-line="365" selection-start-column="78" selection-end-line="365" selection-end-column="78" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -133,9 +131,9 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-1883" />
-    <option name="y" value="-392" />
-    <option name="width" value="1871" />
-    <option name="height" value="1114" />
+    <option name="y" value="-390" />
+    <option name="width" value="1870" />
+    <option name="height" value="1112" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -175,7 +173,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -343,8 +343,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="AndroidView" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -618,34 +616,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1520195848238</updated>
-    </task>
-    <task id="LOCAL-00227" summary="plus">
-      <created>1535345585474</created>
-      <option name="number" value="00227" />
-      <option name="presentableId" value="LOCAL-00227" />
-      <option name="project" value="LOCAL" />
-      <updated>1535345585474</updated>
-    </task>
-    <task id="LOCAL-00228" summary="plus">
-      <created>1535345680602</created>
-      <option name="number" value="00228" />
-      <option name="presentableId" value="LOCAL-00228" />
-      <option name="project" value="LOCAL" />
-      <updated>1535345680602</updated>
-    </task>
-    <task id="LOCAL-00229" summary="plus">
-      <created>1535397633269</created>
-      <option name="number" value="00229" />
-      <option name="presentableId" value="LOCAL-00229" />
-      <option name="project" value="LOCAL" />
-      <updated>1535397633270</updated>
-    </task>
-    <task id="LOCAL-00230" summary="plus">
-      <created>1535489132883</created>
-      <option name="number" value="00230" />
-      <option name="presentableId" value="LOCAL-00230" />
-      <option name="project" value="LOCAL" />
-      <updated>1535489132883</updated>
     </task>
     <task id="LOCAL-00231" summary="plus">
       <created>1535494677699</created>
@@ -962,7 +932,35 @@
       <option name="project" value="LOCAL" />
       <updated>1538404936444</updated>
     </task>
-    <option name="localTasksCounter" value="276" />
+    <task id="LOCAL-00276" summary="plus">
+      <created>1538404998279</created>
+      <option name="number" value="00276" />
+      <option name="presentableId" value="LOCAL-00276" />
+      <option name="project" value="LOCAL" />
+      <updated>1538404998279</updated>
+    </task>
+    <task id="LOCAL-00277" summary="plus">
+      <created>1538449677170</created>
+      <option name="number" value="00277" />
+      <option name="presentableId" value="LOCAL-00277" />
+      <option name="project" value="LOCAL" />
+      <updated>1538449677171</updated>
+    </task>
+    <task id="LOCAL-00278" summary="plus">
+      <created>1538624306142</created>
+      <option name="number" value="00278" />
+      <option name="presentableId" value="LOCAL-00278" />
+      <option name="project" value="LOCAL" />
+      <updated>1538624306142</updated>
+    </task>
+    <task id="LOCAL-00279" summary="plus">
+      <created>1538869069245</created>
+      <option name="number" value="00279" />
+      <option name="presentableId" value="LOCAL-00279" />
+      <option name="project" value="LOCAL" />
+      <updated>1538869069247</updated>
+    </task>
+    <option name="localTasksCounter" value="280" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1007,7 +1005,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1883" y="-392" width="1871" height="1114" extended-state="0" />
+    <frame x="-1883" y="-390" width="1870" height="1112" extended-state="0" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934132" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1021,7 +1019,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3283433" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19461243" sideWeight="0.5427215" order="5" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19471948" sideWeight="0.5427215" order="5" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24958768" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1310,11 +1308,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../MontereyProject01/src/main/java/interview/questions/CodeQuestions.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="477">
-          <caret line="365" column="79" lean-forward="false" selection-start-line="365" selection-start-column="79" selection-end-line="365" selection-end-column="79" />
-          <folding>
-            <element signature="e#2614#2622#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="475">
+          <caret line="365" column="78" lean-forward="false" selection-start-line="365" selection-start-column="78" selection-end-line="365" selection-end-column="78" />
+          <folding />
         </state>
       </provider>
     </entry>
