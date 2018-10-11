@@ -32,7 +32,7 @@ import static org.testng.AssertJUnit.assertEquals;
             System.out.println("\nThe Fibonacci Sequence");
         }
 
-        //********************************************************
+        //**************************************************
 //Fibanacci sequence recurssively
         @Test
         public void fibonacciRecursive() {
