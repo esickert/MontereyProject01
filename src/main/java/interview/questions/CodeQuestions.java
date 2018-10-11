@@ -78,7 +78,7 @@ import static org.testng.AssertJUnit.assertEquals;
         // Remove duplicates from a list.
 
         @Test
-        public void aList() {  //THIS IS SOMETHING WEIRD HERE WITH JAVA 8 AND CONVEETING ARRAY TO LIST
+        public void aList() {  //THIS IS SOMETHING WEIRD HERE WITH JAVA 8 AND CONVERTNG ARRAY TO LIST
 
             String[] pets = {"dog", "cat", "fish", "grass", "grass"};
             List<String> aList = new ArrayList<String>();
@@ -369,11 +369,13 @@ import static org.testng.AssertJUnit.assertEquals;
 
             String[] pets = {"dog", "cat", "Bird"};
             String[] colors = {"blue", "red", "yellow"};
+            String temp = "";
 
         //  expected result :   return/print result "dbolgucraetd...
 
             for (int i = 0; i <= pets.length - 1; i++) {
                 System.out.println(pets[i]);
+//                temp = temp + pets.substring(i, i + 1);  logic is fucker here
                 System.out.println(colors[i]);
             }
         }
