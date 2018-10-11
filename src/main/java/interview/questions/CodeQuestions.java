@@ -375,7 +375,7 @@ import static org.testng.AssertJUnit.assertEquals;
 
             for (int i = 0; i <= pets.length - 1; i++) {
                 System.out.println(pets[i]);
-//                temp = temp + pets.substring(i, i + 1);  logic is fucker here
+//                temp = temp + pets.substring(i, i + 1);  logic is fucked here
                 System.out.println(colors[i]);
             }
         }
