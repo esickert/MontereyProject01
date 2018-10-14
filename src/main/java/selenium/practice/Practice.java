@@ -19,7 +19,7 @@ public class Practice   {
             e.printStackTrace();
         }
 
-        driver.close();
+//        driver.close();
 
 
     }
