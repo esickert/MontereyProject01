@@ -7,7 +7,7 @@ public class Practice   {
     public static void main(String[] eric)  {
 
         System.setProperty("webdriver.chrome.driver","c://SeleniumDrivers//chromedriver.exe");
-      
+
 
 
     }
