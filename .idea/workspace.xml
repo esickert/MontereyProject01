@@ -24,10 +24,8 @@
         <entry file="file://$PROJECT_DIR$/../MontereyProject01/src/main/java/interview/questions/CodeQuestions.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="439">
-              <caret line="365" column="69" lean-forward="false" selection-start-line="365" selection-start-column="69" selection-end-line="365" selection-end-column="69" />
-              <folding>
-                <element signature="e#2600#2608#0" expanded="true" />
-              </folding>
+              <caret line="365" column="71" lean-forward="false" selection-start-line="365" selection-start-column="71" selection-end-line="365" selection-end-column="71" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -144,8 +142,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-1881" />
-    <option name="y" value="-394" />
+    <option name="x" value="-1892" />
+    <option name="y" value="-406" />
     <option name="width" value="1870" />
     <option name="height" value="1112" />
   </component>
@@ -188,8 +186,8 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
-      <pane id="AndroidView" />
       <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -623,20 +621,6 @@
       <option name="presentableId" value="Default" />
       <updated>1520195848238</updated>
     </task>
-    <task id="LOCAL-00249" summary="plus">
-      <created>1536425283074</created>
-      <option name="number" value="00249" />
-      <option name="presentableId" value="LOCAL-00249" />
-      <option name="project" value="LOCAL" />
-      <updated>1536425283075</updated>
-    </task>
-    <task id="LOCAL-00250" summary="plus">
-      <created>1536425337494</created>
-      <option name="number" value="00250" />
-      <option name="presentableId" value="LOCAL-00250" />
-      <option name="project" value="LOCAL" />
-      <updated>1536425337495</updated>
-    </task>
     <task id="LOCAL-00251" summary="plus">
       <created>1536425372857</created>
       <option name="number" value="00251" />
@@ -966,7 +950,21 @@
       <option name="project" value="LOCAL" />
       <updated>1539789065986</updated>
     </task>
-    <option name="localTasksCounter" value="298" />
+    <task id="LOCAL-00298" summary="plus">
+      <created>1539789246252</created>
+      <option name="number" value="00298" />
+      <option name="presentableId" value="LOCAL-00298" />
+      <option name="project" value="LOCAL" />
+      <updated>1539789246252</updated>
+    </task>
+    <task id="LOCAL-00299" summary="plus">
+      <created>1539958476512</created>
+      <option name="number" value="00299" />
+      <option name="presentableId" value="LOCAL-00299" />
+      <option name="project" value="LOCAL" />
+      <updated>1539958476512</updated>
+    </task>
+    <option name="localTasksCounter" value="300" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1011,7 +1009,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1881" y="-394" width="1870" height="1112" extended-state="0" />
+    <frame x="-1892" y="-406" width="1870" height="1112" extended-state="0" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934132" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1317,10 +1315,8 @@
     <entry file="file://$PROJECT_DIR$/../MontereyProject01/src/main/java/interview/questions/CodeQuestions.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="439">
-          <caret line="365" column="69" lean-forward="false" selection-start-line="365" selection-start-column="69" selection-end-line="365" selection-end-column="69" />
-          <folding>
-            <element signature="e#2600#2608#0" expanded="true" />
-          </folding>
+          <caret line="365" column="71" lean-forward="false" selection-start-line="365" selection-start-column="71" selection-end-line="365" selection-end-column="71" />
+          <folding />
         </state>
       </provider>
     </entry>
