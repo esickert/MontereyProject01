@@ -363,8 +363,7 @@ import static org.testng.AssertJUnit.assertEquals;
             String filename = "c://tmp//file.txt";
 
         }
-//**********************************************************************
-// @Test
+//*************************************************************************
         public void stringArraysCharacters()    {  // interview question for VideoSlick()
 
             String[] pets = {"dog", "cat", "Bird"};
