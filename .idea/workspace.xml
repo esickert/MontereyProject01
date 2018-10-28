@@ -8,7 +8,6 @@
   <component name="ChangeListManager">
     <list default="true" id="078280d5-5042-4862-850d-0c24f97ab4a9" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../MontereyProject01/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../MontereyProject01/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../MontereyProject01/src/main/java/selenium/practice/Practice.java" afterPath="$PROJECT_DIR$/../MontereyProject01/src/main/java/selenium/practice/Practice.java" />
     </list>
     <ignored path="$PROJECT_DIR$/../MontereyProject01/out/" />
     <ignored path="$PROJECT_DIR$/../MontereyProject01/target/" />
@@ -24,9 +23,11 @@
       <file leaf-file-name="CodeQuestions.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../MontereyProject01/src/main/java/interview/questions/CodeQuestions.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="464">
-              <caret line="336" column="13" lean-forward="true" selection-start-line="336" selection-start-column="13" selection-end-line="336" selection-end-column="13" />
-              <folding />
+            <state relative-caret-position="475">
+              <caret line="365" column="79" lean-forward="false" selection-start-line="365" selection-start-column="79" selection-end-line="365" selection-end-column="79" />
+              <folding>
+                <element signature="e#2600#2608#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -112,8 +113,8 @@
         <option value="$PROJECT_DIR$/../MontereyProject01/src/main/java/com/esickert/Selenium.java" />
         <option value="$PROJECT_DIR$/../MontereyProject01/src/main/java/com/esickert/Selenium2.java" />
         <option value="$PROJECT_DIR$/../MontereyProject01/src/main/java/seleniumDropDowns/SeleniumDropDownTests.java" />
-        <option value="$PROJECT_DIR$/../MontereyProject01/src/main/java/interview/questions/CodeQuestions.java" />
         <option value="$PROJECT_DIR$/../MontereyProject01/src/main/java/selenium/practice/Practice.java" />
+        <option value="$PROJECT_DIR$/../MontereyProject01/src/main/java/interview/questions/CodeQuestions.java" />
       </list>
     </option>
   </component>
@@ -141,8 +142,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-1885" />
-    <option name="y" value="-411" />
+    <option name="x" value="-1918" />
+    <option name="y" value="-398" />
     <option name="width" value="1870" />
     <option name="height" value="1112" />
   </component>
@@ -184,9 +185,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="AndroidView" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -346,7 +347,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -619,41 +620,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1520195848238</updated>
-    </task>
-    <task id="LOCAL-00257" summary="plus">
-      <created>1537058682101</created>
-      <option name="number" value="00257" />
-      <option name="presentableId" value="LOCAL-00257" />
-      <option name="project" value="LOCAL" />
-      <updated>1537058682101</updated>
-    </task>
-    <task id="LOCAL-00258" summary="plus">
-      <created>1537169692737</created>
-      <option name="number" value="00258" />
-      <option name="presentableId" value="LOCAL-00258" />
-      <option name="project" value="LOCAL" />
-      <updated>1537169692737</updated>
-    </task>
-    <task id="LOCAL-00259" summary="plus">
-      <created>1537172049143</created>
-      <option name="number" value="00259" />
-      <option name="presentableId" value="LOCAL-00259" />
-      <option name="project" value="LOCAL" />
-      <updated>1537172049143</updated>
-    </task>
-    <task id="LOCAL-00260" summary="plus">
-      <created>1537172815702</created>
-      <option name="number" value="00260" />
-      <option name="presentableId" value="LOCAL-00260" />
-      <option name="project" value="LOCAL" />
-      <updated>1537172815702</updated>
-    </task>
-    <task id="LOCAL-00261" summary="plus">
-      <created>1537221817706</created>
-      <option name="number" value="00261" />
-      <option name="presentableId" value="LOCAL-00261" />
-      <option name="project" value="LOCAL" />
-      <updated>1537221817706</updated>
     </task>
     <task id="LOCAL-00262" summary="plus">
       <created>1537234692205</created>
@@ -963,7 +929,42 @@
       <option name="project" value="LOCAL" />
       <updated>1540157108705</updated>
     </task>
-    <option name="localTasksCounter" value="306" />
+    <task id="LOCAL-00306" summary="plus">
+      <created>1540160050264</created>
+      <option name="number" value="00306" />
+      <option name="presentableId" value="LOCAL-00306" />
+      <option name="project" value="LOCAL" />
+      <updated>1540160050264</updated>
+    </task>
+    <task id="LOCAL-00307" summary="plus">
+      <created>1540251043003</created>
+      <option name="number" value="00307" />
+      <option name="presentableId" value="LOCAL-00307" />
+      <option name="project" value="LOCAL" />
+      <updated>1540251043004</updated>
+    </task>
+    <task id="LOCAL-00308" summary="plus">
+      <created>1540343128407</created>
+      <option name="number" value="00308" />
+      <option name="presentableId" value="LOCAL-00308" />
+      <option name="project" value="LOCAL" />
+      <updated>1540343128407</updated>
+    </task>
+    <task id="LOCAL-00309" summary="plus">
+      <created>1540685644092</created>
+      <option name="number" value="00309" />
+      <option name="presentableId" value="LOCAL-00309" />
+      <option name="project" value="LOCAL" />
+      <updated>1540685644093</updated>
+    </task>
+    <task id="LOCAL-00310" summary="plus">
+      <created>1540685690862</created>
+      <option name="number" value="00310" />
+      <option name="presentableId" value="LOCAL-00310" />
+      <option name="project" value="LOCAL" />
+      <updated>1540685690863</updated>
+    </task>
+    <option name="localTasksCounter" value="311" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1008,7 +1009,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1885" y="-411" width="1870" height="1112" extended-state="0" />
+    <frame x="-1918" y="-398" width="1870" height="1112" extended-state="0" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934132" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1311,9 +1312,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../MontereyProject01/src/main/java/interview/questions/CodeQuestions.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="464">
-          <caret line="336" column="13" lean-forward="true" selection-start-line="336" selection-start-column="13" selection-end-line="336" selection-end-column="13" />
-          <folding />
+        <state relative-caret-position="475">
+          <caret line="365" column="79" lean-forward="false" selection-start-line="365" selection-start-column="79" selection-end-line="365" selection-end-column="79" />
+          <folding>
+            <element signature="e#2600#2608#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
