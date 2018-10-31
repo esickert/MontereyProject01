@@ -12,6 +12,8 @@ public class Selenium {
 @Test
 public void openBrowser()       {
 
+//NOTE THIS WILL NOT RUN IN LINUX!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
     System.setProperty("webdriver.gecko.driver","c://SeleniumDrivers//geckodriver.exe");
     WebDriver driver = new FirefoxDriver();
 

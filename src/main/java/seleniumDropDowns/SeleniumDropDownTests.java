@@ -16,13 +16,14 @@ import static org.openqa.selenium.By.xpath;
 
 public class SeleniumDropDownTests {
 
+//CHECK SELENIUM OS SETUP BELOW FOR WINDOWS OR LINUX!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
     @Test
     public void TestSelect()  {
 
     // login to Monster website
-        System.setProperty("webdriver.chrome.driver", "c://SeleniumDrivers//chromedriver.exe");
+//        System.setProperty("webdriver.chrome.driver", "/usr/local/google/home/sickert/SeleniumDrivers/chromedriver");
         WebDriver driver = new ChromeDriver();
-        driver.get("https://developer.mozilla.org/en-US/docs/Web/HTML/Element/select");
+//        driver.get("https://developer.mozilla.org/en-US/docs/Web/HTML/Element/select");
  //       driver.get("http:esickert.github.io");
         driver.manage().window().maximize();
 
