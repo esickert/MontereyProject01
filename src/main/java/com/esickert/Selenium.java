@@ -12,6 +12,8 @@ public class Selenium {
 @Test
 public void openBrowser()       {
 
+//NOTE THIS WILL NOT RUN IN LINUX!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
     System.setProperty("webdriver.gecko.driver","c://SeleniumDrivers//geckodriver.exe");
     WebDriver driver = new FirefoxDriver();
 
@@ -32,11 +34,11 @@ public void openBrowser()       {
 //   By.cssSelector("a[class='gb_ed gb_Bd']")                   className has a space in it
 //    System.out.println(3/0);  experimenting with devide by zero. Throughs a arimetic exception.
     try {
-        System.out.println("This doesn't throw an exception??? " + 3.0 / 0);  // prints out "infinity".  ?????????
+        System.out.println("This doesn't throw an exception??? " + 3.0 / 0 + "Devide by 0");  // prints out "infinity".  ?????????
     }
     catch (ArithmeticException e)
     {
-            e.printStackTrace();    //REMEMBER  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+            e.printStackTrace();    //REMEMBER  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
     }
 
     System.out.println(driver.getTitle());
