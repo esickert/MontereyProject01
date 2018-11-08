@@ -9,7 +9,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 public class Practice   {
     public static void main(String[] erich) {
 
-        System.setProperty("webdriver.chrome.driver","/usr/local/google/home/sickert/SeleniumDrivers/chromedriver");
+        System.setProperty("webdriver.chrome.driver","c://SeleniumDrivers//chromedriver.exe");
         WebDriver driver = new ChromeDriver();
         driver.get("http://www.yahoo.com");
 
