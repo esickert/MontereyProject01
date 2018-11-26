@@ -364,6 +364,7 @@ import static org.testng.AssertJUnit.assertEquals;
 
         }
 //*********************************************************************
+        @Test
         public void stringArraysCharacters()    {  // interview question for VideoSlick()
 
             String[] pets = {"dog", "cat", "Bird"};
