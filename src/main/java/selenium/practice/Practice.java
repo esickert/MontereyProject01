@@ -12,8 +12,15 @@ public class Practice   {
         System.setProperty("webdriver.gecko.driver", "c://SeleniumDrivers//geckodriver.exe");
         WebDriver driver = new FirefoxDriver();
 
-        driver.get("http://www.yahoo.com");
+        findYahoo(driver);
     }
+
+    findYahoo(Webdriver x)  {
+
+        x.get("http://www.yahoo.com");
+    }
+
+
 
 }
 
