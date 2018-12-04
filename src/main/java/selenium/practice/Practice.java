@@ -16,7 +16,9 @@ public class Practice   {
         WebDriver driver = new FirefoxDriver();
 
         findYahoo(driver);
-        login();
+  //      login();
+
+ //**********************************************
     }
 
     public void findYahoo(WebDriver x)  {
