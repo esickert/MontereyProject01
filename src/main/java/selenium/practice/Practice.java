@@ -18,7 +18,7 @@ public class Practice   {
         findYahoo(driver);
   //      login();
 
- //***************************************************
+ //**********************************************
     }
 
     public void findYahoo(WebDriver x)  {
