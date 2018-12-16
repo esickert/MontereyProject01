@@ -18,7 +18,7 @@ public class Practice   {
         findYahoo(driver);
   //      login();
 
- //**********************************************
+ //*************************************************
     }
 
     public void findYahoo(WebDriver x)  {
@@ -27,9 +27,6 @@ public class Practice   {
         WebElement mail = x.findElement(By.cssSelector("#uh-mail-link"));
         mail.click();
     }
-
-
-
 }
 
 
