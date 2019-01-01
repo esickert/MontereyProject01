@@ -6,7 +6,7 @@
     <bookmark url="file://$PROJECT_DIR$/../MontereyProject01/src/main/java/com/esickert/Playground.java" line="59" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="078280d5-5042-4862-850d-0c24f97ab4a9" name="Default" comment="plus">
+    <list default="true" id="078280d5-5042-4862-850d-0c24f97ab4a9" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../MontereyProject01/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../MontereyProject01/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/../MontereyProject01/out/" />
@@ -23,10 +23,10 @@
       <file leaf-file-name="CodeQuestions.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../MontereyProject01/src/main/java/interview/questions/CodeQuestions.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="439">
-              <caret line="365" column="69" lean-forward="true" selection-start-line="365" selection-start-column="69" selection-end-line="365" selection-end-column="69" />
+            <state relative-caret-position="378">
+              <caret line="76" column="65" lean-forward="false" selection-start-line="76" selection-start-column="65" selection-end-line="76" selection-end-column="65" />
               <folding>
-                <element signature="e#2600#2608#0" expanded="true" />
+                <element signature="e#2605#2613#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -164,8 +164,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-1889" />
-    <option name="y" value="-372" />
+    <option name="x" value="-1899" />
+    <option name="y" value="-401" />
     <option name="width" value="1870" />
     <option name="height" value="1112" />
   </component>
@@ -207,7 +207,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -376,8 +378,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -419,7 +419,57 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.CodeQuestions.stringArraysCharacters">
+  <component name="RunManager" selected="JUnit.CodeQuestions.palandrome">
+    <configuration name="CodeQuestions.StringBufferPalindrone" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="interview.questions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="MontereyProject01" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="interview.questions" />
+      <option name="MAIN_CLASS_NAME" value="interview.questions.CodeQuestions" />
+      <option name="METHOD_NAME" value="StringBufferPalindrone" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="CodeQuestions.palandrome" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="interview.questions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="MontereyProject01" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="interview.questions" />
+      <option name="MAIN_CLASS_NAME" value="interview.questions.CodeQuestions" />
+      <option name="METHOD_NAME" value="palandrome" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
     <configuration name="CodeQuestions.stringArraysCharacters" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -457,31 +507,6 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="selenium.practice" />
       <option name="MAIN_CLASS_NAME" value="selenium.practice.Practice" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration name="Selenium2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.esickert.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="MontereyProject01" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.esickert" />
-      <option name="MAIN_CLASS_NAME" value="com.esickert.Selenium2" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -595,18 +620,20 @@
       <properties />
       <listeners />
     </configuration>
-    <list size="4">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.Selenium2" />
-      <item index="1" class="java.lang.String" itemvalue="Application.TheLinkedList" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.CodeQuestions.stringArraysCharacters" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.Practice" />
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="Application.TheLinkedList" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.CodeQuestions.stringArraysCharacters" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.Practice" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.CodeQuestions.StringBufferPalindrone" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.CodeQuestions.palandrome" />
     </list>
     <recent_temporary>
-      <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.CodeQuestions.stringArraysCharacters" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.Practice" />
-        <item index="2" class="java.lang.String" itemvalue="Application.TheLinkedList" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.Selenium2" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.CodeQuestions.palandrome" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.CodeQuestions.StringBufferPalindrone" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.CodeQuestions.stringArraysCharacters" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.Practice" />
+        <item index="4" class="java.lang.String" itemvalue="Application.TheLinkedList" />
       </list>
     </recent_temporary>
   </component>
@@ -623,20 +650,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1520195848238</updated>
-    </task>
-    <task id="LOCAL-00326" summary="plus">
-      <created>1541462224575</created>
-      <option name="number" value="00326" />
-      <option name="presentableId" value="LOCAL-00326" />
-      <option name="project" value="LOCAL" />
-      <updated>1541462224575</updated>
-    </task>
-    <task id="LOCAL-00327" summary="plus">
-      <created>1541545805178</created>
-      <option name="number" value="00327" />
-      <option name="presentableId" value="LOCAL-00327" />
-      <option name="project" value="LOCAL" />
-      <updated>1541545805178</updated>
     </task>
     <task id="LOCAL-00328" summary="plus">
       <created>1541635240085</created>
@@ -967,15 +980,29 @@
       <option name="project" value="LOCAL" />
       <updated>1546213475679</updated>
     </task>
-    <option name="localTasksCounter" value="375" />
+    <task id="LOCAL-00375" summary="plus">
+      <created>1546213501938</created>
+      <option name="number" value="00375" />
+      <option name="presentableId" value="LOCAL-00375" />
+      <option name="project" value="LOCAL" />
+      <updated>1546213501938</updated>
+    </task>
+    <task id="LOCAL-00376" summary="plus">
+      <created>1546309985193</created>
+      <option name="number" value="00376" />
+      <option name="presentableId" value="LOCAL-00376" />
+      <option name="project" value="LOCAL" />
+      <updated>1546309985194</updated>
+    </task>
+    <option name="localTasksCounter" value="377" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CodeQuestions_stringArraysCharacters - 2018.12.23 at 10h 56m 09s.xml">
-      <configuration name="CodeQuestions.stringArraysCharacters" configurationId="JUnit" />
+    <history-entry file="CodeQuestions_StringBufferPalindrone - 2018.12.30 at 16h 46m 26s.xml">
+      <configuration name="CodeQuestions.StringBufferPalindrone" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Practice - 2018.12.13 at 15h 48m 03s.xml">
-      <configuration name="Practice" configurationId="JUnit" />
+    <history-entry file="CodeQuestions_palandrome - 2018.12.30 at 17h 55m 19s.xml">
+      <configuration name="CodeQuestions.palandrome" configurationId="JUnit" />
     </history-entry>
     <history-entry file="Selenium2 - 2018.11.02 at 18h 14m 31s.xml">
       <configuration name="Selenium2" configurationId="JUnit" />
@@ -1012,7 +1039,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1889" y="-372" width="1870" height="1112" extended-state="0" />
+    <frame x="-1899" y="-401" width="1870" height="1112" extended-state="0" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32921812" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1026,7 +1053,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3281893" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19471948" sideWeight="0.5427215" order="5" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19471948" sideWeight="0.5427215" order="5" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24958768" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1332,10 +1359,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../MontereyProject01/src/main/java/interview/questions/CodeQuestions.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="439">
-          <caret line="365" column="69" lean-forward="true" selection-start-line="365" selection-start-column="69" selection-end-line="365" selection-end-column="69" />
+        <state relative-caret-position="378">
+          <caret line="76" column="65" lean-forward="false" selection-start-line="76" selection-start-column="65" selection-end-line="76" selection-end-column="65" />
           <folding>
-            <element signature="e#2600#2608#0" expanded="true" />
+            <element signature="e#2605#2613#0" expanded="true" />
           </folding>
         </state>
       </provider>
