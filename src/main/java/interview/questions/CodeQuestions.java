@@ -74,7 +74,7 @@ import static org.testng.AssertJUnit.assertEquals;
                 System.out.println("\nNOT!!!!!!!");
         }
 
-        //**************************************************
+        //*******************************************************
         // Remove duplicates from a list.
 
         @Test
