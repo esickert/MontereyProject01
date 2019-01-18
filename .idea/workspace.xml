@@ -6,7 +6,9 @@
     <bookmark url="file://$PROJECT_DIR$/../MontereyProject01/src/main/java/com/esickert/Playground.java" line="59" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="078280d5-5042-4862-850d-0c24f97ab4a9" name="Default" comment="" />
+    <list default="true" id="078280d5-5042-4862-850d-0c24f97ab4a9" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../MontereyProject01/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../MontereyProject01/.idea/workspace.xml" />
+    </list>
     <ignored path="$PROJECT_DIR$/../MontereyProject01/out/" />
     <ignored path="$PROJECT_DIR$/../MontereyProject01/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -51,8 +53,8 @@
       <file leaf-file-name="Practice.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../MontereyProject01/src/main/java/selenium/practice/Practice.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="20" column="74" lean-forward="false" selection-start-line="20" selection-start-column="74" selection-end-line="20" selection-end-column="74" />
+            <state relative-caret-position="576">
+              <caret line="32" column="0" lean-forward="true" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -203,7 +205,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
       <pane id="Scratches" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -372,8 +376,6 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -646,13 +648,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1520195848238</updated>
-    </task>
-    <task id="LOCAL-00340" summary="plus">
-      <created>1543005727550</created>
-      <option name="number" value="00340" />
-      <option name="presentableId" value="LOCAL-00340" />
-      <option name="project" value="LOCAL" />
-      <updated>1543005727550</updated>
     </task>
     <task id="LOCAL-00341" summary="plus">
       <created>1543008922122</created>
@@ -990,7 +985,14 @@
       <option name="project" value="LOCAL" />
       <updated>1547430599700</updated>
     </task>
-    <option name="localTasksCounter" value="389" />
+    <task id="LOCAL-00389" summary="plus">
+      <created>1547430626098</created>
+      <option name="number" value="00389" />
+      <option name="presentableId" value="LOCAL-00389" />
+      <option name="project" value="LOCAL" />
+      <updated>1547430626098</updated>
+    </task>
+    <option name="localTasksCounter" value="390" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1049,7 +1051,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3281893" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19471948" sideWeight="0.5427215" order="5" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19471948" sideWeight="0.5427215" order="5" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24958768" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1359,8 +1361,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../MontereyProject01/src/main/java/selenium/practice/Practice.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="20" column="74" lean-forward="false" selection-start-line="20" selection-start-column="74" selection-end-line="20" selection-end-column="74" />
+        <state relative-caret-position="576">
+          <caret line="32" column="0" lean-forward="true" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
