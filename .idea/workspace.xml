@@ -53,8 +53,8 @@
       <file leaf-file-name="Practice.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../MontereyProject01/src/main/java/selenium/practice/Practice.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="576">
-              <caret line="32" column="0" lean-forward="true" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+            <state relative-caret-position="360">
+              <caret line="20" column="76" lean-forward="false" selection-start-line="20" selection-start-column="76" selection-end-line="20" selection-end-column="76" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -205,9 +205,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="Scratches" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -375,7 +374,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -417,7 +417,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.CodeQuestions.palandrome">
+  <component name="RunManager" selected="JUnit.Practice">
     <configuration name="CodeQuestions.StringBufferPalindrone" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -627,10 +627,10 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.CodeQuestions.palandrome" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.CodeQuestions.StringBufferPalindrone" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.CodeQuestions.stringArraysCharacters" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.Practice" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.Practice" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.CodeQuestions.palandrome" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.CodeQuestions.StringBufferPalindrone" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.CodeQuestions.stringArraysCharacters" />
         <item index="4" class="java.lang.String" itemvalue="Application.TheLinkedList" />
       </list>
     </recent_temporary>
@@ -648,41 +648,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1520195848238</updated>
-    </task>
-    <task id="LOCAL-00341" summary="plus">
-      <created>1543008922122</created>
-      <option name="number" value="00341" />
-      <option name="presentableId" value="LOCAL-00341" />
-      <option name="project" value="LOCAL" />
-      <updated>1543008922122</updated>
-    </task>
-    <task id="LOCAL-00342" summary="plus">
-      <created>1543111892485</created>
-      <option name="number" value="00342" />
-      <option name="presentableId" value="LOCAL-00342" />
-      <option name="project" value="LOCAL" />
-      <updated>1543111892486</updated>
-    </task>
-    <task id="LOCAL-00343" summary="plus">
-      <created>1543180514142</created>
-      <option name="number" value="00343" />
-      <option name="presentableId" value="LOCAL-00343" />
-      <option name="project" value="LOCAL" />
-      <updated>1543180514143</updated>
-    </task>
-    <task id="LOCAL-00344" summary="plus">
-      <created>1543181369576</created>
-      <option name="number" value="00344" />
-      <option name="presentableId" value="LOCAL-00344" />
-      <option name="project" value="LOCAL" />
-      <updated>1543181369577</updated>
-    </task>
-    <task id="LOCAL-00345" summary="plus">
-      <created>1543275298903</created>
-      <option name="number" value="00345" />
-      <option name="presentableId" value="LOCAL-00345" />
-      <option name="project" value="LOCAL" />
-      <updated>1543275298903</updated>
     </task>
     <task id="LOCAL-00346" summary="plus">
       <created>1543275413244</created>
@@ -992,21 +957,56 @@
       <option name="project" value="LOCAL" />
       <updated>1547430626098</updated>
     </task>
-    <option name="localTasksCounter" value="390" />
+    <task id="LOCAL-00390" summary="plus">
+      <created>1547781626498</created>
+      <option name="number" value="00390" />
+      <option name="presentableId" value="LOCAL-00390" />
+      <option name="project" value="LOCAL" />
+      <updated>1547781626498</updated>
+    </task>
+    <task id="LOCAL-00391" summary="plus">
+      <created>1547781677969</created>
+      <option name="number" value="00391" />
+      <option name="presentableId" value="LOCAL-00391" />
+      <option name="project" value="LOCAL" />
+      <updated>1547781677969</updated>
+    </task>
+    <task id="LOCAL-00392" summary="plus">
+      <created>1548021927076</created>
+      <option name="number" value="00392" />
+      <option name="presentableId" value="LOCAL-00392" />
+      <option name="project" value="LOCAL" />
+      <updated>1548021927076</updated>
+    </task>
+    <task id="LOCAL-00393" summary="plus">
+      <created>1548038799807</created>
+      <option name="number" value="00393" />
+      <option name="presentableId" value="LOCAL-00393" />
+      <option name="project" value="LOCAL" />
+      <updated>1548038799807</updated>
+    </task>
+    <task id="LOCAL-00394" summary="plus">
+      <created>1548098804481</created>
+      <option name="number" value="00394" />
+      <option name="presentableId" value="LOCAL-00394" />
+      <option name="project" value="LOCAL" />
+      <updated>1548098804483</updated>
+    </task>
+    <option name="localTasksCounter" value="395" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CodeQuestions_StringBufferPalindrone - 2018.12.30 at 16h 46m 26s.xml">
-      <configuration name="CodeQuestions.StringBufferPalindrone" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CodeQuestions_palandrome - 2018.12.30 at 17h 55m 19s.xml">
+    <history-entry file="CodeQuestions_palandrome - 2019.01.20 at 12h 44m 58s.xml">
       <configuration name="CodeQuestions.palandrome" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Selenium2 - 2018.11.02 at 18h 14m 31s.xml">
-      <configuration name="Selenium2" configurationId="JUnit" />
+    <history-entry file="Practice - 2019.01.20 at 12h 46m 50s.xml">
+      <configuration name="Practice" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Selenium2_TestSelect - 2018.08.28 at 15h 15m 57s.xml">
-      <configuration name="Selenium2.TestSelect" configurationId="JUnit" />
+    <history-entry file="Practice - 2019.01.20 at 18h 43m 36s.xml">
+      <configuration name="Practice" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Practice - 2019.01.20 at 18h 44m 57s.xml">
+      <configuration name="Practice" configurationId="JUnit" />
     </history-entry>
     <history-entry file="Selenium2_TestSelect - 2018.08.28 at 15h 22m 48s.xml">
       <configuration name="Selenium2.TestSelect" configurationId="JUnit" />
@@ -1361,8 +1361,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../MontereyProject01/src/main/java/selenium/practice/Practice.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="576">
-          <caret line="32" column="0" lean-forward="true" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+        <state relative-caret-position="360">
+          <caret line="20" column="76" lean-forward="false" selection-start-line="20" selection-start-column="76" selection-end-line="20" selection-end-column="76" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
