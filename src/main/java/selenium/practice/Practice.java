@@ -24,8 +24,8 @@ public class Practice   {
     public void findYahoo(WebDriver x)  {
 
         x.get("http://www.yahoo.com");
-        WebElement mail = x.findElement(By.cssSelector("#uh-mail-link"));
-        mail.click();
+//        WebElement mail = x.findElement(By.cssSelector("#uh-mail-link"));
+//        mail.click();
     }
 }
 
