@@ -19,7 +19,7 @@ public class Practice   {
 
 
 
- //*************************************************This is a test as in the beginning.
+ //*************************************************This is a test.
 }
 
 
