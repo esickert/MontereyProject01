@@ -149,7 +149,7 @@ public class PracticeJava {
     @Test
     public void fizzBizzRerc()  {
 
-        fizzBizz(30);
+        System.out.println(fizzBizz(30));
     }
 
     public int fizzBizz(int x)  {
