@@ -110,7 +110,7 @@ public class PracticeJava {
         while (num > 0) {
             temp = temp + (num%10);
             num = num /10;
-            System.out.println(temp);
+ //           System.out.println(temp);
         }
         System.out.println(temp);
     }
@@ -118,19 +118,55 @@ public class PracticeJava {
     @Test
     public void reverseNum()    {  //WRONG*****************************************************
         int num = 123456;
-        int temp = 1;
+        int temp = 0;
 
         while (num >0)  {
-           temp = num% 10;
+           temp = (temp * 10) + (num% 10);
            num = num/10;
 
         }
         System.out.println(temp);
     }
 
+    @Test
+    public void fizzBizz() {
 
+        int x = 30;
 
+        while (x > 0) {
+            if ((x % 3 == 0) && (x % 5 == 0))
+                System.out.println("fizzBizz");
+            else if (x % 3 == 0)
+                System.out.println("fizz");
+            else if (x % 5 == 0)
+                System.out.println("Bizz");
+            else
+                System.out.println(x);
+            x--;
+        }
+    }
 
+    @Test
+    public void fizzBizzRerc()  {
 
+        fizzBizz(30);
+    }
+
+    public int fizzBizz(int x)  {
+
+        if ((x == 0)||(x == 1))   //this needs to print out 1 or 0!!!!!!!
+            return x;
+        else if ((x%3==0)&&(x%5==0))
+            System.out.println("fizzBizz");
+        else if (x%3==0)
+            System.out.println("fizz");
+        else if (x%5==0)
+            System.out.println("Bizz");
+        else
+            System.out.println(x);
+
+        return fizzBizz(--x);
+
+    }
 
 }
