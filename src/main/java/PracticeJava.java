@@ -169,4 +169,16 @@ public class PracticeJava {
 
     }
 
+    @Test
+    public void swapNum()   {
+        int a= 1234;
+        int b = 0;
+
+        a = a + b;
+        b = a - b;
+        a = a - b;
+
+        System.out.println("The values for a is " + a + " and b is + " + b);
+    }
+
 }
