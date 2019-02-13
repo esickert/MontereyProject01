@@ -116,7 +116,7 @@ public class PracticeJava {
     }
 
     @Test
-    public void reverseNum()    {  //WRONG*****************************************************
+    public void reverseNum()    {  //WRONG**********************************************
         int num = 123456;
         int temp = 0;
 
