@@ -74,16 +74,16 @@ public class PracticeJava {
     @Test
     public void fib() {
 
-         int x = 0;
-         int y = 1;
-         int z;
-         System.out.print(x + " " + y);
-         for (int i = 2; i <= 10; i++) {
-             z = x + y;
-             System.out.print(" " + z);
-             x = y;
-             y = z;
-         }
+        int x = 0;
+        int y = 1;
+        int z;
+        System.out.print(x + " " + y);
+        for (int i = 2; i <= 10; i++) {
+            z = x + y;
+            System.out.print(" " + z);
+            x = y;
+            y = z;
+        }
     }
 
     @Test
@@ -97,33 +97,35 @@ public class PracticeJava {
     public int fib(int x) {
 
         if ((x == 0) || (x == 1))
-            return(x);
+            return (x);
         else
             return fib(x - 1) + fib(x - 2);
     }
 
     @Test
-    public void sumOfDigits() {   //WRONG***********************************************
+    public void sumOfDigits() {
 
-        int num = 123456;
+        int num = 12345;
         int temp = 0;
+
         while (num > 0) {
-            temp = temp + (num%10);
-            num = num /10;
- //           System.out.println(temp);
+            temp = (temp) + (num % 10);
+            num = num / 10;
+            System.out.println(temp);
         }
-        System.out.println(temp);
+    System.out.println(temp);
     }
 
     @Test
-    public void reverseNum()    {  //WRONG**********************************************
-        int num = 123456;
+    public void reverseNum() {
+
+        int sum = 123456;
         int temp = 0;
 
-        while (num >0)  {
-           temp = (temp * 10) + (num% 10);
-           num = num/10;
-
+        while (sum > 0) {
+            temp = (temp * 10) + (sum % 10);
+            sum = sum / 10;
+            System.out.println(temp);
         }
         System.out.println(temp);
     }
@@ -178,7 +180,7 @@ public class PracticeJava {
         b = a - b;
         a = a - b;
 
-        System.out.println("The values for a is " + a + " and b is + " + b);
+        System.out.println("The values for a is " + a + " and b is l" + b);
     }
 
 }
