@@ -182,5 +182,18 @@ public class PracticeJava {
 
         System.out.println("The values for a is " + a + " and b is l" + b);
     }
+    @Test
+    public  void reverse_down() {
+
+        int num = 2014;
+        int temp = 0;
+
+        while (num != 0) {
+            temp = (temp * 10) + (num % 10);
+            num = num / 10;
+            System.out.println(temp % 10);
+        }
+    }
+
 
 }
