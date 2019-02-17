@@ -168,7 +168,6 @@ public class PracticeJava {
             System.out.println(x);
 
         return fizzBizz(--x);
-
     }
 
     @Test
@@ -194,6 +193,4 @@ public class PracticeJava {
             System.out.println(temp % 10);
         }
     }
-
-
 }
