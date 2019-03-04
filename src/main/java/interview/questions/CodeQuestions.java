@@ -328,7 +328,7 @@ import static org.testng.AssertJUnit.assertEquals;
         static void findPairs1(int[] a, int sum) {
             Map<Integer, Integer> pairs = new HashMap<>();
             for (int i = 0; i < a.length; i++) {
-                if (pairs.containsKey(sum - a[i]))   //I don't understand this array gets into map
+                if (pairs.containsKey(sum - a[i]))  
                     System.out.println("(" + a[i] + "," + (sum - a[i]) + ")");
                 else {
                     pairs.put(a[i], 0);
