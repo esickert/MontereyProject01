@@ -328,7 +328,7 @@ import static org.testng.AssertJUnit.assertEquals;
         static void findPairs1(int[] a, int sum) {
             Map<Integer, Integer> pairs = new HashMap<>();
             for (int i = 0; i < a.length; i++) {
-                if (pairs.containsKey(sum - a[i]))  
+                if (pairs.containsKey(sum - a[i]))
                     System.out.println("(" + a[i] + "," + (sum - a[i]) + ")");
                 else {
                     pairs.put(a[i], 0);
@@ -377,6 +377,22 @@ import static org.testng.AssertJUnit.assertEquals;
                 System.out.println(pets[i]);
 //                temp = temp + pets.substring(i, i + 1);  logic is fucked here
                 System.out.println(colors[i]);
+            }
+        }
+
+        @Test //reverse a sting of words. not the words themselves
+        //apple interview question.
+        public void reverseWords()  {
+
+            String sentence = "all the world is a stage!!";
+            String temp = "";
+            String[] words;
+
+            words = sentence.split(" ");
+            System.out.println(words[0]);
+            for(int i = words.length-1; i >= 0; i--)    {
+                temp = temp + words[i] + " ";
+                System.out.println(temp);
             }
         }
 
