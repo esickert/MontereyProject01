@@ -6,8 +6,35 @@
     <bookmark url="file://$PROJECT_DIR$/../MontereyProject01/src/main/java/com/esickert/Playground.java" line="59" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="078280d5-5042-4862-850d-0c24f97ab4a9" name="Default" comment="">
+    <list default="true" id="078280d5-5042-4862-850d-0c24f97ab4a9" name="Default" comment="plus">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../MontereyProject01/src/main/java/PracticeJava.java" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../MontereyProject01/target/classes/AbstractClasses/Circle.class" afterPath="$PROJECT_DIR$/../MontereyProject01/target/classes/AbstractClasses/Circle.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../MontereyProject01/target/classes/AbstractClasses/GeometricObject.class" afterPath="$PROJECT_DIR$/../MontereyProject01/target/classes/AbstractClasses/GeometricObject.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../MontereyProject01/target/classes/AbstractClasses/TestGeometricObject.class" afterPath="$PROJECT_DIR$/../MontereyProject01/target/classes/AbstractClasses/TestGeometricObject.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../MontereyProject01/target/classes/LinkedListIterator/Node.class" afterPath="$PROJECT_DIR$/../MontereyProject01/target/classes/LinkedListIterator/Node.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../MontereyProject01/target/classes/LinkedListIterator/StringLinkedListWithIterator.class" afterPath="$PROJECT_DIR$/../MontereyProject01/target/classes/LinkedListIterator/StringLinkedListWithIterator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../MontereyProject01/target/classes/LinkedListIterator/TheLinkedListWithIteratorItself.class" afterPath="$PROJECT_DIR$/../MontereyProject01/target/classes/LinkedListIterator/TheLinkedListWithIteratorItself.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../MontereyProject01/target/classes/NodeInnerClass/IntLinkedList$Node.class" afterPath="$PROJECT_DIR$/../MontereyProject01/target/classes/NodeInnerClass/IntLinkedList$Node.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../MontereyProject01/target/classes/NodeInnerClass/IntLinkedList.class" afterPath="$PROJECT_DIR$/../MontereyProject01/target/classes/NodeInnerClass/IntLinkedList.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../MontereyProject01/target/classes/NodeInnerClass/TheLinkedList.class" afterPath="$PROJECT_DIR$/../MontereyProject01/target/classes/NodeInnerClass/TheLinkedList.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../MontereyProject01/target/classes/SingleLinkedList/LinkedListMethods.class" afterPath="$PROJECT_DIR$/../MontereyProject01/target/classes/SingleLinkedList/LinkedListMethods.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../MontereyProject01/target/classes/SingleLinkedList/Node.class" afterPath="$PROJECT_DIR$/../MontereyProject01/target/classes/SingleLinkedList/Node.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../MontereyProject01/target/classes/SingleLinkedList/TheLinkedList.class" afterPath="$PROJECT_DIR$/../MontereyProject01/target/classes/SingleLinkedList/TheLinkedList.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../MontereyProject01/target/classes/TDD/Addition.class" afterPath="$PROJECT_DIR$/../MontereyProject01/target/classes/TDD/Addition.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../MontereyProject01/target/classes/TDD/Mathematics.class" afterPath="$PROJECT_DIR$/../MontereyProject01/target/classes/TDD/Mathematics.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../MontereyProject01/target/classes/TDD/Multiplication.class" afterPath="$PROJECT_DIR$/../MontereyProject01/target/classes/TDD/Multiplication.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../MontereyProject01/target/classes/TDD/Subtraction.class" afterPath="$PROJECT_DIR$/../MontereyProject01/target/classes/TDD/Subtraction.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../MontereyProject01/target/classes/baseClass/BaseClass.class" afterPath="$PROJECT_DIR$/../MontereyProject01/target/classes/baseClass/BaseClass.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../MontereyProject01/target/classes/com/esickert/MontereyProjectCheck.class" afterPath="$PROJECT_DIR$/../MontereyProject01/target/classes/com/esickert/MontereyProjectCheck.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../MontereyProject01/target/classes/com/esickert/Playground.class" afterPath="$PROJECT_DIR$/../MontereyProject01/target/classes/com/esickert/Playground.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../MontereyProject01/target/classes/interview/questions/CodeQuestions.class" afterPath="$PROJECT_DIR$/../MontereyProject01/target/classes/interview/questions/CodeQuestions.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../MontereyProject01/target/classes/interview/questions/SeleniumQuestions.class" afterPath="$PROJECT_DIR$/../MontereyProject01/target/classes/interview/questions/SeleniumQuestions.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../MontereyProject01/target/classes/seleniumTestEnv/capabilities.class" afterPath="$PROJECT_DIR$/../MontereyProject01/target/classes/seleniumTestEnv/capabilities.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../MontereyProject01/target/classes/sratchpad/HeadlessBrowserTest.class" afterPath="$PROJECT_DIR$/../MontereyProject01/target/classes/sratchpad/HeadlessBrowserTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../MontereyProject01/target/test-classes/TDD/MathematicsTest.class" afterPath="$PROJECT_DIR$/../MontereyProject01/target/test-classes/TDD/MathematicsTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../MontereyProject01/target/test-classes/baseClass/InvalidLogin.class" afterPath="$PROJECT_DIR$/../MontereyProject01/target/test-classes/baseClass/InvalidLogin.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../MontereyProject01/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../MontereyProject01/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../MontereyProject01/src/main/java/MorePracticeJava.java" afterPath="$PROJECT_DIR$/../MontereyProject01/src/main/java/MorePracticeJava.java" />
     </list>
     <ignored path="$PROJECT_DIR$/../MontereyProject01/out/" />
     <ignored path="$PROJECT_DIR$/../MontereyProject01/target/" />
@@ -23,9 +50,33 @@
       <file leaf-file-name="CodeQuestions.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../MontereyProject01/src/main/java/interview/questions/CodeQuestions.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1224">
-              <caret line="76" column="65" lean-forward="false" selection-start-line="76" selection-start-column="65" selection-end-line="76" selection-end-column="65" />
+            <state relative-caret-position="0">
+              <caret line="7" column="19" lean-forward="false" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Practice.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../MontereyProject01/src/main/java/selenium/practice/Practice.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="234">
+              <caret line="16" column="4" lean-forward="false" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MorePracticeJava.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../MontereyProject01/src/main/java/MorePracticeJava.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="396">
+              <caret line="22" column="35" lean-forward="false" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -40,24 +91,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Queue.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../MontereyProject01/src/main/java/stackQueue/Queue.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="25" column="25" lean-forward="false" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Practice.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../MontereyProject01/src/main/java/selenium/practice/Practice.java">
+      <file leaf-file-name="StringLinkedListWithIterator.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../MontereyProject01/src/main/java/LinkedListIterator/StringLinkedListWithIterator.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="360">
-              <caret line="20" column="76" lean-forward="false" selection-start-line="20" selection-start-column="76" selection-end-line="20" selection-end-column="76" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+              <caret line="20" column="39" lean-forward="true" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -73,6 +112,11 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>sum</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../MontereyProject01" />
   </component>
@@ -84,9 +128,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/../MontereyProject01/src/main/java/CollectionsFrameworkWu/TheList.java" />
-        <option value="$PROJECT_DIR$/../MontereyProject01/src/main/java/collections/framework/wu/TheList.java" />
-        <option value="$PROJECT_DIR$/../MontereyProject01/src/main/java/collections/framework/wu/Person.java" />
         <option value="$PROJECT_DIR$/../MontereyProject01/src/main/java/collections/framework/wu/NPSArrayList.java" />
         <option value="$PROJECT_DIR$/../MontereyProject01/src/main/java/webdriver/SeleniumWebdriver.java" />
         <option value="$PROJECT_DIR$/../MontereyProject01/src/main/java/com/selenium/OpenChrome.java" />
@@ -105,7 +146,6 @@
         <option value="$PROJECT_DIR$/../MontereyProject01/src/main/java/AbstractClasses/TestGeometricObject.java" />
         <option value="$PROJECT_DIR$/../MontereyProject01/src/main/java/SeleniumTests.java" />
         <option value="$PROJECT_DIR$/../MontereyProject01/src/main/java/ExcelReader.java" />
-        <option value="$PROJECT_DIR$/../MontereyProject01/pom.xml" />
         <option value="$PROJECT_DIR$/../MontereyProject01/src/main/java/InterFace/ComparableStuff.java" />
         <option value="$PROJECT_DIR$/../MontereyProject01/src/main/java/InterFace/Animala.java" />
         <option value="$PROJECT_DIR$/../MontereyProject01/src/main/java/InterFace/Animals.java" />
@@ -133,8 +173,12 @@
         <option value="$PROJECT_DIR$/../MontereyProject01/src/main/java/com/esickert/Selenium2.java" />
         <option value="$PROJECT_DIR$/../MontereyProject01/src/main/java/seleniumDropDowns/SeleniumDropDownTests.java" />
         <option value="$PROJECT_DIR$/../MontereyProject01/src/main/java/com/esickert/Selenium.java" />
-        <option value="$PROJECT_DIR$/../MontereyProject01/src/main/java/interview/questions/CodeQuestions.java" />
+        <option value="$PROJECT_DIR$/../MontereyProject01/pom.xml" />
         <option value="$PROJECT_DIR$/../MontereyProject01/src/main/java/selenium/practice/Practice.java" />
+        <option value="$PROJECT_DIR$/../MontereyProject01/src/main/java/PracticeJava.java" />
+        <option value="$PROJECT_DIR$/../MontereyProject01/src/main/java/interview/questions/CodeQuestions.java" />
+        <option value="$PROJECT_DIR$/../MontereyProject01/src/main/java/MorePracticeJava.java" />
+        <option value="$PROJECT_DIR$/../MontereyProject01/src/main/java/stack.java" />
       </list>
     </option>
   </component>
@@ -162,8 +206,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-1885" />
-    <option name="y" value="-393" />
+    <option name="x" value="-1869" />
+    <option name="y" value="-376" />
     <option name="width" value="1870" />
     <option name="height" value="1112" />
   </component>
@@ -206,6 +250,8 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -374,8 +420,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -417,8 +461,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.Practice">
-    <configuration name="CodeQuestions.StringBufferPalindrone" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.MorePracticeJava.addPairs">
+    <configuration name="CodeQuestions.findPairs" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="interview.questions.*" />
@@ -430,7 +474,7 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="interview.questions" />
       <option name="MAIN_CLASS_NAME" value="interview.questions.CodeQuestions" />
-      <option name="METHOD_NAME" value="StringBufferPalindrone" />
+      <option name="METHOD_NAME" value="findPairs" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -443,7 +487,7 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="CodeQuestions.palandrome" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CodeQuestions.reverseWords" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="interview.questions.*" />
@@ -455,7 +499,7 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="interview.questions" />
       <option name="MAIN_CLASS_NAME" value="interview.questions.CodeQuestions" />
-      <option name="METHOD_NAME" value="palandrome" />
+      <option name="METHOD_NAME" value="reverseWords" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -468,19 +512,14 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="CodeQuestions.stringArraysCharacters" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="interview.questions.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+    <configuration name="MorePracticeJava.Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="MontereyProject01" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="interview.questions" />
-      <option name="MAIN_CLASS_NAME" value="interview.questions.CodeQuestions" />
-      <option name="METHOD_NAME" value="stringArraysCharacters" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MorePracticeJava" />
+      <option name="METHOD_NAME" value="Test" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -493,20 +532,15 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="Practice" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="selenium.practice.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+    <configuration name="MorePracticeJava.addPairs" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="MontereyProject01" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="selenium.practice" />
-      <option name="MAIN_CLASS_NAME" value="selenium.practice.Practice" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MorePracticeJava" />
+      <option name="METHOD_NAME" value="addPairs" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -518,24 +552,25 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="TheLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="NodeInnerClass.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="NodeInnerClass.TheLinkedList" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../MontereyProject01" />
+    <configuration name="MorePracticeJava.reverseWords" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="MontereyProject01" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MorePracticeJava" />
+      <option name="METHOD_NAME" value="reverseWords" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="MontereyProject01" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
       <envs />
+      <patterns />
     </configuration>
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
@@ -619,19 +654,19 @@
       <listeners />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.TheLinkedList" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.CodeQuestions.stringArraysCharacters" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.Practice" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.CodeQuestions.StringBufferPalindrone" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.CodeQuestions.palandrome" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.CodeQuestions.findPairs" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.CodeQuestions.reverseWords" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.MorePracticeJava.reverseWords" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.MorePracticeJava.Test" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.MorePracticeJava.addPairs" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.Practice" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.CodeQuestions.palandrome" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.CodeQuestions.StringBufferPalindrone" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.CodeQuestions.stringArraysCharacters" />
-        <item index="4" class="java.lang.String" itemvalue="Application.TheLinkedList" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.MorePracticeJava.addPairs" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.MorePracticeJava.Test" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.MorePracticeJava.reverseWords" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.CodeQuestions.reverseWords" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.CodeQuestions.findPairs" />
       </list>
     </recent_temporary>
   </component>
@@ -649,382 +684,382 @@
       <option name="presentableId" value="Default" />
       <updated>1520195848238</updated>
     </task>
-    <task id="LOCAL-00346" summary="plus">
-      <created>1543275413244</created>
-      <option name="number" value="00346" />
-      <option name="presentableId" value="LOCAL-00346" />
+    <task id="LOCAL-00399" summary="plus">
+      <created>1548555284630</created>
+      <option name="number" value="00399" />
+      <option name="presentableId" value="LOCAL-00399" />
       <option name="project" value="LOCAL" />
-      <updated>1543275413244</updated>
+      <updated>1548555284630</updated>
     </task>
-    <task id="LOCAL-00347" summary="plus">
-      <created>1543630972859</created>
-      <option name="number" value="00347" />
-      <option name="presentableId" value="LOCAL-00347" />
+    <task id="LOCAL-00400" summary="plus">
+      <created>1548576451170</created>
+      <option name="number" value="00400" />
+      <option name="presentableId" value="LOCAL-00400" />
       <option name="project" value="LOCAL" />
-      <updated>1543630972859</updated>
+      <updated>1548576451170</updated>
     </task>
-    <task id="LOCAL-00348" summary="plus">
-      <created>1543700060993</created>
-      <option name="number" value="00348" />
-      <option name="presentableId" value="LOCAL-00348" />
+    <task id="LOCAL-00401" summary="plus">
+      <created>1548628610735</created>
+      <option name="number" value="00401" />
+      <option name="presentableId" value="LOCAL-00401" />
       <option name="project" value="LOCAL" />
-      <updated>1543700060994</updated>
+      <updated>1548628610735</updated>
     </task>
-    <task id="LOCAL-00349" summary="plus">
-      <created>1543719937145</created>
-      <option name="number" value="00349" />
-      <option name="presentableId" value="LOCAL-00349" />
+    <task id="LOCAL-00402" summary="plus">
+      <created>1549073201230</created>
+      <option name="number" value="00402" />
+      <option name="presentableId" value="LOCAL-00402" />
       <option name="project" value="LOCAL" />
-      <updated>1543719937145</updated>
+      <updated>1549073201230</updated>
     </task>
-    <task id="LOCAL-00350" summary="plus">
-      <created>1543719976548</created>
-      <option name="number" value="00350" />
-      <option name="presentableId" value="LOCAL-00350" />
+    <task id="LOCAL-00403" summary="plus">
+      <created>1549160950782</created>
+      <option name="number" value="00403" />
+      <option name="presentableId" value="LOCAL-00403" />
       <option name="project" value="LOCAL" />
-      <updated>1543719976548</updated>
+      <updated>1549160950783</updated>
     </task>
-    <task id="LOCAL-00351" summary="plus">
-      <created>1543720636848</created>
-      <option name="number" value="00351" />
-      <option name="presentableId" value="LOCAL-00351" />
+    <task id="LOCAL-00404" summary="plus">
+      <created>1549323551547</created>
+      <option name="number" value="00404" />
+      <option name="presentableId" value="LOCAL-00404" />
       <option name="project" value="LOCAL" />
-      <updated>1543720636848</updated>
+      <updated>1549323551547</updated>
     </task>
-    <task id="LOCAL-00352" summary="plus">
-      <created>1543790362576</created>
-      <option name="number" value="00352" />
-      <option name="presentableId" value="LOCAL-00352" />
+    <task id="LOCAL-00405" summary="plus">
+      <created>1549332903301</created>
+      <option name="number" value="00405" />
+      <option name="presentableId" value="LOCAL-00405" />
       <option name="project" value="LOCAL" />
-      <updated>1543790362581</updated>
+      <updated>1549332903301</updated>
     </task>
-    <task id="LOCAL-00353" summary="plus">
-      <created>1543791551724</created>
-      <option name="number" value="00353" />
-      <option name="presentableId" value="LOCAL-00353" />
+    <task id="LOCAL-00406" summary="plus">
+      <created>1549393235678</created>
+      <option name="number" value="00406" />
+      <option name="presentableId" value="LOCAL-00406" />
       <option name="project" value="LOCAL" />
-      <updated>1543791551725</updated>
+      <updated>1549393235679</updated>
     </task>
-    <task id="LOCAL-00354" summary="plus">
-      <created>1543791754156</created>
-      <option name="number" value="00354" />
-      <option name="presentableId" value="LOCAL-00354" />
+    <task id="LOCAL-00407" summary="plus">
+      <created>1549410309335</created>
+      <option name="number" value="00407" />
+      <option name="presentableId" value="LOCAL-00407" />
       <option name="project" value="LOCAL" />
-      <updated>1543791754156</updated>
+      <updated>1549410309335</updated>
     </task>
-    <task id="LOCAL-00355" summary="plus">
-      <created>1543967839779</created>
-      <option name="number" value="00355" />
-      <option name="presentableId" value="LOCAL-00355" />
+    <task id="LOCAL-00408" summary="plus">
+      <created>1549518657532</created>
+      <option name="number" value="00408" />
+      <option name="presentableId" value="LOCAL-00408" />
       <option name="project" value="LOCAL" />
-      <updated>1543967839780</updated>
+      <updated>1549518657547</updated>
     </task>
-    <task id="LOCAL-00356" summary="plus">
-      <created>1544053633459</created>
-      <option name="number" value="00356" />
-      <option name="presentableId" value="LOCAL-00356" />
+    <task id="LOCAL-00409" summary="plus">
+      <created>1549572769884</created>
+      <option name="number" value="00409" />
+      <option name="presentableId" value="LOCAL-00409" />
       <option name="project" value="LOCAL" />
-      <updated>1544053633461</updated>
+      <updated>1549572769884</updated>
     </task>
-    <task id="LOCAL-00357" summary="plus">
-      <created>1544145618213</created>
-      <option name="number" value="00357" />
-      <option name="presentableId" value="LOCAL-00357" />
+    <task id="LOCAL-00410" summary="plus">
+      <created>1549597168712</created>
+      <option name="number" value="00410" />
+      <option name="presentableId" value="LOCAL-00410" />
       <option name="project" value="LOCAL" />
-      <updated>1544145618213</updated>
+      <updated>1549597168713</updated>
     </task>
-    <task id="LOCAL-00358" summary="plus">
-      <created>1544311062925</created>
-      <option name="number" value="00358" />
-      <option name="presentableId" value="LOCAL-00358" />
+    <task id="LOCAL-00411" summary="plus">
+      <created>1549671926165</created>
+      <option name="number" value="00411" />
+      <option name="presentableId" value="LOCAL-00411" />
       <option name="project" value="LOCAL" />
-      <updated>1544311062928</updated>
+      <updated>1549671926166</updated>
     </task>
-    <task id="LOCAL-00359" summary="plus">
-      <created>1544388076237</created>
-      <option name="number" value="00359" />
-      <option name="presentableId" value="LOCAL-00359" />
+    <task id="LOCAL-00412" summary="plus">
+      <created>1549678434650</created>
+      <option name="number" value="00412" />
+      <option name="presentableId" value="LOCAL-00412" />
       <option name="project" value="LOCAL" />
-      <updated>1544388076237</updated>
+      <updated>1549678434650</updated>
     </task>
-    <task id="LOCAL-00360" summary="plus">
-      <created>1544570221604</created>
-      <option name="number" value="00360" />
-      <option name="presentableId" value="LOCAL-00360" />
+    <task id="LOCAL-00413" summary="plus">
+      <created>1549747269423</created>
+      <option name="number" value="00413" />
+      <option name="presentableId" value="LOCAL-00413" />
       <option name="project" value="LOCAL" />
-      <updated>1544570221604</updated>
+      <updated>1549747269423</updated>
     </task>
-    <task id="LOCAL-00361" summary="plus">
-      <created>1544744404045</created>
-      <option name="number" value="00361" />
-      <option name="presentableId" value="LOCAL-00361" />
+    <task id="LOCAL-00414" summary="plus">
+      <created>1549779292428</created>
+      <option name="number" value="00414" />
+      <option name="presentableId" value="LOCAL-00414" />
       <option name="project" value="LOCAL" />
-      <updated>1544744404045</updated>
+      <updated>1549779292428</updated>
     </task>
-    <task id="LOCAL-00362" summary="plus">
-      <created>1544934872257</created>
-      <option name="number" value="00362" />
-      <option name="presentableId" value="LOCAL-00362" />
+    <task id="LOCAL-00415" summary="plus">
+      <created>1549828787062</created>
+      <option name="number" value="00415" />
+      <option name="presentableId" value="LOCAL-00415" />
       <option name="project" value="LOCAL" />
-      <updated>1544934872258</updated>
+      <updated>1549828787062</updated>
     </task>
-    <task id="LOCAL-00363" summary="plus">
-      <created>1544991731874</created>
-      <option name="number" value="00363" />
-      <option name="presentableId" value="LOCAL-00363" />
+    <task id="LOCAL-00416" summary="plus">
+      <created>1549850471403</created>
+      <option name="number" value="00416" />
+      <option name="presentableId" value="LOCAL-00416" />
       <option name="project" value="LOCAL" />
-      <updated>1544991731874</updated>
+      <updated>1549850471403</updated>
     </task>
-    <task id="LOCAL-00364" summary="plus">
-      <created>1544996382438</created>
-      <option name="number" value="00364" />
-      <option name="presentableId" value="LOCAL-00364" />
+    <task id="LOCAL-00417" summary="plus">
+      <created>1549911300460</created>
+      <option name="number" value="00417" />
+      <option name="presentableId" value="LOCAL-00417" />
       <option name="project" value="LOCAL" />
-      <updated>1544996382438</updated>
+      <updated>1549911300460</updated>
     </task>
-    <task id="LOCAL-00365" summary="plus">
-      <created>1544996532292</created>
-      <option name="number" value="00365" />
-      <option name="presentableId" value="LOCAL-00365" />
+    <task id="LOCAL-00418" summary="plus">
+      <created>1549911498936</created>
+      <option name="number" value="00418" />
+      <option name="presentableId" value="LOCAL-00418" />
       <option name="project" value="LOCAL" />
-      <updated>1544996532292</updated>
+      <updated>1549911498936</updated>
     </task>
-    <task id="LOCAL-00366" summary="plus">
-      <created>1545365280578</created>
-      <option name="number" value="00366" />
-      <option name="presentableId" value="LOCAL-00366" />
+    <task id="LOCAL-00419" summary="plus">
+      <created>1549930788257</created>
+      <option name="number" value="00419" />
+      <option name="presentableId" value="LOCAL-00419" />
       <option name="project" value="LOCAL" />
-      <updated>1545365280594</updated>
+      <updated>1549930788257</updated>
     </task>
-    <task id="LOCAL-00367" summary="plus">
-      <created>1545544926886</created>
-      <option name="number" value="00367" />
-      <option name="presentableId" value="LOCAL-00367" />
+    <task id="LOCAL-00420" summary="plus">
+      <created>1550018411297</created>
+      <option name="number" value="00420" />
+      <option name="presentableId" value="LOCAL-00420" />
       <option name="project" value="LOCAL" />
-      <updated>1545544926887</updated>
+      <updated>1550018411298</updated>
     </task>
-    <task id="LOCAL-00368" summary="plus">
-      <created>1545591325581</created>
-      <option name="number" value="00368" />
-      <option name="presentableId" value="LOCAL-00368" />
+    <task id="LOCAL-00421" summary="plus">
+      <created>1550097751335</created>
+      <option name="number" value="00421" />
+      <option name="presentableId" value="LOCAL-00421" />
       <option name="project" value="LOCAL" />
-      <updated>1545591325581</updated>
+      <updated>1550097751335</updated>
     </task>
-    <task id="LOCAL-00369" summary="plus">
-      <created>1545685645599</created>
-      <option name="number" value="00369" />
-      <option name="presentableId" value="LOCAL-00369" />
+    <task id="LOCAL-00422" summary="plus">
+      <created>1550198451328</created>
+      <option name="number" value="00422" />
+      <option name="presentableId" value="LOCAL-00422" />
       <option name="project" value="LOCAL" />
-      <updated>1545685645600</updated>
+      <updated>1550198451328</updated>
     </task>
-    <task id="LOCAL-00370" summary="plus">
-      <created>1545767885894</created>
-      <option name="number" value="00370" />
-      <option name="presentableId" value="LOCAL-00370" />
+    <task id="LOCAL-00423" summary="plus">
+      <created>1550281511894</created>
+      <option name="number" value="00423" />
+      <option name="presentableId" value="LOCAL-00423" />
       <option name="project" value="LOCAL" />
-      <updated>1545767885894</updated>
+      <updated>1550281511895</updated>
     </task>
-    <task id="LOCAL-00371" summary="plus">
-      <created>1545798676043</created>
-      <option name="number" value="00371" />
-      <option name="presentableId" value="LOCAL-00371" />
+    <task id="LOCAL-00424" summary="plus">
+      <created>1550368930162</created>
+      <option name="number" value="00424" />
+      <option name="presentableId" value="LOCAL-00424" />
       <option name="project" value="LOCAL" />
-      <updated>1545798676043</updated>
+      <updated>1550368930162</updated>
     </task>
-    <task id="LOCAL-00372" summary="plus">
-      <created>1546205314534</created>
-      <option name="number" value="00372" />
-      <option name="presentableId" value="LOCAL-00372" />
+    <task id="LOCAL-00425" summary="plus">
+      <created>1550475610994</created>
+      <option name="number" value="00425" />
+      <option name="presentableId" value="LOCAL-00425" />
       <option name="project" value="LOCAL" />
-      <updated>1546205314535</updated>
+      <updated>1550475610994</updated>
     </task>
-    <task id="LOCAL-00373" summary="plus">
-      <created>1546206687053</created>
-      <option name="number" value="00373" />
-      <option name="presentableId" value="LOCAL-00373" />
+    <task id="LOCAL-00426" summary="plus">
+      <created>1550620877465</created>
+      <option name="number" value="00426" />
+      <option name="presentableId" value="LOCAL-00426" />
       <option name="project" value="LOCAL" />
-      <updated>1546206687053</updated>
+      <updated>1550620877465</updated>
     </task>
-    <task id="LOCAL-00374" summary="plus">
-      <created>1546213475679</created>
-      <option name="number" value="00374" />
-      <option name="presentableId" value="LOCAL-00374" />
+    <task id="LOCAL-00427" summary="plus">
+      <created>1550632445823</created>
+      <option name="number" value="00427" />
+      <option name="presentableId" value="LOCAL-00427" />
       <option name="project" value="LOCAL" />
-      <updated>1546213475679</updated>
+      <updated>1550632445823</updated>
     </task>
-    <task id="LOCAL-00375" summary="plus">
-      <created>1546213501938</created>
-      <option name="number" value="00375" />
-      <option name="presentableId" value="LOCAL-00375" />
+    <task id="LOCAL-00428" summary="plus">
+      <created>1550645355634</created>
+      <option name="number" value="00428" />
+      <option name="presentableId" value="LOCAL-00428" />
       <option name="project" value="LOCAL" />
-      <updated>1546213501938</updated>
+      <updated>1550645355634</updated>
     </task>
-    <task id="LOCAL-00376" summary="plus">
-      <created>1546309985193</created>
-      <option name="number" value="00376" />
-      <option name="presentableId" value="LOCAL-00376" />
+    <task id="LOCAL-00429" summary="plus">
+      <created>1550710380348</created>
+      <option name="number" value="00429" />
+      <option name="presentableId" value="LOCAL-00429" />
       <option name="project" value="LOCAL" />
-      <updated>1546309985194</updated>
+      <updated>1550710380348</updated>
     </task>
-    <task id="LOCAL-00377" summary="plus">
-      <created>1546310131069</created>
-      <option name="number" value="00377" />
-      <option name="presentableId" value="LOCAL-00377" />
+    <task id="LOCAL-00430" summary="plus">
+      <created>1550896120327</created>
+      <option name="number" value="00430" />
+      <option name="presentableId" value="LOCAL-00430" />
       <option name="project" value="LOCAL" />
-      <updated>1546310131069</updated>
+      <updated>1550896120328</updated>
     </task>
-    <task id="LOCAL-00378" summary="plus">
-      <created>1546377880089</created>
-      <option name="number" value="00378" />
-      <option name="presentableId" value="LOCAL-00378" />
+    <task id="LOCAL-00431" summary="plus">
+      <created>1550957157217</created>
+      <option name="number" value="00431" />
+      <option name="presentableId" value="LOCAL-00431" />
       <option name="project" value="LOCAL" />
-      <updated>1546377880091</updated>
+      <updated>1550957157217</updated>
     </task>
-    <task id="LOCAL-00379" summary="plus">
-      <created>1546919100601</created>
-      <option name="number" value="00379" />
-      <option name="presentableId" value="LOCAL-00379" />
+    <task id="LOCAL-00432" summary="plus">
+      <created>1550971971056</created>
+      <option name="number" value="00432" />
+      <option name="presentableId" value="LOCAL-00432" />
       <option name="project" value="LOCAL" />
-      <updated>1546919100602</updated>
+      <updated>1550971971056</updated>
     </task>
-    <task id="LOCAL-00380" summary="plus">
-      <created>1546920824350</created>
-      <option name="number" value="00380" />
-      <option name="presentableId" value="LOCAL-00380" />
+    <task id="LOCAL-00433" summary="plus">
+      <created>1551062147555</created>
+      <option name="number" value="00433" />
+      <option name="presentableId" value="LOCAL-00433" />
       <option name="project" value="LOCAL" />
-      <updated>1546920824350</updated>
+      <updated>1551062147556</updated>
     </task>
-    <task id="LOCAL-00381" summary="plus">
-      <created>1547046972725</created>
-      <option name="number" value="00381" />
-      <option name="presentableId" value="LOCAL-00381" />
+    <task id="LOCAL-00434" summary="plus">
+      <created>1551308088942</created>
+      <option name="number" value="00434" />
+      <option name="presentableId" value="LOCAL-00434" />
       <option name="project" value="LOCAL" />
-      <updated>1547046972726</updated>
+      <updated>1551308088942</updated>
     </task>
-    <task id="LOCAL-00382" summary="plus">
-      <created>1547050441381</created>
-      <option name="number" value="00382" />
-      <option name="presentableId" value="LOCAL-00382" />
+    <task id="LOCAL-00435" summary="plus">
+      <created>1551308136358</created>
+      <option name="number" value="00435" />
+      <option name="presentableId" value="LOCAL-00435" />
       <option name="project" value="LOCAL" />
-      <updated>1547050441381</updated>
+      <updated>1551308136358</updated>
     </task>
-    <task id="LOCAL-00383" summary="plus">
-      <created>1547315480871</created>
-      <option name="number" value="00383" />
-      <option name="presentableId" value="LOCAL-00383" />
+    <task id="LOCAL-00436" summary="plus">
+      <created>1551310130919</created>
+      <option name="number" value="00436" />
+      <option name="presentableId" value="LOCAL-00436" />
       <option name="project" value="LOCAL" />
-      <updated>1547315480872</updated>
+      <updated>1551310130919</updated>
     </task>
-    <task id="LOCAL-00384" summary="plus">
-      <created>1547322280723</created>
-      <option name="number" value="00384" />
-      <option name="presentableId" value="LOCAL-00384" />
+    <task id="LOCAL-00437" summary="plus">
+      <created>1551426691694</created>
+      <option name="number" value="00437" />
+      <option name="presentableId" value="LOCAL-00437" />
       <option name="project" value="LOCAL" />
-      <updated>1547322280723</updated>
+      <updated>1551426691694</updated>
     </task>
-    <task id="LOCAL-00385" summary="plus">
-      <created>1547322440278</created>
-      <option name="number" value="00385" />
-      <option name="presentableId" value="LOCAL-00385" />
+    <task id="LOCAL-00438" summary="plus">
+      <created>1551558655539</created>
+      <option name="number" value="00438" />
+      <option name="presentableId" value="LOCAL-00438" />
       <option name="project" value="LOCAL" />
-      <updated>1547322440278</updated>
+      <updated>1551558655539</updated>
     </task>
-    <task id="LOCAL-00386" summary="plus">
-      <created>1547325680081</created>
-      <option name="number" value="00386" />
-      <option name="presentableId" value="LOCAL-00386" />
+    <task id="LOCAL-00439" summary="plus">
+      <created>1551582693838</created>
+      <option name="number" value="00439" />
+      <option name="presentableId" value="LOCAL-00439" />
       <option name="project" value="LOCAL" />
-      <updated>1547325680081</updated>
+      <updated>1551582693838</updated>
     </task>
-    <task id="LOCAL-00387" summary="plus">
-      <created>1547430554626</created>
-      <option name="number" value="00387" />
-      <option name="presentableId" value="LOCAL-00387" />
+    <task id="LOCAL-00440" summary="plus">
+      <created>1551667243830</created>
+      <option name="number" value="00440" />
+      <option name="presentableId" value="LOCAL-00440" />
       <option name="project" value="LOCAL" />
-      <updated>1547430554626</updated>
+      <updated>1551667243830</updated>
     </task>
-    <task id="LOCAL-00388" summary="plus">
-      <created>1547430599700</created>
-      <option name="number" value="00388" />
-      <option name="presentableId" value="LOCAL-00388" />
+    <task id="LOCAL-00441" summary="plus">
+      <created>1551736021880</created>
+      <option name="number" value="00441" />
+      <option name="presentableId" value="LOCAL-00441" />
       <option name="project" value="LOCAL" />
-      <updated>1547430599700</updated>
+      <updated>1551736021896</updated>
     </task>
-    <task id="LOCAL-00389" summary="plus">
-      <created>1547430626098</created>
-      <option name="number" value="00389" />
-      <option name="presentableId" value="LOCAL-00389" />
+    <task id="LOCAL-00442" summary="plus">
+      <created>1551920523329</created>
+      <option name="number" value="00442" />
+      <option name="presentableId" value="LOCAL-00442" />
       <option name="project" value="LOCAL" />
-      <updated>1547430626098</updated>
+      <updated>1551920523329</updated>
     </task>
-    <task id="LOCAL-00390" summary="plus">
-      <created>1547781626498</created>
-      <option name="number" value="00390" />
-      <option name="presentableId" value="LOCAL-00390" />
+    <task id="LOCAL-00443" summary="plus">
+      <created>1551935422559</created>
+      <option name="number" value="00443" />
+      <option name="presentableId" value="LOCAL-00443" />
       <option name="project" value="LOCAL" />
-      <updated>1547781626498</updated>
+      <updated>1551935422559</updated>
     </task>
-    <task id="LOCAL-00391" summary="plus">
-      <created>1547781677969</created>
-      <option name="number" value="00391" />
-      <option name="presentableId" value="LOCAL-00391" />
+    <task id="LOCAL-00444" summary="plus">
+      <created>1552098283372</created>
+      <option name="number" value="00444" />
+      <option name="presentableId" value="LOCAL-00444" />
       <option name="project" value="LOCAL" />
-      <updated>1547781677969</updated>
+      <updated>1552098283373</updated>
     </task>
-    <task id="LOCAL-00392" summary="plus">
-      <created>1548021927076</created>
-      <option name="number" value="00392" />
-      <option name="presentableId" value="LOCAL-00392" />
+    <task id="LOCAL-00445" summary="plus">
+      <created>1552099076923</created>
+      <option name="number" value="00445" />
+      <option name="presentableId" value="LOCAL-00445" />
       <option name="project" value="LOCAL" />
-      <updated>1548021927076</updated>
+      <updated>1552099076923</updated>
     </task>
-    <task id="LOCAL-00393" summary="plus">
-      <created>1548038799807</created>
-      <option name="number" value="00393" />
-      <option name="presentableId" value="LOCAL-00393" />
+    <task id="LOCAL-00446" summary="plus">
+      <created>1552099104568</created>
+      <option name="number" value="00446" />
+      <option name="presentableId" value="LOCAL-00446" />
       <option name="project" value="LOCAL" />
-      <updated>1548038799807</updated>
+      <updated>1552099104569</updated>
     </task>
-    <task id="LOCAL-00394" summary="plus">
-      <created>1548098804481</created>
-      <option name="number" value="00394" />
-      <option name="presentableId" value="LOCAL-00394" />
+    <task id="LOCAL-00447" summary="plus">
+      <created>1552286684118</created>
+      <option name="number" value="00447" />
+      <option name="presentableId" value="LOCAL-00447" />
       <option name="project" value="LOCAL" />
-      <updated>1548098804483</updated>
+      <updated>1552286684118</updated>
     </task>
-    <option name="localTasksCounter" value="395" />
+    <option name="localTasksCounter" value="448" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CodeQuestions_palandrome - 2019.01.20 at 12h 44m 58s.xml">
-      <configuration name="CodeQuestions.palandrome" configurationId="JUnit" />
+    <history-entry file="MorePracticeJava_Test - 2019.03.08 at 18h 24m 21s.xml">
+      <configuration name="MorePracticeJava.Test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Practice - 2019.01.20 at 12h 46m 50s.xml">
-      <configuration name="Practice" configurationId="JUnit" />
+    <history-entry file="MorePracticeJava_addPairs - 2019.03.11 at 18h 12m 38s.xml">
+      <configuration name="MorePracticeJava.addPairs" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Practice - 2019.01.20 at 18h 43m 36s.xml">
-      <configuration name="Practice" configurationId="JUnit" />
+    <history-entry file="MorePracticeJava_addPairs - 2019.03.11 at 18h 12m 56s.xml">
+      <configuration name="MorePracticeJava.addPairs" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Practice - 2019.01.20 at 18h 44m 57s.xml">
-      <configuration name="Practice" configurationId="JUnit" />
+    <history-entry file="MorePracticeJava_addPairs - 2019.03.11 at 18h 25m 42s.xml">
+      <configuration name="MorePracticeJava.addPairs" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Selenium2_TestSelect - 2018.08.28 at 15h 22m 48s.xml">
-      <configuration name="Selenium2.TestSelect" configurationId="JUnit" />
+    <history-entry file="MorePracticeJava_addPairs - 2019.03.11 at 18h 46m 10s.xml">
+      <configuration name="MorePracticeJava.addPairs" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Selenium2_TestSelect - 2018.09.03 at 19h 45m 12s.xml">
-      <configuration name="Selenium2.TestSelect" configurationId="JUnit" />
+    <history-entry file="MorePracticeJava_reverseWords - 2019.03.06 at 17h 14m 00s.xml">
+      <configuration name="MorePracticeJava.reverseWords" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SeleniumQuestions - 2018.09.05 at 07h 31m 19s.xml">
-      <configuration name="SeleniumQuestions" configurationId="JUnit" />
+    <history-entry file="MorePracticeJava_reverseWords - 2019.03.06 at 17h 14m 58s.xml">
+      <configuration name="MorePracticeJava.reverseWords" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SeleniumQuestions - 2018.10.29 at 13h 54m 38s.xml">
-      <configuration name="SeleniumQuestions" configurationId="JUnit" />
+    <history-entry file="MorePracticeJava_reverseWords - 2019.03.06 at 17h 19m 36s.xml">
+      <configuration name="MorePracticeJava.reverseWords" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SeleniumQuestions - 2018.10.31 at 14h 51m 49s.xml">
-      <configuration name="SeleniumQuestions" configurationId="JUnit" />
+    <history-entry file="MorePracticeJava_reverseWords - 2019.03.06 at 17h 21m 50s.xml">
+      <configuration name="MorePracticeJava.reverseWords" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Selenium_openBrowser - 2018.10.29 at 13h 51m 42s.xml">
-      <configuration name="Selenium.openBrowser" configurationId="JUnit" />
+    <history-entry file="MorePracticeJava_reverseWords - 2019.03.06 at 17h 22m 08s.xml">
+      <configuration name="MorePracticeJava.reverseWords" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -1037,32 +1072,32 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1885" y="-393" width="1870" height="1112" extended-state="0" />
+    <frame x="-1869" y="-376" width="1870" height="1112" extended-state="0" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32921812" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.218107" sideWeight="0.41601345" order="9" side_tool="false" content_ui="tabs" x="71" y="369" width="1786" height="309" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="right" auto_hide="true" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.3287827" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293018" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2510288" sideWeight="0.5839866" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3281893" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.40329218" sideWeight="0.5839866" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3281893" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19471948" sideWeight="0.5427215" order="5" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19471948" sideWeight="0.5427215" order="5" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24958768" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2191358" sideWeight="0.41601345" order="9" side_tool="false" content_ui="tabs" x="71" y="369" width="1786" height="309" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2449187" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
@@ -1102,7 +1137,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="14" />
+      <option name="time" value="18" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1111,28 +1146,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../MontereyProject01/src/main/java/InterFace/Max.java" />
-    <entry file="jar://$PROJECT_DIR$/../Program Files/Java/jdk1.8.0_144/src.zip!/java/lang/Comparable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="135" column="15" lean-forward="false" selection-start-line="135" selection-start-column="15" selection-end-line="135" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../MontereyProject01/src/main/java/AbstractClasses/GeometricObject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="22" lean-forward="false" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../MontereyProject01/src/main/java/AbstractClasses/Circle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="756">
-          <caret line="42" column="4" lean-forward="false" selection-start-line="42" selection-start-column="4" selection-end-line="42" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../MontereyProject01/src/main/java/AbstractClasses/TestGeometricObject.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -1141,13 +1154,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../MontereyProject01/src/main/java/SeleniumTests.java" />
-    <entry file="file://$PROJECT_DIR$/../MontereyProject01/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="670">
-          <caret line="72" column="0" lean-forward="false" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../MontereyProject01/src/main/java/InterFace/Animala.java" />
     <entry file="file://$PROJECT_DIR$/../MontereyProject01/src/main/java/InterFace/ComparableStuff.java" />
     <entry file="file://$PROJECT_DIR$/../MontereyProject01/src/test/java/InterFace/AnimalsTest.java" />
@@ -1264,13 +1270,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../MontereyProject01/src/main/java/baseClass/BaseClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../MontereyProject01/src/main/java/interview/questions/SeleniumQuestions.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="558">
@@ -1328,17 +1327,71 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../MontereyProject01/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="41" column="34" lean-forward="true" selection-start-line="41" selection-start-column="34" selection-end-line="41" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/../MontereyProject01/src/main/java/sratchpad/HeadlessBrowserTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        <state relative-caret-position="288">
+          <caret line="23" column="17" lean-forward="false" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../MontereyProject01/src/main/java/PracticeJava.java" />
+    <entry file="file://$PROJECT_DIR$/../MontereyProject01/src/main/java/selenium/practice/Practice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="16" column="4" lean-forward="false" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../MontereyProject01/src/main/java/interview/questions/CodeQuestions.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1224">
-          <caret line="76" column="65" lean-forward="false" selection-start-line="76" selection-start-column="65" selection-end-line="76" selection-end-column="65" />
+        <state relative-caret-position="0">
+          <caret line="7" column="19" lean-forward="false" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../MontereyProject01/src/main/java/baseClass/BaseClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="7" lean-forward="false" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../MontereyProject01/src/main/java/stackQueue/Queue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../MontereyProject01/src/main/java/MorePracticeJava.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="22" column="35" lean-forward="false" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../MontereyProject01/src/main/java/queue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1351,21 +1404,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../MontereyProject01/src/main/java/stackQueue/Queue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="25" column="25" lean-forward="false" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../MontereyProject01/src/main/java/selenium/practice/Practice.java">
+    <entry file="file://$PROJECT_DIR$/../MontereyProject01/src/main/java/LinkedListIterator/StringLinkedListWithIterator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
-          <caret line="20" column="76" lean-forward="false" selection-start-line="20" selection-start-column="76" selection-end-line="20" selection-end-column="76" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <caret line="20" column="39" lean-forward="true" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
+          <folding />
         </state>
       </provider>
     </entry>
