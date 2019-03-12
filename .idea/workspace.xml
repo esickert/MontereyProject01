@@ -6,35 +6,8 @@
     <bookmark url="file://$PROJECT_DIR$/../MontereyProject01/src/main/java/com/esickert/Playground.java" line="59" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="078280d5-5042-4862-850d-0c24f97ab4a9" name="Default" comment="plus">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../MontereyProject01/src/main/java/PracticeJava.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../MontereyProject01/target/classes/AbstractClasses/Circle.class" afterPath="$PROJECT_DIR$/../MontereyProject01/target/classes/AbstractClasses/Circle.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../MontereyProject01/target/classes/AbstractClasses/GeometricObject.class" afterPath="$PROJECT_DIR$/../MontereyProject01/target/classes/AbstractClasses/GeometricObject.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../MontereyProject01/target/classes/AbstractClasses/TestGeometricObject.class" afterPath="$PROJECT_DIR$/../MontereyProject01/target/classes/AbstractClasses/TestGeometricObject.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../MontereyProject01/target/classes/LinkedListIterator/Node.class" afterPath="$PROJECT_DIR$/../MontereyProject01/target/classes/LinkedListIterator/Node.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../MontereyProject01/target/classes/LinkedListIterator/StringLinkedListWithIterator.class" afterPath="$PROJECT_DIR$/../MontereyProject01/target/classes/LinkedListIterator/StringLinkedListWithIterator.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../MontereyProject01/target/classes/LinkedListIterator/TheLinkedListWithIteratorItself.class" afterPath="$PROJECT_DIR$/../MontereyProject01/target/classes/LinkedListIterator/TheLinkedListWithIteratorItself.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../MontereyProject01/target/classes/NodeInnerClass/IntLinkedList$Node.class" afterPath="$PROJECT_DIR$/../MontereyProject01/target/classes/NodeInnerClass/IntLinkedList$Node.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../MontereyProject01/target/classes/NodeInnerClass/IntLinkedList.class" afterPath="$PROJECT_DIR$/../MontereyProject01/target/classes/NodeInnerClass/IntLinkedList.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../MontereyProject01/target/classes/NodeInnerClass/TheLinkedList.class" afterPath="$PROJECT_DIR$/../MontereyProject01/target/classes/NodeInnerClass/TheLinkedList.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../MontereyProject01/target/classes/SingleLinkedList/LinkedListMethods.class" afterPath="$PROJECT_DIR$/../MontereyProject01/target/classes/SingleLinkedList/LinkedListMethods.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../MontereyProject01/target/classes/SingleLinkedList/Node.class" afterPath="$PROJECT_DIR$/../MontereyProject01/target/classes/SingleLinkedList/Node.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../MontereyProject01/target/classes/SingleLinkedList/TheLinkedList.class" afterPath="$PROJECT_DIR$/../MontereyProject01/target/classes/SingleLinkedList/TheLinkedList.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../MontereyProject01/target/classes/TDD/Addition.class" afterPath="$PROJECT_DIR$/../MontereyProject01/target/classes/TDD/Addition.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../MontereyProject01/target/classes/TDD/Mathematics.class" afterPath="$PROJECT_DIR$/../MontereyProject01/target/classes/TDD/Mathematics.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../MontereyProject01/target/classes/TDD/Multiplication.class" afterPath="$PROJECT_DIR$/../MontereyProject01/target/classes/TDD/Multiplication.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../MontereyProject01/target/classes/TDD/Subtraction.class" afterPath="$PROJECT_DIR$/../MontereyProject01/target/classes/TDD/Subtraction.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../MontereyProject01/target/classes/baseClass/BaseClass.class" afterPath="$PROJECT_DIR$/../MontereyProject01/target/classes/baseClass/BaseClass.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../MontereyProject01/target/classes/com/esickert/MontereyProjectCheck.class" afterPath="$PROJECT_DIR$/../MontereyProject01/target/classes/com/esickert/MontereyProjectCheck.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../MontereyProject01/target/classes/com/esickert/Playground.class" afterPath="$PROJECT_DIR$/../MontereyProject01/target/classes/com/esickert/Playground.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../MontereyProject01/target/classes/interview/questions/CodeQuestions.class" afterPath="$PROJECT_DIR$/../MontereyProject01/target/classes/interview/questions/CodeQuestions.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../MontereyProject01/target/classes/interview/questions/SeleniumQuestions.class" afterPath="$PROJECT_DIR$/../MontereyProject01/target/classes/interview/questions/SeleniumQuestions.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../MontereyProject01/target/classes/seleniumTestEnv/capabilities.class" afterPath="$PROJECT_DIR$/../MontereyProject01/target/classes/seleniumTestEnv/capabilities.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../MontereyProject01/target/classes/sratchpad/HeadlessBrowserTest.class" afterPath="$PROJECT_DIR$/../MontereyProject01/target/classes/sratchpad/HeadlessBrowserTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../MontereyProject01/target/test-classes/TDD/MathematicsTest.class" afterPath="$PROJECT_DIR$/../MontereyProject01/target/test-classes/TDD/MathematicsTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../MontereyProject01/target/test-classes/baseClass/InvalidLogin.class" afterPath="$PROJECT_DIR$/../MontereyProject01/target/test-classes/baseClass/InvalidLogin.class" />
+    <list default="true" id="078280d5-5042-4862-850d-0c24f97ab4a9" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../MontereyProject01/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../MontereyProject01/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../MontereyProject01/src/main/java/MorePracticeJava.java" afterPath="$PROJECT_DIR$/../MontereyProject01/src/main/java/MorePracticeJava.java" />
     </list>
     <ignored path="$PROJECT_DIR$/../MontereyProject01/out/" />
     <ignored path="$PROJECT_DIR$/../MontereyProject01/target/" />
@@ -684,13 +657,6 @@
       <option name="presentableId" value="Default" />
       <updated>1520195848238</updated>
     </task>
-    <task id="LOCAL-00399" summary="plus">
-      <created>1548555284630</created>
-      <option name="number" value="00399" />
-      <option name="presentableId" value="LOCAL-00399" />
-      <option name="project" value="LOCAL" />
-      <updated>1548555284630</updated>
-    </task>
     <task id="LOCAL-00400" summary="plus">
       <created>1548576451170</created>
       <option name="number" value="00400" />
@@ -1027,7 +993,14 @@
       <option name="project" value="LOCAL" />
       <updated>1552286684118</updated>
     </task>
-    <option name="localTasksCounter" value="448" />
+    <task id="LOCAL-00448" summary="plus">
+      <created>1552355228621</created>
+      <option name="number" value="00448" />
+      <option name="presentableId" value="LOCAL-00448" />
+      <option name="project" value="LOCAL" />
+      <updated>1552355228621</updated>
+    </task>
+    <option name="localTasksCounter" value="449" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1365,7 +1338,7 @@
         <state relative-caret-position="36">
           <caret line="2" column="7" lean-forward="false" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
