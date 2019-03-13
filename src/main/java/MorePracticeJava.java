@@ -20,7 +20,7 @@ public void Test()  {
 
     Map<Integer, Integer> pairs = new HashMap<>();
 
-    for (int i = 0; i <= a.length-1; i++) {
+    for (int i = 0; i < a.length-1; i++) {
         if (pairs.containsKey(sum - a[i]))
             System.out.println("(" + a[i] + ":" + (sum - a[i]) + "}");
         else
@@ -29,13 +29,17 @@ public void Test()  {
 }
 
 @Test
-    public void palidrome() {
-
+ public void palidrome() {
     String word = "the beginning";
     String temp = "";
 
-    
+    for (int i = word.length()-1; i >= 0; i--) {
+        temp = temp + word.substring(i, i + 1);
+        System.out.println(temp);
+    }
+    System.out.println(temp);
 }
 
-            )
+
+
 }
