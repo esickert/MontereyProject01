@@ -27,4 +27,15 @@ public void Test()  {
             pairs.put(a[i], 0);
     }
 }
+
+@Test
+    public void palidrome() {
+
+    String word = "the beginning";
+    String temp = "";
+
+    
+}
+
+            )
 }
