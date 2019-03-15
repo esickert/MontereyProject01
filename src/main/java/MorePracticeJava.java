@@ -28,7 +28,7 @@ public void Test()  {
     }
 }
 
-//*******************************************
+//****************************************
 @Test
  public void palidrome() {
     String word = "the beginning";
