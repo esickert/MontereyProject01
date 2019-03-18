@@ -57,10 +57,13 @@ public class MorePracticeJava {
             b = c;
         }
     }
-
+//*************************************************
+    
     @Test public void fibR()  {
         int num = 10;
-        System.out.printfib(num);
+        for(int i = 0; i <= 10; i++) {
+            System.out.print(fib(i) + " ");
+        }
     }
 
     public int fib(int x) {
