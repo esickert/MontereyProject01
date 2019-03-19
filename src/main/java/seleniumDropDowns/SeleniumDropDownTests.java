@@ -16,15 +16,15 @@ import static org.openqa.selenium.By.xpath;
 
 public class SeleniumDropDownTests {
 
-//CHECK SELENIUM OS SETUP BELOW FOR WINDOWS OR LINUX!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+//CHECK SELENIUM OS SETUP BELOW FOR WINDOWS OR LINUX!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*******
     @Test
-    public void TestSelect()  {
+    public void TestSelect()  {   //This doesn't work.!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
     // login to Monster website
-//        System.setProperty("webdriver.chrome.driver", "/usr/local/google/home/sickert/SeleniumDrivers/chromedriver");
+        System.setProperty("webdriver.chrome.driver", "/usr/local/google/home/sickert/SeleniumDrivers/chromedriver");
         WebDriver driver = new ChromeDriver();
 //        driver.get("https://developer.mozilla.org/en-US/docs/Web/HTML/Element/select");
- //       driver.get("http:esickert.github.io");
+        driver.get("http:esickert.github.io");
         driver.manage().window().maximize();
 
     //open and select options in dropdown menu using the Select class.
