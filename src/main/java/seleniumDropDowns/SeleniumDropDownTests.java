@@ -21,7 +21,7 @@ public class SeleniumDropDownTests {
     public void TestSelect()  {   //This doesn't work.!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
     // login to Monster website
-        System.setProperty("webdriver.chrome.driver", "/usr/local/google/home/sickert/SeleniumDrivers/chromedriver");
+        System.setProperty("webdriver.chrome.driver", "c:\\SeleniumDrivers\\chromedriver.exe");
         WebDriver driver = new ChromeDriver();
 //        driver.get("https://developer.mozilla.org/en-US/docs/Web/HTML/Element/select");
         driver.get("http:esickert.github.io");
