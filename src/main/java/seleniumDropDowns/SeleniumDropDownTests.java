@@ -16,7 +16,6 @@ import static org.openqa.selenium.By.xpath;
 
 public class SeleniumDropDownTests {
 
-//CHECK SELENIUM OS SETUP BELOW FOR WINDOWS OR LINUX!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!**
     @Test
     public void TestSelect()  {   //This doesn't work.!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
