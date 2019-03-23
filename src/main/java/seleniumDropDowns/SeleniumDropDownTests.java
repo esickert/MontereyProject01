@@ -22,8 +22,8 @@ public class SeleniumDropDownTests {
     // login to Monster website
         System.setProperty("webdriver.chrome.driver", "c:\\SeleniumDrivers\\chromedriver.exe");
         WebDriver driver = new ChromeDriver();
-//        driver.get("https://developer.mozilla.org/en-US/docs/Web/HTML/Element/select");
-        driver.get("http:esickert.github.io");
+        driver.get("https://developer.mozilla.org/en-US/docs/Web/HTML/Element/select");
+//        driver.get("http:esickert.github.io");
         driver.manage().window().maximize();
 
     //open and select options in dropdown menu using the Select class.
