@@ -17,7 +17,7 @@ import static org.openqa.selenium.By.xpath;
 public class SeleniumDropDownTests {
 
     @Test
-    public void TestSelect()  {   //This doesn't work.!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+    public void TestSelect()  {   
 
     // login to Monster website
         System.setProperty("webdriver.chrome.driver", "c:\\SeleniumDrivers\\chromedriver.exe");
