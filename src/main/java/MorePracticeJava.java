@@ -58,7 +58,7 @@ public class MorePracticeJava {
         }
     }
 //*************************************************
-    
+
     @Test public void fibR()  {
         int num = 10;
         for(int i = 0; i <= 10; i++) {
