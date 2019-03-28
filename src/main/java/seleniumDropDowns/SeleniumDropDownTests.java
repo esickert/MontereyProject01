@@ -8,6 +8,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.Select;
+import org.testng.*;
 
 import java.io.IOException;
 import java.util.List;
@@ -56,7 +57,7 @@ public class SeleniumDropDownTests {
         }
         WebElement x = drop.getFirstSelectedOption();
         System.out.println("Line 68: " +  x.getText());
-        Assert.assertEquals(x.getText(), "Firs Value");
+        Assert.assertEquals(x.getText(), "First Value");
         try {
             Thread.sleep(3000);
         }
