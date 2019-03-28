@@ -56,7 +56,7 @@ public class SeleniumDropDownTests {
         }
         WebElement x = drop.getFirstSelectedOption();
         System.out.println("Line 68: " +  x.getText());
-        Assert.assertEquals(x.getText(), "First Value");
+        Assert.assertEquals(x.getText(), "Firs Value");
         try {
             Thread.sleep(3000);
         }
