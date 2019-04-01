@@ -51,7 +51,7 @@ import static org.testng.AssertJUnit.assertEquals;
         //  Palindrome
         @Test
         public void palandrome() {
-            String x = "abcdcb";
+            String x = "abcdcba";
             String temp = "";
             for (int i = x.length() - 1; i >= 0; i--) {
                 temp = temp + x.substring(i, i + 1);
