@@ -47,7 +47,7 @@ import static org.testng.AssertJUnit.assertEquals;
                 return (fib(x - 1) + fib(x - 2));
         }
 
-        //****************************************************
+        //****************************************************//
         //  Palindrome
         @Test
         public void palandrome() {
