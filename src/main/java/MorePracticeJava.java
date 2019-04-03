@@ -3,6 +3,7 @@ import org.junit.Test;
 
 import java.util.HashMap;
 import java.util.Map;
+import java.util.*;
 
 public class MorePracticeJava {
 
@@ -72,6 +73,19 @@ public class MorePracticeJava {
             return x;
         else
             return fib(x-1) + fib(x-2);
+    }
+
+    public class Queue  {
+        public static void main()   {
+
+            Stack<Integer> stk1 = new Stack<>();
+            Stack<Integer> stk2 = new Stack<>();
+
+            public void mySize()    {
+
+                
+            }
+        }
     }
 
 }
