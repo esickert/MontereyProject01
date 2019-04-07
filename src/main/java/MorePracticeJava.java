@@ -75,7 +75,7 @@ public class MorePracticeJava {
             return fib(x-1) + fib(x-2);
     }
 
-//*************************************************
+//*********************************************
     @Test
     public class Queue  {  // this si a class . Can't do this here!!!!!!!!!!!!!!!!!!!!!! the class is class morePracticeJava
         public static void main()   {  // cant have main here!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
