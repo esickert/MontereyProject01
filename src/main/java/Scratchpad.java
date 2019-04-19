@@ -15,6 +15,4 @@ public class Scratchpad {
         System.out.println("This is a now: " + a);
         System.out.println("This is b now: " + b);
     }
-
-
 }
