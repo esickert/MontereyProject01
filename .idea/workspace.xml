@@ -7,7 +7,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="078280d5-5042-4862-850d-0c24f97ab4a9" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../MontereyProject01/src/main/java/MorePracticeJava.java" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../MontereyProject01/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../MontereyProject01/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/../MontereyProject01/out/" />
@@ -21,11 +20,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="CodeQuestions.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CodeQuestions.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../MontereyProject01/src/main/java/interview/questions/CodeQuestions.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-3816">
-              <caret line="76" column="61" lean-forward="false" selection-start-line="76" selection-start-column="61" selection-end-line="76" selection-end-column="61" />
+            <state relative-caret-position="3132">
+              <caret line="182" column="74" lean-forward="false" selection-start-line="182" selection-start-column="74" selection-end-line="182" selection-end-column="74" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Scratchpad.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../MontereyProject01/src/main/java/Scratchpad.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="324">
+              <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -38,8 +47,8 @@
       <list>
         <option value="Interface" />
         <option value="JUnit4 Test Class" />
-        <option value="Class" />
         <option value="package-info" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -61,7 +70,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/../MontereyProject01/src/main/java/collections/framework/wu/NPSArrayList.java" />
         <option value="$PROJECT_DIR$/../MontereyProject01/src/main/java/webdriver/SeleniumWebdriver.java" />
         <option value="$PROJECT_DIR$/../MontereyProject01/src/main/java/com/selenium/OpenChrome.java" />
         <option value="$PROJECT_DIR$/../MontereyProject01/src/main/java/sratchpad/ForTesting.java" />
@@ -109,9 +117,10 @@
         <option value="$PROJECT_DIR$/../MontereyProject01/src/main/java/stack.java" />
         <option value="$PROJECT_DIR$/../MontereyProject01/src/main/java/selenium/practice/Practice.java" />
         <option value="$PROJECT_DIR$/../MontereyProject01/src/main/java/seleniumDropDowns/SeleniumDropDownTests.java" />
-        <option value="$PROJECT_DIR$/../MontereyProject01/src/main/java/interview/questions/CodeQuestions.java" />
         <option value="$PROJECT_DIR$/../MontereyProject01/src/main/java/MorePracticeJava.java" />
         <option value="$PROJECT_DIR$/../MontereyProject01/src/main/java/com/esickert/Selenium.java" />
+        <option value="$PROJECT_DIR$/../MontereyProject01/src/main/java/interview/questions/CodeQuestions.java" />
+        <option value="$PROJECT_DIR$/../MontereyProject01/src/main/java/Scratchpad.java" />
       </list>
     </option>
   </component>
@@ -187,10 +196,10 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="AndroidView" />
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -399,7 +408,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.MorePracticeJava.fibR">
+  <component name="RunManager" selected="JUnit.Scratchpad.Switch">
     <configuration name="CodeQuestions.palandrome" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -425,7 +434,7 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="MorePracticeJava.fibR" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MorePracticeJava.fibR" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="MontereyProject01" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -433,6 +442,26 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="MorePracticeJava" />
       <option name="METHOD_NAME" value="fibR" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="Scratchpad.Switch" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="MontereyProject01" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Scratchpad" />
+      <option name="METHOD_NAME" value="Switch" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -601,16 +630,17 @@
       <properties />
       <listeners />
     </configuration>
-    <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.SeleniumDropDownTests.TestSelect" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.SeleniumDropDownTests" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.Selenium" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.CodeQuestions.palandrome" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.MorePracticeJava.fibR" />
+    <list size="6">
+      <item index="0" class="java.lang.String" itemvalue="JUnit.MorePracticeJava.fibR" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.SeleniumDropDownTests.TestSelect" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.SeleniumDropDownTests" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.Selenium" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.CodeQuestions.palandrome" />
+      <item index="5" class="java.lang.String" itemvalue="JUnit.Scratchpad.Switch" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.MorePracticeJava.fibR" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.Scratchpad.Switch" />
         <item index="1" class="java.lang.String" itemvalue="JUnit.CodeQuestions.palandrome" />
         <item index="2" class="java.lang.String" itemvalue="JUnit.SeleniumDropDownTests" />
         <item index="3" class="java.lang.String" itemvalue="JUnit.SeleniumDropDownTests.TestSelect" />
@@ -631,55 +661,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1520195848238</updated>
-    </task>
-    <task id="LOCAL-00449" summary="plus">
-      <created>1552364483657</created>
-      <option name="number" value="00449" />
-      <option name="presentableId" value="LOCAL-00449" />
-      <option name="project" value="LOCAL" />
-      <updated>1552364483657</updated>
-    </task>
-    <task id="LOCAL-00450" summary="plus">
-      <created>1552364512097</created>
-      <option name="number" value="00450" />
-      <option name="presentableId" value="LOCAL-00450" />
-      <option name="project" value="LOCAL" />
-      <updated>1552364512097</updated>
-    </task>
-    <task id="LOCAL-00451" summary="plus">
-      <created>1552437659341</created>
-      <option name="number" value="00451" />
-      <option name="presentableId" value="LOCAL-00451" />
-      <option name="project" value="LOCAL" />
-      <updated>1552437659341</updated>
-    </task>
-    <task id="LOCAL-00452" summary="plus">
-      <created>1552438028118</created>
-      <option name="number" value="00452" />
-      <option name="presentableId" value="LOCAL-00452" />
-      <option name="project" value="LOCAL" />
-      <updated>1552438028118</updated>
-    </task>
-    <task id="LOCAL-00453" summary="plus">
-      <created>1552438059586</created>
-      <option name="number" value="00453" />
-      <option name="presentableId" value="LOCAL-00453" />
-      <option name="project" value="LOCAL" />
-      <updated>1552438059586</updated>
-    </task>
-    <task id="LOCAL-00454" summary="plus">
-      <created>1552623248130</created>
-      <option name="number" value="00454" />
-      <option name="presentableId" value="LOCAL-00454" />
-      <option name="project" value="LOCAL" />
-      <updated>1552623248131</updated>
-    </task>
-    <task id="LOCAL-00455" summary="plus">
-      <created>1552623299540</created>
-      <option name="number" value="00455" />
-      <option name="presentableId" value="LOCAL-00455" />
-      <option name="project" value="LOCAL" />
-      <updated>1552623299540</updated>
     </task>
     <task id="LOCAL-00456" summary="plus">
       <created>1552669746468</created>
@@ -975,18 +956,67 @@
       <option name="project" value="LOCAL" />
       <updated>1555104366286</updated>
     </task>
-    <option name="localTasksCounter" value="498" />
+    <task id="LOCAL-00498" summary="plus">
+      <created>1555111874461</created>
+      <option name="number" value="00498" />
+      <option name="presentableId" value="LOCAL-00498" />
+      <option name="project" value="LOCAL" />
+      <updated>1555111874461</updated>
+    </task>
+    <task id="LOCAL-00499" summary="plus">
+      <created>1555191962082</created>
+      <option name="number" value="00499" />
+      <option name="presentableId" value="LOCAL-00499" />
+      <option name="project" value="LOCAL" />
+      <updated>1555191962083</updated>
+    </task>
+    <task id="LOCAL-00500" summary="plus">
+      <created>1555277633211</created>
+      <option name="number" value="00500" />
+      <option name="presentableId" value="LOCAL-00500" />
+      <option name="project" value="LOCAL" />
+      <updated>1555277633211</updated>
+    </task>
+    <task id="LOCAL-00501" summary="plus">
+      <created>1555392807964</created>
+      <option name="number" value="00501" />
+      <option name="presentableId" value="LOCAL-00501" />
+      <option name="project" value="LOCAL" />
+      <updated>1555392807965</updated>
+    </task>
+    <task id="LOCAL-00502" summary="plus">
+      <created>1555482484824</created>
+      <option name="number" value="00502" />
+      <option name="presentableId" value="LOCAL-00502" />
+      <option name="project" value="LOCAL" />
+      <updated>1555482484824</updated>
+    </task>
+    <task id="LOCAL-00503" summary="plus">
+      <created>1555646578343</created>
+      <option name="number" value="00503" />
+      <option name="presentableId" value="LOCAL-00503" />
+      <option name="project" value="LOCAL" />
+      <updated>1555646578346</updated>
+    </task>
+    <task id="LOCAL-00504" summary="plus">
+      <created>1555646638811</created>
+      <option name="number" value="00504" />
+      <option name="presentableId" value="LOCAL-00504" />
+      <option name="project" value="LOCAL" />
+      <updated>1555646638811</updated>
+    </task>
+    <option name="localTasksCounter" value="505" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CodeQuestions_palandrome - 2019.03.31 at 14h 35m 25s.xml">
-      <configuration name="CodeQuestions.palandrome" configurationId="JUnit" />
+    <history-entry file="Scratchpad_Switch - 2019.04.18 at 08h 11m 18s.xml">
+      <configuration name="Scratchpad.Switch" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CodeQuestions_palandrome - 2019.03.31 at 22h 20m 02s.xml">
-      <configuration name="CodeQuestions.palandrome" configurationId="JUnit" />
+    <history-entry file="Scratchpad_Switch - 2019.04.18 at 08h 11m 41s.xml">
+      <configuration name="Scratchpad.Switch" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SeleniumDropDownTests - 2019.03.27 at 17h 22m 32s.xml">
-      <configuration name="SeleniumDropDownTests" configurationId="JUnit" />
+    <history-entry file="Scratchpad_Switch - 2019.04.18 at 08h 36m 44s.xml">
+      <configuration name="Scratchpad.Switch" configurationId="JUnit" />
     </history-entry>
     <history-entry file="SeleniumDropDownTests - 2019.03.27 at 17h 34m 06s.xml">
       <configuration name="SeleniumDropDownTests" configurationId="JUnit" />
@@ -1045,7 +1075,7 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.218107" sideWeight="0.41601345" order="9" side_tool="false" content_ui="tabs" x="71" y="369" width="1786" height="309" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.218107" sideWeight="0.41601345" order="9" side_tool="false" content_ui="tabs" x="71" y="369" width="1786" height="309" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2449187" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
@@ -1094,8 +1124,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../MontereyProject01/src/main/java/InterFace/Animala.java" />
-    <entry file="file://$PROJECT_DIR$/../MontereyProject01/src/main/java/InterFace/ComparableStuff.java" />
     <entry file="file://$PROJECT_DIR$/../MontereyProject01/src/test/java/InterFace/AnimalsTest.java" />
     <entry file="file://$PROJECT_DIR$/../MontereyProject01/src/main/java/InterFace/Animals.java" />
     <entry file="file://$PROJECT_DIR$/../MontereyProject01/src/main/java/InterFace/Apple.java" />
@@ -1193,13 +1221,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
           <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../MontereyProject01/src/main/java/com/esickert/Selenium2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1311,27 +1332,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../MontereyProject01/src/main/java/MorePracticeJava.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="31" column="46" lean-forward="false" selection-start-line="31" selection-start-column="46" selection-end-line="31" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../MontereyProject01/src/main/java/AbstractClasses/package-info.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../MontereyProject01/src/main/java/MorePracticeJava.java" />
+    <entry file="file://$PROJECT_DIR$/../MontereyProject01/src/main/java/AbstractClasses/package-info.java" />
     <entry file="file://$PROJECT_DIR$/../MontereyProject01/src/main/java/com/esickert/Selenium.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="630">
           <caret line="40" column="119" lean-forward="false" selection-start-line="40" selection-start-column="119" selection-end-line="40" selection-end-column="119" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1339,14 +1345,35 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
           <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../MontereyProject01/src/main/java/com/esickert/Selenium2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/ide/ide-scripting.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../MontereyProject01/src/main/java/interview/questions/CodeQuestions.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3816">
-          <caret line="76" column="61" lean-forward="false" selection-start-line="76" selection-start-column="61" selection-end-line="76" selection-end-column="61" />
+        <state relative-caret-position="3132">
+          <caret line="182" column="74" lean-forward="false" selection-start-line="182" selection-start-column="74" selection-end-line="182" selection-end-column="74" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../MontereyProject01/src/main/java/Scratchpad.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
           <folding />
         </state>
       </provider>
