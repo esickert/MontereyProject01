@@ -16,5 +16,5 @@ public class Scratchpad {
         System.out.println("This is b now: " + b);
     }
 
-    @Test
+
 }
