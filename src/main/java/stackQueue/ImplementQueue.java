@@ -11,7 +11,7 @@ public class ImplementQueue {
 
         myQueue.enqueue(100);
         myQueue.enqueue(200);
-        myQueue.enqueue(300);
+        myQueue.enqueue(300);//*****
         //************************************************************
         System.out.println(myQueue.size());
         System.out.println(myQueue.dequeue());
