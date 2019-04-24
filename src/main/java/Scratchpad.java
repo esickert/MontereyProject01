@@ -17,8 +17,9 @@ public class Scratchpad {
         System.out.println("This is b now: " + b);
     }
 
-    @Test
+ /*   @Test
     public void IOfile()    {
 
-        File filename = new File("c:\\temp\\file.txt"}
+        File filename = new File("c:\\temp\\file.txt"};
+*/
 }
