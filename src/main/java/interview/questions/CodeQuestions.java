@@ -47,7 +47,7 @@ import static org.testng.AssertJUnit.assertEquals;
                 return (fib(x - 1) + fib(x - 2));
         }
 
-        //****************************************************//
+        //****************************************************//*******
         //  Palindrome
         @Test
         public void palandrome() {
@@ -365,7 +365,7 @@ import static org.testng.AssertJUnit.assertEquals;
         }
 //*******************************************************************
         @Test
-        public void stringArraysCharacters()    {  // interview question for VideoSlick()
+        public void stringArraysCharacters()    {  // interview question for VideoSlick(). This is not finished
 
             String[] pets = {"dog", "cat", "Bird"};
             String[] colors = {"blue", "red", "yellow"};
