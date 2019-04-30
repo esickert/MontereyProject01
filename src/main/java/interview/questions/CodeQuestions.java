@@ -394,8 +394,8 @@ import static org.testng.AssertJUnit.assertEquals;
         }
 
 //**********************************************************
-//this does work
-        @Test
+//this does work. It creates a file, writes to it then close it
+//     @Test
         public void writeToFile()   {
 
             String myFile = "C:\\Temp\\erich.txt";
