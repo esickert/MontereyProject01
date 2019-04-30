@@ -23,8 +23,8 @@
       <file leaf-file-name="CodeQuestions.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../MontereyProject01/src/main/java/interview/questions/CodeQuestions.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="219">
-              <caret line="365" column="65" lean-forward="false" selection-start-line="365" selection-start-column="65" selection-end-line="365" selection-end-column="65" />
+            <state relative-caret-position="111">
+              <caret line="389" column="57" lean-forward="false" selection-start-line="389" selection-start-column="57" selection-end-line="389" selection-end-column="57" />
               <folding />
             </state>
           </provider>
@@ -186,9 +186,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="AndroidView" />
-      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -356,7 +356,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -398,7 +398,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.CodeQuestions.reverseWords">
+  <component name="RunManager" selected="JUnit.CodeQuestions.writeToFile">
     <configuration name="CodeQuestions.aList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -424,31 +424,6 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="CodeQuestions.palandrome" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="interview.questions.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="MontereyProject01" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="interview.questions" />
-      <option name="MAIN_CLASS_NAME" value="interview.questions.CodeQuestions" />
-      <option name="METHOD_NAME" value="palandrome" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
     <configuration name="CodeQuestions.reverseWords" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -462,6 +437,31 @@
       <option name="PACKAGE_NAME" value="interview.questions" />
       <option name="MAIN_CLASS_NAME" value="interview.questions.CodeQuestions" />
       <option name="METHOD_NAME" value="reverseWords" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="CodeQuestions.writeToFile" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="interview.questions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="MontereyProject01" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="interview.questions" />
+      <option name="MAIN_CLASS_NAME" value="interview.questions.CodeQuestions" />
+      <option name="METHOD_NAME" value="writeToFile" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -616,19 +616,19 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="JUnit.MorePracticeJava.fibR" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.CodeQuestions.palandrome" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.Scratchpad.Switch" />
-      <item index="3" class="java.lang.String" itemvalue="Application.ImplementQueue" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.CodeQuestions.aList" />
-      <item index="5" class="java.lang.String" itemvalue="JUnit.CodeQuestions.reverseWords" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.Scratchpad.Switch" />
+      <item index="2" class="java.lang.String" itemvalue="Application.ImplementQueue" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.CodeQuestions.aList" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.CodeQuestions.reverseWords" />
+      <item index="5" class="java.lang.String" itemvalue="JUnit.CodeQuestions.writeToFile" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.CodeQuestions.reverseWords" />
-        <item index="1" class="java.lang.String" itemvalue="Application.ImplementQueue" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.CodeQuestions.aList" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.Scratchpad.Switch" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.CodeQuestions.palandrome" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.CodeQuestions.writeToFile" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.CodeQuestions.reverseWords" />
+        <item index="2" class="java.lang.String" itemvalue="Application.ImplementQueue" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.CodeQuestions.aList" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.Scratchpad.Switch" />
       </list>
     </recent_temporary>
   </component>
@@ -645,27 +645,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1520195848238</updated>
-    </task>
-    <task id="LOCAL-00471" summary="plus">
-      <created>1553653950200</created>
-      <option name="number" value="00471" />
-      <option name="presentableId" value="LOCAL-00471" />
-      <option name="project" value="LOCAL" />
-      <updated>1553653950202</updated>
-    </task>
-    <task id="LOCAL-00472" summary="plus">
-      <created>1553654973168</created>
-      <option name="number" value="00472" />
-      <option name="presentableId" value="LOCAL-00472" />
-      <option name="project" value="LOCAL" />
-      <updated>1553654973168</updated>
-    </task>
-    <task id="LOCAL-00473" summary="plus">
-      <created>1553655015826</created>
-      <option name="number" value="00473" />
-      <option name="presentableId" value="LOCAL-00473" />
-      <option name="project" value="LOCAL" />
-      <updated>1553655015826</updated>
     </task>
     <task id="LOCAL-00474" summary="plus">
       <created>1553655068302</created>
@@ -989,12 +968,33 @@
       <option name="project" value="LOCAL" />
       <updated>1556493511266</updated>
     </task>
-    <option name="localTasksCounter" value="520" />
+    <task id="LOCAL-00520" summary="plus">
+      <created>1556564179960</created>
+      <option name="number" value="00520" />
+      <option name="presentableId" value="LOCAL-00520" />
+      <option name="project" value="LOCAL" />
+      <updated>1556564179960</updated>
+    </task>
+    <task id="LOCAL-00521" summary="plus">
+      <created>1556586276961</created>
+      <option name="number" value="00521" />
+      <option name="presentableId" value="LOCAL-00521" />
+      <option name="project" value="LOCAL" />
+      <updated>1556586276961</updated>
+    </task>
+    <task id="LOCAL-00522" summary="plus">
+      <created>1556602045587</created>
+      <option name="number" value="00522" />
+      <option name="presentableId" value="LOCAL-00522" />
+      <option name="project" value="LOCAL" />
+      <updated>1556602045587</updated>
+    </task>
+    <option name="localTasksCounter" value="523" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CodeQuestions_reverseWords - 2019.04.28 at 16h 13m 14s.xml">
-      <configuration name="CodeQuestions.reverseWords" configurationId="JUnit" />
+    <history-entry file="CodeQuestions_writeToFile - 2019.04.29 at 18h 03m 29s.xml">
+      <configuration name="CodeQuestions.writeToFile" configurationId="JUnit" />
     </history-entry>
     <history-entry file="Scratchpad_Switch - 2019.04.18 at 08h 36m 44s.xml">
       <configuration name="Scratchpad.Switch" configurationId="JUnit" />
@@ -1035,6 +1035,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-1924" y="-426" width="1928" height="1180" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32921812" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1048,7 +1049,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3281893" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1881663" sideWeight="0.5427215" order="5" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1881663" sideWeight="0.5427215" order="5" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24958768" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1059,7 +1060,7 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.218107" sideWeight="0.41601345" order="9" side_tool="false" content_ui="tabs" x="71" y="369" width="1786" height="309" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21730769" sideWeight="0.41601345" order="9" side_tool="false" content_ui="tabs" x="71" y="369" width="1786" height="309" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2449187" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
@@ -1363,8 +1364,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../MontereyProject01/src/main/java/interview/questions/CodeQuestions.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="365" column="65" lean-forward="false" selection-start-line="365" selection-start-column="65" selection-end-line="365" selection-end-column="65" />
+        <state relative-caret-position="111">
+          <caret line="389" column="57" lean-forward="false" selection-start-line="389" selection-start-column="57" selection-end-line="389" selection-end-column="57" />
           <folding />
         </state>
       </provider>
