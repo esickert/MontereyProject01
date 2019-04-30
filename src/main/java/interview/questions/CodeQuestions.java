@@ -4,7 +4,10 @@ import org.junit.Test;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
+import java.io.File;
+import java.io.FileNotFoundException;
 import java.io.IOException;
+import java.io.PrintWriter;
 import java.util.*;
 
 import static java.util.Collections.sort;
@@ -357,13 +360,7 @@ import static org.testng.AssertJUnit.assertEquals;
             System.out.println("b is " + b);
         }
 
-        @Test
-        public void saveTextToFile()    {
-
-            String filename = "c://tmp//file.txt";
-
-        }
-//***************************************************************
+       //***************************************************************
         @Test
         public void stringArraysCharacters()    {  // interview question for VideoSlick(). This is not finished
 
@@ -396,7 +393,40 @@ import static org.testng.AssertJUnit.assertEquals;
             }
         }
 
+//**********************************************************
+//this does work
+        @Test
+        public void writeToFile()   {
 
+            String myFile = "C:\\Temp\\erich.txt";
+            PrintWriter outputStream = null;
+
+                   try {
+                        outputStream = new PrintWriter(new File(myFile));
+                        outputStream.println("Hello world");
+                        outputStream.println("Hello world");
+                        outputStream.println("Hello world");
+                    }
+                    catch(FileNotFoundException e)  {
+
+                        System.out.println("ERROR:opening the file " + myFile);
+                        System.exit(0);
+                    }
+                    outputStream.close();
+/*
+                    try {
+                        inputStream = new Scanner(new File(myFile));
+                    }
+                    catch(FileNotFoundException e)  {
+                        System.out.println("ERROR opening file " + myFile");
+                                System.exit(0);
+                    }
+
+                    while (inputStream.hasNextLine()
+                }*/
+            }
+
+//        }
 } //end of class CodeQuestions
 
 
