@@ -413,7 +413,7 @@ import static org.testng.AssertJUnit.assertEquals;
                         System.exit(0);
                     }
                     outputStream.close();
-/*
+/***********************************************************************************************************************
                     try {
                         inputStream = new Scanner(new File(myFile));
                     }
