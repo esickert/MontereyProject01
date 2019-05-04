@@ -22,13 +22,13 @@ public class Selenium3 {
         driver.get("http://www.google.com");
 
         WebElement googleSearch  = driver.findElement(By.cssSelector(".gLFyf"));
-        googleSearch.sendKeys("Paul Sickert");
+        googleSearch.sendKeys("Selenium");
         googleSearch.sendKeys(Keys.ENTER);
 
         Action build = new Action() {
             @Override
             public void perform() {
-                
+
             }
         }
 
