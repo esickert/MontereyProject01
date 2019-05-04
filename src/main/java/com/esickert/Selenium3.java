@@ -6,6 +6,7 @@ import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.interactions.Action;
 import org.openqa.selenium.remote.server.handler.FindElement;
 import org.openqa.selenium.remote.server.handler.SendKeys;
 
@@ -23,6 +24,13 @@ public class Selenium3 {
         WebElement googleSearch  = driver.findElement(By.cssSelector(".gLFyf"));
         googleSearch.sendKeys("Paul Sickert");
         googleSearch.sendKeys(Keys.ENTER);
+
+        Action build = new Action() {
+            @Override
+            public void perform() {
+                
+            }
+        }
 
         sleep(5000);
 
