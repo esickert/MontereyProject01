@@ -4,10 +4,7 @@ import org.junit.Test;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-import java.io.File;
-import java.io.FileNotFoundException;
-import java.io.IOException;
-import java.io.PrintWriter;
+import java.io.*;
 import java.util.*;
 
 import static java.util.Collections.sort;
@@ -395,14 +392,14 @@ import static org.testng.AssertJUnit.assertEquals;
 
 //**********************************************************
 //this does work. It creates a file, writes to it then close it
-//     @Test
+     @Test
         public void writeToFile()   {
 
             String myFile = "C:\\Temp\\erich.txt";
-            PrintWriter outputStream = null;
+            PrintStream outputStream = null;
 
                    try {
-                        outputStream = new PrintWriter(new File(myFile));
+                        outputStream = new PrintStream(new File(myFile));
                         outputStream.println("Hello world");
                         outputStream.println("Hello world");
                         outputStream.println("Hello world");
