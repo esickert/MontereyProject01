@@ -19,9 +19,25 @@ public class Selenium3 {
         System.setProperty("webdriver.gecko.driver","c://SeleniumDrivers//geckodriver.exe");
         WebDriver driver = new FirefoxDriver();
 
-        driver.get("http://www.google.com");
+        driver.get("https://www.dice.com/dashboard");
 
-        WebElement googleSearch  = driver.findElement(By.cssSelector(".gLFyf"));
+//        *****************************************LOGiN****************************************************************
+        WebElement email = driver.findElement(By.cssSelector("#email"));
+        email.click();
+        email.sendKeys("esickert@gmail.com");
+        WebElement password = driver.findElement(By.cssSelector("#password"));
+        password.click();
+        password.sendKeys("Claude111");
+        password.sendKeys(Keys.ENTER);
+        sleep(10);
+
+//     ******************************************DROPDOWN************************************************************
+        WebElement Dropdown = driver.findElement(By.cssSelector("#dice-login-customer-name"));
+ //       Dropdown.click();
+
+
+
+/*        WebElement googleSearch  = driver.findElement(By.cssSelector(".gLFyf"));
         googleSearch.sendKeys("Selenium");
         googleSearch.sendKeys(Keys.ENTER);
 
@@ -34,6 +50,6 @@ public class Selenium3 {
 
         sleep(5000);
 
-        driver.close();
+        driver.close();     */
     }
 }
