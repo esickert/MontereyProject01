@@ -29,10 +29,10 @@ public class Selenium3 {
         password.click();
         password.sendKeys("Claude111");
         password.sendKeys(Keys.ENTER);
-        sleep(10);
+        sleep(20);
 
 //     ******************************************DROPDOWN************************************************************
-        WebElement Dropdown = driver.findElement(By.cssSelector("#dice-login-customer-name"));
+        driver.findElement(By.cssSelector("#dice-login-customer-name")).click();
  //       Dropdown.click();
 
 
