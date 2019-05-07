@@ -32,8 +32,9 @@ public class Selenium3 {
         sleep(20);
 
 //     ******************************************DROPDOWN************************************************************
-        driver.findElement(By.cssSelector("#dice-login-customer-name")).click();
+        driver.findElement(By.id("#dice-login-customer-name")).click();
  //       Dropdown.click();
+
 
 
 
