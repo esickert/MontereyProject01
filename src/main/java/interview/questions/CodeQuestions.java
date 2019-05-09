@@ -425,6 +425,9 @@ import static org.testng.AssertJUnit.assertEquals;
             }
 
 //**********************************************************************************************************************
+ /* This was a Comcast interview questio that I balanked on. The solution was simple but i wigged and made it much
+ more complex then it was. I was trying to use Maps to solve it (way not necessary!!!!!!).
+  */
 
     @Test
     public void comCast() {
