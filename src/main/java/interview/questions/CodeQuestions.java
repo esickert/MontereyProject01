@@ -433,7 +433,7 @@ import static org.testng.AssertJUnit.assertEquals;
         int aLength = a.length;
         int x = 10;
 
-        while (x >= 0) {
+        while (x > 0) {
             occurences(a, x, aLength);
             x--;
         }
