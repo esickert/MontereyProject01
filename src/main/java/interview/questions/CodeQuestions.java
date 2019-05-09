@@ -1,5 +1,7 @@
 package interview.questions;
 
+import org.apache.commons.collections4.map.HashedMap;
+import org.apache.commons.lang3.builder.ToStringExclude;
 import org.junit.Test;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -422,7 +424,34 @@ import static org.testng.AssertJUnit.assertEquals;
                 }*/
             }
 
-//        }
+//**********************************************************************************************************************
+
+    @Test
+    public void comCast() {
+
+        int[] a = {2, 5, 5, 3, 8, 6, 5, 7, 8, 3, 5};
+        int aLength = a.length;
+        int x = 10;
+
+        while (x >= 0) {
+            occurences(a, x, aLength);
+            x--;
+        }
+
+//            Map<Integer, Integer> occurrence = new HashedMap<>();
+    } //end of comCast;
+
+    public void occurences(int[] b, int x, int y) {
+        int count = 0;
+
+        for (int i = 0; i <= y - 1; i++) {
+            if (b[i] == x) {
+                count++;
+                }
+        }
+            System.out.println(x + " occurs " + count + " times.");
+    }  //end of method
+
 } //end of class CodeQuestions
 
 
