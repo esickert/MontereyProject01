@@ -64,7 +64,7 @@ import static org.testng.AssertJUnit.assertEquals;
                 System.out.println("NOT!!!");
         }
 
-        // another method for determining a palindrone usin StringBuffer
+        // another method for determining a palindrone using StringBuffer
         @Test
         public void StringBufferPalindrone() {
             String word = "abcdcba";
