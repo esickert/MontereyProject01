@@ -401,9 +401,9 @@ import static org.testng.AssertJUnit.assertEquals;
 
                    try {
                         outputStream = new PrintStream(new File(myFile));
-                        outputStream.println("Hello world");
-                        outputStream.println("Hello world");
-                        outputStream.println("Hello world");
+                        outputStream.println("Lions in the street and roaming");
+                        outputStream.println("Dogs in heat, rabid foaming");
+                        outputStream.println("A beast caged in the heart of the city.");
                     }
                     catch(FileNotFoundException e)  {
 
@@ -425,7 +425,7 @@ import static org.testng.AssertJUnit.assertEquals;
             }
 
 //**********************************************************************************************************************
- /* This was a Comcast interview questio that I balanked on. The solution was simple but i wigged and made it much
+ /* This was a Comcast interview question that I balanked on. The solution was simple but i wigged and made it much
  more complex then it was. I was trying to use Maps to solve it (way not necessary!!!!!!).
   */
 
@@ -433,7 +433,7 @@ import static org.testng.AssertJUnit.assertEquals;
     public void comCast() {
 
         int[] a = {2, 5, 5, 3, 8, 6, 5, 7, 8, 3, 5};
-        int aLength = a.length;
+        int aLength = a.length-1;
         int x = 10;
 
         while (x > 0) {
@@ -447,7 +447,7 @@ import static org.testng.AssertJUnit.assertEquals;
     public void occurences(int[] b, int x, int y) {
         int count = 0;
 
-        for (int i = 0; i <= y - 1; i++) {
+        for (int i = 0; i <= y; i++) {
             if (b[i] == x) {
                 count++;
                 }
