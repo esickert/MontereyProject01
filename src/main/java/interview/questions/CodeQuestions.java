@@ -455,6 +455,36 @@ import static org.testng.AssertJUnit.assertEquals;
             System.out.println(x + " occurs " + count + " times.");
     }  //end of method
 
+ //**************************************************************************************************************
+    @Test
+    public void writeToFile2() {
+        String filename = "c:\\Temp\\erichSickert.txt";
+        File file = new File(filename);
+        PrintStream outStream = null;
+
+        try {
+            outStream = new PrintStream(file);
+        } catch (IOException e) {
+            System.out.println("ERROR");
+            e.printStackTrace();
+        }
+
+
+        try {
+            Thread.sleep(10000);
+        }
+        catch(Exception e) {
+            System.out.println("ERROR");
+            e.printStackTrace();
+        }
+        outStream.close();
+
+        if (file.delete())
+            System.out.println("File deleted successfully");
+        else
+            System.out.println("File not deleted");
+    }
+
 } //end of class CodeQuestions
 
 
