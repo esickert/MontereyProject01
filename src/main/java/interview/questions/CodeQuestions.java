@@ -262,7 +262,7 @@ import static org.testng.AssertJUnit.assertEquals;
         }
 //**********************************************************************************************************************
         @Test
-        public void maximizeSeleniumBrowser() throws IOException, InterruptedException {   ///IMPORTANT!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+        public void maximizeSeleniumBrowser() throws IOException, InterruptedException {   ///IMPORTANT!!!!!!!!!!!!!!!!!
 
             System.setProperty("webdriver.chrome.driver", "c://SeleniumDrivers//chromeDriver.exe");
             WebDriver driver = new ChromeDriver();
