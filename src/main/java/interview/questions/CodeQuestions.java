@@ -421,6 +421,47 @@ import static org.testng.AssertJUnit.assertEquals;
                     while (inputStream.hasNextLine()
                 }*/
             }
+//**********************************************************************************************************************
+    @Test
+    public void writeReadToFile()   {
+
+         String filename = "c:\\Temp\\erichC.txt.";
+         File file = new File(filename);
+
+         PrintStream outStream = null;
+         try {
+             outStream = new PrintStream(file);
+             outStream.println("Hello there");
+             Thread.sleep(10000);
+            }
+         catch(IOException e)    {
+             System.out.println("ERROR - line 47");
+         }
+             catch(Exception e)  {
+             System.out.println("ERROR-line441");
+         }
+//         outStream.close();
+
+        try {
+            Scanner sc = new Scanner(file);
+            String line = sc.nextLine();
+            System.out.println(line);
+        }
+        catch(Exception e)  {
+            System.out.println("ERROR_line 455");
+        }
+        outStream.close();
+//*********************************************************************************************************************
+        if(file.delete())  //<-- this doesnt work!!!!!!!
+            System.out.print("File deleted");
+        else
+            System.out.println("File NOT deleted");
+//**********************************************************************************************************************
+    }
+
+
+
+
 
 //**********************************************************************************************************************
  /* This was a Comcast interview question that I balanked on. The solution was simple but i wigged and made it much
