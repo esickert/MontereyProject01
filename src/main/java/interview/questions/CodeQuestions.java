@@ -437,9 +437,11 @@ import static org.testng.AssertJUnit.assertEquals;
             outStream.println("A beast caged in the heart of ther city");
             outStream.println("Its mother rotting in the summer ground");
         } catch (IOException e) {
-            System.out.println("ERROR - line 47");
+            System.out.println("ERROR );
+            e.printStackTrace();
         } catch (Exception e) {
-            System.out.println("ERROR-line441");
+            System.out.println("ERROR);
+            e.printStackTrace();
         }
 //         outStream.close();
 
@@ -456,7 +458,8 @@ import static org.testng.AssertJUnit.assertEquals;
             System.out.println("The number of words are " + wordCnt);
             outStream.close();
         } catch (Exception e) {
-            System.out.println("ERROR_line 455");
+            System.out.println("ERROR");
+            e.printStackTrace();
         }
 //        outStream.close();
 //*********************************************************************************************************************
