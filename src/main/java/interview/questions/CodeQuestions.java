@@ -529,22 +529,7 @@ import static org.testng.AssertJUnit.assertEquals;
             System.out.println("File not deleted");
     }
 
-    @Test
-    public void Test()  {
-
-        String filename = "c:\\Temp\\claude.txt";
-        File file = new File(filename);
-        PrintStream outStream = null;
-
-        try {
-            outStream = new PrintStream(file);
-            outStream.println("Hello World");
-
-        }catch(IOException e)   {
-            System.out.println("ERROR");
-            e.printStackTrace();
-        }
-    }// end of class CodeQuestions
+ 
 
 } //end of class CodeQuestions
 
