@@ -491,8 +491,6 @@ import static org.testng.AssertJUnit.assertEquals;
             occurences(a, x, aLength);
             x--;
         }
-
-//            Map<Integer, Integer> occurrence = new HashedMap<>();
     } //end of comCast;
 
     public void occurences(int[] b, int x, int y) {
@@ -505,6 +503,7 @@ import static org.testng.AssertJUnit.assertEquals;
         }
             System.out.println(x + " occurs " + count + " times.");
     }  //end of method
+
 
  //**************************************************************************************************************
     @Test  //fileio stuff
