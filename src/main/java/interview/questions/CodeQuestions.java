@@ -427,12 +427,14 @@ import static org.testng.AssertJUnit.assertEquals;
 
         String filename = "c:\\Temp\\erichC.txt.";
         File file = new File(filename);
+        int wordCnt = 0;
 
         PrintStream outStream = null;
         try {
             outStream = new PrintStream(file);
             outStream.println("Hello there");
-            Thread.sleep(10000);
+            outStream.println("my friend");
+//            Thread.sleep(10000);
         } catch (IOException e) {
             System.out.println("ERROR - line 47");
         } catch (Exception e) {
@@ -443,7 +445,13 @@ import static org.testng.AssertJUnit.assertEquals;
         try {
             Scanner sc = new Scanner(file);
             String line = sc.nextLine();
-            System.out.println(line);
+           System.out.println(line);
+            while (sc.hasNextLine())    {
+                String text = sc.nextLine();
+                System.out.println(text);
+                wordCnt+= text.split("\\s+").length;
+            System.out.println("The number of words are " + wordCnt);
+            }
         } catch (Exception e) {
             System.out.println("ERROR_line 455");
         }
