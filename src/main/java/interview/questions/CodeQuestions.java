@@ -432,9 +432,10 @@ import static org.testng.AssertJUnit.assertEquals;
         PrintStream outStream = null;
         try {
             outStream = new PrintStream(file);
-            outStream.println("Hello there");
-            outStream.println("my friend");
-//            Thread.sleep(10000);
+            outStream.println("Lions in the street and roaming");
+            outStream.println("dogs in heat rabid foaming");
+            outStream.println("A beast caged in the heart of ther city");
+            outStream.println("Its mother rotting in the summer ground");
         } catch (IOException e) {
             System.out.println("ERROR - line 47");
         } catch (Exception e) {
@@ -444,18 +445,20 @@ import static org.testng.AssertJUnit.assertEquals;
 
         try {
             Scanner sc = new Scanner(file);
-            String line = sc.nextLine();
-           System.out.println(line);
-            while (sc.hasNextLine())    {
+//            String line = sc.nextLine();
+//           System.out.println(line);
+            while (sc.hasNextLine()) {
                 String text = sc.nextLine();
-                System.out.println(text);
-                wordCnt+= text.split("\\s+").length;
-            System.out.println("The number of words are " + wordCnt);
+//                System.out.println(text);
+                wordCnt += text.split(" ").length;
+//                wordCnt += tetext.split("\\s+").length;  reg expression matches white space.
             }
+            System.out.println("The number of words are " + wordCnt);
+            outStream.close();
         } catch (Exception e) {
             System.out.println("ERROR_line 455");
         }
-        outStream.close();
+//        outStream.close();
 //*********************************************************************************************************************
         if (file.delete())  //<-- this doesnt work!!!!!!!
             System.out.print("File deleted");
