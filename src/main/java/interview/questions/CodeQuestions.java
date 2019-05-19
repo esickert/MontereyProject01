@@ -437,10 +437,10 @@ import static org.testng.AssertJUnit.assertEquals;
             outStream.println("A beast caged in the heart of ther city");
             outStream.println("Its mother rotting in the summer ground");
         } catch (IOException e) {
-            System.out.println("ERROR );
+            System.out.println("ERROR");
             e.printStackTrace();
         } catch (Exception e) {
-            System.out.println("ERROR);
+            System.out.println("ERROR");
             e.printStackTrace();
         }
 //         outStream.close();
@@ -470,13 +470,7 @@ import static org.testng.AssertJUnit.assertEquals;
     }
 //**********************************************************************************************************************
 
-
-
-
-
-
-//**********************************************************************************************************************
- /* This was a Comcast interview question that I balanked on. The solution was simple but i wigged and made it much
+/* This was a Comcast interview question that I balanked on. The solution was simple but i wigged and made it much
  more complex then it was. I was trying to use Maps to solve it (way not necessary!!!!!!).
   */
 
@@ -506,7 +500,7 @@ import static org.testng.AssertJUnit.assertEquals;
 
 
  //**************************************************************************************************************
-    @Test  //fileio stuff
+    @Test  //file io stuff
     public void writeToFile2() {
         String filename = "c:\\Temp\\erichSickert.txt";
         File file = new File(filename);
@@ -534,6 +528,23 @@ import static org.testng.AssertJUnit.assertEquals;
         else
             System.out.println("File not deleted");
     }
+
+    @Test
+    public void Test()  {
+
+        String filename = "c:\\Temp\\claude.txt";
+        File file = new File(filename);
+        PrintStream outStream = null;
+
+        try {
+            outStream = new PrintStream(file);
+            outStream.println("Hello World");
+
+        }catch(IOException e)   {
+            System.out.println("ERROR");
+            e.printStackTrace();
+        }
+    }// end of class CodeQuestions
 
 } //end of class CodeQuestions
 
