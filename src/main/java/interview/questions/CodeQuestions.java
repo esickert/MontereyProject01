@@ -508,12 +508,14 @@ import static org.testng.AssertJUnit.assertEquals;
 
         try {
             outStream = new PrintStream(file);
+            outStream.println("Lions in the street and roaming");
+            outStream.println("dogs in heat rabid foaming");
+            outStream.println("A beast caged in the heart of ther city");
+            outStream.println("Its mother rotting in the summer ground");
         } catch (IOException e) {
             System.out.println("ERROR");
             e.printStackTrace();
         }
-
-
         try {
             Thread.sleep(10000);
         }
@@ -522,14 +524,11 @@ import static org.testng.AssertJUnit.assertEquals;
             e.printStackTrace();
         }
         outStream.close();
-
         if (file.delete())
             System.out.println("File deleted successfully");
         else
             System.out.println("File not deleted");
     }
-
- 
 
 } //end of class CodeQuestions
 
