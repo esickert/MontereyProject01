@@ -498,6 +498,28 @@ import static org.testng.AssertJUnit.assertEquals;
             System.out.println(x + " occurs " + count + " times.");
     }  //end of method
 
+    @Test
+    public void comCast2() {
+
+        int[] a = {2, 5, 4, 2, 8, 6, 7, 5, 6, 7, 5, 6, 4};
+        int count = 0;
+        int temp = 0;
+
+        for (int i = 0; i <= a.length - 1; i++) {
+            for (int j = 0; j <= a.length - 1; j++) {
+                if (a[i] == a[j])
+                    System.out.println();//**************************************************************************
+                    count++;
+                temp = a[j];
+            }
+            System.out.println(a[i]);
+        }
+
+            System.out.println("There are " + count + " of " + temp);
+            count = 0;
+    }
+
+
 
  //**************************************************************************************************************
     @Test  //file io stuff
