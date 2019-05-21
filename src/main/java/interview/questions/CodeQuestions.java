@@ -56,7 +56,7 @@ import static org.testng.AssertJUnit.assertEquals;
             String temp = "";
             for (int i = x.length() - 1; i >= 0; i--) {
                 temp = temp + x.substring(i, i + 1);
-     //           StringBuilder.append(x.substring(i, i + 1);)
+                //           StringBuilder.append(x.substring(i, i + 1);)
             }
             if (temp.equals(x))
                 System.out.println(x + " is a palindrome!!!!");
@@ -260,7 +260,8 @@ import static org.testng.AssertJUnit.assertEquals;
             int octet = Integer.parseInt(num[x]);
             return octet;
         }
-//**********************************************************************************************************************
+
+        //**********************************************************************************************************************
         @Test
         public void maximizeSeleniumBrowser() throws IOException, InterruptedException {   ///IMPORTANT!!!!!!!!!!!!!!!!!
 
@@ -271,7 +272,8 @@ import static org.testng.AssertJUnit.assertEquals;
             Thread.sleep(5000);
             driver.quit();
         }
-//**********************************************************************************************************************
+
+        //**********************************************************************************************************************
 //Given an array of package item weights and a weight limit, implement a function that finds two items whose sum of weights equals the weight limit.
 //Your function should return a pair [i, j] of the indices of the item weights, ordered such that i > j.
 //If such a pair doesn’t exist, return an empty array.
@@ -356,15 +358,15 @@ import static org.testng.AssertJUnit.assertEquals;
             System.out.println("b is " + b);
         }
 
-       //***************************************************************
+        //***************************************************************
         @Test
-        public void stringArraysCharacters()    {  // interview question for VideoSlick(). This is not finished
+        public void stringArraysCharacters() {  // interview question for VideoSlick(). This is not finished
 
             String[] pets = {"dog", "cat", "Bird"};
             String[] colors = {"blue", "red", "yellow"};
             String temp = "";
 
-        //  expected result :   return/print result "dbolgucraetd...
+            //  expected result :   return/print result "dbolgucraetd...
 
             for (int i = 0; i <= pets.length - 1; i++) {
                 System.out.println(pets[i]);
@@ -375,7 +377,7 @@ import static org.testng.AssertJUnit.assertEquals;
 
         @Test //reverse a sting of words. not the words themselves
         //apple interview question.
-        public void reverseWords()  {
+        public void reverseWords() {
 
             String sentence = "all the world is a stage!!";
             String temp = "";
@@ -383,32 +385,31 @@ import static org.testng.AssertJUnit.assertEquals;
 
             words = sentence.split(" ");
             System.out.println(words[0]);
-            for(int i = words.length-1; i >= 0; i--)    {
+            for (int i = words.length - 1; i >= 0; i--) {
                 temp = temp + words[i] + " ";
                 System.out.println(temp);
             }
         }
 
-//**********************************************************
+        //**********************************************************
 //this does work. It creates a file, writes to it then close it
-     @Test
-        public void writeToFile()   {
+        @Test
+        public void writeToFile() {
 
             String myFile = "C:\\Temp\\erich.txt";
             PrintStream outputStream = null;
 
-                   try {
-                        outputStream = new PrintStream(new File(myFile));
-                        outputStream.println("Lions in the street and roaming");
-                        outputStream.println("Dogs in heat, rabid foaming");
-                        outputStream.println("A beast caged in the heart of the city.");
-                    }
-                    catch(FileNotFoundException e)  {
+            try {
+                outputStream = new PrintStream(new File(myFile));
+                outputStream.println("Lions in the street and roaming");
+                outputStream.println("Dogs in heat, rabid foaming");
+                outputStream.println("A beast caged in the heart of the city.");
+            } catch (FileNotFoundException e) {
 
-                        System.out.println("ERROR:opening the file " + myFile);
-                        System.exit(0);
-                    }
-                    outputStream.close();
+                System.out.println("ERROR:opening the file " + myFile);
+                System.exit(0);
+            }
+            outputStream.close();
 /*
                     try {
                         inputStream = new Scanner(new File(myFile));
@@ -420,104 +421,107 @@ import static org.testng.AssertJUnit.assertEquals;
 
                     while (inputStream.hasNextLine()
                 }*/
-            }
-//**********************************************************************************************************************
-    @Test                                             //PRINTSTREAM
-    public void writeReadToFile() {
-
-        String filename = "c:\\Temp\\erichC.txt.";
-        File file = new File(filename);
-        int wordCnt = 0;
-
-        PrintStream outStream = null;
-        try {
-            outStream = new PrintStream(file);
-            outStream.println("Lions in the street and roaming");
-            outStream.println("dogs in heat rabid foaming");
-            outStream.println("A beast caged in the heart of ther city");
-            outStream.println("Its mother rotting in the summer ground");
-        } catch (IOException e) {
-            System.out.println("ERROR");
-            e.printStackTrace();
-        } catch (Exception e) {
-            System.out.println("ERROR");
-            e.printStackTrace();
         }
+
+        //**********************************************************************************************************************
+        @Test                                             //PRINTSTREAM
+        public void writeReadToFile() {
+
+            String filename = "c:\\Temp\\erichC.txt.";
+            File file = new File(filename);
+            int wordCnt = 0;
+
+            PrintStream outStream = null;
+            try {
+                outStream = new PrintStream(file);
+                outStream.println("Lions in the street and roaming");
+                outStream.println("dogs in heat rabid foaming");
+                outStream.println("A beast caged in the heart of ther city");
+                outStream.println("Its mother rotting in the summer ground");
+            } catch (IOException e) {
+                System.out.println("ERROR");
+                e.printStackTrace();
+            } catch (Exception e) {
+                System.out.println("ERROR");
+                e.printStackTrace();
+            }
 //         outStream.close();
 
-        try {
-            Scanner sc = new Scanner(file);
+            try {
+                Scanner sc = new Scanner(file);
 //            String line = sc.nextLine();
 //           System.out.println(line);
-            while (sc.hasNextLine()) {
-                String text = sc.nextLine();
+                while (sc.hasNextLine()) {
+                    String text = sc.nextLine();
 //                System.out.println(text);
-                wordCnt += text.split(" ").length;
+                    wordCnt += text.split(" ").length;
 //                wordCnt += tetext.split("\\s+").length;  reg expression matches white space.
+                }
+                System.out.println("The number of words are " + wordCnt);
+                outStream.close();
+            } catch (Exception e) {
+                System.out.println("ERROR");
+                e.printStackTrace();
             }
-            System.out.println("The number of words are " + wordCnt);
-            outStream.close();
-        } catch (Exception e) {
-            System.out.println("ERROR");
-            e.printStackTrace();
-        }
 //        outStream.close();
 //*********************************************************************************************************************
-        if (file.delete())  //<-- this doesnt work!!!!!!!
-            System.out.print("File deleted");
-        else
-            System.out.println("File NOT deleted");
-    }
+            if (file.delete())  //<-- this doesnt work!!!!!!!
+                System.out.print("File deleted");
+            else
+                System.out.println("File NOT deleted");
+        }
 //**********************************************************************************************************************
 
 /* This was a Comcast interview question that I balanked on. The solution was simple but i wigged and made it much
  more complex then it was. I was trying to use Maps to solve it (way not necessary!!!!!!).
   */
 
-    @Test
-    public void comCast() {
+        @Test
+        public void comCast() {
 
-        int[] a = {2, 5, 5, 3, 8, 6, 5, 7, 8, 3, 5};
-        int aLength = a.length-1;
-        int x = 10;
+            int[] a = {2, 5, 5, 3, 8, 6, 5, 7, 8, 3, 5};
+            int aLength = a.length - 1;
+            int x = 10;
 
-        while (x > 0) {
-            occurences(a, x, aLength);
-            x--;
-        }
-    } //end of comCast;
-
-    public void occurences(int[] b, int x, int y) {
-        int count = 0;
-
-        for (int i = 0; i <= y; i++) {
-            if (b[i] == x) {
-                count++;
-                }
-        }
-            System.out.println(x + " occurs " + count + " times.");
-    }  //end of method
-
-    @Test
-    public void comCast2() {
-
-        int[] a = {2, 5, 4, 2, 8, 6, 7, 5, 6, 7, 5, 6, 4};
-        int count = 0;
-        int temp = 0;
-
-        for (int i = 0; i <= a.length - 1; i++) {
-            for (int j = 0; j <= a.length - 1; j++) {
-                if (a[i] == a[j])
-                    System.out.println(a[i]);//**************************************************************************
-                    count++;
-                temp = a[j];
+            while (x > 0) {
+                occurences(a, x, aLength);
+                x--;
             }
-            System.out.println(a[i]);
+        } //end of comCast;
+
+        public void occurences(int[] b, int x, int y) {
+            int count = 0;
+
+            for (int i = 0; i <= y; i++) {
+                if (b[i] == x) {
+                    count++;
+                }
+            }
+            System.out.println(x + " occurs " + count + " times.");
+        }  //end of method
+
+      @Test
+        public void comCast2() {
+
+            int[] a = {1, 3, 3, 2, 2, 2, 3, 4, 5, 6};
+            int[] b = {2,5,4,1,7,6};
+            int x = 0;
+            for(int temp:b) {
+                found(a, temp);
+            }
         }
 
-            System.out.println("There are " + count + " of " + temp);
-            count = 0;
-    }
+        public void found(int[] a, int x) {
+
+            int count = 0;
+            for(int temp : a) {
+                if (temp == x)
+                    count++;
+
+            }
+            System.out.println("There are " + count + " of " + x);
+     }
+
 
 
 
@@ -545,11 +549,12 @@ import static org.testng.AssertJUnit.assertEquals;
             System.out.println("ERROR");
             e.printStackTrace();
         }
-        outStream.close();
+ /*       outStream.close();
         if (file.delete())
             System.out.println("File deleted successfully");
         else
             System.out.println("File not deleted");
+ */
     }
 
 } //end of class CodeQuestions
