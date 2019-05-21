@@ -504,7 +504,7 @@ import static org.testng.AssertJUnit.assertEquals;
         public void comCast2() {
 
             int[] a = {1, 3, 3, 2, 2, 2, 3, 4, 5, 6};
-            int[] b = {2,5,4,1,7,6};
+            int[] b = {2,5,4,1,7,6,43};
             int x = 0;
             for(int temp:b) {
                 found(a, temp);
