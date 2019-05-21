@@ -508,7 +508,7 @@ import static org.testng.AssertJUnit.assertEquals;
         for (int i = 0; i <= a.length - 1; i++) {
             for (int j = 0; j <= a.length - 1; j++) {
                 if (a[i] == a[j])
-                    System.out.println();//**************************************************************************
+                    System.out.println(a[i]);//**************************************************************************
                     count++;
                 temp = a[j];
             }
