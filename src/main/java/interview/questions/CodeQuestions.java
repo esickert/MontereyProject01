@@ -492,8 +492,9 @@ import static org.testng.AssertJUnit.assertEquals;
         public void occurences(int[] b, int x, int y) {
             int count = 0;
 
-            for (int i = 0; i <= y; i++) {
-                if (b[i] == x) {
+            //for (int i = 0; i <= y; i++) {
+            for(int temp:b) {
+                if (temp == x) {
                     count++;
                 }
             }
