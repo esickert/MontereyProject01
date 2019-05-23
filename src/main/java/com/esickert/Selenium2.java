@@ -25,7 +25,6 @@ public class Selenium2 {
         WebElement element = driver.findElement(By.cssSelector("#gbwa > div.gb_Pc > a")); //not sure what this is clicking on?
  //       element.click();
         WebElement element2 = driver.findElement(By.cssSelector("#gb36 > span.gb_W"));
-        
         build.click(element)
              .contextClick()
              .perform();
