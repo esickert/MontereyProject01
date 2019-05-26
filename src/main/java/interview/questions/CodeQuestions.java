@@ -524,7 +524,7 @@ import static org.testng.AssertJUnit.assertEquals;
 
 
 
- //*****************************************************************************************************
+ //********************************************************************************************************
     @Test  //file io stuff
     public void writeToFile2() {
         String filename = "c:\\Temp\\erichSickert.txt";
