@@ -556,7 +556,8 @@ import static org.testng.AssertJUnit.assertEquals;
 //               System.out.println(text);
                String[] sentence = text.split(" ");
                for(String temp: sentence)   {
-                   System.out.println(temp)
+                   System.out.println(temp);
+                   System.out.println("The number of words is " + sentence.length()-1)
                }
                }
 
