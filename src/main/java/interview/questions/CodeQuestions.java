@@ -550,17 +550,23 @@ import static org.testng.AssertJUnit.assertEquals;
         }
 
         try {
-            Scanner scan  = new Scanner(file):
+            Scanner scan  = new Scanner(file);
             while (scan.hasNextLine()) {
-                if (scan.nextLine() != null)
+               String text = scan.nextLine();
+//               System.out.println(text);
+               String[] sentence = text.split(" ");
+               for(String temp: sentence)   {
+                   System.out.println(temp)
+               }
+               }
 
-                }
-            }
-            catch(Exception e)    {
-                System.out.println("ERROR"):
-                e.printStackTrace();
-            }
+
         }
+        catch(Exception e)    {
+                System.out.println("ERROR");
+                e.printStackTrace();
+        }
+
     }
 
 } //end of class CodeQuestions
