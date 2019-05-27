@@ -537,7 +537,7 @@ import static org.testng.AssertJUnit.assertEquals;
             outStream.println("dogs in heat rabid foaming");
             outStream.println("A beast caged in the heart of ther city");
             outStream.println("Its mother rotting in the summer ground");
-        } catch (IOException e) {
+        } catch (Exception e) {
             System.out.println("ERROR");
             e.printStackTrace();
         }
@@ -556,12 +556,11 @@ import static org.testng.AssertJUnit.assertEquals;
 //               System.out.println(text);
                String[] sentence = text.split(" ");
                for(String temp: sentence)   {
-                   System.out.println(temp);
-                   System.out.println("The number of words is " + sentence.length()-1)
+                   System.out.print(temp + " ");
+ //                  System.out.println("The number of words is " + sentence.length);
                }
+                System.out.println("\nThe number of words is " + sentence.length);
                }
-
-
         }
         catch(Exception e)    {
                 System.out.println("ERROR");
