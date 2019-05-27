@@ -548,12 +548,19 @@ import static org.testng.AssertJUnit.assertEquals;
             System.out.println("ERROR");
             e.printStackTrace();
         }
- /*       outStream.close();
-        if (file.delete())
-            System.out.println("File deleted successfully");
-        else
-            System.out.println("File not deleted");
- */
+
+        try {
+            Scanner scan  = new Scanner(file):
+            while (scan.hasNextLine()) {
+                if (scan.nextLine() != null)
+
+                }
+            }
+            catch(Exception e)    {
+                System.out.println("ERROR"):
+                e.printStackTrace();
+            }
+        }
     }
 
 } //end of class CodeQuestions
