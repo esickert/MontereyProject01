@@ -531,6 +531,8 @@ import static org.testng.AssertJUnit.assertEquals;
         File file = new File(filename);
         PrintStream outStream = null;
 
+        int totalWords = 0;
+
         try {
             outStream = new PrintStream(file);
             outStream.println("Lions in the street and roaming");
@@ -560,7 +562,9 @@ import static org.testng.AssertJUnit.assertEquals;
  //                  System.out.println("The number of words is " + sentence.length);
                }
                 System.out.println("\nThe number of words is " + sentence.length);
+                totalWords = totalWords + sentence.length;
                }
+               System.out.println("The total number of words are " + totalWords);
         }
         catch(Exception e)    {
                 System.out.println("ERROR");
