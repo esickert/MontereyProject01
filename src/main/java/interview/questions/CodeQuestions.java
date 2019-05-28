@@ -543,26 +543,26 @@ import static org.testng.AssertJUnit.assertEquals;
             System.out.println("ERROR");
             e.printStackTrace();
         }
-        try {
+/*        try {
             Thread.sleep(10000);
         }
         catch(Exception e) {
             System.out.println("ERROR");
             e.printStackTrace();
         }
-
+*/
         try {
             Scanner scan  = new Scanner(file);
             while (scan.hasNextLine()) {
                String text = scan.nextLine();
 //               System.out.println(text);
-               String[] sentence = text.split(" ");
-               for(String temp: sentence)   {
+               String[] words = text.split("\\s+");
+               for(String temp: words)   {
                    System.out.print(temp + " ");
- //                  System.out.println("The number of words is " + sentence.length);
+ //                  System.out.println("The number of words is " + words.length);
                }
-                System.out.println("\nThe number of words is " + sentence.length);
-                totalWords = totalWords + sentence.length;
+                System.out.println("\nThe number of words is " + words.length);
+                totalWords = totalWords + words.length;
                }
                System.out.println("The total number of words are " + totalWords);
         }
