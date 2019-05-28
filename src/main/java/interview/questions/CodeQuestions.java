@@ -558,10 +558,10 @@ import static org.testng.AssertJUnit.assertEquals;
 //               System.out.println(text);
                String[] words = text.split("\\s+");
                for(String temp: words)   {
-                   System.out.print(temp + " ");
+//                   System.out.print(temp + " ");
  //                  System.out.println("The number of words is " + words.length);
                }
-                System.out.println("\nThe number of words is " + words.length);
+ //               System.out.println("\nThe number of words is " + words.length);
                 totalWords = totalWords + words.length;
                }
                System.out.println("The total number of words are " + totalWords);
