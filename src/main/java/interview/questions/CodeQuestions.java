@@ -516,7 +516,6 @@ import static org.testng.AssertJUnit.assertEquals;
             for(int temp : a) {
                 if (temp == x)
                     count++;
-
             }
             System.out.println("There are " + count + " of " + x);
      }
