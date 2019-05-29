@@ -14,4 +14,18 @@ public class Factorial {
         System.out.println(temp);
 
     }
-}
+
+    public void fac2()  {
+        int x = 5;
+        System.out.println(factorial(x));
+    }
+
+    public int factorial(int y) {
+        if ((y == 0) || (y == 1))
+            return y;
+        else
+            return (y * factorial(y-1));
+        }
+   }
+
+
