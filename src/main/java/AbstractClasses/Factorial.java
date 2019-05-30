@@ -7,7 +7,7 @@ public class Factorial {
 
     public void fac()   {
         int temp = 1;
-        int num = 3;
+        int num = 5;
         while (num > 0) {
             temp = temp * num--;
         }
