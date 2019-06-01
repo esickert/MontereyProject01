@@ -24,7 +24,7 @@ public void openBrowser()       {
     }
     catch(InterruptedException e)
     {
-       e.printStackTrace();          // REMEMBER<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+       e.printStackTrace();          // REMEMBER<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
     }
     driver.manage().window().maximize();
 //    Note the space in the className. That causes a problem!!!
