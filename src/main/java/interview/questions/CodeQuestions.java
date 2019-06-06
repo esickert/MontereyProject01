@@ -5,6 +5,7 @@ import org.apache.commons.lang3.builder.ToStringExclude;
 import org.junit.Test;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 
 import java.io.*;
 import java.util.*;
@@ -574,9 +575,13 @@ import static org.testng.AssertJUnit.assertEquals;
 
     @Test
     public void SeleniumTest()  { //************************************************************************
+        System.setProperty("webdriver.gecko.driver","c:\\SeleniumDrivers\\geckoDriver.exe");
+        WebDriver driver = new FirefoxDriver();
+
+        driver.navigate().to("http:www.google.com");
 
 
-                )
+
     }
 
 } //end of class CodeQuestions
