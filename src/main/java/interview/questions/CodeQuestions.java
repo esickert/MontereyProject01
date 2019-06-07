@@ -573,6 +573,16 @@ import static org.testng.AssertJUnit.assertEquals;
 
     }//end of method writeToFile2
 
+    @Test
+    public void selenium2() {
+
+       System.setProperty("webdriver.gecko.driver","C://SeleniumDrivers//geckodriver.exe");
+       WebDriver driver = new FirefoxDriver();
+
+       driver.navigate().to("http:\\www.yahoo.com");
+
+    }
+
 
 } //end of class CodeQuestions
 
