@@ -592,7 +592,7 @@ import static org.testng.AssertJUnit.assertEquals;
 
         ArrayList sorted = new ArrayList(Arrays.asList(a));
         for(int i = 0; i <= sorted.size()-1; i++)
-            System.out.print(.toString);
+            System.out.print(sorted.get(i));  //!!!!!!!!!ERROR''
 
 
 
