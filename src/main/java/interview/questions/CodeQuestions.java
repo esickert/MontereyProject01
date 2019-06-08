@@ -583,36 +583,32 @@ import static org.testng.AssertJUnit.assertEquals;
 
     }
 
+//**********************************************************************************************************************
     @Test
     public void instances() {
 
-        int[] a = {2, 5, 4, 7, 2, 3, 1, 5, 6, 5, 5, 3, 4};
-    // I want to take the contents of the array, convert it to a list to sort. THIS DOESNT WORK!!!!
-
-
-        ArrayList sorted = new ArrayList(Arrays.asList(a));
-  //      for(int i = 0; i <= sorted.size()-1; i++)
-            System.out.print(sorted.get(1));  //!!!!!!!!!ERROR''
-
-
-
-/*        int x = 3;
-        int count = 0;
-        for(int; temp: sorted)    {
-            test(temp, a);
-        }   */
-
+        int[] a = {2, 5, 4, 7, 2, 3, 1, 5, 6, 8, 5, 3, 4};
+        int x = 1;
+        Arrays.sort(a);  //sorts array
+        for (int temp : a) {
+ //           System.out.print(temp + " ");
+            while (x != 10) {
+                test(x, a);
+                x++;
+            }
         }
-
+        for(int temp:a ) {
+            System.out.print(temp + " ");
+        }
+    }
     public void test(int x, int[] b)    {
             int count = 0;
             for (int temp : b) {
             if (x == temp) {
                count++;
             }
-
         }
-        System.out.println("There are " + count + " instaces of " + x);
+        System.out.println("There are " + count + " instances " + " of " + x);
     }
 
 
