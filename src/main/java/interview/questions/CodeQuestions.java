@@ -589,7 +589,7 @@ import static org.testng.AssertJUnit.assertEquals;
 
         int[] a = {2, 5, 4, 7, 2, 3, 1, 5, 6, 8, 5, 3, 4};
         int x = 1;
-        Arrays.sort(a);  //sorts array
+        Arrays.sort(a);                      //sorts array
         for (int temp : a) {
  //           System.out.print(temp + " ");
             while (x != 10) {
