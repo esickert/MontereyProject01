@@ -40,7 +40,7 @@ public class SeleniumDropDownTests {
 
         dropdown.click();
         //NOW WE WILL USE THE SELECT TAG ONLY PROBLEM IS DROPDOWN IS UL -> LI
-        Select drop = new Select(dropdown);//#####################################################################################
+        Select drop = new Select(dropdown);
 
         try {
             Thread.sleep(2000);
