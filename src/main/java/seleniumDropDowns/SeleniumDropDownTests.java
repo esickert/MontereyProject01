@@ -17,7 +17,7 @@ import static org.openqa.selenium.By.xpath;
 
 public class SeleniumDropDownTests {
 
-    @Test
+    @Test  //this is the use of the select class from selenium. this is so stupid!!!!!!!!!
     public void TestSelect()  {
 
     // login to Monster website
