@@ -109,7 +109,7 @@ import static org.testng.AssertJUnit.assertEquals;
         }
 
 
-        //****************************************************************
+        //************************************************************************
         //Find the largest number in an array.
 
         @Test
@@ -135,7 +135,7 @@ import static org.testng.AssertJUnit.assertEquals;
             //     aSet.add("string");
         }
 
-        //****************************************************************
+        //***********************************************************************
 
         @Test
         public void findFirstTwoLargest() {
