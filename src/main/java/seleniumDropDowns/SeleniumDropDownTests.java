@@ -14,7 +14,7 @@ import java.io.IOException;
 import java.util.List;
 
 import static org.openqa.selenium.By.xpath;
-
+//**********************************************************************************************************************
 public class SeleniumDropDownTests {
 
     @Test  //this is the use of the select class from selenium. this is so stupid!!!!!!!!!
