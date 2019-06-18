@@ -29,6 +29,7 @@ public class Selenium2 {
              .contextClick()
              .perform();
         //and some more..
+        driver.close();
     }
 }
 
