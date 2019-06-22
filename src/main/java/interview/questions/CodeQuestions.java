@@ -15,8 +15,7 @@ import static org.testng.AssertJUnit.assertEquals;
 
 
     public class CodeQuestions {
-
-        //*************************************************************
+//****************************************************************
 // Fibinacci sequence NON recursive
         @Test
         public void fibonacci() {
@@ -610,7 +609,7 @@ import static org.testng.AssertJUnit.assertEquals;
         }
         System.out.println("There are " + count + " instances " + " of " + x);
     }
-
+//**********************************************************************************************************************
 
 } //end of class CodeQuestions
 
