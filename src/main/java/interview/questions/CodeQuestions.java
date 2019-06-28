@@ -470,7 +470,7 @@ import static org.testng.AssertJUnit.assertEquals;
             else
                 System.out.println("File NOT deleted");
         }
-//**********************************************************************************************************************
+//*****************************************************************************************************************
 
 /* This was a Comcast interview question that I balanked on. The solution was simple but i wigged and made it much
  more complex then it was. I was trying to use Maps to solve it (way not necessary!!!!!!).
