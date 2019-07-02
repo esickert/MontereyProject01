@@ -154,7 +154,7 @@ import static org.testng.AssertJUnit.assertEquals;
 
         }
 
-        //*****************************************************************
+        //********************************************************************
         //find the largest (or smallest) number in the array)
         @Test
         public void findLargestMethod() {
