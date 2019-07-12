@@ -19,7 +19,7 @@ public class HeadlessBrowserTest {
         System.setProperty("org.apache.commons.logging.Log", "org.apache.commons.logging.impl.NoOpLog");
 
   //      SoftAssertions softly = new SoftAssertions();
-        //******************************************************************
+        //*************************************************************
         // Declaring and initialising the HtmlUnitWebDriver
         HtmlUnitDriver unitDriver = new HtmlUnitDriver();
 
