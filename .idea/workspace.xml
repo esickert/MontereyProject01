@@ -8,7 +8,6 @@
   <component name="ChangeListManager">
     <list default="true" id="078280d5-5042-4862-850d-0c24f97ab4a9" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../MontereyProject01/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../MontereyProject01/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../MontereyProject01/src/main/java/interview/questions/CodeQuestions.java" afterPath="$PROJECT_DIR$/../MontereyProject01/src/main/java/interview/questions/CodeQuestions.java" />
     </list>
     <ignored path="$PROJECT_DIR$/../MontereyProject01/out/" />
     <ignored path="$PROJECT_DIR$/../MontereyProject01/target/" />
@@ -29,16 +28,35 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="CodeQuestions.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CodeQuestions.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../MontereyProject01/src/main/java/interview/questions/CodeQuestions.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="17" column="86" lean-forward="false" selection-start-line="17" selection-start-column="86" selection-end-line="17" selection-end-column="86" />
+            <state relative-caret-position="3501">
+              <caret line="611" column="108" lean-forward="false" selection-start-line="611" selection-start-column="108" selection-end-line="611" selection-end-column="108" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#2781#2789#0" expanded="true" />
-                <marker date="1563082829290" expanded="true" signature="3649:3715" ph="//..." />
+                <marker date="1563429090178" expanded="true" signature="3649:3715" ph="//..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ImplementQueue.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../MontereyProject01/src/main/java/stackQueue/ImplementQueue.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="162">
+              <caret line="9" column="66" lean-forward="false" selection-start-line="9" selection-start-column="66" selection-end-line="9" selection-end-column="66" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Queue.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../MontereyProject01/src/main/java/stackQueue/Queue.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="18">
+              <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -133,13 +151,13 @@
         <option value="$PROJECT_DIR$/../MontereyProject01/src/main/java/sratchpad/Test.java" />
         <option value="$PROJECT_DIR$/../MontereyProject01/src/main/java/sratchpad/Testing.java" />
         <option value="$PROJECT_DIR$/../MontereyProject01/src/main/java/selenium/practice/Practice.java" />
-        <option value="$PROJECT_DIR$/../MontereyProject01/src/main/java/stackQueue/Queue.java" />
         <option value="$PROJECT_DIR$/../MontereyProject01/src/main/java/AbstractClasses/Factorial.java" />
         <option value="$PROJECT_DIR$/../MontereyProject01/src/main/java/com/esickert/Selenium.java" />
         <option value="$PROJECT_DIR$/../MontereyProject01/src/main/java/seleniumDropDowns/SeleniumDropDownTests.java" />
         <option value="$PROJECT_DIR$/../MontereyProject01/src/main/java/com/esickert/Selenium2.java" />
         <option value="$PROJECT_DIR$/../MontereyProject01/src/main/java/sratchpad/HeadlessBrowserTest.java" />
         <option value="$PROJECT_DIR$/../MontereyProject01/src/main/java/interview/questions/CodeQuestions.java" />
+        <option value="$PROJECT_DIR$/../MontereyProject01/src/main/java/stackQueue/Queue.java" />
       </list>
     </option>
   </component>
@@ -172,8 +190,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-1867" />
-    <option name="y" value="-391" />
+    <option name="x" value="-1895" />
+    <option name="y" value="-338" />
     <option name="width" value="1832" />
     <option name="height" value="1107" />
   </component>
@@ -374,9 +392,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="Scratches">
         <subPane>
           <expand>
@@ -388,6 +405,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -431,7 +449,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.CodeQuestions.instances">
+  <component name="RunManager" selected="JUnit.CodeQuestions.scratchSheet">
     <configuration name="All in MontereyProject01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="MontereyProject01" />
@@ -502,6 +520,31 @@
       <envs />
       <patterns />
     </configuration>
+    <configuration name="CodeQuestions.scratchSheet" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="interview.questions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="MontereyProject01" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="interview.questions" />
+      <option name="MAIN_CLASS_NAME" value="interview.questions.CodeQuestions" />
+      <option name="METHOD_NAME" value="scratchSheet" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
     <configuration name="MorePracticeJava.fibR" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="MontereyProject01" />
@@ -536,31 +579,6 @@
       <option name="MAIN_CLASS_NAME" value="seleniumDropDowns.SeleniumDropDownTests" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration name="SeleniumDropDownTests.TestSelect" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="seleniumDropDowns.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="MontereyProject01" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="seleniumDropDowns" />
-      <option name="MAIN_CLASS_NAME" value="seleniumDropDowns.SeleniumDropDownTests" />
-      <option name="METHOD_NAME" value="TestSelect" />
-      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -656,18 +674,18 @@
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="JUnit.MorePracticeJava.fibR" />
       <item index="1" class="java.lang.String" itemvalue="JUnit.CodeQuestions.instances" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.SeleniumDropDownTests.TestSelect" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.SeleniumDropDownTests" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.All in MontereyProject01" />
-      <item index="5" class="java.lang.String" itemvalue="JUnit.CodeQuestions.comCast" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.SeleniumDropDownTests" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.All in MontereyProject01" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.CodeQuestions.comCast" />
+      <item index="5" class="java.lang.String" itemvalue="JUnit.CodeQuestions.scratchSheet" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.CodeQuestions.instances" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.CodeQuestions.comCast" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.All in MontereyProject01" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.SeleniumDropDownTests" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.SeleniumDropDownTests.TestSelect" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.CodeQuestions.scratchSheet" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.CodeQuestions.instances" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.CodeQuestions.comCast" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.All in MontereyProject01" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.SeleniumDropDownTests" />
       </list>
     </recent_temporary>
   </component>
@@ -684,48 +702,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1520195848238</updated>
-    </task>
-    <task id="LOCAL-00600" summary="plus">
-      <created>1559441534917</created>
-      <option name="number" value="00600" />
-      <option name="presentableId" value="LOCAL-00600" />
-      <option name="project" value="LOCAL" />
-      <updated>1559441534917</updated>
-    </task>
-    <task id="LOCAL-00601" summary="plus">
-      <created>1559535856799</created>
-      <option name="number" value="00601" />
-      <option name="presentableId" value="LOCAL-00601" />
-      <option name="project" value="LOCAL" />
-      <updated>1559535856800</updated>
-    </task>
-    <task id="LOCAL-00602" summary="plus">
-      <created>1559710791628</created>
-      <option name="number" value="00602" />
-      <option name="presentableId" value="LOCAL-00602" />
-      <option name="project" value="LOCAL" />
-      <updated>1559710791629</updated>
-    </task>
-    <task id="LOCAL-00603" summary="plus">
-      <created>1559710869902</created>
-      <option name="number" value="00603" />
-      <option name="presentableId" value="LOCAL-00603" />
-      <option name="project" value="LOCAL" />
-      <updated>1559710869902</updated>
-    </task>
-    <task id="LOCAL-00604" summary="plus">
-      <created>1559710902921</created>
-      <option name="number" value="00604" />
-      <option name="presentableId" value="LOCAL-00604" />
-      <option name="project" value="LOCAL" />
-      <updated>1559710902921</updated>
-    </task>
-    <task id="LOCAL-00605" summary="plus">
-      <created>1559769679704</created>
-      <option name="number" value="00605" />
-      <option name="presentableId" value="LOCAL-00605" />
-      <option name="project" value="LOCAL" />
-      <updated>1559769679704</updated>
     </task>
     <task id="LOCAL-00606" summary="plus">
       <created>1559769724321</created>
@@ -1028,21 +1004,63 @@
       <option name="project" value="LOCAL" />
       <updated>1562957317987</updated>
     </task>
-    <option name="localTasksCounter" value="649" />
+    <task id="LOCAL-00649" summary="plus">
+      <created>1563082851941</created>
+      <option name="number" value="00649" />
+      <option name="presentableId" value="LOCAL-00649" />
+      <option name="project" value="LOCAL" />
+      <updated>1563082851941</updated>
+    </task>
+    <task id="LOCAL-00650" summary="plus">
+      <created>1563171110762</created>
+      <option name="number" value="00650" />
+      <option name="presentableId" value="LOCAL-00650" />
+      <option name="project" value="LOCAL" />
+      <updated>1563171110765</updated>
+    </task>
+    <task id="LOCAL-00651" summary="plus">
+      <created>1563255659687</created>
+      <option name="number" value="00651" />
+      <option name="presentableId" value="LOCAL-00651" />
+      <option name="project" value="LOCAL" />
+      <updated>1563255659687</updated>
+    </task>
+    <task id="LOCAL-00652" summary="plus">
+      <created>1563347207902</created>
+      <option name="number" value="00652" />
+      <option name="presentableId" value="LOCAL-00652" />
+      <option name="project" value="LOCAL" />
+      <updated>1563347207902</updated>
+    </task>
+    <task id="LOCAL-00653" summary="plus">
+      <created>1563429110386</created>
+      <option name="number" value="00653" />
+      <option name="presentableId" value="LOCAL-00653" />
+      <option name="project" value="LOCAL" />
+      <updated>1563429110387</updated>
+    </task>
+    <task id="LOCAL-00654" summary="plus">
+      <created>1563598295689</created>
+      <option name="number" value="00654" />
+      <option name="presentableId" value="LOCAL-00654" />
+      <option name="project" value="LOCAL" />
+      <updated>1563598295690</updated>
+    </task>
+    <option name="localTasksCounter" value="655" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CodeQuestions_instances - 2019.06.07 at 18h 12m 47s.xml">
-      <configuration name="CodeQuestions.instances" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CodeQuestions_instances - 2019.06.08 at 10h 44m 18s.xml">
-      <configuration name="CodeQuestions.instances" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="CodeQuestions_instances - 2019.06.23 at 13h 06m 04s.xml">
       <configuration name="CodeQuestions.instances" configurationId="JUnit" />
     </history-entry>
     <history-entry file="CodeQuestions_instances - 2019.07.13 at 22h 40m 01s.xml">
       <configuration name="CodeQuestions.instances" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CodeQuestions_instances - 2019.07.17 at 09h 47m 24s.xml">
+      <configuration name="CodeQuestions.instances" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CodeQuestions_scratchSheet - 2019.07.17 at 14h 04m 51s.xml">
+      <configuration name="CodeQuestions.scratchSheet" configurationId="JUnit" />
     </history-entry>
     <history-entry file="SeleniumDropDownTests - 2019.06.14 at 17h 13m 27s.xml">
       <configuration name="SeleniumDropDownTests" configurationId="JUnit" />
@@ -1073,32 +1091,32 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1867" y="-391" width="1832" height="1107" extended-state="0" />
+    <frame x="-1895" y="-338" width="1832" height="1107" extended-state="0" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32921812" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2171665" sideWeight="0.41601345" order="9" side_tool="false" content_ui="tabs" x="71" y="369" width="1786" height="309" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="right" auto_hide="true" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.3287827" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286517" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3795243" sideWeight="0.5839866" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3795243" sideWeight="0.5839866" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3281893" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3281893" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1994382" sideWeight="0.5427215" order="5" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1994382" sideWeight="0.5427215" order="5" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2494382" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39958805" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2171665" sideWeight="0.41601345" order="9" side_tool="false" content_ui="tabs" x="71" y="369" width="1786" height="309" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2449187" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1342,20 +1360,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../MontereyProject01/src/main/java/stackQueue/ImplementQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="66" lean-forward="false" selection-start-line="9" selection-start-column="66" selection-end-line="9" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../MontereyProject01/src/main/java/stackQueue/Queue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="26" column="37" lean-forward="true" selection-start-line="26" selection-start-column="37" selection-end-line="26" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../MontereyProject01/src/main/java/AbstractClasses/Factorial.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="864">
@@ -1385,14 +1389,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../MontereyProject01/src/main/java/seleniumDropDowns/SeleniumDropDownTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1402,13 +1398,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../MontereyProject01/src/main/java/interview/questions/CodeQuestions.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="17" column="86" lean-forward="false" selection-start-line="17" selection-start-column="86" selection-end-line="17" selection-end-column="86" />
+        <state relative-caret-position="3501">
+          <caret line="611" column="108" lean-forward="false" selection-start-line="611" selection-start-column="108" selection-end-line="611" selection-end-column="108" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2781#2789#0" expanded="true" />
-            <marker date="1563082829290" expanded="true" signature="3649:3715" ph="//..." />
+            <marker date="1563429090178" expanded="true" signature="3649:3715" ph="//..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../MontereyProject01/src/main/java/seleniumDropDowns/SeleniumDropDownTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../MontereyProject01/src/main/java/stackQueue/ImplementQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="66" lean-forward="false" selection-start-line="9" selection-start-column="66" selection-end-line="9" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../MontereyProject01/src/main/java/stackQueue/Queue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
