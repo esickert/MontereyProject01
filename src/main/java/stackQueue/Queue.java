@@ -8,6 +8,10 @@ public class Queue {
     Queue() {
     }
 
+    Queue(int x)    {
+        int y = x;
+    }
+
     Stack<Integer> stk1 = new Stack<>();
     Stack<Integer> stk2 = new Stack<>();
 
