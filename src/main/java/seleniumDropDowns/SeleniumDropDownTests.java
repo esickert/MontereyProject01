@@ -38,7 +38,7 @@ public class SeleniumDropDownTests {
 
         //#wikiArticle > p:nth-child(23) > select
 
-        dropdown.click();
+//        dropdown.click();
         //NOW WE WILL USE THE SELECT TAG ONLY PROBLEM IS DROPDOWN IS UL -> LI
         Select drop = new Select(dropdown);
 
@@ -67,7 +67,7 @@ public class SeleniumDropDownTests {
         }
 
 
-//     driver.close();
+     driver.close();
 
     }
 
