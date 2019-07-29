@@ -71,7 +71,9 @@ public class SeleniumDropDownTests {
 
     }
 
-    @Test   //******************************************************************
+    //****************************************************************************
+
+    @Test
     public void test_ul_li()    {
 
         System.setProperty("webdriver.chrome.driver", "c://SeleniumDrivers//chromedriver.exe");
@@ -100,7 +102,7 @@ public class SeleniumDropDownTests {
         catch(InterruptedException e)   {
             e.printStackTrace();
         }
-        driver.close();
+ //       driver.close();
     }
     }
 
