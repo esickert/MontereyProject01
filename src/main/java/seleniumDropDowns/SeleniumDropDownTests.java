@@ -72,7 +72,7 @@ public class SeleniumDropDownTests {
     }
 
     //****************************************************************************
-
+    //For some reasone Indians love to ask about the Select class when most of the dropdowns are li.
     @Test
     public void test_ul_li()    {
 
