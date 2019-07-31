@@ -99,6 +99,6 @@ public class SeleniumDropDownTests {
         }
         //       driver.close();
     }
-}  // end of Sellenium
+}  // end of SelleniumDropDownTests class
 
 

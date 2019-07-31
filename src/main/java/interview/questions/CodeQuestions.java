@@ -15,7 +15,7 @@ import static org.testng.AssertJUnit.assertEquals;
 
 
     public class CodeQuestions {
-//************************************************************************************
+        //************************************************************************************
 // Fibinacci sequence NON recursive
         @Test
         public void fibonacci() {
@@ -491,7 +491,7 @@ import static org.testng.AssertJUnit.assertEquals;
 
         public void occurences(int[] b, int x, int y) {
             int count = 0;
-            for(int temp:b) {
+            for (int temp : b) {
                 if (temp == x) {
                     count++;
                 }
@@ -499,13 +499,13 @@ import static org.testng.AssertJUnit.assertEquals;
             System.out.println(x + " occurs " + count + " times.");
         }  //end of method
 
-      @Test
+        @Test
         public void comCast2() {
 
             int[] a = {1, 3, 3, 2, 2, 2, 3, 4, 5, 6};
-            int[] b = {2,5,4,1,7,6,43};
+            int[] b = {2, 5, 4, 1, 7, 6, 43};
             int x = 0;
-            for(int temp:b) {
+            for (int temp : b) {
                 found(a, temp);
             }
         }
@@ -513,35 +513,33 @@ import static org.testng.AssertJUnit.assertEquals;
         public void found(int[] a, int x) {
 
             int count = 0;
-            for(int temp : a) {
+            for (int temp : a) {
                 if (temp == x)
                     count++;
             }
             System.out.println("There are " + count + " of " + x);
-     }
-
-
-
-
- //********************************************************************************************************
-    @Test  //file io stuff
-    public void writeToFile2() {
-        String filename = "c:\\Temp\\erichSickert.txt";
-        File file = new File(filename);
-        PrintStream outStream = null;
-
-        int totalWords = 0;
-
-        try {
-            outStream = new PrintStream(file);
-            outStream.println("Lions in the street and roaming");
-            outStream.println("dogs in heat rabid foaming");
-            outStream.println("A beast caged in the heart of ther city");
-            outStream.println("Its mother rotting in the summer ground");
-        } catch (Exception e) {
-            System.out.println("ERROR");
-            e.printStackTrace();
         }
+
+
+        //********************************************************************************************************
+        @Test  //file io stuff
+        public void writeToFile2() {
+            String filename = "c:\\Temp\\erichSickert.txt";
+            File file = new File(filename);
+            PrintStream outStream = null;
+
+            int totalWords = 0;
+
+            try {
+                outStream = new PrintStream(file);
+                outStream.println("Lions in the street and roaming");
+                outStream.println("dogs in heat rabid foaming");
+                outStream.println("A beast caged in the heart of ther city");
+                outStream.println("Its mother rotting in the summer ground");
+            } catch (Exception e) {
+                System.out.println("ERROR");
+                e.printStackTrace();
+            }
 /*        try {
             Thread.sleep(10000);
         }
@@ -550,71 +548,69 @@ import static org.testng.AssertJUnit.assertEquals;
             e.printStackTrace();
         }
 */
-        try {
-            Scanner scan  = new Scanner(file);
-            while (scan.hasNextLine()) {
-               String text = scan.nextLine();
+            try {
+                Scanner scan = new Scanner(file);
+                while (scan.hasNextLine()) {
+                    String text = scan.nextLine();
 //               System.out.println(text);
-               String[] words = text.split("\\s+");
-               for(String temp: words)   {
+                    String[] words = text.split("\\s+");
+                    for (String temp : words) {
 //                   System.out.print(temp + " ");
- //                  System.out.println("The number of words is " + words.length);
-               }
- //               System.out.println("\nThe number of words is " + words.length);
-                totalWords = totalWords + words.length;
-               }
-               System.out.println("The total number of words are " + totalWords);
-        }
-        catch(Exception e)    {
+                        //                  System.out.println("The number of words is " + words.length);
+                    }
+                    //               System.out.println("\nThe number of words is " + words.length);
+                    totalWords = totalWords + words.length;
+                }
+                System.out.println("The total number of words are " + totalWords);
+            } catch (Exception e) {
                 System.out.println("ERROR");
                 e.printStackTrace();
+            }
+
+        }//end of method writeToFile2
+
+        @Test
+        public void selenium2() {
+
+            System.setProperty("webdriver.gecko.driver", "C://SeleniumDrivers//geckodriver.exe");
+            WebDriver driver = new FirefoxDriver();
+
+            driver.navigate().to("http:\\www.yahoo.com");
+
         }
 
-    }//end of method writeToFile2
+        //***********************************************************************************************************
+        @Test
+        public void instances() {
 
-    @Test
-    public void selenium2() {
-
-       System.setProperty("webdriver.gecko.driver","C://SeleniumDrivers//geckodriver.exe");
-       WebDriver driver = new FirefoxDriver();
-
-       driver.navigate().to("http:\\www.yahoo.com");
-
-    }
-
-//***********************************************************************************************************
-    @Test
-    public void instances() {
-
-        int[] a = {2, 5, 4, 7, 2, 3, 1, 5, 6, 8, 5, 3, 4};
-        int x = 1;
-        Arrays.sort(a);                      //sorts array Not sure why i needed to sort the array.
-        for (int temp : a) {
- //           System.out.print(temp + " ");
-            while (x != 10) {
-                test(x, a);
-                x++;
+            int[] a = {2, 5, 4, 7, 2, 3, 1, 5, 6, 8, 5, 3, 4};
+            int x = 1;
+            Arrays.sort(a);                      //sorts array Not sure why i needed to sort the array.
+            for (int temp : a) {
+                //           System.out.print(temp + " ");
+                while (x != 10) {
+                    test(x, a);
+                    x++;
+                }
+            }
+            for (int temp : a) {
+                System.out.print(temp + " ");
             }
         }
-        for(int temp:a ) {
-            System.out.print(temp + " ");
-        }
-    }
-    public void test(int x, int[] b)    {
+
+        public void test(int x, int[] b) {
             int count = 0;
             for (int temp : b) {
-            if (x == temp) {
-               count++;
+                if (x == temp) {
+                    count++;
+                }
             }
+            System.out.println("There are " + count + " instances " + " of " + x);
         }
-        System.out.println("There are " + count + " instances " + " of " + x);
-    }
+
 //**********************************************************************************************************
 
-    @Test
-    public void scratchSheet() {
 
-        }
 
 } //end of class CodeQuestions
 
