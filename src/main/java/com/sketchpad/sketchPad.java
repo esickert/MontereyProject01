@@ -26,6 +26,7 @@ public class sketchPad {
             String text = scan.nextLine();
             System.out.println(text);
         }
+        //****************************************************
 
 
     }
