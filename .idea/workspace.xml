@@ -6,7 +6,7 @@
     <bookmark url="file://$PROJECT_DIR$/../MontereyProject01/src/main/java/com/esickert/Playground.java" line="59" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="078280d5-5042-4862-850d-0c24f97ab4a9" name="Default" comment="plus">
+    <list default="true" id="078280d5-5042-4862-850d-0c24f97ab4a9" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../MontereyProject01/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../MontereyProject01/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/../MontereyProject01/out/" />
@@ -55,7 +55,7 @@
         <entry file="file://$PROJECT_DIR$/../MontereyProject01/src/main/java/com/sketchpad/sketchPad.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="504">
-              <caret line="28" column="54" lean-forward="false" selection-start-line="28" selection-start-column="54" selection-end-line="28" selection-end-column="54" />
+              <caret line="28" column="49" lean-forward="true" selection-start-line="28" selection-start-column="49" selection-end-line="28" selection-end-column="49" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -226,18 +226,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="Scratches">
-        <subPane>
-          <expand>
-            <path>
-              <item name="" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
-              <item name="IDE Scripting" type="d62648e6:ScratchProjectViewPane$MyRootNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -415,7 +403,19 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches">
+        <subPane>
+          <expand>
+            <path>
+              <item name="" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+              <item name="IDE Scripting" type="d62648e6:ScratchProjectViewPane$MyRootNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="AndroidView" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -717,20 +717,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1520195848238</updated>
-    </task>
-    <task id="LOCAL-00630" summary="plus">
-      <created>1561873706118</created>
-      <option name="number" value="00630" />
-      <option name="presentableId" value="LOCAL-00630" />
-      <option name="project" value="LOCAL" />
-      <updated>1561873706119</updated>
-    </task>
-    <task id="LOCAL-00631" summary="plus">
-      <created>1561950674807</created>
-      <option name="number" value="00631" />
-      <option name="presentableId" value="LOCAL-00631" />
-      <option name="project" value="LOCAL" />
-      <updated>1561950674807</updated>
     </task>
     <task id="LOCAL-00632" summary="plus">
       <created>1562031197203</created>
@@ -1061,7 +1047,21 @@
       <option name="project" value="LOCAL" />
       <updated>1565615556410</updated>
     </task>
-    <option name="localTasksCounter" value="679" />
+    <task id="LOCAL-00679" summary="plus">
+      <created>1565615623813</created>
+      <option name="number" value="00679" />
+      <option name="presentableId" value="LOCAL-00679" />
+      <option name="project" value="LOCAL" />
+      <updated>1565615623813</updated>
+    </task>
+    <task id="LOCAL-00680" summary="plus">
+      <created>1565702914720</created>
+      <option name="number" value="00680" />
+      <option name="presentableId" value="LOCAL-00680" />
+      <option name="project" value="LOCAL" />
+      <updated>1565702914721</updated>
+    </task>
+    <option name="localTasksCounter" value="681" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1440,7 +1440,7 @@
     <entry file="file://$PROJECT_DIR$/../MontereyProject01/src/main/java/com/sketchpad/sketchPad.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="504">
-          <caret line="28" column="54" lean-forward="false" selection-start-line="28" selection-start-column="54" selection-end-line="28" selection-end-column="54" />
+          <caret line="28" column="49" lean-forward="true" selection-start-line="28" selection-start-column="49" selection-end-line="28" selection-end-column="49" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
