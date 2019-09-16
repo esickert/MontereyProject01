@@ -31,12 +31,12 @@
       <file leaf-file-name="CodeQuestions.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../MontereyProject01/src/main/java/interview/questions/CodeQuestions.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="164">
-              <caret line="581" column="92" lean-forward="false" selection-start-line="581" selection-start-column="92" selection-end-line="581" selection-end-column="92" />
+            <state relative-caret-position="237">
+              <caret line="581" column="86" lean-forward="false" selection-start-line="581" selection-start-column="86" selection-end-line="581" selection-end-column="86" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#2789#2797#0" expanded="true" />
-                <marker date="1568208578692" expanded="true" signature="3657:3723" ph="//..." />
+                <marker date="1568640808362" expanded="true" signature="3657:3723" ph="//..." />
               </folding>
             </state>
           </provider>
@@ -160,9 +160,9 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="-1871" />
-    <option name="y" value="-373" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-1880" />
+    <option name="y" value="-390" />
     <option name="width" value="1832" />
     <option name="height" value="1107" />
   </component>
@@ -204,8 +204,17 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="AndroidView" />
+      <pane id="Scratches">
+        <subPane>
+          <expand>
+            <path>
+              <item name="" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+              <item name="IDE Scripting" type="d62648e6:ScratchProjectViewPane$MyRootNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -365,18 +374,9 @@
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
       <pane id="PackagesPane" />
-      <pane id="Scratches">
-        <subPane>
-          <expand>
-            <path>
-              <item name="" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
-              <item name="IDE Scripting" type="d62648e6:ScratchProjectViewPane$MyRootNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -679,48 +679,6 @@
       <option name="presentableId" value="Default" />
       <updated>1520195848238</updated>
     </task>
-    <task id="LOCAL-00657" summary="plus">
-      <created>1563663851911</created>
-      <option name="number" value="00657" />
-      <option name="presentableId" value="LOCAL-00657" />
-      <option name="project" value="LOCAL" />
-      <updated>1563663851911</updated>
-    </task>
-    <task id="LOCAL-00658" summary="plus">
-      <created>1563751381564</created>
-      <option name="number" value="00658" />
-      <option name="presentableId" value="LOCAL-00658" />
-      <option name="project" value="LOCAL" />
-      <updated>1563751381565</updated>
-    </task>
-    <task id="LOCAL-00659" summary="plus">
-      <created>1563751443889</created>
-      <option name="number" value="00659" />
-      <option name="presentableId" value="LOCAL-00659" />
-      <option name="project" value="LOCAL" />
-      <updated>1563751443889</updated>
-    </task>
-    <task id="LOCAL-00660" summary="plus">
-      <created>1563858236077</created>
-      <option name="number" value="00660" />
-      <option name="presentableId" value="LOCAL-00660" />
-      <option name="project" value="LOCAL" />
-      <updated>1563858236077</updated>
-    </task>
-    <task id="LOCAL-00661" summary="plus">
-      <created>1563949859477</created>
-      <option name="number" value="00661" />
-      <option name="presentableId" value="LOCAL-00661" />
-      <option name="project" value="LOCAL" />
-      <updated>1563949859477</updated>
-    </task>
-    <task id="LOCAL-00662" summary="plus">
-      <created>1564423254371</created>
-      <option name="number" value="00662" />
-      <option name="presentableId" value="LOCAL-00662" />
-      <option name="project" value="LOCAL" />
-      <updated>1564423254387</updated>
-    </task>
     <task id="LOCAL-00663" summary="plus">
       <created>1564518838443</created>
       <option name="number" value="00663" />
@@ -1022,7 +980,49 @@
       <option name="project" value="LOCAL" />
       <updated>1568208602970</updated>
     </task>
-    <option name="localTasksCounter" value="706" />
+    <task id="LOCAL-00706" summary="plus">
+      <created>1568208665551</created>
+      <option name="number" value="00706" />
+      <option name="presentableId" value="LOCAL-00706" />
+      <option name="project" value="LOCAL" />
+      <updated>1568208665551</updated>
+    </task>
+    <task id="LOCAL-00707" summary="plus">
+      <created>1568295784687</created>
+      <option name="number" value="00707" />
+      <option name="presentableId" value="LOCAL-00707" />
+      <option name="project" value="LOCAL" />
+      <updated>1568295784688</updated>
+    </task>
+    <task id="LOCAL-00708" summary="plus">
+      <created>1568382290231</created>
+      <option name="number" value="00708" />
+      <option name="presentableId" value="LOCAL-00708" />
+      <option name="project" value="LOCAL" />
+      <updated>1568382290231</updated>
+    </task>
+    <task id="LOCAL-00709" summary="plus">
+      <created>1568520389627</created>
+      <option name="number" value="00709" />
+      <option name="presentableId" value="LOCAL-00709" />
+      <option name="project" value="LOCAL" />
+      <updated>1568520389627</updated>
+    </task>
+    <task id="LOCAL-00710" summary="plus">
+      <created>1568606108015</created>
+      <option name="number" value="00710" />
+      <option name="presentableId" value="LOCAL-00710" />
+      <option name="project" value="LOCAL" />
+      <updated>1568606108015</updated>
+    </task>
+    <task id="LOCAL-00711" summary="plus">
+      <created>1568640829514</created>
+      <option name="number" value="00711" />
+      <option name="presentableId" value="LOCAL-00711" />
+      <option name="project" value="LOCAL" />
+      <updated>1568640829515</updated>
+    </task>
+    <option name="localTasksCounter" value="712" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1067,7 +1067,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1871" y="-373" width="1832" height="1107" extended-state="0" />
+    <frame x="-1924" y="-426" width="1928" height="1180" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32921812" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1081,7 +1081,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3281893" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1994382" sideWeight="0.5427215" order="5" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18923241" sideWeight="0.5427215" order="5" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2494382" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1388,12 +1388,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../MontereyProject01/src/main/java/interview/questions/CodeQuestions.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="581" column="92" lean-forward="false" selection-start-line="581" selection-start-column="92" selection-end-line="581" selection-end-column="92" />
+        <state relative-caret-position="237">
+          <caret line="581" column="86" lean-forward="false" selection-start-line="581" selection-start-column="86" selection-end-line="581" selection-end-column="86" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#2789#2797#0" expanded="true" />
-            <marker date="1568208578692" expanded="true" signature="3657:3723" ph="//..." />
+            <marker date="1568640808362" expanded="true" signature="3657:3723" ph="//..." />
           </folding>
         </state>
       </provider>
