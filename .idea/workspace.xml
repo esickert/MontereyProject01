@@ -31,11 +31,12 @@
       <file leaf-file-name="CodeQuestions.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../MontereyProject01/src/main/java/interview/questions/CodeQuestions.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="398">
-              <caret line="594" column="13" lean-forward="false" selection-start-line="594" selection-start-column="13" selection-end-line="594" selection-end-column="13" />
+            <state relative-caret-position="164">
+              <caret line="581" column="89" lean-forward="true" selection-start-line="581" selection-start-column="89" selection-end-line="581" selection-end-column="89" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <marker date="1568947947252" expanded="true" signature="3657:3723" ph="//..." />
+                <element signature="e#2789#2797#0" expanded="true" />
+                <marker date="1569592557537" expanded="true" signature="3657:3723" ph="//..." />
               </folding>
             </state>
           </provider>
@@ -203,8 +204,20 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="Scratches">
+        <subPane>
+          <expand>
+            <path>
+              <item name="" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+              <item name="IDE Scripting" type="d62648e6:ScratchProjectViewPane$MyRootNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -364,18 +377,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches">
-        <subPane>
-          <expand>
-            <path>
-              <item name="" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
-              <item name="IDE Scripting" type="d62648e6:ScratchProjectViewPane$MyRootNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -677,34 +678,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1520195848238</updated>
-    </task>
-    <task id="LOCAL-00670" summary="plus">
-      <created>1564974085476</created>
-      <option name="number" value="00670" />
-      <option name="presentableId" value="LOCAL-00670" />
-      <option name="project" value="LOCAL" />
-      <updated>1564974085477</updated>
-    </task>
-    <task id="LOCAL-00671" summary="plus">
-      <created>1565073512734</created>
-      <option name="number" value="00671" />
-      <option name="presentableId" value="LOCAL-00671" />
-      <option name="project" value="LOCAL" />
-      <updated>1565073512734</updated>
-    </task>
-    <task id="LOCAL-00672" summary="plus">
-      <created>1565073557367</created>
-      <option name="number" value="00672" />
-      <option name="presentableId" value="LOCAL-00672" />
-      <option name="project" value="LOCAL" />
-      <updated>1565073557367</updated>
-    </task>
-    <task id="LOCAL-00673" summary="plus">
-      <created>1565141633178</created>
-      <option name="number" value="00673" />
-      <option name="presentableId" value="LOCAL-00673" />
-      <option name="project" value="LOCAL" />
-      <updated>1565141633178</updated>
     </task>
     <task id="LOCAL-00674" summary="plus">
       <created>1565156029311</created>
@@ -1021,7 +994,35 @@
       <option name="project" value="LOCAL" />
       <updated>1569188504843</updated>
     </task>
-    <option name="localTasksCounter" value="719" />
+    <task id="LOCAL-00719" summary="plus">
+      <created>1569248463778</created>
+      <option name="number" value="00719" />
+      <option name="presentableId" value="LOCAL-00719" />
+      <option name="project" value="LOCAL" />
+      <updated>1569248463779</updated>
+    </task>
+    <task id="LOCAL-00720" summary="plus">
+      <created>1569421263291</created>
+      <option name="number" value="00720" />
+      <option name="presentableId" value="LOCAL-00720" />
+      <option name="project" value="LOCAL" />
+      <updated>1569421263291</updated>
+    </task>
+    <task id="LOCAL-00721" summary="plus">
+      <created>1569507616655</created>
+      <option name="number" value="00721" />
+      <option name="presentableId" value="LOCAL-00721" />
+      <option name="project" value="LOCAL" />
+      <updated>1569507616656</updated>
+    </task>
+    <task id="LOCAL-00722" summary="plus">
+      <created>1569592574853</created>
+      <option name="number" value="00722" />
+      <option name="presentableId" value="LOCAL-00722" />
+      <option name="project" value="LOCAL" />
+      <updated>1569592574853</updated>
+    </task>
+    <option name="localTasksCounter" value="723" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1387,11 +1388,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../MontereyProject01/src/main/java/interview/questions/CodeQuestions.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="398">
-          <caret line="594" column="13" lean-forward="false" selection-start-line="594" selection-start-column="13" selection-end-line="594" selection-end-column="13" />
+        <state relative-caret-position="164">
+          <caret line="581" column="89" lean-forward="true" selection-start-line="581" selection-start-column="89" selection-end-line="581" selection-end-column="89" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1568947947252" expanded="true" signature="3657:3723" ph="//..." />
+            <element signature="e#2789#2797#0" expanded="true" />
+            <marker date="1569592557537" expanded="true" signature="3657:3723" ph="//..." />
           </folding>
         </state>
       </provider>
