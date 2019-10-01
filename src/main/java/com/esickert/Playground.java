@@ -14,6 +14,7 @@ public void sortedArray()   {
     display(a, "AFTER");
 }
 
+@Test
 public static void display (int[] array, String when) {
     System.out.print("Array values " + when + " sorting: ");
     for (int i = 0; i < array.length; i++)
