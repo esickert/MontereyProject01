@@ -32,11 +32,11 @@
         <entry file="file://$PROJECT_DIR$/../MontereyProject01/src/main/java/interview/questions/CodeQuestions.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="164">
-              <caret line="581" column="77" lean-forward="false" selection-start-line="581" selection-start-column="77" selection-end-line="581" selection-end-column="77" />
+              <caret line="581" column="74" lean-forward="false" selection-start-line="581" selection-start-column="74" selection-end-line="581" selection-end-column="74" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#2789#2797#0" expanded="true" />
-                <marker date="1570341749598" expanded="true" signature="3657:3723" ph="//..." />
+                <marker date="1570459298248" expanded="true" signature="3657:3723" ph="//..." />
               </folding>
             </state>
           </provider>
@@ -171,8 +171,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-1867" />
-    <option name="y" value="-386" />
+    <option name="x" value="-1833" />
+    <option name="y" value="-385" />
     <option name="width" value="1832" />
     <option name="height" value="1107" />
   </component>
@@ -225,7 +225,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -385,8 +386,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -688,20 +688,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1520195848238</updated>
-    </task>
-    <task id="LOCAL-00682" summary="plus">
-      <created>1565962719405</created>
-      <option name="number" value="00682" />
-      <option name="presentableId" value="LOCAL-00682" />
-      <option name="project" value="LOCAL" />
-      <updated>1565962719405</updated>
-    </task>
-    <task id="LOCAL-00683" summary="plus">
-      <created>1566059944477</created>
-      <option name="number" value="00683" />
-      <option name="presentableId" value="LOCAL-00683" />
-      <option name="project" value="LOCAL" />
-      <updated>1566059944477</updated>
     </task>
     <task id="LOCAL-00684" summary="plus">
       <created>1566172183327</created>
@@ -1032,7 +1018,21 @@
       <option name="project" value="LOCAL" />
       <updated>1570341771407</updated>
     </task>
-    <option name="localTasksCounter" value="731" />
+    <task id="LOCAL-00731" summary="plus">
+      <created>1570419749866</created>
+      <option name="number" value="00731" />
+      <option name="presentableId" value="LOCAL-00731" />
+      <option name="project" value="LOCAL" />
+      <updated>1570419749866</updated>
+    </task>
+    <task id="LOCAL-00732" summary="plus">
+      <created>1570459314488</created>
+      <option name="number" value="00732" />
+      <option name="presentableId" value="LOCAL-00732" />
+      <option name="project" value="LOCAL" />
+      <updated>1570459314488</updated>
+    </task>
+    <option name="localTasksCounter" value="733" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1077,7 +1077,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1867" y="-386" width="1832" height="1107" extended-state="0" />
+    <frame x="-1833" y="-385" width="1832" height="1107" extended-state="0" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32921812" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1400,11 +1400,11 @@
     <entry file="file://$PROJECT_DIR$/../MontereyProject01/src/main/java/interview/questions/CodeQuestions.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="164">
-          <caret line="581" column="77" lean-forward="false" selection-start-line="581" selection-start-column="77" selection-end-line="581" selection-end-column="77" />
+          <caret line="581" column="74" lean-forward="false" selection-start-line="581" selection-start-column="74" selection-end-line="581" selection-end-column="74" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#2789#2797#0" expanded="true" />
-            <marker date="1570341749598" expanded="true" signature="3657:3723" ph="//..." />
+            <marker date="1570459298248" expanded="true" signature="3657:3723" ph="//..." />
           </folding>
         </state>
       </provider>
