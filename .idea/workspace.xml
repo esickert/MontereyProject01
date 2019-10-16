@@ -213,17 +213,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches">
-        <subPane>
-          <expand>
-            <path>
-              <item name="" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
-              <item name="IDE Scripting" type="d62648e6:ScratchProjectViewPane$MyRootNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
+      <pane id="Scope" />
       <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
@@ -384,7 +374,17 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="Scratches">
+        <subPane>
+          <expand>
+            <path>
+              <item name="" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+              <item name="IDE Scripting" type="d62648e6:ScratchProjectViewPane$MyRootNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -687,13 +687,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1520195848238</updated>
-    </task>
-    <task id="LOCAL-00689" summary="plus">
-      <created>1566752153604</created>
-      <option name="number" value="00689" />
-      <option name="presentableId" value="LOCAL-00689" />
-      <option name="project" value="LOCAL" />
-      <updated>1566752153604</updated>
     </task>
     <task id="LOCAL-00690" summary="plus">
       <created>1566915213823</created>
@@ -1031,7 +1024,14 @@
       <option name="project" value="LOCAL" />
       <updated>1571026815724</updated>
     </task>
-    <option name="localTasksCounter" value="738" />
+    <task id="LOCAL-00738" summary="plus">
+      <created>1571063894500</created>
+      <option name="number" value="00738" />
+      <option name="presentableId" value="LOCAL-00738" />
+      <option name="project" value="LOCAL" />
+      <updated>1571063894512</updated>
+    </task>
+    <option name="localTasksCounter" value="739" />
     <servers />
   </component>
   <component name="TestHistory">
