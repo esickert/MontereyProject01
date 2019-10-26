@@ -171,8 +171,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-1848" />
-    <option name="y" value="-403" />
+    <option name="x" value="-1866" />
+    <option name="y" value="-375" />
     <option name="width" value="1832" />
     <option name="height" value="1107" />
   </component>
@@ -689,13 +689,6 @@
       <option name="presentableId" value="Default" />
       <updated>1520195848238</updated>
     </task>
-    <task id="LOCAL-00698" summary="plus">
-      <created>1567777916466</created>
-      <option name="number" value="00698" />
-      <option name="presentableId" value="LOCAL-00698" />
-      <option name="project" value="LOCAL" />
-      <updated>1567777916467</updated>
-    </task>
     <task id="LOCAL-00699" summary="plus">
       <created>1567778113976</created>
       <option name="number" value="00699" />
@@ -1032,7 +1025,14 @@
       <option name="project" value="LOCAL" />
       <updated>1571887908013</updated>
     </task>
-    <option name="localTasksCounter" value="747" />
+    <task id="LOCAL-00747" summary="plus">
+      <created>1571975629881</created>
+      <option name="number" value="00747" />
+      <option name="presentableId" value="LOCAL-00747" />
+      <option name="project" value="LOCAL" />
+      <updated>1571975629881</updated>
+    </task>
+    <option name="localTasksCounter" value="748" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1077,7 +1077,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1848" y="-403" width="1832" height="1107" extended-state="0" />
+    <frame x="-1866" y="-375" width="1832" height="1107" extended-state="0" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32921812" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
