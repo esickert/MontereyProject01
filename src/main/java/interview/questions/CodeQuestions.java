@@ -16,8 +16,8 @@ import static org.testng.AssertJUnit.assertEquals;
 
     public class CodeQuestions {
 
-        
-        //************************************************************************************
+
+        //*****************************************************************************
 // Fibinacci sequence NON recursive
         @Test
         public void fibonacci() {
