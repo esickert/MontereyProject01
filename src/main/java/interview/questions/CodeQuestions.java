@@ -183,7 +183,7 @@ import static org.testng.AssertJUnit.assertEquals;
             return temp;
         }
 
-        //*******************************************************************************
+        //***************************************************************************
         @Test  //sum up the individual digits in a number
         public void sumTheDigit() {
             int x = 123;
