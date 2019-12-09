@@ -231,7 +231,7 @@ import static org.testng.AssertJUnit.assertEquals;
                 System.out.println("\nNOT!!!!!");
         }//end of integerPalindrome
 
-//*****************************************************************************
+//***********************************************************************
 
         //this is not done yet
         @Test
