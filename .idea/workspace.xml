@@ -42,7 +42,7 @@
         <entry file="file://$PROJECT_DIR$/../MontereyProject01/src/main/java/interview/questions/CodeQuestions.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="18">
-              <caret line="248" column="55" lean-forward="false" selection-start-line="248" selection-start-column="55" selection-end-line="248" selection-end-column="55" />
+              <caret line="277" column="126" lean-forward="false" selection-start-line="277" selection-start-column="126" selection-end-line="277" selection-end-column="126" />
               <folding>
                 <element signature="e#2771#2779#0" expanded="true" />
               </folding>
@@ -212,7 +212,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -372,7 +371,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="Scratches">
         <subPane>
           <expand>
@@ -384,7 +383,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -686,20 +686,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1520195848238</updated>
-    </task>
-    <task id="LOCAL-00759" summary="plus">
-      <created>1572966971140</created>
-      <option name="number" value="00759" />
-      <option name="presentableId" value="LOCAL-00759" />
-      <option name="project" value="LOCAL" />
-      <updated>1572966971140</updated>
-    </task>
-    <task id="LOCAL-00760" summary="plus">
-      <created>1572967157236</created>
-      <option name="number" value="00760" />
-      <option name="presentableId" value="LOCAL-00760" />
-      <option name="project" value="LOCAL" />
-      <updated>1572967157236</updated>
     </task>
     <task id="LOCAL-00761" summary="plus">
       <created>1572967239994</created>
@@ -1030,7 +1016,21 @@
       <option name="project" value="LOCAL" />
       <updated>1576683202741</updated>
     </task>
-    <option name="localTasksCounter" value="808" />
+    <task id="LOCAL-00808" summary="plus">
+      <created>1576732173613</created>
+      <option name="number" value="00808" />
+      <option name="presentableId" value="LOCAL-00808" />
+      <option name="project" value="LOCAL" />
+      <updated>1576732173613</updated>
+    </task>
+    <task id="LOCAL-00809" summary="plus">
+      <created>1576769210110</created>
+      <option name="number" value="00809" />
+      <option name="presentableId" value="LOCAL-00809" />
+      <option name="project" value="LOCAL" />
+      <updated>1576769210110</updated>
+    </task>
+    <option name="localTasksCounter" value="810" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1581,7 +1581,7 @@
     <entry file="file://$PROJECT_DIR$/../MontereyProject01/src/main/java/interview/questions/CodeQuestions.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="18">
-          <caret line="248" column="55" lean-forward="false" selection-start-line="248" selection-start-column="55" selection-end-line="248" selection-end-column="55" />
+          <caret line="277" column="126" lean-forward="false" selection-start-line="277" selection-start-column="126" selection-end-line="277" selection-end-column="126" />
           <folding>
             <element signature="e#2771#2779#0" expanded="true" />
           </folding>
