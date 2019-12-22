@@ -42,10 +42,8 @@
         <entry file="file://$PROJECT_DIR$/../MontereyProject01/src/main/java/interview/questions/CodeQuestions.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="18">
-              <caret line="277" column="126" lean-forward="false" selection-start-line="277" selection-start-column="126" selection-end-line="277" selection-end-column="126" />
-              <folding>
-                <element signature="e#2771#2779#0" expanded="true" />
-              </folding>
+              <caret line="277" column="120" lean-forward="false" selection-start-line="277" selection-start-column="120" selection-end-line="277" selection-end-column="120" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -371,6 +369,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="AndroidView" />
       <pane id="Scratches">
         <subPane>
@@ -383,7 +382,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -686,34 +684,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1520195848238</updated>
-    </task>
-    <task id="LOCAL-00761" summary="plus">
-      <created>1572967239994</created>
-      <option name="number" value="00761" />
-      <option name="presentableId" value="LOCAL-00761" />
-      <option name="project" value="LOCAL" />
-      <updated>1572967239994</updated>
-    </task>
-    <task id="LOCAL-00762" summary="plus">
-      <created>1573141164714</created>
-      <option name="number" value="00762" />
-      <option name="presentableId" value="LOCAL-00762" />
-      <option name="project" value="LOCAL" />
-      <updated>1573141164714</updated>
-    </task>
-    <task id="LOCAL-00763" summary="plus">
-      <created>1573228053188</created>
-      <option name="number" value="00763" />
-      <option name="presentableId" value="LOCAL-00763" />
-      <option name="project" value="LOCAL" />
-      <updated>1573228053188</updated>
-    </task>
-    <task id="LOCAL-00764" summary="plus">
-      <created>1573439312453</created>
-      <option name="number" value="00764" />
-      <option name="presentableId" value="LOCAL-00764" />
-      <option name="project" value="LOCAL" />
-      <updated>1573439312454</updated>
     </task>
     <task id="LOCAL-00765" summary="plus">
       <created>1573572566470</created>
@@ -1030,7 +1000,35 @@
       <option name="project" value="LOCAL" />
       <updated>1576769210110</updated>
     </task>
-    <option name="localTasksCounter" value="810" />
+    <task id="LOCAL-00810" summary="plus">
+      <created>1576818357048</created>
+      <option name="number" value="00810" />
+      <option name="presentableId" value="LOCAL-00810" />
+      <option name="project" value="LOCAL" />
+      <updated>1576818357049</updated>
+    </task>
+    <task id="LOCAL-00811" summary="plus">
+      <created>1576855929187</created>
+      <option name="number" value="00811" />
+      <option name="presentableId" value="LOCAL-00811" />
+      <option name="project" value="LOCAL" />
+      <updated>1576855929187</updated>
+    </task>
+    <task id="LOCAL-00812" summary="plus">
+      <created>1576998132576</created>
+      <option name="number" value="00812" />
+      <option name="presentableId" value="LOCAL-00812" />
+      <option name="project" value="LOCAL" />
+      <updated>1576998132576</updated>
+    </task>
+    <task id="LOCAL-00813" summary="plus">
+      <created>1577052363072</created>
+      <option name="number" value="00813" />
+      <option name="presentableId" value="LOCAL-00813" />
+      <option name="project" value="LOCAL" />
+      <updated>1577052363073</updated>
+    </task>
+    <option name="localTasksCounter" value="814" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1154,9 +1152,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3330">
           <caret line="185" column="77" lean-forward="true" selection-start-line="185" selection-start-column="77" selection-end-line="185" selection-end-column="77" />
-          <folding>
-            <element signature="e#2771#2779#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1172,9 +1168,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3330">
           <caret line="185" column="81" lean-forward="false" selection-start-line="185" selection-start-column="81" selection-end-line="185" selection-end-column="81" />
-          <folding>
-            <element signature="e#2771#2779#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1190,9 +1184,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3330">
           <caret line="185" column="78" lean-forward="true" selection-start-line="185" selection-start-column="78" selection-end-line="185" selection-end-column="78" />
-          <folding>
-            <element signature="e#2771#2779#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1208,9 +1200,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2844">
           <caret line="158" column="69" lean-forward="false" selection-start-line="158" selection-start-column="69" selection-end-line="158" selection-end-column="69" />
-          <folding>
-            <element signature="e#2771#2779#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1226,9 +1216,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2844">
           <caret line="158" column="72" lean-forward="true" selection-start-line="158" selection-start-column="72" selection-end-line="158" selection-end-column="72" />
-          <folding>
-            <element signature="e#2771#2779#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1244,9 +1232,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2844">
           <caret line="158" column="76" lean-forward="false" selection-start-line="158" selection-start-column="76" selection-end-line="158" selection-end-column="76" />
-          <folding>
-            <element signature="e#2771#2779#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1262,9 +1248,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2844">
           <caret line="158" column="76" lean-forward="true" selection-start-line="158" selection-start-column="76" selection-end-line="158" selection-end-column="76" />
-          <folding>
-            <element signature="e#2771#2779#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1280,9 +1264,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3330">
           <caret line="185" column="85" lean-forward="true" selection-start-line="185" selection-start-column="85" selection-end-line="185" selection-end-column="85" />
-          <folding>
-            <element signature="e#2771#2779#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1298,9 +1280,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2700">
           <caret line="150" column="43" lean-forward="false" selection-start-line="150" selection-start-column="43" selection-end-line="150" selection-end-column="43" />
-          <folding>
-            <element signature="e#2771#2779#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1316,9 +1296,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2700">
           <caret line="150" column="43" lean-forward="true" selection-start-line="150" selection-start-column="43" selection-end-line="150" selection-end-column="43" />
-          <folding>
-            <element signature="e#2771#2779#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1334,9 +1312,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2484">
           <caret line="138" column="77" lean-forward="false" selection-start-line="138" selection-start-column="77" selection-end-line="138" selection-end-column="77" />
-          <folding>
-            <element signature="e#2771#2779#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1352,9 +1328,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2484">
           <caret line="138" column="77" lean-forward="true" selection-start-line="138" selection-start-column="77" selection-end-line="138" selection-end-column="77" />
-          <folding>
-            <element signature="e#2771#2779#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1370,9 +1344,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
           <caret line="19" column="87" lean-forward="false" selection-start-line="19" selection-start-column="87" selection-end-line="19" selection-end-column="87" />
-          <folding>
-            <element signature="e#2771#2779#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1388,9 +1360,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="324">
           <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding>
-            <element signature="e#2771#2779#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1581,10 +1551,8 @@
     <entry file="file://$PROJECT_DIR$/../MontereyProject01/src/main/java/interview/questions/CodeQuestions.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="18">
-          <caret line="277" column="126" lean-forward="false" selection-start-line="277" selection-start-column="126" selection-end-line="277" selection-end-column="126" />
-          <folding>
-            <element signature="e#2771#2779#0" expanded="true" />
-          </folding>
+          <caret line="277" column="120" lean-forward="false" selection-start-line="277" selection-start-column="120" selection-end-line="277" selection-end-column="120" />
+          <folding />
         </state>
       </provider>
     </entry>
