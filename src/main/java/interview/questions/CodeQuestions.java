@@ -275,7 +275,7 @@ import static org.testng.AssertJUnit.assertEquals;
             driver.quit();
         }
 
-        //**************************************************************************************************************
+        //*********************************************************************************************************
 //Given an array of package item weights and a weight limit, implement a function that finds two items whose sum of weights equals the weight limit.
 //Your function should return a pair [i, j] of the indices of the item weights, ordered such that i > j.
 //If such a pair doesn’t exist, return an empty array.
