@@ -212,7 +212,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -372,7 +372,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="Scratches">
         <subPane>
           <expand>
@@ -384,7 +385,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -686,13 +686,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1520195848238</updated>
-    </task>
-    <task id="LOCAL-00772" summary="plus">
-      <created>1574047042103</created>
-      <option name="number" value="00772" />
-      <option name="presentableId" value="LOCAL-00772" />
-      <option name="project" value="LOCAL" />
-      <updated>1574047042103</updated>
     </task>
     <task id="LOCAL-00773" summary="plus">
       <created>1574090157835</created>
@@ -1030,7 +1023,14 @@
       <option name="project" value="LOCAL" />
       <updated>1577461834771</updated>
     </task>
-    <option name="localTasksCounter" value="821" />
+    <task id="LOCAL-00821" summary="plus">
+      <created>1577511622401</created>
+      <option name="number" value="00821" />
+      <option name="presentableId" value="LOCAL-00821" />
+      <option name="project" value="LOCAL" />
+      <updated>1577511622401</updated>
+    </task>
+    <option name="localTasksCounter" value="822" />
     <servers />
   </component>
   <component name="TestHistory">
