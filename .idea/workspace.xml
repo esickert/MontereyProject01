@@ -6,7 +6,9 @@
     <bookmark url="file://$PROJECT_DIR$/../MontereyProject01/src/main/java/com/esickert/Playground.java" line="60" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="078280d5-5042-4862-850d-0c24f97ab4a9" name="Default" comment="" />
+    <list default="true" id="078280d5-5042-4862-850d-0c24f97ab4a9" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../MontereyProject01/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../MontereyProject01/.idea/workspace.xml" />
+    </list>
     <ignored path="$PROJECT_DIR$/../MontereyProject01/out/" />
     <ignored path="$PROJECT_DIR$/../MontereyProject01/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -39,8 +41,8 @@
       <file leaf-file-name="CodeQuestions.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../MontereyProject01/src/main/java/interview/questions/CodeQuestions.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="285" column="25" lean-forward="true" selection-start-line="285" selection-start-column="25" selection-end-line="285" selection-end-column="25" />
+            <state relative-caret-position="18">
+              <caret line="285" column="25" lean-forward="false" selection-start-line="285" selection-start-column="25" selection-end-line="285" selection-end-column="25" />
               <folding>
                 <element signature="e#2771#2779#0" expanded="true" />
               </folding>
@@ -210,7 +212,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scratches">
         <subPane>
           <expand>
@@ -222,6 +223,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -382,7 +385,6 @@
         </subPane>
       </pane>
       <pane id="AndroidView" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -684,13 +686,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1520195848238</updated>
-    </task>
-    <task id="LOCAL-00776" summary="plus">
-      <created>1574346957435</created>
-      <option name="number" value="00776" />
-      <option name="presentableId" value="LOCAL-00776" />
-      <option name="project" value="LOCAL" />
-      <updated>1574346957436</updated>
     </task>
     <task id="LOCAL-00777" summary="plus">
       <created>1574437400984</created>
@@ -1028,7 +1023,14 @@
       <option name="project" value="LOCAL" />
       <updated>1577776036659</updated>
     </task>
-    <option name="localTasksCounter" value="825" />
+    <task id="LOCAL-00825" summary="plus">
+      <created>1577776083038</created>
+      <option name="number" value="00825" />
+      <option name="presentableId" value="LOCAL-00825" />
+      <option name="project" value="LOCAL" />
+      <updated>1577776083038</updated>
+    </task>
+    <option name="localTasksCounter" value="826" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1578,8 +1580,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../MontereyProject01/src/main/java/interview/questions/CodeQuestions.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="285" column="25" lean-forward="true" selection-start-line="285" selection-start-column="25" selection-end-line="285" selection-end-column="25" />
+        <state relative-caret-position="18">
+          <caret line="285" column="25" lean-forward="false" selection-start-line="285" selection-start-column="25" selection-end-line="285" selection-end-column="25" />
           <folding>
             <element signature="e#2771#2779#0" expanded="true" />
           </folding>
