@@ -41,7 +41,7 @@
       <file leaf-file-name="CodeQuestions.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../MontereyProject01/src/main/java/interview/questions/CodeQuestions.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="884">
+            <state relative-caret-position="18">
               <caret line="285" column="68" lean-forward="false" selection-start-line="285" selection-start-column="68" selection-end-line="285" selection-end-column="68" />
               <folding>
                 <element signature="e#2771#2779#0" expanded="true" />
@@ -212,19 +212,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="Scratches">
-        <subPane>
-          <expand>
-            <path>
-              <item name="" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
-              <item name="IDE Scripting" type="d62648e6:ScratchProjectViewPane$MyRootNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -385,6 +372,19 @@
         </subPane>
       </pane>
       <pane id="AndroidView" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="Scratches">
+        <subPane>
+          <expand>
+            <path>
+              <item name="" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+              <item name="IDE Scripting" type="d62648e6:ScratchProjectViewPane$MyRootNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -686,13 +686,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1520195848238</updated>
-    </task>
-    <task id="LOCAL-00788" summary="plus">
-      <created>1575300587814</created>
-      <option name="number" value="00788" />
-      <option name="presentableId" value="LOCAL-00788" />
-      <option name="project" value="LOCAL" />
-      <updated>1575300587815</updated>
     </task>
     <task id="LOCAL-00789" summary="plus">
       <created>1575350257598</created>
@@ -1030,7 +1023,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578410998945</updated>
     </task>
-    <option name="localTasksCounter" value="837" />
+    <task id="LOCAL-00837" summary="plus">
+      <created>1578498030139</created>
+      <option name="number" value="00837" />
+      <option name="presentableId" value="LOCAL-00837" />
+      <option name="project" value="LOCAL" />
+      <updated>1578498030140</updated>
+    </task>
+    <option name="localTasksCounter" value="838" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1580,7 +1580,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../MontereyProject01/src/main/java/interview/questions/CodeQuestions.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="884">
+        <state relative-caret-position="18">
           <caret line="285" column="68" lean-forward="false" selection-start-line="285" selection-start-column="68" selection-end-line="285" selection-end-column="68" />
           <folding>
             <element signature="e#2771#2779#0" expanded="true" />
