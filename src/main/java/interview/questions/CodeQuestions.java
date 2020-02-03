@@ -110,7 +110,7 @@ import static org.testng.AssertJUnit.assertEquals;
         }
 
 
-        //*********************************************************************************
+        //******************************************************************
         //Find the largest number in an array.
 
         @Test
