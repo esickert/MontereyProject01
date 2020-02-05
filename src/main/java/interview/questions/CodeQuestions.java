@@ -197,7 +197,7 @@ import static org.testng.AssertJUnit.assertEquals;
                 return ((x % 10) + sum(x / 10));
         }
 
-        //*********************************************************************
+        //******************************************************************
 //this will reverse the digits of a number
         @Test
         public void reverseTheNumber() {
