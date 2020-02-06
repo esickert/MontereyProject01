@@ -211,7 +211,7 @@ import static org.testng.AssertJUnit.assertEquals;
             }
         }
 
-        //******************************************************************
+        //**************************************************************
 //determine if a number is a palindrome
         @Test
         public void integerPalindrome() {
