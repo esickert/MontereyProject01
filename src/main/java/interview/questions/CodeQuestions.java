@@ -263,7 +263,7 @@ import static org.testng.AssertJUnit.assertEquals;
             return octet;
         }
 
-        //**********************************************************************************************************************
+        //*******************************************************************************************************************
         @Test
         public void maximizeSeleniumBrowser() throws IOException, InterruptedException {   ///IMPORTANT!!!!!!!!!!!!!!!!!
 
