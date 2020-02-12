@@ -283,7 +283,7 @@ import static org.testng.AssertJUnit.assertEquals;
         public void packageWeights() {
 // I'm not sure this is completely correct.
             int[] w = {2, 45, 7, 3, 5, 1, 8, 9};
-            int num = 10;//************************************************
+            int num = 10;//********************************************
             for (int temp : addTwo(w, num)) {
                 System.out.print(temp + " ");
             }
