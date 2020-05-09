@@ -22,7 +22,7 @@ public class capabilities {
 
 
 
-//***************************************
+//************************************
 
   //      Map capabilitiesMap = new HashMap();
  //       capabilitiesMap.put("takeScreenShot",true);
