@@ -6,7 +6,7 @@ public class Practice {
 
     @Test
     public void check() {
-        System.out.println("This is for practice coding");
+        System.out.println("This is for practicing my piano scales");
 
     }
     //*************************************************************************************
