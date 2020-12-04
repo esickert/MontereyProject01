@@ -47,7 +47,7 @@ public class Practice {
             numOf(i,a);
     }
 
-    public void numOf(int x, int[] a ) {   //okay this is not working correctly!!!!!
+    public void numOf(int x, int[] a ) {
         int count = 0;
         for(int i = 0; i < a.length; i++)   {
             if(x == a[i])
