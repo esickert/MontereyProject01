@@ -414,7 +414,7 @@
       <recent name="InterFace" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Practice.palStringBuffer">
+  <component name="RunManager" selected="JUnit.Practice.instances">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -445,23 +445,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CodeQuestions.instances" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="MontereyProject01" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="interview.questions.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="interview.questions" />
-      <option name="MAIN_CLASS_NAME" value="interview.questions.CodeQuestions" />
-      <option name="METHOD_NAME" value="instances" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="MorePracticeJava.fibR" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
       <module name="MontereyProject01" />
       <option name="PACKAGE_NAME" value="" />
@@ -484,6 +467,23 @@
       <option name="PACKAGE_NAME" value="com.esickert" />
       <option name="MAIN_CLASS_NAME" value="com.esickert.Practice" />
       <option name="METHOD_NAME" value="check" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Practice.instances" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MontereyProject01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.esickert.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.esickert" />
+      <option name="MAIN_CLASS_NAME" value="com.esickert.Practice" />
+      <option name="METHOD_NAME" value="instances" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
@@ -551,19 +551,19 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.MorePracticeJava.fibR" />
-      <item itemvalue="JUnit.CodeQuestions.instances" />
       <item itemvalue="JUnit.CodeQuestions.findFirstTwoLargest" />
       <item itemvalue="JUnit.Practice.palidrome" />
       <item itemvalue="JUnit.Practice.check" />
       <item itemvalue="JUnit.Practice.palStringBuffer" />
+      <item itemvalue="JUnit.Practice.instances" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Practice.instances" />
         <item itemvalue="JUnit.Practice.palStringBuffer" />
         <item itemvalue="JUnit.Practice.palidrome" />
         <item itemvalue="JUnit.Practice.check" />
         <item itemvalue="JUnit.CodeQuestions.findFirstTwoLargest" />
-        <item itemvalue="JUnit.CodeQuestions.instances" />
       </list>
     </recent_temporary>
   </component>
@@ -578,13 +578,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1520195848238</updated>
-    </task>
-    <task id="LOCAL-00790" summary="plus">
-      <created>1575387550085</created>
-      <option name="number" value="00790" />
-      <option name="presentableId" value="LOCAL-00790" />
-      <option name="project" value="LOCAL" />
-      <updated>1575387550085</updated>
     </task>
     <task id="LOCAL-00791" summary="plus">
       <created>1575437922117</created>
@@ -922,7 +915,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607026373675</updated>
     </task>
-    <option name="localTasksCounter" value="839" />
+    <task id="LOCAL-00839" summary="plus">
+      <created>1607034193806</created>
+      <option name="number" value="00839" />
+      <option name="presentableId" value="LOCAL-00839" />
+      <option name="project" value="LOCAL" />
+      <updated>1607034193806</updated>
+    </task>
+    <option name="localTasksCounter" value="840" />
     <servers />
   </component>
   <component name="TestHistory">

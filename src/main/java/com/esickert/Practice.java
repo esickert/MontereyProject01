@@ -2,6 +2,8 @@ package com.esickert;
 
 import org.junit.Test;
 
+import java.security.cert.X509Certificate;
+
 public class Practice {
 
     @Test
@@ -38,7 +40,21 @@ public class Practice {
         else
             System.out.println("not");
     }
-    //*****************************************************************************
+    @Test
+    public void instances(){
+        int[] a = {2,2,2,2,3,4,6,7,2,1,2,4,4,4,4,5};
+        for(int i = 0; i <= a.length; i++)
+            numOf(a[i],a);
+    }
+
+    public void numOf(int x, int[] a ) {   //okay this is not working correctly!!!!!
+        int count = 0;
+        for(int i = 0; i < 10; i++)   {
+            if(x == )
+                count++;
+        }
+        System.out.println("There are " + count + " instance of " + x);
+    }
 
 
 }
