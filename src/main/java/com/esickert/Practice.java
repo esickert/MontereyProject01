@@ -25,5 +25,26 @@ public class Practice{
                 aMap.put(a[i], 0);
     }
 
+    @Test
+    public void palindrome()    {
+        String word = "abcdcb";
+        String temp = "";
 
+        for(int i = word.length()-1; i >= 0; i--)   {
+            temp = temp + word.charAt(i);
+            System.out.println(temp);
+        }
+        if (word.equals(temp))
+            System.out.println("Palindrome");
+        else
+            try {
+                System.out.println(1/0);
+            }
+            catch (Exception e)   {
+                System.out.println("ERROR!!!");
+           }
+    }
+
+    @Test
+    public void
 }
