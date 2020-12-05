@@ -547,12 +547,12 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.MorePracticeJava.fibR" />
       <item itemvalue="JUnit.CodeQuestions.findFirstTwoLargest" />
-      <item itemvalue="JUnit.Practice.palidrome" />
+      <item itemvalue="JUnit.MorePracticeJava.fibR" />
       <item itemvalue="JUnit.Practice.check" />
-      <item itemvalue="JUnit.Practice.palStringBuffer" />
       <item itemvalue="JUnit.Practice.instances" />
+      <item itemvalue="JUnit.Practice.palStringBuffer" />
+      <item itemvalue="JUnit.Practice.palidrome" />
     </list>
     <recent_temporary>
       <list>
@@ -575,13 +575,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1520195848238</updated>
-    </task>
-    <task id="LOCAL-00796" summary="plus">
-      <created>1575786263031</created>
-      <option name="number" value="00796" />
-      <option name="presentableId" value="LOCAL-00796" />
-      <option name="project" value="LOCAL" />
-      <updated>1575786263031</updated>
     </task>
     <task id="LOCAL-00797" summary="plus">
       <created>1575869689814</created>
@@ -919,7 +912,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607192381575</updated>
     </task>
-    <option name="localTasksCounter" value="845" />
+    <task id="LOCAL-00845" summary="plus">
+      <created>1607192804326</created>
+      <option name="number" value="00845" />
+      <option name="presentableId" value="LOCAL-00845" />
+      <option name="project" value="LOCAL" />
+      <updated>1607192804326</updated>
+    </task>
+    <option name="localTasksCounter" value="846" />
     <servers />
   </component>
   <component name="TestHistory">
