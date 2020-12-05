@@ -3,6 +3,7 @@ package com.esickert;
 import org.junit.Test;
 
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 public class Practice{
@@ -46,5 +47,22 @@ public class Practice{
     }
 
     @Test
-    public void
+    public void switchNum() {
+        int a = 111;
+        int b = 222;
+
+       b= a + b;
+       System.out.println(b);
+       a = b - a;  // this sets the value of a to value of b
+       b = b - a;  //
+        System.out.println("b now equals " + b);
+        System.out.println("a now equals " + a);
+    }
+
+    @Test
+    public void shuffleIt() {
+        String[] names = {"tom", "dick", "harry", "betty", "john", "sally", "steve"};
+        List
+
+    }
 }
