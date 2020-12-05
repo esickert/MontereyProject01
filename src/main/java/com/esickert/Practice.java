@@ -1,8 +1,11 @@
 package com.esickert;
 
 import org.junit.Test;
+import org.testng.collections.Maps;
 
 import java.security.cert.X509Certificate;
+import java.util.HashMap;
+import java.util.Map;
 
 public class Practice {
 
@@ -54,6 +57,14 @@ public class Practice {
                 count++;
         }
         System.out.println("There are " + count + " instance of " + x);
+    }
+
+    @Test
+    public void pairs() {
+        int[] a = {2,5,1,2,4,7,6,9,3,2,4,6,9,8,7,8,6,7};
+        int sum = 13;
+
+        Map<Integer, Integer> aMap = new HashMap<>();
     }
 
 
