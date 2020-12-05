@@ -1,6 +1,7 @@
 package com.esickert;
 
 import org.junit.Test;
+import org.openqa.selenium.remote.server.handler.DeleteSession;
 import org.testng.collections.Maps;
 
 import java.security.cert.X509Certificate;
@@ -65,6 +66,12 @@ public class Practice {
         int sum = 13;
 
         Map<Integer, Integer> aMap = new HashMap<>();
+        for(int i = 0; i <= a.length-1; ++i) {
+            if (aMap.containsKey(sum - a[i]))
+                System.out.println("(" + (sum - a[i]) + ":" + a[i] + ")");
+            else
+                aMap.put(a[i],0);
+        }
     }
 
 

@@ -11,6 +11,7 @@
   <component name="ChangeListManager">
     <list default="true" id="078280d5-5042-4862-850d-0c24f97ab4a9" name="Default" comment="plus">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/esickert/Practice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/esickert/Practice.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="true" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,6 +75,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="d29ac143-a787-48ab-a4f0-6cf2cc75b2f6" />
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -413,7 +417,7 @@
       <recent name="InterFace" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Practice.instances">
+  <component name="RunManager" selected="JUnit.Practice.pairs">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -423,23 +427,6 @@
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CodeQuestions.findFirstTwoLargest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="MontereyProject01" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="interview.questions.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="interview.questions" />
-      <option name="MAIN_CLASS_NAME" value="interview.questions.CodeQuestions" />
-      <option name="METHOD_NAME" value="findFirstTwoLargest" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -483,6 +470,23 @@
       <option name="PACKAGE_NAME" value="com.esickert" />
       <option name="MAIN_CLASS_NAME" value="com.esickert.Practice" />
       <option name="METHOD_NAME" value="instances" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Practice.pairs" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MontereyProject01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.esickert.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.esickert" />
+      <option name="MAIN_CLASS_NAME" value="com.esickert.Practice" />
+      <option name="METHOD_NAME" value="pairs" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
@@ -550,19 +554,19 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.MorePracticeJava.fibR" />
-      <item itemvalue="JUnit.CodeQuestions.findFirstTwoLargest" />
       <item itemvalue="JUnit.Practice.palidrome" />
       <item itemvalue="JUnit.Practice.check" />
       <item itemvalue="JUnit.Practice.palStringBuffer" />
       <item itemvalue="JUnit.Practice.instances" />
+      <item itemvalue="JUnit.Practice.pairs" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Practice.pairs" />
         <item itemvalue="JUnit.Practice.instances" />
         <item itemvalue="JUnit.Practice.palStringBuffer" />
         <item itemvalue="JUnit.Practice.palidrome" />
         <item itemvalue="JUnit.Practice.check" />
-        <item itemvalue="JUnit.CodeQuestions.findFirstTwoLargest" />
       </list>
     </recent_temporary>
   </component>
@@ -577,13 +581,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1520195848238</updated>
-    </task>
-    <task id="LOCAL-00798" summary="plus">
-      <created>1575905841763</created>
-      <option name="number" value="00798" />
-      <option name="presentableId" value="LOCAL-00798" />
-      <option name="project" value="LOCAL" />
-      <updated>1575905841763</updated>
     </task>
     <task id="LOCAL-00799" summary="plus">
       <created>1575955852714</created>
@@ -921,7 +918,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607194114223</updated>
     </task>
-    <option name="localTasksCounter" value="847" />
+    <task id="LOCAL-00847" summary="plus">
+      <created>1607198538255</created>
+      <option name="number" value="00847" />
+      <option name="presentableId" value="LOCAL-00847" />
+      <option name="project" value="LOCAL" />
+      <updated>1607198538255</updated>
+    </task>
+    <option name="localTasksCounter" value="848" />
     <servers />
   </component>
   <component name="TestHistory">
