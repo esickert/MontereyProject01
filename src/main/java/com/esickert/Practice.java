@@ -70,7 +70,7 @@ public class Practice{
             try {
                 System.out.print(names[0]);
                 Thread.sleep(time);
-                System.out.print("\r                       \r");
+                System.out.println("\r                       \r");
                 System.out.flush();
                 Thread.sleep(time);
                 Collections.shuffle((nameAsList));
@@ -104,4 +104,17 @@ public class Practice{
         }
         System.out.println(temp);
     }
+
+    @Test
+    public void largest()   {
+        int[] a = {22,66,4,5,90,76,456,3,2,33,4,678,987,900};
+        int temp = a [0];
+        for(int i = 0; i <= a.length-1; i++) {
+            if (temp < a[i])
+                temp = a[i];
+        }
+        System.out.println("The largest is " + temp);
+    }
+
 }
+

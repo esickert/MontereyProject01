@@ -11,6 +11,7 @@
   <component name="ChangeListManager">
     <list default="true" id="078280d5-5042-4862-850d-0c24f97ab4a9" name="Default" comment="plus">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/esickert/Practice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/esickert/Practice.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="true" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -416,7 +417,7 @@
       <recent name="InterFace" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Practice.shuffleIt">
+  <component name="RunManager" selected="JUnit.Practice.largest">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -441,7 +442,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Practice.palindrome" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Practice.largest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MontereyProject01" />
       <extension name="coverage">
         <pattern>
@@ -451,7 +452,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.esickert" />
       <option name="MAIN_CLASS_NAME" value="com.esickert.Practice" />
-      <option name="METHOD_NAME" value="palindrome" />
+      <option name="METHOD_NAME" value="largest" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
@@ -553,19 +554,19 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.MorePracticeJava.fibR" />
-      <item itemvalue="JUnit.Practice.palindrome" />
       <item itemvalue="JUnit.Practice.switchNum" />
       <item itemvalue="JUnit.Practice.shuffleIt" />
       <item itemvalue="JUnit.Practice.sumOfDigits" />
       <item itemvalue="JUnit.Practice.reverseDigits" />
+      <item itemvalue="JUnit.Practice.largest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Practice.largest" />
         <item itemvalue="JUnit.Practice.shuffleIt" />
         <item itemvalue="JUnit.Practice.sumOfDigits" />
         <item itemvalue="JUnit.Practice.reverseDigits" />
         <item itemvalue="JUnit.Practice.switchNum" />
-        <item itemvalue="JUnit.Practice.palindrome" />
       </list>
     </recent_temporary>
   </component>
@@ -580,13 +581,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1520195848238</updated>
-    </task>
-    <task id="LOCAL-00806" summary="plus">
-      <created>1576597027439</created>
-      <option name="number" value="00806" />
-      <option name="presentableId" value="LOCAL-00806" />
-      <option name="project" value="LOCAL" />
-      <updated>1576597027439</updated>
     </task>
     <task id="LOCAL-00807" summary="plus">
       <created>1576683202741</created>
@@ -924,7 +918,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607235576330</updated>
     </task>
-    <option name="localTasksCounter" value="855" />
+    <task id="LOCAL-00855" summary="plus">
+      <created>1607280813262</created>
+      <option name="number" value="00855" />
+      <option name="presentableId" value="LOCAL-00855" />
+      <option name="project" value="LOCAL" />
+      <updated>1607280813262</updated>
+    </task>
+    <option name="localTasksCounter" value="856" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1013,9 +1014,9 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="plus" />
     <MESSAGE value="Plus" />
-    <option name="LAST_COMMIT_MESSAGE" value="Plus" />
+    <MESSAGE value="plus" />
+    <option name="LAST_COMMIT_MESSAGE" value="plus" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
