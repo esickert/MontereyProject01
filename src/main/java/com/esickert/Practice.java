@@ -57,6 +57,7 @@ public class Practice{
         System.out.println("a now equals " + a);
     }
 
+//****************************************************************************************
     @Test
     public void shuffleIt() {  //this doesn't work in intellij!!!!!!!!!!!!!!!!
         String[] names = {"tom", "dick", "harry", "betty", "john", "sally", "steve"};
@@ -78,5 +79,29 @@ public class Practice{
                 System.out.println("ERROR");
             }
         }
+    }
+//*************************************************************************************
+
+    @Test
+    public void sumOfDigits()   {
+        int num = 12346;
+        int temp = 0;
+        while (num > 0) {
+            temp = temp + (num % 10);
+            System.out.println(temp);
+            num = num / 10;
+        }
+        System.out.println(temp);
+    }
+
+    @Test
+    public void reverseDigits() {
+        int num = 12345;
+        int temp = 1;
+        while(num < 0){
+            temp = temp * ( num % 10);
+            num = num / 10;
+        }
+        System.out.println(temp);
     }
 }
