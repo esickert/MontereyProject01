@@ -2,9 +2,7 @@ package com.esickert;
 
 import org.junit.Test;
 
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 public class Practice{
 
@@ -60,9 +58,25 @@ public class Practice{
     }
 
     @Test
-    public void shuffleIt() {
+    public void shuffleIt() {  //this doesn't work in intellij!!!!!!!!!!!!!!!!
         String[] names = {"tom", "dick", "harry", "betty", "john", "sally", "steve"};
-        List
+        List nameAsList = Arrays.asList(names);   //###########################################
+        nameAsList.toArray();
+        System.out.println(Arrays.toString(names)); //#########################################
+        int time = 500;
 
+        for(int i = 0; i <= 10; i++) {
+            try {
+                System.out.print(names[0]);
+                Thread.sleep(time);
+                System.out.print("\r                       \r");
+                System.out.flush();
+                Thread.sleep(time);
+                Collections.shuffle((nameAsList));
+            }
+            catch (Exception e)  {
+                System.out.println("ERROR");
+            }
+        }
     }
 }
