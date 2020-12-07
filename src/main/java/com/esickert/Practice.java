@@ -57,7 +57,7 @@ public class Practice{
         System.out.println("a now equals " + a);
     }
 
-//*************************************************************************************
+//**********************************************************************************
     @Test
     public void shuffleIt() {  //this doesn't work in intellij!!!!!!!!!!!!!!!!
         String[] names = {"tom", "dick", "harry", "betty", "john", "sally", "steve"};
