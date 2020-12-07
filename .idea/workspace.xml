@@ -417,7 +417,7 @@
       <recent name="InterFace" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Practice.largest">
+  <component name="RunManager" selected="JUnit.Practice.secondLargest">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -476,6 +476,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Practice.secondLargest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MontereyProject01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.esickert.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.esickert" />
+      <option name="MAIN_CLASS_NAME" value="com.esickert.Practice" />
+      <option name="METHOD_NAME" value="secondLargest" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Practice.shuffleIt" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MontereyProject01" />
       <extension name="coverage">
@@ -510,23 +527,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Practice.switchNum" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="MontereyProject01" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.esickert.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.esickert" />
-      <option name="MAIN_CLASS_NAME" value="com.esickert.Practice" />
-      <option name="METHOD_NAME" value="switchNum" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -554,19 +554,19 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.MorePracticeJava.fibR" />
-      <item itemvalue="JUnit.Practice.switchNum" />
       <item itemvalue="JUnit.Practice.shuffleIt" />
       <item itemvalue="JUnit.Practice.sumOfDigits" />
       <item itemvalue="JUnit.Practice.reverseDigits" />
       <item itemvalue="JUnit.Practice.largest" />
+      <item itemvalue="JUnit.Practice.secondLargest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Practice.secondLargest" />
         <item itemvalue="JUnit.Practice.largest" />
         <item itemvalue="JUnit.Practice.shuffleIt" />
         <item itemvalue="JUnit.Practice.sumOfDigits" />
         <item itemvalue="JUnit.Practice.reverseDigits" />
-        <item itemvalue="JUnit.Practice.switchNum" />
       </list>
     </recent_temporary>
   </component>
@@ -581,13 +581,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1520195848238</updated>
-    </task>
-    <task id="LOCAL-00807" summary="plus">
-      <created>1576683202741</created>
-      <option name="number" value="00807" />
-      <option name="presentableId" value="LOCAL-00807" />
-      <option name="project" value="LOCAL" />
-      <updated>1576683202741</updated>
     </task>
     <task id="LOCAL-00808" summary="plus">
       <created>1576732173613</created>
@@ -925,7 +918,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607280813262</updated>
     </task>
-    <option name="localTasksCounter" value="856" />
+    <task id="LOCAL-00856" summary="plus">
+      <created>1607288858605</created>
+      <option name="number" value="00856" />
+      <option name="presentableId" value="LOCAL-00856" />
+      <option name="project" value="LOCAL" />
+      <updated>1607288858605</updated>
+    </task>
+    <option name="localTasksCounter" value="857" />
     <servers />
   </component>
   <component name="TestHistory">

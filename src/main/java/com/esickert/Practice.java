@@ -116,5 +116,22 @@ public class Practice{
         System.out.println("The largest is " + temp);
     }
 
+    @Test
+    public void secondLargest() {       //NOT WORKING!!!!!
+        int[] a = {2,6,21,3,4,1,2,8,77,6,9,5,4,65,3,22,3,32};
+        int temp= a[0];
+        int temp2 = a[0];
+        for (int i = 0; i < a.length; i++)  {
+            if (temp < a[i]) {
+                temp2 = temp;
+                temp = a[i];
+            }
+            else if (temp2 < a[i])
+                temp2 = a [i];
+        }
+        System.out.println(("The largest number is " + temp));
+        System.out.println("The second largest is " + temp2);
+    }
+
 }
 
