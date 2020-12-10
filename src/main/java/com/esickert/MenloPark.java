@@ -2,6 +2,11 @@ package com.esickert;
 
 import org.junit.Test;
 import org.openqa.selenium.remote.server.handler.DeleteSession;
+import org.testng.collections.Maps;
+
+//import java.util.HashMap;
+//import java.util.Map;
+import java.util.*;
 
 public class MenloPark {
 
@@ -49,8 +54,18 @@ public class MenloPark {
     }
 
     @Test
-    public void pairs() {}
+    public void pairs() {
+        int[] a = { 2,3,2,5,6,4,8,6,1,2,9,8,6,7};
+        int sum = 15;
 
+        Map<Integer, Integer> pairs = new HashMap<>();
 
+        for (int i = 0; i <= a.length-1; i++)   {
+            if (pairs.containsKey(sum - a[i]))
+                System.out.println("(" + (sum - a[i]) + ":" + a[i] + ")");
+            else
+                pairs.put(a[i], 0);
+        }
+    }
 
 }
