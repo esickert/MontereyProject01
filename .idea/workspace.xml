@@ -577,13 +577,6 @@
       <option name="presentableId" value="Default" />
       <updated>1520195848238</updated>
     </task>
-    <task id="LOCAL-00820" summary="plus">
-      <created>1577461834771</created>
-      <option name="number" value="00820" />
-      <option name="presentableId" value="LOCAL-00820" />
-      <option name="project" value="LOCAL" />
-      <updated>1577461834771</updated>
-    </task>
     <task id="LOCAL-00821" summary="plus">
       <created>1577511622401</created>
       <option name="number" value="00821" />
@@ -920,7 +913,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607664812696</updated>
     </task>
-    <option name="localTasksCounter" value="869" />
+    <task id="LOCAL-00869" summary="plus">
+      <created>1607718768324</created>
+      <option name="number" value="00869" />
+      <option name="presentableId" value="LOCAL-00869" />
+      <option name="project" value="LOCAL" />
+      <updated>1607718768324</updated>
+    </task>
+    <option name="localTasksCounter" value="870" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1016,6 +1016,11 @@
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/MontereyProject01$DogDemo.ic" NAME="DogDemo Coverage Results" MODIFIED="1607718499305" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>SavitchPractice.*</FILTER>
+    </SUITE>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/interview/questions/CodeQuestions.java">
