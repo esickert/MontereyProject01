@@ -10,7 +10,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="078280d5-5042-4862-850d-0c24f97ab4a9" name="Default" comment="plus">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Monkey/Monkeyrunner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="true" />
@@ -557,8 +556,8 @@
       <item itemvalue="JUnit.MorePracticeJava.fibR" />
       <item itemvalue="JUnit.MenloPark.Testing" />
       <item itemvalue="JUnit.MenloPark.pairs" />
-      <item itemvalue="JUnit.Test.Testing" />
       <item itemvalue="JUnit.Practice.switchNum" />
+      <item itemvalue="JUnit.Test.Testing" />
     </list>
     <recent_temporary>
       <list>
@@ -581,13 +580,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1520195848238</updated>
-    </task>
-    <task id="LOCAL-00823" summary="plus">
-      <created>1577721464035</created>
-      <option name="number" value="00823" />
-      <option name="presentableId" value="LOCAL-00823" />
-      <option name="project" value="LOCAL" />
-      <updated>1577721464035</updated>
     </task>
     <task id="LOCAL-00824" summary="plus">
       <created>1577776036659</created>
@@ -925,7 +917,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607819668289</updated>
     </task>
-    <option name="localTasksCounter" value="872" />
+    <task id="LOCAL-00872" summary="plus">
+      <created>1607904238126</created>
+      <option name="number" value="00872" />
+      <option name="presentableId" value="LOCAL-00872" />
+      <option name="project" value="LOCAL" />
+      <updated>1607904238127</updated>
+    </task>
+    <option name="localTasksCounter" value="873" />
     <servers />
   </component>
   <component name="TestHistory">
