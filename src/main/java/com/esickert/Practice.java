@@ -2,6 +2,7 @@ package com.esickert;
 
 import org.junit.Test;
 
+import java.io.IOException;
 import java.util.*;
 
 public class Practice{
@@ -132,6 +133,36 @@ public class Practice{
         System.out.println(("The largest number is " + temp));
         System.out.println("The second largest is " + temp2);
     }
+
+    //*************************************************************************
+    @Test
+    public void pairs() {
+        int[] a = {2,4,3,5,9,6,7,1,9,8,7,6,7};
+        int sum = 13;
+
+        Map<Integer, Integer> pairs = new HashMap<>();
+        for(int i = 0; i <= a.length-1; i++)    {
+            if (pairs.containsKey(sum - a[i]))
+                System.out.println("(" + (sum - a[i]) + ":" + a[i] + ")");
+        else
+            pairs.put(a[i], 0);
+        }
+    }
+
+/*    @Test
+    public void cli()   {
+        String cli = "c:\adb\adb";
+        Runtime runtime = Runtime.getRuntime();
+//        runtime.exec(cli);
+            try {
+                runtime.exec(cli);
+            }
+            catch(IOException e)  {
+                e.printStackTrace();
+            }
+    }*/
+
+
 
 }
 
