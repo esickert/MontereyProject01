@@ -12,7 +12,7 @@
     <list default="true" id="078280d5-5042-4862-850d-0c24f97ab4a9" name="Default" comment="plus">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/esickert/Practice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/esickert/Practice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/esickert/Practice.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/esickert/Practice.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/esickert/Practice.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="true" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -421,41 +421,13 @@
       <recent name="TDD" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Practice.palindrimeStringBuffer">
+  <component name="RunManager" selected="JUnit.Practice.fibReursive">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <module />
-    </configuration>
-    <configuration name="DogDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SavitchPractice.DogDemo" />
-      <module name="MontereyProject01" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="SavitchPractice.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SpeciesDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SavitchPractice.SpeciesDemo" />
-      <module name="MontereyProject01" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="SavitchPractice.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -468,6 +440,40 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="MorePracticeJava" />
       <option name="METHOD_NAME" value="fibR" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Practice.fibReursive" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MontereyProject01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.esickert.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.esickert" />
+      <option name="MAIN_CLASS_NAME" value="com.esickert.Practice" />
+      <option name="METHOD_NAME" value="fibReursive" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Practice.fibanacci" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MontereyProject01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.esickert.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.esickert" />
+      <option name="MAIN_CLASS_NAME" value="com.esickert.Practice" />
+      <option name="METHOD_NAME" value="fibanacci" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
@@ -508,16 +514,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SeleniumDropDownTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Selenium" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MontereyProject01" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="seleniumDropDowns.*" />
+          <option name="PATTERN" value="com.esickert.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="seleniumDropDowns" />
-      <option name="MAIN_CLASS_NAME" value="seleniumDropDowns.SeleniumDropDownTests" />
+      <option name="PACKAGE_NAME" value="com.esickert" />
+      <option name="MAIN_CLASS_NAME" value="com.esickert.Selenium" />
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
@@ -550,20 +556,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.DogDemo" />
       <item itemvalue="JUnit.MorePracticeJava.fibR" />
-      <item itemvalue="Application.SpeciesDemo" />
-      <item itemvalue="JUnit.SeleniumDropDownTests" />
       <item itemvalue="JUnit.Practice.shuffleIt" />
       <item itemvalue="JUnit.Practice.palindrimeStringBuffer" />
+      <item itemvalue="JUnit.Selenium" />
+      <item itemvalue="JUnit.Practice.fibanacci" />
+      <item itemvalue="JUnit.Practice.fibReursive" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Practice.fibReursive" />
+        <item itemvalue="JUnit.Practice.fibanacci" />
+        <item itemvalue="JUnit.Selenium" />
         <item itemvalue="JUnit.Practice.palindrimeStringBuffer" />
         <item itemvalue="JUnit.Practice.shuffleIt" />
-        <item itemvalue="JUnit.SeleniumDropDownTests" />
-        <item itemvalue="Application.SpeciesDemo" />
-        <item itemvalue="Application.DogDemo" />
       </list>
     </recent_temporary>
   </component>

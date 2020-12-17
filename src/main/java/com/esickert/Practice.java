@@ -179,9 +179,32 @@ public class Practice{
             }
     }
 
-    public void selenium()  {
-        System.setProperty(
+    @Test
+    public void fibanacci() {
+        int a = 0;
+        int b = 1;
+        int c;
+        System.out.print(a + " " + b);
+        for(int i = 2; i <= 10; i++)    {
+            c = a + b;
+            System.out.print(" " + c);
+            a = b;
+            b = c;
+        }
+    }
 
+    @Test
+    public void fibReursive()  {
+        for(int i = 0; i <= 10; i++)    {
+        System.out.print(fib(i) + " ");
+        }
+    }
 
+    public int fib(int x){
+        int temp = x;
+        if ((temp == 0) || (x == 1))
+            return temp;
+        else
+            return fib(temp - 1)+fib(temp-2);
+    }
 }
-
