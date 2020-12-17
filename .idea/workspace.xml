@@ -10,8 +10,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="078280d5-5042-4862-850d-0c24f97ab4a9" name="Default" comment="plus">
-      <change afterPath="$PROJECT_DIR$/src/main/java/SavitchPractice/SpeciesDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/esickert/Practice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/esickert/Practice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/esickert/Practice.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/esickert/Practice.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="true" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -420,7 +421,7 @@
       <recent name="TDD" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SpeciesDemo">
+  <component name="RunManager" selected="JUnit.Practice.palindrimeStringBuffer">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -473,7 +474,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Practice.cli" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Practice.palindrimeStringBuffer" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MontereyProject01" />
       <extension name="coverage">
         <pattern>
@@ -483,14 +484,14 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.esickert" />
       <option name="MAIN_CLASS_NAME" value="com.esickert.Practice" />
-      <option name="METHOD_NAME" value="cli" />
+      <option name="METHOD_NAME" value="palindrimeStringBuffer" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Practice.pairs" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Practice.shuffleIt" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MontereyProject01" />
       <extension name="coverage">
         <pattern>
@@ -500,25 +501,24 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.esickert" />
       <option name="MAIN_CLASS_NAME" value="com.esickert.Practice" />
-      <option name="METHOD_NAME" value="pairs" />
+      <option name="METHOD_NAME" value="shuffleIt" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Practice.switchNum" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SeleniumDropDownTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MontereyProject01" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.esickert.*" />
+          <option name="PATTERN" value="seleniumDropDowns.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.esickert" />
-      <option name="MAIN_CLASS_NAME" value="com.esickert.Practice" />
-      <option name="METHOD_NAME" value="switchNum" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="seleniumDropDowns" />
+      <option name="MAIN_CLASS_NAME" value="seleniumDropDowns.SeleniumDropDownTests" />
+      <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -552,18 +552,18 @@
     <list>
       <item itemvalue="Application.DogDemo" />
       <item itemvalue="JUnit.MorePracticeJava.fibR" />
-      <item itemvalue="JUnit.Practice.cli" />
-      <item itemvalue="JUnit.Practice.pairs" />
-      <item itemvalue="JUnit.Practice.switchNum" />
       <item itemvalue="Application.SpeciesDemo" />
+      <item itemvalue="JUnit.SeleniumDropDownTests" />
+      <item itemvalue="JUnit.Practice.shuffleIt" />
+      <item itemvalue="JUnit.Practice.palindrimeStringBuffer" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Practice.palindrimeStringBuffer" />
+        <item itemvalue="JUnit.Practice.shuffleIt" />
+        <item itemvalue="JUnit.SeleniumDropDownTests" />
         <item itemvalue="Application.SpeciesDemo" />
-        <item itemvalue="JUnit.Practice.cli" />
-        <item itemvalue="JUnit.Practice.pairs" />
         <item itemvalue="Application.DogDemo" />
-        <item itemvalue="JUnit.Practice.switchNum" />
       </list>
     </recent_temporary>
   </component>
@@ -578,20 +578,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1520195848238</updated>
-    </task>
-    <task id="LOCAL-00830" summary="plus">
-      <created>1578028360329</created>
-      <option name="number" value="00830" />
-      <option name="presentableId" value="LOCAL-00830" />
-      <option name="project" value="LOCAL" />
-      <updated>1578028360329</updated>
-    </task>
-    <task id="LOCAL-00831" summary="plus">
-      <created>1578067080162</created>
-      <option name="number" value="00831" />
-      <option name="presentableId" value="LOCAL-00831" />
-      <option name="project" value="LOCAL" />
-      <updated>1578067080162</updated>
     </task>
     <task id="LOCAL-00832" summary="plus">
       <created>1578203379809</created>
@@ -922,7 +908,21 @@
       <option name="project" value="LOCAL" />
       <updated>1608143834413</updated>
     </task>
-    <option name="localTasksCounter" value="879" />
+    <task id="LOCAL-00879" summary="plus">
+      <created>1608165430248</created>
+      <option name="number" value="00879" />
+      <option name="presentableId" value="LOCAL-00879" />
+      <option name="project" value="LOCAL" />
+      <updated>1608165430249</updated>
+    </task>
+    <task id="LOCAL-00880" summary="plus">
+      <created>1608165539092</created>
+      <option name="number" value="00880" />
+      <option name="presentableId" value="LOCAL-00880" />
+      <option name="project" value="LOCAL" />
+      <updated>1608165539092</updated>
+    </task>
+    <option name="localTasksCounter" value="881" />
     <servers />
   </component>
   <component name="TestHistory">

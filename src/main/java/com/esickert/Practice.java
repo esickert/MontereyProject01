@@ -65,7 +65,7 @@ public class Practice{
         List nameAsList = Arrays.asList(names);   //###########################################
         nameAsList.toArray();
         System.out.println(Arrays.toString(names)); //#########################################
-        int time = 500;
+        int time = 1000;
 
         for(int i = 0; i <= 10; i++) {
             try {
@@ -162,6 +162,25 @@ public class Practice{
             }
     }*/
 
+    @Test
+    public void palindrimeStringBuffer()    {
+        String word = "abcdcba";
+        String temp = "";
+
+        StringBuffer str = new StringBuffer(word);
+        if (word.equals(str.reverse().toString()))
+            System.out.println("Palindrome");
+        else
+            try{
+                int x = 1/0;
+            }
+            catch(Exception e)  {
+                System.out.println("ERROR");
+            }
+    }
+
+    public void selenium()  {
+        System.setProperty(
 
 
 }
