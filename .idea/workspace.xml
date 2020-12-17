@@ -10,6 +10,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="078280d5-5042-4862-850d-0c24f97ab4a9" name="Default" comment="plus">
+      <change afterPath="$PROJECT_DIR$/src/main/java/SavitchPractice/SpeciesDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="true" />
@@ -419,7 +420,7 @@
       <recent name="TDD" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Practice.cli">
+  <component name="RunManager" selected="Application.SpeciesDemo">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -429,6 +430,20 @@
     </configuration>
     <configuration name="DogDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="SavitchPractice.DogDemo" />
+      <module name="MontereyProject01" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SavitchPractice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpeciesDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SavitchPractice.SpeciesDemo" />
       <module name="MontereyProject01" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -509,23 +524,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test.Testing" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="MontereyProject01" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="stackQueue.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="stackQueue" />
-      <option name="MAIN_CLASS_NAME" value="stackQueue.Test" />
-      <option name="METHOD_NAME" value="Testing" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -554,18 +552,18 @@
     <list>
       <item itemvalue="Application.DogDemo" />
       <item itemvalue="JUnit.MorePracticeJava.fibR" />
-      <item itemvalue="JUnit.Practice.switchNum" />
-      <item itemvalue="JUnit.Test.Testing" />
-      <item itemvalue="JUnit.Practice.pairs" />
       <item itemvalue="JUnit.Practice.cli" />
+      <item itemvalue="JUnit.Practice.pairs" />
+      <item itemvalue="JUnit.Practice.switchNum" />
+      <item itemvalue="Application.SpeciesDemo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SpeciesDemo" />
         <item itemvalue="JUnit.Practice.cli" />
         <item itemvalue="JUnit.Practice.pairs" />
         <item itemvalue="Application.DogDemo" />
         <item itemvalue="JUnit.Practice.switchNum" />
-        <item itemvalue="JUnit.Test.Testing" />
       </list>
     </recent_temporary>
   </component>
@@ -580,20 +578,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1520195848238</updated>
-    </task>
-    <task id="LOCAL-00828" summary="plus">
-      <created>1577979829871</created>
-      <option name="number" value="00828" />
-      <option name="presentableId" value="LOCAL-00828" />
-      <option name="project" value="LOCAL" />
-      <updated>1577979829871</updated>
-    </task>
-    <task id="LOCAL-00829" summary="plus">
-      <created>1578027410006</created>
-      <option name="number" value="00829" />
-      <option name="presentableId" value="LOCAL-00829" />
-      <option name="project" value="LOCAL" />
-      <updated>1578027410006</updated>
     </task>
     <task id="LOCAL-00830" summary="plus">
       <created>1578028360329</created>
@@ -924,7 +908,21 @@
       <option name="project" value="LOCAL" />
       <updated>1607991148382</updated>
     </task>
-    <option name="localTasksCounter" value="877" />
+    <task id="LOCAL-00877" summary="plus">
+      <created>1608143776903</created>
+      <option name="number" value="00877" />
+      <option name="presentableId" value="LOCAL-00877" />
+      <option name="project" value="LOCAL" />
+      <updated>1608143776903</updated>
+    </task>
+    <task id="LOCAL-00878" summary="plus">
+      <created>1608143834413</created>
+      <option name="number" value="00878" />
+      <option name="presentableId" value="LOCAL-00878" />
+      <option name="project" value="LOCAL" />
+      <updated>1608143834413</updated>
+    </task>
+    <option name="localTasksCounter" value="879" />
     <servers />
   </component>
   <component name="TestHistory">
