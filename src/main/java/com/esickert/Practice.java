@@ -207,4 +207,35 @@ public class Practice{
         else
             return fib(temp - 1)+fib(temp-2);
     }
+
+    @Test
+    public void largest2()   {
+        int[] a = { 2,5,4,6,8,44,2,3,33,5,6,8,9,7};
+        int temp = 0;
+
+        for(int i = 0; i <= a.length-1; i++)    {
+            if (temp < a[i])
+                temp = a[i];
+        }
+        System.out.println(temp + " is the largest.");
+    }
+
+    @Test
+    public void secondLargest2()    {
+        int[] a = {22,888,7,6,5,9,8,7,3,4,5,22,3,44,3,6,666,7,5,4};
+        int temp = 0;
+        int temp2 = 0;
+        for(int i = 0; i <= a.length-1; i++)    {
+            if (temp < a[i]) {
+                temp2 = temp;
+                temp = a [i];
+            }
+            else
+                if (temp2 < a[i])
+                    temp2 = a[i];
+        }
+        System.out.println("The largest is " + temp);
+        System.out.println("The second largest is " + temp2);
+    }
+
 }
