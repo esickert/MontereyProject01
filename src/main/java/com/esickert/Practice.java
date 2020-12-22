@@ -238,4 +238,20 @@ public class Practice{
         System.out.println("The second largest is " + temp2);
     }
 
+    @Test
+    public void fizzBizz()  {
+        int num = 30;
+        while (num > 0) {
+            if ((num % 3 == 0) && (num % 5 == 0))
+                System.out.println("fizzBizz");
+            else if (num % 3 == 0)
+                System.out.println("fizz");
+            else if (num % 5 == 0)
+                System.out.println("Bizz");
+            else
+                System.out.println(num);
+            num--;
+        }
+
+    }
 }
