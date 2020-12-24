@@ -9,9 +9,7 @@
     <bookmark url="file://$PROJECT_DIR$/src/main/java/com/esickert/Playground.java" line="60" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="078280d5-5042-4862-850d-0c24f97ab4a9" name="Default" comment="plus">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="078280d5-5042-4862-850d-0c24f97ab4a9" name="Default" comment="plus" />
     <option name="SHOW_DIALOG" value="true" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -583,13 +581,6 @@
       <option name="presentableId" value="Default" />
       <updated>1520195848238</updated>
     </task>
-    <task id="LOCAL-00841" summary="plus">
-      <created>1607111295883</created>
-      <option name="number" value="00841" />
-      <option name="presentableId" value="LOCAL-00841" />
-      <option name="project" value="LOCAL" />
-      <updated>1607111295884</updated>
-    </task>
     <task id="LOCAL-00842" summary="plus">
       <created>1607112054578</created>
       <option name="number" value="00842" />
@@ -926,7 +917,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608755697775</updated>
     </task>
-    <option name="localTasksCounter" value="890" />
+    <task id="LOCAL-00890" summary="Plus">
+      <created>1608826427918</created>
+      <option name="number" value="00890" />
+      <option name="presentableId" value="LOCAL-00890" />
+      <option name="project" value="LOCAL" />
+      <updated>1608826427918</updated>
+    </task>
+    <option name="localTasksCounter" value="891" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1015,9 +1013,9 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Plus" />
     <MESSAGE value="plus" />
-    <option name="LAST_COMMIT_MESSAGE" value="plus" />
+    <MESSAGE value="Plus" />
+    <option name="LAST_COMMIT_MESSAGE" value="Plus" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />

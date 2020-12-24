@@ -2,6 +2,7 @@ package com.esickert;
 
 import org.junit.Test;
 
+import java.io.File;
 import java.io.IOException;
 import java.util.*;
 
@@ -257,5 +258,8 @@ public class Practice{
 
     @Test
     public void toFile()    {
+        String erich = " c:\tmp\erich.txt"
+        File filename = new File(erich);
+
     }
 }
