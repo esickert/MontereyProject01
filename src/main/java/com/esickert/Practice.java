@@ -1,5 +1,6 @@
 package com.esickert;
 
+import org.junit.Assert;
 import org.junit.Test;
 
 import java.io.File;
@@ -260,6 +261,7 @@ public class Practice{
     public void toFile()    {
         String erich = "c:\tmp\\erich.txt";
         File filename = new File(erich);
+
 
     }
 }
