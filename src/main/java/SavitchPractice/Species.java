@@ -12,7 +12,7 @@ public class Species {
         System.out.println("What is the population of the new species: ");
         population = keyboard.nextInt();
         System.out.println("Enter growth rate " +
-                          "(% increase per year): ");
+                          "(% increase per year):  ");
         growthRate = keyboard.nextDouble();
     }
 

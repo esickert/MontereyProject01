@@ -11,6 +11,8 @@
   <component name="ChangeListManager">
     <list default="true" id="078280d5-5042-4862-850d-0c24f97ab4a9" name="Default" comment="plus">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SavitchPractice/Species.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SavitchPractice/Species.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SavitchPractice/SpeciesDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SavitchPractice/SpeciesDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="true" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -419,13 +421,27 @@
       <recent name="TDD" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CodeQuestions.reverseWords">
+  <component name="RunManager" selected="Application.SpeciesDemo">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <module />
+    </configuration>
+    <configuration name="SpeciesDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SavitchPractice.SpeciesDemo" />
+      <module name="MontereyProject01" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SavitchPractice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -495,23 +511,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SeleniumDropDownTests.TestSelect" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="MontereyProject01" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="seleniumDropDowns.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="seleniumDropDowns" />
-      <option name="MAIN_CLASS_NAME" value="seleniumDropDowns.SeleniumDropDownTests" />
-      <option name="METHOD_NAME" value="TestSelect" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Selenium.openBrowser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MontereyProject01" />
       <extension name="coverage">
@@ -556,19 +555,19 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.MorePracticeJava.fibR" />
-      <item itemvalue="JUnit.SeleniumDropDownTests.TestSelect" />
       <item itemvalue="JUnit.Selenium.openBrowser" />
       <item itemvalue="JUnit.Practice.fizzBizz" />
       <item itemvalue="JUnit.Practice.toFile" />
       <item itemvalue="JUnit.CodeQuestions.reverseWords" />
+      <item itemvalue="Application.SpeciesDemo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SpeciesDemo" />
         <item itemvalue="JUnit.CodeQuestions.reverseWords" />
         <item itemvalue="JUnit.Practice.toFile" />
         <item itemvalue="JUnit.Practice.fizzBizz" />
         <item itemvalue="JUnit.Selenium.openBrowser" />
-        <item itemvalue="JUnit.SeleniumDropDownTests.TestSelect" />
       </list>
     </recent_temporary>
   </component>
@@ -583,13 +582,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1520195848238</updated>
-    </task>
-    <task id="LOCAL-00845" summary="plus">
-      <created>1607192804326</created>
-      <option name="number" value="00845" />
-      <option name="presentableId" value="LOCAL-00845" />
-      <option name="project" value="LOCAL" />
-      <updated>1607192804326</updated>
     </task>
     <task id="LOCAL-00846" summary="plus">
       <created>1607194114205</created>
@@ -927,7 +919,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608930902561</updated>
     </task>
-    <option name="localTasksCounter" value="894" />
+    <task id="LOCAL-00894" summary="plus">
+      <created>1608942789849</created>
+      <option name="number" value="00894" />
+      <option name="presentableId" value="LOCAL-00894" />
+      <option name="project" value="LOCAL" />
+      <updated>1608942789849</updated>
+    </task>
+    <option name="localTasksCounter" value="895" />
     <servers />
   </component>
   <component name="TestHistory">
