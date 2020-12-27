@@ -6,5 +6,5 @@ public class SpeciesDemo {
         Species newSpecies = new Species();
         newSpecies.readInput();
     }
-9}
+}
 
