@@ -394,24 +394,24 @@ import static org.testng.AssertJUnit.assertEquals;
         }
 
         //**********************************************************
-//this works!!!. It creates a file, writes to it then close it
+//this works!!! . It creates a file, writes to it then close it
         @Test
-        public void writeToFile() {
+        public void writeToFile() throws FileNotFoundException {
 
             String myFile = "C:\\Temp\\erich.txt";
             PrintStream outputStream = null;
 
-            try {
+//            try {
                 outputStream = new PrintStream(new File(myFile));
                 outputStream.println("Lions in the street and roaming");
                 outputStream.println("Dogs in heat, rabid foaming");
                 outputStream.println("A beast caged in the heart of the city.");
-            } catch (FileNotFoundException e) {
+//            } catch (FileNotFoundException e) {
 
                 System.out.println("ERROR:opening the file " + myFile);
                 System.exit(0);
             }
-            outputStream.close();
+//            outputStream.close();
 /*
                     try {
                         inputStream = new Scanner(new File(myFile));
@@ -423,10 +423,10 @@ import static org.testng.AssertJUnit.assertEquals;
 
                     while (inputStream.hasNextLine()
                 }*/
-        }
+
 
         //*************************************************************************************************************
-        @Test                                             //PRINTSTREAM
+     /*   @Test                                             //PRINTSTREAM
         public void writeReadToFile() {
 
             String filename = "c:\\Temp\\erichC.txt.";
