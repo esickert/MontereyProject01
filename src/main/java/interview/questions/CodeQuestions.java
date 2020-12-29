@@ -394,7 +394,7 @@ import static org.testng.AssertJUnit.assertEquals;
         }
 
         //**********************************************************
-//this does work. It creates a file, writes to it then close it
+//this works!!!. It creates a file, writes to it then close it
         @Test
         public void writeToFile() {
 
