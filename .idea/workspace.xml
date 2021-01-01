@@ -546,12 +546,12 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.CollectionsShuffleExample1" />
       <item itemvalue="JUnit.MorePracticeJava.fibR" />
       <item itemvalue="JUnit.Practice" />
       <item itemvalue="JUnit.Practice.writeToFile" />
       <item itemvalue="JUnit.Practice.pairs" />
       <item itemvalue="JUnit.Practice.palindrome" />
-      <item itemvalue="Application.CollectionsShuffleExample1" />
     </list>
     <recent_temporary>
       <list>
