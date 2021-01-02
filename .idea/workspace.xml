@@ -11,11 +11,7 @@
   <component name="ChangeListManager">
     <list default="true" id="078280d5-5042-4862-850d-0c24f97ab4a9" name="Default" comment="plus">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/CollectionsShuffleExample1.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/SavitchPractice/Species.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SavitchPractice/Species.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/SavitchPractice/SpeciesDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SavitchPractice/SpeciesDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/CollectionsShuffleExample1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/SavitchPractice/SpeciesDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/SavitchPractice/SpeciesDemo.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="true" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -545,11 +541,11 @@
     </configuration>
     <list>
       <item itemvalue="Application.CollectionsShuffleExample1" />
+      <item itemvalue="Application.DogDemo" />
+      <item itemvalue="Application.SpeciesDemo" />
       <item itemvalue="JUnit.MorePracticeJava.fibR" />
       <item itemvalue="JUnit.Practice" />
       <item itemvalue="JUnit.Practice.palindrome" />
-      <item itemvalue="Application.DogDemo" />
-      <item itemvalue="Application.SpeciesDemo" />
     </list>
     <recent_temporary>
       <list>
@@ -572,20 +568,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1520195848238</updated>
-    </task>
-    <task id="LOCAL-00860" summary="plus">
-      <created>1607367830790</created>
-      <option name="number" value="00860" />
-      <option name="presentableId" value="LOCAL-00860" />
-      <option name="project" value="LOCAL" />
-      <updated>1607367830790</updated>
-    </task>
-    <task id="LOCAL-00861" summary="plus">
-      <created>1607368267134</created>
-      <option name="number" value="00861" />
-      <option name="presentableId" value="LOCAL-00861" />
-      <option name="project" value="LOCAL" />
-      <updated>1607368267134</updated>
     </task>
     <task id="LOCAL-00862" summary="plus">
       <created>1607391630679</created>
@@ -916,7 +898,21 @@
       <option name="project" value="LOCAL" />
       <updated>1609524856212</updated>
     </task>
-    <option name="localTasksCounter" value="909" />
+    <task id="LOCAL-00909" summary="plus">
+      <created>1609546087027</created>
+      <option name="number" value="00909" />
+      <option name="presentableId" value="LOCAL-00909" />
+      <option name="project" value="LOCAL" />
+      <updated>1609546087027</updated>
+    </task>
+    <task id="LOCAL-00910" summary="plus">
+      <created>1609552638452</created>
+      <option name="number" value="00910" />
+      <option name="presentableId" value="LOCAL-00910" />
+      <option name="project" value="LOCAL" />
+      <updated>1609552638452</updated>
+    </task>
+    <option name="localTasksCounter" value="911" />
     <servers />
   </component>
   <component name="TestHistory">

@@ -10,10 +10,10 @@ public class Species {
     public void readInput() {
         Scanner keyboard = new Scanner(System.in);
         System.out.println("What is the population of the new species: ");
-        population = keyboard.nextInt();
+        this.population = keyboard.nextInt();  //variable used inside class definition
         System.out.println("Enter growth rate " +
                           "(% increase per year):  ");
-        growthRate = keyboard.nextDouble();
+        this.growthRate = keyboard.nextDouble();
     }
 
     public void printOutput()   {
