@@ -3,6 +3,7 @@ package com.esickert;
 import org.junit.Test;
 
 import java.io.*;
+import java.net.FileNameMap;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -14,20 +15,23 @@ public class Practice   {
 }
 //***********************************************
     @Test
-    public void writeToFile()   throws FileNotFoundException, Exception  {
+    public void writeToFile() throws FileNotFoundException, Exception {
         String filename = "c:\\tmp\\rick.txt";
-        PrintStream output = null;
+        PrintStream output = new PrintStream(filename);
+//        PrintStream output = null;
 
-//        try {
-            output = new PrintStream(new File(filename));
+        try {
+//            PrintStream output = new PrintStream(filename);
             output.println(("When the cold sea conspires in armour"));
             output.println("Sullen and aborted currents breed tiny monsters");
             output.println("True sailing is dead and the first animal jetison");
-//        }
-//        catch(FileNotFoundException e)  {
- //           System.out.println("ERROR");
+        }
+         catch(Exception e)  {
+ //        catch(Exception e) {
+            System.out.println("ERROR");
+            e.printStackTrace();
 //            System.exit(0);  //this is closing the system call I think
-//        }
+        }
         output.close();
 
         BufferedReader in = new BufferedReader(new FileReader("c:\\tmp\\rick.txt"));
