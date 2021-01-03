@@ -9,10 +9,7 @@
     <bookmark url="file://$PROJECT_DIR$/src/main/java/com/esickert/Playground.java" line="60" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="078280d5-5042-4862-850d-0c24f97ab4a9" name="Default" comment="plus">
-      <change beforePath="$PROJECT_DIR$/target/classes/SavitchPractice/SpeciesDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/SavitchPractice/SpeciesDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/esickert/Practice.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/esickert/Practice.class" afterDir="false" />
-    </list>
+    <list default="true" id="078280d5-5042-4862-850d-0c24f97ab4a9" name="Default" comment="plus" />
     <option name="SHOW_DIALOG" value="true" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -554,13 +551,6 @@
       <option name="presentableId" value="Default" />
       <updated>1520195848238</updated>
     </task>
-    <task id="LOCAL-00865" summary="plus">
-      <created>1607493444129</created>
-      <option name="number" value="00865" />
-      <option name="presentableId" value="LOCAL-00865" />
-      <option name="project" value="LOCAL" />
-      <updated>1607493444129</updated>
-    </task>
     <task id="LOCAL-00866" summary="plus">
       <created>1607550320294</created>
       <option name="number" value="00866" />
@@ -897,7 +887,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609629517578</updated>
     </task>
-    <option name="localTasksCounter" value="914" />
+    <task id="LOCAL-00914" summary="plus">
+      <created>1609634254104</created>
+      <option name="number" value="00914" />
+      <option name="presentableId" value="LOCAL-00914" />
+      <option name="project" value="LOCAL" />
+      <updated>1609634254104</updated>
+    </task>
+    <option name="localTasksCounter" value="915" />
     <servers />
   </component>
   <component name="TestHistory">

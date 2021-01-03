@@ -17,7 +17,7 @@ public class Practice   {
     @Test
     public void writeToFile() throws FileNotFoundException, Exception {
         String filename = "c:\\tmp\\rick.txt";
-        PrintStream output = new PrintStream(filename);
+        PrintStream output = new PrintStream(filename);  //why did they split the class PrintStream???
 //        PrintStream output = null;
 
         try {
