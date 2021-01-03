@@ -80,6 +80,32 @@ public class Practice   {
             System.out.println("not");
     }
  //**********************************************
+    @Test
+    public void addNum()    {
+        int a = 111;
+        int b = 999;
+
+        b = a + b;
+        a = b - a;
+        b = b - a;
+        System.out.println("a is now " + a);
+        System.out.println("b is now " + b);
+    }
+
+    @Test
+    public void fibinacci() {
+        int a = 0;
+        int b = 1;
+        int c;
+        System.out.print(a + b);
+        for(int i = 2; i <= 10; i++)    {
+            c = a + b;
+            System.out.print(" " + c);
+            a = b;
+            b = c;
+        }
+    }
+
 
 
 }
