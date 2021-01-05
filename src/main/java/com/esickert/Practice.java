@@ -6,6 +6,7 @@ import java.io.*;
 import java.net.FileNameMap;
 import java.util.HashMap;
 import java.util.Map;
+import java.util.Scanner;
 
 public class Practice   {
 
@@ -22,9 +23,10 @@ public class Practice   {
 
         try {
 //            PrintStream output = new PrintStream(filename);
-            output.println(("When the cold sea conspires in armour"));
-            output.println("Sullen and aborted currents breed tiny monsters");
-            output.println("True sailing is dead and the first animal jetison");
+            output.println(("When the still sea conspires an armour"));
+            output.println("And her sullen and aborted currents breed tiny monsters");
+            output.println("True sailing is dead");
+            output.println("Awkward instant and the first animal jetison");
         }
          catch(Exception e)  {
  //        catch(Exception e) {
@@ -119,5 +121,27 @@ public class Practice   {
         else
             return fib(x-1) + fib(x - 2);
     }
+
+    @Test
+    public void writeToFile2() throws FileNotFoundException   {
+        String filename = "c:\\tmp\\claude.txt";
+
+        PrintStream textin = new PrintStream(filename);
+
+        textin.println("Lions in the street and roaming");
+        textin.println("Dogs in heat, rabid, foaming");
+        textin.println("A beast caged in the heart of the city");
+
+        textin.close();
+
+        Scanner outtext = new Scanner(new File(filename)); //this needs (new File(...))
+
+        while (outtext.hasNextLine())
+            System.out.println(outtext.nextLine());
+        //outtext.close();
+    }
+
+
+
 }
 
