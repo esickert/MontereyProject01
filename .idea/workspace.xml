@@ -9,7 +9,13 @@
     <bookmark url="file://$PROJECT_DIR$/src/main/java/com/esickert/Playground.java" line="60" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="078280d5-5042-4862-850d-0c24f97ab4a9" name="Default" comment="plus" />
+    <list default="true" id="078280d5-5042-4862-850d-0c24f97ab4a9" name="Default" comment="plus">
+      <change afterPath="$PROJECT_DIR$/src/main/java/SavitchPractice/SecondTry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SavitchPractice/SpeciesSecondTry.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/esickert/Practice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/esickert/Practice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/esickert/Practice.class" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="true" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -393,7 +399,7 @@
       <recent name="TDD" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Practice.writeToFile2">
+  <component name="RunManager" selected="JUnit.Practice.testMethod">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -412,23 +418,6 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="MorePracticeJava" />
       <option name="METHOD_NAME" value="fibR" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Practice.addNum" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="MontereyProject01" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.esickert.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.esickert" />
-      <option name="MAIN_CLASS_NAME" value="com.esickert.Practice" />
-      <option name="METHOD_NAME" value="addNum" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
@@ -463,6 +452,23 @@
       <option name="PACKAGE_NAME" value="com.esickert" />
       <option name="MAIN_CLASS_NAME" value="com.esickert.Practice" />
       <option name="METHOD_NAME" value="fibinacci" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Practice.testMethod" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MontereyProject01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.esickert.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.esickert" />
+      <option name="MAIN_CLASS_NAME" value="com.esickert.Practice" />
+      <option name="METHOD_NAME" value="testMethod" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
@@ -530,19 +536,19 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.MorePracticeJava.fibR" />
-      <item itemvalue="JUnit.Practice.addNum" />
       <item itemvalue="JUnit.Practice.fibinacci" />
       <item itemvalue="JUnit.Practice.fib" />
       <item itemvalue="JUnit.Practice.writeToFile2" />
       <item itemvalue="JUnit.Practice.writeToFile" />
+      <item itemvalue="JUnit.Practice.testMethod" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Practice.testMethod" />
         <item itemvalue="JUnit.Practice.writeToFile2" />
         <item itemvalue="JUnit.Practice.writeToFile" />
         <item itemvalue="JUnit.Practice.fib" />
         <item itemvalue="JUnit.Practice.fibinacci" />
-        <item itemvalue="JUnit.Practice.addNum" />
       </list>
     </recent_temporary>
   </component>
@@ -557,13 +563,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1520195848238</updated>
-    </task>
-    <task id="LOCAL-00874" summary="plus">
-      <created>1607917326739</created>
-      <option name="number" value="00874" />
-      <option name="presentableId" value="LOCAL-00874" />
-      <option name="project" value="LOCAL" />
-      <updated>1607917326739</updated>
     </task>
     <task id="LOCAL-00875" summary="plus">
       <created>1607917399531</created>
@@ -901,7 +900,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609908130702</updated>
     </task>
-    <option name="localTasksCounter" value="923" />
+    <task id="LOCAL-00923" summary="plus">
+      <created>1609951869818</created>
+      <option name="number" value="00923" />
+      <option name="presentableId" value="LOCAL-00923" />
+      <option name="project" value="LOCAL" />
+      <updated>1609951869834</updated>
+    </task>
+    <option name="localTasksCounter" value="924" />
     <servers />
   </component>
   <component name="TestHistory">
