@@ -1,11 +1,12 @@
 package SavitchPractice;
 
 public class SpeciesSecondTry {
-    private String name;
+    private static String name;
     public int num1 = 1;
     public int num2 = 2;
 
-    public void set()   {
+    public static void set()   {
         name = "tom";
+        System.out.println(name);
     }
 }
