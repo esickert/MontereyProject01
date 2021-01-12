@@ -97,9 +97,10 @@ public class Practice  {
     }
 
     @Test
-    public int fibRec()    {
+    public void fibRec()    {
         for (int i = 0; i <= 10; i++)   {
-            System.out.println(fib3(i) + " ");
+            System.out.print(fib3(i) + " ");
+    }
     }
 
     public int fib3(int x)   {
