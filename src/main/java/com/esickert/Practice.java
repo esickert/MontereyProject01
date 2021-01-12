@@ -6,7 +6,6 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-import javax.xml.ws.WebEndpoint;
 import java.io.File;
 import java.io.PrintStream;
 import java.util.Scanner;
@@ -81,6 +80,33 @@ public class Practice  {
             System.out.println("PAlindrome");
         else
             System.out.println("NOT");
+    }
+
+    @Test
+    public void fibinacci()     {
+        int a = 0;
+        int b = 1;
+        int c;
+        System.out.print(a + " " + b);
+        for(int i = 0; i <= 10; i++)    {
+            c = a + b;
+            a = b;
+            b = c;
+            System.out.print(" " + c);
+        }
+    }
+
+    @Test
+    public int fibRec()    {
+        for (int i = 0; i <= 10; i++)   {
+            System.out.println(fib3(i) + " ");
+    }
+
+    public int fib3(int x)   {
+        if ((x == 0)||(x == 1))
+            return x;
+        else
+            return (fib3(x - 1) + fib3(x - 2));
     }
 
 }
