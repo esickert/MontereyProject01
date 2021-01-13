@@ -110,6 +110,11 @@ public class Practice  {
             return (fib3(x - 1) + fib3(x - 2));
     }
 
+    @Test
+    public void pairs() {
+        int[] a = {2,5,1,8,7,9,5,6,4,8,9,3,2,4};
+        int sum = 13;
+
 }
 
 
