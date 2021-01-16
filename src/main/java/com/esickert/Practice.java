@@ -5,6 +5,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.remote.server.handler.SendKeys;
 
 import java.io.File;
 import java.io.PrintStream;
@@ -41,22 +42,32 @@ public class Practice  {
         System.setProperty("webdriver.chrome.driver","c:\\seleniumDrivers\\chromedriver.exe");
         WebDriver driver = new ChromeDriver();
         driver.get("http://www.monster.com");
+        WebElement element = driver.findElement(By.cssSelector("#monster-npp-signin"));
+        element.click();
 
-//      WebElement stuff = driver.findElement(By.id("));
- //       WebElement element(By.id("monster-npp-signin"));
-        WebElement sign = driver.findElement(By.id("monster-npp-signin"));
-        sign.click();
-
-        WebElement login = driver.findElement(By.cssSelector("#EmailAddress"));
+        WebElement login = driver.findElement(By.cssSelector("#email"));
+        login.click();
         login.sendKeys("test@paris.com");
+
+
+
+ //    WebElement stuff = driver.findElement(By.id("));
+  //      WebElement element(By.id("monster-npp-signin");
+  //      WebElement element = driver.findElement(By.cssSelector("#EmailAddress"));
+    //    WebElement sign = driver.findElement(By.id("monster-npp-signin"));
+        //element.click();
+
+//
+//        <input type="email" class="form-control" id="email" placeholder="Your email Address">
+//        <input type="email" class="form-control" id="email" placeholder="Your email Address">
+        //*[@id="email"]
+
+/*        login.sendKeys("test@paris.com");
         WebElement password = driver.findElement(By.cssSelector("#Password"));
         password.sendKeys("Paris111");
         driver.findElement(By.cssSelector("#btn-login")).click();
 
-
-//<a id="monster-npp-signin" href="https://login20.monster.com/Login/SignIn?ch=MONS&amp;intcid=skr_navigation_www_Signin">Sign In</a>
-
-    }
+   */}
 
     @Test
     public void palindrome()    {
