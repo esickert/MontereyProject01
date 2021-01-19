@@ -40,24 +40,27 @@ public class Practice  {
     }
 
     @Test
-    public void seleniumTest() throws Exception  {
+    public void chromeTest()   {     //this too works for chrome
         System.setProperty("webdriver.chrome.driver","c:\\seleniumDrivers\\chromedriver.exe");
         WebDriver driver = new ChromeDriver();
         driver.get("http://www.google.com");
-  //      WebElement email = driver.findElement(By.className("gb_g"));  //this works
-  //      email.click();
-        WebElement search = driver.findElement(By.xpath("//*[@id=\"tsf\"]/div[2]/div[1]/div[1]/div/div[2]/input"));
+        driver.manage().window().maximize();
+        WebElement email = driver.findElement(By.className("gb_g"));  //this works
+        email.click();
+        driver.navigate().back();
+  //
+   //     WebElement search = driver.findElement(By.xpath("//*[@id=\"tsf\"]/div[2]/div[1]/div[1]/div/div[2]/input"));
 
 
    }
 
    @Test
-   public void firefoxTest()    {
-
+   public void firefoxTest()    {  //this works!!!!!!!!!!!
        System.setProperty("webdriver.gecko.driver","c://seleniumDrivers//geckoDriver.exe");
         WebDriver driver = new FirefoxDriver();
         driver.get("http://www.google.com");
-    //    WebElement find = driver.findElement(By.ByClassName
+        WebElement find = driver.findElement(By.cssSelector(".gLFyf"));
+        find.sendKeys("dog" + Keys.ENTER);
    }
 
     @Test
