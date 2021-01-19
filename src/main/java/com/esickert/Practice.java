@@ -48,6 +48,9 @@ public class Practice  {
         WebElement email = driver.findElement(By.className("gb_g"));  //this works
         email.click();
         driver.navigate().back();
+
+        WebElement find = driver.findElement(By.xpath("/html/body/div[2]/div[3]/form/div[2]/div[1]/div[1]/div/div[2]/input"));
+        find.sendKeys("dog" + Keys.ENTER);
   //
    //     WebElement search = driver.findElement(By.xpath("//*[@id=\"tsf\"]/div[2]/div[1]/div[1]/div/div[2]/input"));
 
