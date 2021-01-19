@@ -9,12 +9,7 @@
     <bookmark url="file://$PROJECT_DIR$/src/main/java/com/esickert/Playground.java" line="60" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="078280d5-5042-4862-850d-0c24f97ab4a9" name="Default" comment="plus">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Selenium.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/esickert/Practice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/esickert/Practice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/esickert/Practice.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/esickert/Practice.class" afterDir="false" />
-    </list>
+    <list default="true" id="078280d5-5042-4862-850d-0c24f97ab4a9" name="Default" comment="plus" />
     <option name="SHOW_DIALOG" value="true" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -558,13 +553,6 @@
       <option name="presentableId" value="Default" />
       <updated>1520195848238</updated>
     </task>
-    <task id="LOCAL-00893" summary="plus">
-      <created>1608930902561</created>
-      <option name="number" value="00893" />
-      <option name="presentableId" value="LOCAL-00893" />
-      <option name="project" value="LOCAL" />
-      <updated>1608930902561</updated>
-    </task>
     <task id="LOCAL-00894" summary="plus">
       <created>1608942789849</created>
       <option name="number" value="00894" />
@@ -901,7 +889,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611015005076</updated>
     </task>
-    <option name="localTasksCounter" value="942" />
+    <task id="LOCAL-00942" summary="plus">
+      <created>1611020082714</created>
+      <option name="number" value="00942" />
+      <option name="presentableId" value="LOCAL-00942" />
+      <option name="project" value="LOCAL" />
+      <updated>1611020082714</updated>
+    </task>
+    <option name="localTasksCounter" value="943" />
     <servers />
   </component>
   <component name="TestHistory">
