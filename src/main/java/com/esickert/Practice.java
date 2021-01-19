@@ -2,9 +2,11 @@ package com.esickert;
 
 import org.junit.Test;
 import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.remote.server.handler.SendKeys;
 
 import java.io.File;
@@ -38,36 +40,25 @@ public class Practice  {
     }
 
     @Test
-    public void seleniumTest()  {
+    public void seleniumTest() throws Exception  {
         System.setProperty("webdriver.chrome.driver","c:\\seleniumDrivers\\chromedriver.exe");
         WebDriver driver = new ChromeDriver();
-        driver.get("http://www.monster.com");
-        WebElement element = driver.findElement(By.cssSelector("#monster-npp-signin"));
-        element.click();
-
-        WebElement login = driver.findElement(By.cssSelector("#email"));
-        login.click();
-        login.sendKeys("test@paris.com");
+        driver.get("http://www.google.com");
+  //      WebElement email = driver.findElement(By.className("gb_g"));  //this works
+  //      email.click();
+        WebElement search = driver.findElement(By.xpath("//*[@id=\"tsf\"]/div[2]/div[1]/div[1]/div/div[2]/input"));
 
 
+   }
 
- //    WebElement stuff = driver.findElement(By.id("));
-  //      WebElement element(By.id("monster-npp-signin");
-  //      WebElement element = driver.findElement(By.cssSelector("#EmailAddress"));
-    //    WebElement sign = driver.findElement(By.id("monster-npp-signin"));
-        //element.click();
+   @Test
+   public void firefoxTest()    {
 
-//
-//        <input type="email" class="form-control" id="email" placeholder="Your email Address">
-//        <input type="email" class="form-control" id="email" placeholder="Your email Address">
-        //*[@id="email"]
-
-/*        login.sendKeys("test@paris.com");
-        WebElement password = driver.findElement(By.cssSelector("#Password"));
-        password.sendKeys("Paris111");
-        driver.findElement(By.cssSelector("#btn-login")).click();
-
-   */}
+       System.setProperty("webdriver.gecko.driver","c://seleniumDrivers//geckoDriver.exe");
+        WebDriver driver = new FirefoxDriver();
+        driver.get("http://www.google.com");
+    //    WebElement find = driver.findElement(By.ByClassName
+   }
 
     @Test
     public void palindrome()    {
