@@ -11,9 +11,7 @@
   <component name="ChangeListManager">
     <list default="true" id="078280d5-5042-4862-850d-0c24f97ab4a9" name="Default" comment="plus">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Selenium.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/esickert/Practice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/esickert/Practice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Selenium.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/esickert/Practice.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/esickert/Practice.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="true" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -558,13 +556,6 @@
       <option name="presentableId" value="Default" />
       <updated>1520195848238</updated>
     </task>
-    <task id="LOCAL-00895" summary="plus">
-      <created>1609034196920</created>
-      <option name="number" value="00895" />
-      <option name="presentableId" value="LOCAL-00895" />
-      <option name="project" value="LOCAL" />
-      <updated>1609034196921</updated>
-    </task>
     <task id="LOCAL-00896" summary="plus">
       <created>1609098824975</created>
       <option name="number" value="00896" />
@@ -901,7 +892,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611021749525</updated>
     </task>
-    <option name="localTasksCounter" value="944" />
+    <task id="LOCAL-00944" summary="plus">
+      <created>1611076941864</created>
+      <option name="number" value="00944" />
+      <option name="presentableId" value="LOCAL-00944" />
+      <option name="project" value="LOCAL" />
+      <updated>1611076941864</updated>
+    </task>
+    <option name="localTasksCounter" value="945" />
     <servers />
   </component>
   <component name="TestHistory">
