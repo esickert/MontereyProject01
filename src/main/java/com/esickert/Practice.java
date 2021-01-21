@@ -8,10 +8,13 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.remote.server.handler.SendKeys;
+import org.openqa.selenium.support.PageFactory;
 
 import java.io.File;
 import java.io.PrintStream;
 import java.util.Scanner;
+
+import static java.lang.Thread.sleep;
 
 public class Practice  {
 
@@ -49,8 +52,11 @@ public class Practice  {
         email.click();
         driver.navigate().back();
 
-        WebElement find = driver.findElement(By.xpath("/html/body/div[2]/div[3]/form/div[2]/div[1]/div[1]/div/div[2]/input"));
-        find.sendKeys("dog" + Keys.ENTER);
+        WebElement find = driver.findElement(By.id("gsr"));
+        find.sendKeys("dog");
+
+       // find.sendKeys("dog" + Keys.ENTER);
+   //     #tsf > div:nth-child(2) > div.A8SBwf > div.RNNXgb > div > div.a4bIc > input
   //
    //     WebElement search = driver.findElement(By.xpath("//*[@id=\"tsf\"]/div[2]/div[1]/div[1]/div/div[2]/input"));
 
@@ -65,6 +71,19 @@ public class Practice  {
         WebElement find = driver.findElement(By.cssSelector(".gLFyf"));
         find.sendKeys("dog" + Keys.ENTER);
    }
+
+   @Test
+   public void pomSelniumMonster() throws Exception  {
+       System.setProperty("webdriver.gecko.driver","c://seleniumDrivers//geckoDriver.exe");
+       WebDriver driver = new FirefoxDriver();
+       driver.get("http://www.monster.com");
+       sleep(10000);
+       WebElement login = driver.findElement(By.id("#monster-npp-signin"));
+       login.click();
+
+//       driver.close();
+   }
+
 
     @Test
     public void palindrome()    {
