@@ -7,6 +7,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.remote.server.handler.SendKeys;
 import org.openqa.selenium.support.PageFactory;
 
@@ -77,9 +78,14 @@ public class Practice  {
        System.setProperty("webdriver.gecko.driver","c://seleniumDrivers//geckoDriver.exe");
        WebDriver driver = new FirefoxDriver();
        driver.get("http://www.monster.com");
-       sleep(10000);
-       WebElement login = driver.findElement(By.id("#monster-npp-signin"));
-       login.click();
+
+       Actions action = new Actions(driver);  //this doesn't work!!!!
+       sleep(3000);
+       action.sendKeys(Keys.ESCAPE).build().perform();
+
+//       sleep(10000);
+//       WebElement login = driver.findElement(By.id("#monster-npp-signin"));
+//       login.click();
 
 //       driver.close();
    }
