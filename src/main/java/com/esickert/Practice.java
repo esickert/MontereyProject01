@@ -53,8 +53,8 @@ public class Practice  {
         email.click();
         driver.navigate().back();
 
-        WebElement find = driver.findElement(By.id("gsr"));
-        find.sendKeys("dog");
+        WebElement find = driver.findElement(By.xpath("/html/body/div[2]/div[3]/form/div[2]/div[1]/div[1]/div/div[2]/input"));
+ //       find.sendKeys("dog");
 
        // find.sendKeys("dog" + Keys.ENTER);
    //     #tsf > div:nth-child(2) > div.A8SBwf > div.RNNXgb > div > div.a4bIc > input
