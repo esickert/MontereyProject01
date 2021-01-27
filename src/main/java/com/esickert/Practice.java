@@ -24,6 +24,14 @@ public class Practice  {
       System.out.println("Hello World");
   }
 
+  @Test
+  public void Occurances()  {
+    int[] a = {2,4,5,2,1,7,6,6,6,6,6,4,4,4,4,9,9,9,9};
+    int temp = 0;
+
+
+  }
+
 }
 
 
