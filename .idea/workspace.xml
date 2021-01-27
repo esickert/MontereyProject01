@@ -10,8 +10,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="078280d5-5042-4862-850d-0c24f97ab4a9" name="Default" comment="plus">
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/esickert/Practice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/esickert/Practice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sratchpad/HeadlessBrowserTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sratchpad/HeadlessBrowserTest.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="true" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -367,6 +369,7 @@
     <property name="AnalyzeApkAction.lastApkPath" value="$USER_HOME$/Desktop" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="ToolWindowMessages.ShowToolbar" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$2/Languages" value="JAVA" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
@@ -397,7 +400,7 @@
       <recent name="TDD" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Practice.hello">
+  <component name="RunManager" selected="JUnit.Selenium.openBrowser">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -422,40 +425,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Practice.chromeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="MontereyProject01" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.esickert.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.esickert" />
-      <option name="MAIN_CLASS_NAME" value="com.esickert.Practice" />
-      <option name="METHOD_NAME" value="chromeTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Practice.firefoxTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="MontereyProject01" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.esickert.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.esickert" />
-      <option name="MAIN_CLASS_NAME" value="com.esickert.Practice" />
-      <option name="METHOD_NAME" value="firefoxTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Practice.hello" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MontereyProject01" />
       <extension name="coverage">
@@ -473,7 +442,56 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Practice.pomSelniumMonster" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Selenium in MontereyProject01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MontereyProject01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Selenium.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Selenium" />
+      <option name="TEST_OBJECT" value="package" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SeleniumDropDownTests.TestSelect" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MontereyProject01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="seleniumDropDowns.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="seleniumDropDowns" />
+      <option name="MAIN_CLASS_NAME" value="seleniumDropDowns.SeleniumDropDownTests" />
+      <option name="METHOD_NAME" value="TestSelect" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SeleniumDropDownTests.test_ul_li" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MontereyProject01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="seleniumDropDowns.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="seleniumDropDowns" />
+      <option name="MAIN_CLASS_NAME" value="seleniumDropDowns.SeleniumDropDownTests" />
+      <option name="METHOD_NAME" value="test_ul_li" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Selenium.openBrowser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MontereyProject01" />
       <extension name="coverage">
         <pattern>
@@ -482,19 +500,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.esickert" />
-      <option name="MAIN_CLASS_NAME" value="com.esickert.Practice" />
-      <option name="METHOD_NAME" value="pomSelniumMonster" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Selenium.openChrome" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="MontereyProject01" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Selenium" />
-      <option name="METHOD_NAME" value="openChrome" />
+      <option name="MAIN_CLASS_NAME" value="com.esickert.Selenium" />
+      <option name="METHOD_NAME" value="openBrowser" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
@@ -528,19 +535,19 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.MorePracticeJava.fibR" />
-      <item itemvalue="JUnit.Practice.firefoxTest" />
-      <item itemvalue="JUnit.Practice.chromeTest" />
-      <item itemvalue="JUnit.Selenium.openChrome" />
-      <item itemvalue="JUnit.Practice.pomSelniumMonster" />
       <item itemvalue="JUnit.Practice.hello" />
+      <item itemvalue="JUnit.Selenium.openBrowser" />
+      <item itemvalue="JUnit.SeleniumDropDownTests.TestSelect" />
+      <item itemvalue="JUnit.SeleniumDropDownTests.test_ul_li" />
+      <item itemvalue="JUnit.Selenium in MontereyProject01" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Selenium.openBrowser" />
+        <item itemvalue="JUnit.Selenium in MontereyProject01" />
+        <item itemvalue="JUnit.SeleniumDropDownTests.test_ul_li" />
+        <item itemvalue="JUnit.SeleniumDropDownTests.TestSelect" />
         <item itemvalue="JUnit.Practice.hello" />
-        <item itemvalue="JUnit.Practice.pomSelniumMonster" />
-        <item itemvalue="JUnit.Practice.chromeTest" />
-        <item itemvalue="JUnit.Practice.firefoxTest" />
-        <item itemvalue="JUnit.Selenium.openChrome" />
       </list>
     </recent_temporary>
   </component>
@@ -555,27 +562,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1520195848238</updated>
-    </task>
-    <task id="LOCAL-00903" summary="hinzufügen">
-      <created>1609431554147</created>
-      <option name="number" value="00903" />
-      <option name="presentableId" value="LOCAL-00903" />
-      <option name="project" value="LOCAL" />
-      <updated>1609431554147</updated>
-    </task>
-    <task id="LOCAL-00904" summary="plus">
-      <created>1609445648450</created>
-      <option name="number" value="00904" />
-      <option name="presentableId" value="LOCAL-00904" />
-      <option name="project" value="LOCAL" />
-      <updated>1609445648450</updated>
-    </task>
-    <task id="LOCAL-00905" summary="plus">
-      <created>1609463610583</created>
-      <option name="number" value="00905" />
-      <option name="presentableId" value="LOCAL-00905" />
-      <option name="project" value="LOCAL" />
-      <updated>1609463610583</updated>
     </task>
     <task id="LOCAL-00906" summary="plus">
       <created>1609524778758</created>
@@ -899,7 +885,28 @@
       <option name="project" value="LOCAL" />
       <updated>1611593497716</updated>
     </task>
-    <option name="localTasksCounter" value="952" />
+    <task id="LOCAL-00952" summary="plus">
+      <created>1611626425341</created>
+      <option name="number" value="00952" />
+      <option name="presentableId" value="LOCAL-00952" />
+      <option name="project" value="LOCAL" />
+      <updated>1611626425341</updated>
+    </task>
+    <task id="LOCAL-00953" summary="plus">
+      <created>1611626468545</created>
+      <option name="number" value="00953" />
+      <option name="presentableId" value="LOCAL-00953" />
+      <option name="project" value="LOCAL" />
+      <updated>1611626468545</updated>
+    </task>
+    <task id="LOCAL-00954" summary="plus">
+      <created>1611626504891</created>
+      <option name="number" value="00954" />
+      <option name="presentableId" value="LOCAL-00954" />
+      <option name="project" value="LOCAL" />
+      <updated>1611626504891</updated>
+    </task>
+    <option name="localTasksCounter" value="955" />
     <servers />
   </component>
   <component name="TestHistory">
