@@ -9,7 +9,9 @@
     <bookmark url="file://$PROJECT_DIR$/src/main/java/com/esickert/Playground.java" line="60" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="078280d5-5042-4862-850d-0c24f97ab4a9" name="Default" comment="plus" />
+    <list default="true" id="078280d5-5042-4862-850d-0c24f97ab4a9" name="Default" comment="plus">
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/esickert/Practice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/esickert/Practice.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="true" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -395,7 +397,7 @@
       <recent name="TDD" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Selenium.openBrowser">
+  <component name="RunManager" selected="JUnit.Practice.Occurances">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -420,7 +422,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Practice.hello" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Practice.Occurances" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MontereyProject01" />
       <extension name="coverage">
         <pattern>
@@ -430,7 +432,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.esickert" />
       <option name="MAIN_CLASS_NAME" value="com.esickert.Practice" />
-      <option name="METHOD_NAME" value="hello" />
+      <option name="METHOD_NAME" value="Occurances" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
@@ -530,19 +532,19 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.MorePracticeJava.fibR" />
-      <item itemvalue="JUnit.Practice.hello" />
       <item itemvalue="JUnit.Selenium.openBrowser" />
       <item itemvalue="JUnit.SeleniumDropDownTests.TestSelect" />
       <item itemvalue="JUnit.SeleniumDropDownTests.test_ul_li" />
       <item itemvalue="JUnit.Selenium in MontereyProject01" />
+      <item itemvalue="JUnit.Practice.Occurances" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Practice.Occurances" />
         <item itemvalue="JUnit.Selenium.openBrowser" />
         <item itemvalue="JUnit.Selenium in MontereyProject01" />
         <item itemvalue="JUnit.SeleniumDropDownTests.test_ul_li" />
         <item itemvalue="JUnit.SeleniumDropDownTests.TestSelect" />
-        <item itemvalue="JUnit.Practice.hello" />
       </list>
     </recent_temporary>
   </component>
@@ -557,13 +559,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1520195848238</updated>
-    </task>
-    <task id="LOCAL-00908" summary="plus">
-      <created>1609524856212</created>
-      <option name="number" value="00908" />
-      <option name="presentableId" value="LOCAL-00908" />
-      <option name="project" value="LOCAL" />
-      <updated>1609524856212</updated>
     </task>
     <task id="LOCAL-00909" summary="plus">
       <created>1609546087027</created>
@@ -901,7 +896,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611790827067</updated>
     </task>
-    <option name="localTasksCounter" value="957" />
+    <task id="LOCAL-00957" summary="plus">
+      <created>1611931845313</created>
+      <option name="number" value="00957" />
+      <option name="presentableId" value="LOCAL-00957" />
+      <option name="project" value="LOCAL" />
+      <updated>1611931845313</updated>
+    </task>
+    <option name="localTasksCounter" value="958" />
     <servers />
   </component>
   <component name="TestHistory">
