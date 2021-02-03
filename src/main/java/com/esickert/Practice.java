@@ -25,9 +25,19 @@ public class Practice  {
   }
 
   @Test
-  public void Occurances()  {
+  public void occurances()  {
     int[] a = {2,4,5,2,1,7,6,6,6,6,6,4,4,4,4,9,9,9,9};
-    int temp = 2;
+    int x = 0;
+    for(int i = 1; i <= 9; i++)  {
+      x = i;
+      occur(x, a);
+    }
+  }
+
+  public void occur(int x, int[] a)  {
+//    int[] a = {2,4,5,2,1,7,6,6,6,6,6,4,4,4,4,9,9,9,9};
+
+    int temp = x;
     int count = 0;
 
     for(int i = 0; i <= a.length - 1; i++) {
