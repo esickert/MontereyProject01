@@ -10,9 +10,12 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.remote.server.handler.SendKeys;
 import org.openqa.selenium.support.PageFactory;
+import org.testng.collections.Maps;
 
 import java.io.File;
 import java.io.PrintStream;
+import java.util.HashMap;
+import java.util.Map;
 import java.util.Scanner;
 
 import static java.lang.Thread.sleep;
@@ -46,6 +49,35 @@ public class Practice  {
     }
     System.out.println("There are " + count + " of " + temp + "'s");
   }
+  //*****************************************************************
+  @Test
+  public void pairs() {
+    int[] a = {2,5,1,7,6,8,5,6,4,9,8,4,5,3,7};
+    int sum = 13;
+    Map<Integer,Integer> pairs = new HashMap<>();
+    for(int i = 0; i <= a.length - 1; i++)  {
+      if(pairs.containsKey(sum - a[i]))
+        System.out.println("(" + (sum - a[i]) + ":" + a[i] + ")");
+      else
+        pairs.put(a[i],0);
+    }
+  }
+  //*****************************************************************
+  @Test
+  public void palindrome()  {
+    String word = "abcba";
+    String temp = "";
+
+    for(int i = word.length()-1; i >= 0 ; i--) {
+      temp = temp + word.charAt(i);
+      System.out.println(temp);
+    }
+    if(word.equals(temp))
+      System.out.println("Palindrome");
+    else
+      System.out.println("NOT");
+  }
+
 
 }
 
