@@ -77,6 +77,20 @@ public class Practice  {
     else
       System.out.println("NOT");
   }
+  //*****************************************************************
+  @Test
+  public void palindromeStringBuffer()  {
+    String word = "abcdcba";
+
+    StringBuffer str = new StringBuffer(word);
+    if(str.reverse().toString().equals(word))
+      System.out.println("Palindrome");
+    else
+      System.out.println("NOT");
+  }
+  //*****************************************************************
+
+
 
 
 }
