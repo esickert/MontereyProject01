@@ -26,7 +26,7 @@ public class Practice  {
     public void hello()   {
       System.out.println("Hello World");
   }
-
+//*******************************************************************
   @Test
   public void occurances()  {
     int[] a = {2,4,5,2,1,7,6,6,6,6,6,4,4,4,4,9,9,9,9};
@@ -89,6 +89,16 @@ public class Practice  {
       System.out.println("NOT");
   }
   //*****************************************************************
+  @Test
+  public void fibinacci() {
+    int a = 0;
+    int b = 1;
+    int c;
+    System.out.println(a + " " + b);
+    for (){
+
+  }
+
 
 
 
