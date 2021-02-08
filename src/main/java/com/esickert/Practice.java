@@ -98,8 +98,8 @@ public class Practice  {
     for (int i = 2; i <= 10; i++) {
       c = a + b;
       System.out.print(" " + c);
-      b = a;
-      c = b;
+      a = b;
+      b = c;
     }
   }
 
