@@ -98,10 +98,33 @@ public class Practice  {
     for (int i = 2; i <= 10; i++) {
       c = a + b;
       System.out.print(" " + c);
-      a = b;
+      a = b;     //FIGURE OUT WHY THIS WORKS ATITHMETICALLY.!!!!!!!!!!!!!!!
       b = c;
     }
   }
+  //*****************************************************************
+  @Test
+  public void fibanacciRecursion()  {
+    int x = 10;
+    for(int i = 0; i <= 10; i++)  {
+      System.out.print(fib2(i) + " ");
+    }
+ }
+
+  public int fib2(int x) {
+    if((x == 0)||(x ==1))
+      return x;
+    else
+      return fib2(x-1) + fib2(x-2);
+  }
+  //*****************************************************************
+  @Test
+  public void printToFile() {
+
+  }
+
+
+
 
 }
 
