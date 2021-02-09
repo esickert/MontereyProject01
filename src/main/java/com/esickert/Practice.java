@@ -121,11 +121,16 @@ public class Practice  {
   @Test
   public void printToFile() {
 
-  }
-
-
-
-
+    String filename = "c://tmp//erich2.txt";
+    try {
+      PrintStream output = new PrintStream(filename);
+      output.println("Lions in the street and roaming");
+    }
+    catch(Exception e)  {
+      System.out.println("ERROR");
+      e.printStackTrace();
+    }
+}
 }
 
 
