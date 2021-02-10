@@ -1,17 +1,6 @@
 package com.esickert;
 
 import org.junit.Test;
-import org.openqa.selenium.By;
-import org.openqa.selenium.Keys;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
-import org.openqa.selenium.interactions.Actions;
-import org.openqa.selenium.remote.server.handler.SendKeys;
-import org.openqa.selenium.support.PageFactory;
-import org.testng.collections.Maps;
-
 import java.io.File;
 import java.io.PrintStream;
 import java.util.HashMap;
@@ -124,13 +113,41 @@ public class Practice  {
     String filename = "c://tmp//erich2.txt";
     try {
       PrintStream output = new PrintStream(filename);
-      output.println("Lions in the street and roaming");
+      output.println("Lions in the street and roaming2");
     }
     catch(Exception e)  {
       System.out.println("ERROR");
       e.printStackTrace();
     }
 }
+  @Test
+  public void printFromFile()  {
+    String filename = "c://tmp//erich2.txt";
+    File file = new File(filename);
+    try {
+      Scanner printOut = new Scanner(file);
+      String line = printOut.nextLine();
+      System.out.println(line);
+    }
+    catch(Exception e)  {
+      System.out.println("ERROR");
+      e.printStackTrace();
+    }
+  }
+  //*****************************************************************
+  @Test
+  public void findLargest() {
+    int[] b = {3,5,1,9,77,8,666,5,67,3,45,23,44,99};
+    int temp = b[0];
+    for(int i = 0 ; i <= b.length-1; i++) {
+      if (temp < b[i])
+        temp = b[i];
+    }
+    System.out.println("The largest number is " + temp);
+  }
+
+
+
 }
 
 

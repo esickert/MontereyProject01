@@ -9,7 +9,10 @@
     <bookmark url="file://$PROJECT_DIR$/src/main/java/com/esickert/Playground.java" line="60" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="078280d5-5042-4862-850d-0c24f97ab4a9" name="Default" comment="plus" />
+    <list default="true" id="078280d5-5042-4862-850d-0c24f97ab4a9" name="Default" comment="plus">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/esickert/Practice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/esickert/Practice.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="true" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -395,7 +398,7 @@
       <recent name="TDD" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Practice.printToFile">
+  <component name="RunManager" selected="JUnit.Practice.findLargest">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -454,7 +457,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Practice.palindrome" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Practice.findLargest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MontereyProject01" />
       <extension name="coverage">
         <pattern>
@@ -464,14 +467,14 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.esickert" />
       <option name="MAIN_CLASS_NAME" value="com.esickert.Practice" />
-      <option name="METHOD_NAME" value="palindrome" />
+      <option name="METHOD_NAME" value="findLargest" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Practice.palindromeStringBuffer" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Practice.printFromFile" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MontereyProject01" />
       <extension name="coverage">
         <pattern>
@@ -481,7 +484,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.esickert" />
       <option name="MAIN_CLASS_NAME" value="com.esickert.Practice" />
-      <option name="METHOD_NAME" value="palindromeStringBuffer" />
+      <option name="METHOD_NAME" value="printFromFile" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
@@ -532,19 +535,19 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.MorePracticeJava.fibR" />
-      <item itemvalue="JUnit.Practice.palindrome" />
-      <item itemvalue="JUnit.Practice.palindromeStringBuffer" />
       <item itemvalue="JUnit.Practice.fibinacci" />
       <item itemvalue="JUnit.Practice.fibanacciRecursion" />
       <item itemvalue="JUnit.Practice.printToFile" />
+      <item itemvalue="JUnit.Practice.printFromFile" />
+      <item itemvalue="JUnit.Practice.findLargest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Practice.findLargest" />
+        <item itemvalue="JUnit.Practice.printFromFile" />
         <item itemvalue="JUnit.Practice.printToFile" />
         <item itemvalue="JUnit.Practice.fibanacciRecursion" />
         <item itemvalue="JUnit.Practice.fibinacci" />
-        <item itemvalue="JUnit.Practice.palindromeStringBuffer" />
-        <item itemvalue="JUnit.Practice.palindrome" />
       </list>
     </recent_temporary>
   </component>
@@ -559,13 +562,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1520195848238</updated>
-    </task>
-    <task id="LOCAL-00925" summary="plus">
-      <created>1610052320847</created>
-      <option name="number" value="00925" />
-      <option name="presentableId" value="LOCAL-00925" />
-      <option name="project" value="LOCAL" />
-      <updated>1610052320848</updated>
     </task>
     <task id="LOCAL-00926" summary="plus">
       <created>1610073033287</created>
@@ -903,7 +899,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612845610343</updated>
     </task>
-    <option name="localTasksCounter" value="974" />
+    <task id="LOCAL-00974" summary="plus">
+      <created>1612932819363</created>
+      <option name="number" value="00974" />
+      <option name="presentableId" value="LOCAL-00974" />
+      <option name="project" value="LOCAL" />
+      <updated>1612932819363</updated>
+    </task>
+    <option name="localTasksCounter" value="975" />
     <servers />
   </component>
   <component name="TestHistory">
