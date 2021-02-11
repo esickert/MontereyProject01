@@ -145,6 +145,19 @@ public class Practice  {
     }
     System.out.println("The largest number is " + temp);
   }
+  //*****************************************************************
+  @Test
+  public void findSecondLargest() {
+    int[] c = {33,5,2,6,7,88,77,666,4,56,9,8,7,8};
+    int temp = c[0];
+    int temp2 = c[0];
+
+    if(temp < c[0]) {
+      temp = c[0];
+    else if (temp2 < c[0])
+      temp2 = c[0];
+    }
+
 
 
 
