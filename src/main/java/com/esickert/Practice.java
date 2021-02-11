@@ -148,18 +148,22 @@ public class Practice  {
   //*****************************************************************
   @Test
   public void findSecondLargest() {
-    int[] c = {33,5,2,6,7,88,77,666,4,56,9,8,7,8};
+    int[] c = {33,5,2,6,7,88,77,666,4,56,9,8,7,888};
     int temp = c[0];
     int temp2 = c[0];
 
-    if(temp < c[0]) {
-      temp = c[0];
-    else if (temp2 < c[0])
-      temp2 = c[0];
+    for(int i = 0; i <= c.length-1; i++)  {
+      if(temp < c[i]) {
+        temp2 = temp;  //if temp is less than c[i], save temp in temp2 and assign c[i] to temp.
+        temp = c[i];
+      }
+      else if (temp2 < c[i]) {
+        temp2 = c[i];
+      }
     }
-
-
-
+    System.out.println("The largest is " + temp);
+    System.out.println("The second largest is " + temp2);
+  }
 
 }
 
