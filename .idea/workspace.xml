@@ -562,13 +562,6 @@
       <option name="presentableId" value="Default" />
       <updated>1520195848238</updated>
     </task>
-    <task id="LOCAL-00931" summary="plus">
-      <created>1610414887770</created>
-      <option name="number" value="00931" />
-      <option name="presentableId" value="LOCAL-00931" />
-      <option name="project" value="LOCAL" />
-      <updated>1610414887770</updated>
-    </task>
     <task id="LOCAL-00932" summary="plus">
       <created>1610426160177</created>
       <option name="number" value="00932" />
@@ -905,7 +898,14 @@
       <option name="project" value="LOCAL" />
       <updated>1613191292832</updated>
     </task>
-    <option name="localTasksCounter" value="980" />
+    <task id="LOCAL-00980" summary="plus">
+      <created>1613323948542</created>
+      <option name="number" value="00980" />
+      <option name="presentableId" value="LOCAL-00980" />
+      <option name="project" value="LOCAL" />
+      <updated>1613323948543</updated>
+    </task>
+    <option name="localTasksCounter" value="981" />
     <servers />
   </component>
   <component name="TestHistory">
