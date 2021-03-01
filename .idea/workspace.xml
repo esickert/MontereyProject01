@@ -10,45 +10,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="078280d5-5042-4862-850d-0c24f97ab4a9" name="Default" comment="plus">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/esickert/Practice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/esickert/Practice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/AbstractClasses/Circle.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/AbstractClasses/Circle.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/AbstractClasses/Factorial.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/AbstractClasses/Factorial.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/AbstractClasses/GeometricObject.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/AbstractClasses/GeometricObject.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/AbstractClasses/TestGeometricObject.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/AbstractClasses/TestGeometricObject.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/LinkedListIterator/Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/LinkedListIterator/Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/LinkedListIterator/StringLinkedListWithIterator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/LinkedListIterator/StringLinkedListWithIterator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/LinkedListIterator/TheLinkedListWithIteratorItself.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/LinkedListIterator/TheLinkedListWithIteratorItself.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/NodeInnerClass/IntLinkedList$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/NodeInnerClass/IntLinkedList$Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/NodeInnerClass/IntLinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/NodeInnerClass/IntLinkedList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/NodeInnerClass/TheLinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/NodeInnerClass/TheLinkedList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/SavitchPractice/Dog.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/SavitchPractice/Dog.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/SavitchPractice/DogDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/SavitchPractice/DogDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/SavitchPractice/SecondTry.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/SavitchPractice/SecondTry.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/SavitchPractice/Species.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/SavitchPractice/Species.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/SavitchPractice/SpeciesDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/SavitchPractice/SpeciesDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/SavitchPractice/SpeciesSecondTry.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/SavitchPractice/SpeciesSecondTry.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/SingleLinkedList/LinkedListMethods.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/SingleLinkedList/LinkedListMethods.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/SingleLinkedList/Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/SingleLinkedList/Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/SingleLinkedList/TheLinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/SingleLinkedList/TheLinkedList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/TDD/Addition.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/TDD/Addition.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/TDD/Mathematics.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/TDD/Mathematics.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/TDD/Multiplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/TDD/Multiplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/TDD/Subtraction.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/TDD/Subtraction.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/baseClass/BaseClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/baseClass/BaseClass.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/esickert/MenloPark.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/esickert/MenloPark.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/esickert/MontereyProjectCheck.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/esickert/MontereyProjectCheck.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/esickert/Playground.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/esickert/Playground.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/esickert/Selenium.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/esickert/Selenium.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/esickert/Selenium2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/esickert/Selenium2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/interview/questions/CodeQuestions.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/interview/questions/CodeQuestions.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/interview/questions/SeleniumQuestions.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/interview/questions/SeleniumQuestions.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/seleniumDropDowns/SeleniumDropDownTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/seleniumDropDowns/SeleniumDropDownTests.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/seleniumTestEnv/capabilities.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/seleniumTestEnv/capabilities.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/stackQueue/ImplementQueue.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/stackQueue/ImplementQueue.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/stackQueue/Queue.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/stackQueue/Queue.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/TDD/MathematicsTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/TDD/MathematicsTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/baseClass/InvalidLogin.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/baseClass/InvalidLogin.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="true" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -432,7 +394,7 @@
       <recent name="TDD" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Practice.helloWorld">
+  <component name="RunManager" selected="JUnit.Practice.palindrome">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -502,6 +464,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Practice.palindrome" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MontereyProject01" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Practice" />
+      <option name="METHOD_NAME" value="palindrome" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Practice.printFromFile" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MontereyProject01" />
       <extension name="coverage">
@@ -513,23 +486,6 @@
       <option name="PACKAGE_NAME" value="com.esickert" />
       <option name="MAIN_CLASS_NAME" value="com.esickert.Practice" />
       <option name="METHOD_NAME" value="printFromFile" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Practice.printToFile" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="MontereyProject01" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.esickert.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.esickert" />
-      <option name="MAIN_CLASS_NAME" value="com.esickert.Practice" />
-      <option name="METHOD_NAME" value="printToFile" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
@@ -563,19 +519,19 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.MorePracticeJava.fibR" />
-      <item itemvalue="JUnit.Practice.printToFile" />
       <item itemvalue="JUnit.Practice.printFromFile" />
       <item itemvalue="JUnit.Practice.findLargest" />
       <item itemvalue="JUnit.Practice.findSecondLargest" />
       <item itemvalue="JUnit.Practice.helloWorld" />
+      <item itemvalue="JUnit.Practice.palindrome" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Practice.palindrome" />
         <item itemvalue="JUnit.Practice.helloWorld" />
         <item itemvalue="JUnit.Practice.findSecondLargest" />
         <item itemvalue="JUnit.Practice.findLargest" />
         <item itemvalue="JUnit.Practice.printFromFile" />
-        <item itemvalue="JUnit.Practice.printToFile" />
       </list>
     </recent_temporary>
   </component>
@@ -590,13 +546,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1520195848238</updated>
-    </task>
-    <task id="LOCAL-00939" summary="plus">
-      <created>1610859035193</created>
-      <option name="number" value="00939" />
-      <option name="presentableId" value="LOCAL-00939" />
-      <option name="project" value="LOCAL" />
-      <updated>1610859035193</updated>
     </task>
     <task id="LOCAL-00940" summary="plus">
       <created>1610902508699</created>
@@ -934,7 +883,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614539979259</updated>
     </task>
-    <option name="localTasksCounter" value="988" />
+    <task id="LOCAL-00988" summary="plus">
+      <created>1614562573093</created>
+      <option name="number" value="00988" />
+      <option name="presentableId" value="LOCAL-00988" />
+      <option name="project" value="LOCAL" />
+      <updated>1614562573093</updated>
+    </task>
+    <option name="localTasksCounter" value="989" />
     <servers />
   </component>
   <component name="TestHistory">
