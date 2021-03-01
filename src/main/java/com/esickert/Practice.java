@@ -7,6 +7,11 @@ public class Practice {
     System.out.println("HELLO WORLD");
   }
 
+  @Test
+  public void palindrome()  {
+    String word = "abcdef";
+    String temp = "";
+  }
+
 
 }
-//This is a test!!!!!!!!!!!
