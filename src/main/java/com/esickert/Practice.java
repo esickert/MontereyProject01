@@ -20,6 +20,17 @@ public class Practice {
     else
       System.out.println("NOT!!!");
   }
-
+  //*****************************************************************
+  @Test
+  public void palindromeStringBuffer()  {
+    String word = "abcdcba";
+    String temp = "";
+    StringBuffer str = new StringBuffer(word);
+    if(str.reverse().toString().equals(word))
+      System.out.println("palidrome");
+    else
+      System.out.println("NOT");
+  }
 
 }
+
