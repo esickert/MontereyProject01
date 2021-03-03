@@ -31,6 +31,10 @@ public class Practice {
     else
       System.out.println("NOT");
   }
+  //*****************************************************************
+  @Test
+  public void printToFile() {
+
 
 }
 
