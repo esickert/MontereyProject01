@@ -50,5 +50,17 @@ public class Practice {
       System.out.println("NOT");
   }
 
+//*******************************************************************
+  @Test
+  public void palStringBulder() {
+    String word = "abcdcba";
+
+    StringBuilder str = new StringBuilder(word);
+    if (str.reverse().toString().equals(word))
+      System.out.println("palindrome");
+    else
+      System.out.println("NOT");
+  }
+
 }
 

@@ -12,6 +12,7 @@
     <list default="true" id="078280d5-5042-4862-850d-0c24f97ab4a9" name="Default" comment="plus">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/esickert/Practice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/esickert/Practice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Practice.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Practice.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="true" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -395,7 +396,7 @@
       <recent name="TDD" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Practice.palinedome">
+  <component name="RunManager" selected="JUnit.Practice.palStringBulder">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -452,11 +453,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Practice.helloWorld" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Practice.palStringBulder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MontereyProject01" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="Practice" />
-      <option name="METHOD_NAME" value="helloWorld" />
+      <option name="METHOD_NAME" value="palStringBulder" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
@@ -501,19 +502,19 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.MorePracticeJava.fibR" />
-      <item itemvalue="JUnit.Practice.helloWorld" />
       <item itemvalue="JUnit.Practice.fibanacci" />
       <item itemvalue="JUnit.Practice" />
       <item itemvalue="JUnit.Practice.fibRecurrsion" />
       <item itemvalue="JUnit.Practice.palinedome" />
+      <item itemvalue="JUnit.Practice.palStringBulder" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Practice.palStringBulder" />
         <item itemvalue="JUnit.Practice.palinedome" />
         <item itemvalue="JUnit.Practice.fibRecurrsion" />
         <item itemvalue="JUnit.Practice" />
         <item itemvalue="JUnit.Practice.fibanacci" />
-        <item itemvalue="JUnit.Practice.helloWorld" />
       </list>
     </recent_temporary>
   </component>
@@ -528,13 +529,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1520195848238</updated>
-    </task>
-    <task id="LOCAL-00949" summary="plus">
-      <created>1611467971669</created>
-      <option name="number" value="00949" />
-      <option name="presentableId" value="LOCAL-00949" />
-      <option name="project" value="LOCAL" />
-      <updated>1611467971669</updated>
     </task>
     <task id="LOCAL-00950" summary="plus">
       <created>1611532572779</created>
@@ -872,7 +866,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615266517461</updated>
     </task>
-    <option name="localTasksCounter" value="998" />
+    <task id="LOCAL-00998" summary="plus">
+      <created>1615335795027</created>
+      <option name="number" value="00998" />
+      <option name="presentableId" value="LOCAL-00998" />
+      <option name="project" value="LOCAL" />
+      <updated>1615335795028</updated>
+    </task>
+    <option name="localTasksCounter" value="999" />
     <servers />
   </component>
   <component name="TestHistory">
