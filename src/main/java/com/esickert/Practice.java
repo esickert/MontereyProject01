@@ -61,6 +61,71 @@ public class Practice {
     else
       System.out.println("NOT");
   }
+//*******************************************************************
+
+@Test
+public void largest() {
+    int[] a = {3333,66,54,7,67,2,342,32,2,4,566,6,789,890};
+    int temp = a[0];
+    for(int i = 0; i <= a.length - 1; i++)  {
+      if (temp < a[i])
+        temp = a[i];
+    }
+    System.out.println(temp + " is the largest");
+}
+//*******************************************************************
+
+  @Test
+  public void secondLargest() {
+    int[] b = { 23,54,636,74,5,678,98,7675,453};
+    int temp = b[0];
+    int temp2 = b[0];
+    for(int i = 0; i <= b.length-1; i++)  {
+      if(temp < b[i]) {
+        temp2 = temp;
+        temp = b[i];
+      }
+      else
+        if(temp2 < b[i])
+          temp2 = b[i];
+    }
+    System.out.println("The largest is " + temp);
+    System.out.println("The second largest is " + temp2);
+  }
+
+  //*****************************************************************
+  @Test
+  public void sumDigits() {
+    int num = 12345;
+    int temp = 0;
+    while (num > 0) {
+      temp = temp + num%10;
+      System.out.print(temp + " ");
+      num = num / 10;
+    }
+  }
+//*******************************************************************
+
+  @Test
+  public void reverseDigits() {
+    int num = 12345;
+    int temp = 0;
+    while (num > 0) {
+      temp = (temp * 10) + (num % 10);
+      num = num / 10;
+    }
+    System.out.println(temp);
+  }
+
+  //*****************************************************************
+  @Test
+  public void pairs() {
+
+
+
+
+
+
 
 }
 
