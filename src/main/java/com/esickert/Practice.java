@@ -1,4 +1,7 @@
 import org.junit.Test;
+import org.testng.collections.Maps;
+
+import java.util.HashMap;
 
 public class Practice {
 
@@ -120,6 +123,14 @@ public void largest() {
   //*****************************************************************
   @Test
   public void pairs() {
+    int[] c = {2,5,3,7,1,2,3,8,6,9,8,5,6};
+    int sum = 13;
+
+    Maps<Integer,Integer> pairs = new HashMap<>();
+
+
+
+
 
 
 
