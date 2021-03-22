@@ -1,7 +1,7 @@
 import org.junit.Test;
 import org.testng.collections.Maps;
 
-import java.util.HashMap;
+import java.util.*;
 
 public class Practice {
 
@@ -126,7 +126,10 @@ public void largest() {
     int[] c = {2,5,3,7,1,2,3,8,6,9,8,5,6};
     int sum = 13;
 
-    Maps<Integer,Integer> pairs = new HashMap<>();
+    Map<Integer,Integer> pairs = new HashMap<>();
+    for(int i = 0; i <= c.length-1) {
+      if(pairs.containsKey(
+
 
 
 
