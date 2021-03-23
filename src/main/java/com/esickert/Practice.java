@@ -127,8 +127,13 @@ public void largest() {
     int sum = 13;
 
     Map<Integer,Integer> pairs = new HashMap<>();
-    for(int i = 0; i <= c.length-1) {
-      if(pairs.containsKey(
+    for(int i = 0; i <= c.length-1; i++) {
+      if(pairs.containsKey(sum - c[i]))
+        System.out.println("(" + (sum - c[i]) + ":" + c[i] + ")");
+      else
+        pairs.put(c[i], 0);
+    }
+  }
 
 
 
