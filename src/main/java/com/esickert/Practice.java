@@ -135,16 +135,19 @@ public void largest() {
     }
   }
 
+//*******************************************************************
 
+  @Test
+  public void swapNumbers() {
+    int a = 1;
+    int b = 999;
 
-
-
-
-
-
-
-
-
+    b = a + b;
+    a = b - a;
+    b = b - a;
+    System.out.println("a is now " + a);
+    System.out.println("b is now " + b);
+  }
 
 }
 
