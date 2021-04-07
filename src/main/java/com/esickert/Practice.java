@@ -1,3 +1,5 @@
+package com.esickert;
+
 import org.junit.Test;
 import org.testng.collections.Maps;
 
