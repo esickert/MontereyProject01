@@ -40,7 +40,7 @@ public class Practice {
       else
         return fib(x-1) + fib(x-2);
  }
- //**********************************************
+ //************************************************
   @Test
   public void palinedome()  {
     String word = "abcdcba";
