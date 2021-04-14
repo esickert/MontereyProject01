@@ -153,6 +153,11 @@ public void largest() {
   //*****************************************************************
   @Test
   public void fizzBizz()  {
+    int num = 30;
+    for(int i = 0; i <= num; i++) {
+      if ((i == 0) || ( i == 1))
+        System.out.println(i);
+    }
 
   }
 
