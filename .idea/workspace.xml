@@ -11,6 +11,7 @@
   <component name="ChangeListManager">
     <list default="true" id="078280d5-5042-4862-850d-0c24f97ab4a9" name="Default" comment="plus">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/esickert/Practice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/esickert/Practice.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="true" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -372,7 +373,7 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.3632184" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.web.browsers" />
+    <property name="settings.editor.selected.configurable" value="shared-indexes" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -557,13 +558,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1520195848238</updated>
-    </task>
-    <task id="LOCAL-00983" summary="plus">
-      <created>1613586572975</created>
-      <option name="number" value="00983" />
-      <option name="presentableId" value="LOCAL-00983" />
-      <option name="project" value="LOCAL" />
-      <updated>1613586572975</updated>
     </task>
     <task id="LOCAL-00984" summary="plus">
       <created>1613711197097</created>
@@ -901,7 +895,14 @@
       <option name="project" value="LOCAL" />
       <updated>1618426719985</updated>
     </task>
-    <option name="localTasksCounter" value="1032" />
+    <task id="LOCAL-01032" summary="plus">
+      <created>1618441618401</created>
+      <option name="number" value="01032" />
+      <option name="presentableId" value="LOCAL-01032" />
+      <option name="project" value="LOCAL" />
+      <updated>1618441618401</updated>
+    </task>
+    <option name="localTasksCounter" value="1033" />
     <servers />
   </component>
   <component name="TestHistory">

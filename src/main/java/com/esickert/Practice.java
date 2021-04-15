@@ -157,10 +157,10 @@ public void largest() {
     for(int i = 0; i <= num; i++) {
       if ((i == 0) || ( i == 1))
         System.out.println(i);
+      else if ((i % 3 == 0) && (i % 5 == 0))
+        System.out.println("fizzBizz "  + i);
     }
-
   }
-
 
 }
 
