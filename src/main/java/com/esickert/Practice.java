@@ -9,7 +9,7 @@ public class Practice {
 
   @Test
   public void helloWorld()  {
-    System.out.println("HELLO WORLD");
+    System.out.println("\nHELLO WORLD");
   }
 
   //*****************************************************************
@@ -159,6 +159,12 @@ public void largest() {
         System.out.println(i);
       else if ((i % 3 == 0) && (i % 5 == 0))
         System.out.println("fizzBizz "  + i);
+      else if (i % 3 == 0)
+        System.out.println("fizz");
+      else if (i % 5 == 0)
+        System.out.println("BIZZ");
+      else
+        System.out.println(i);
     }
   }
 
