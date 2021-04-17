@@ -183,8 +183,8 @@ public void largest() {
       System.out.println("fizz " + x);
 //    else if (x % 5 == 0)
 //      System.out.println("BIZZ " + x);
-    System.out.println(x);
-     return fizzB(--x);
+    System.out.println(--x);
+     return fizzB(x);
   }
 
 
