@@ -171,11 +171,11 @@ public void largest() {
   //*****************************************************************
   @Test
   public void fizzBizzRecursive() {
-    System.out.println(fizzB(10));
+    System.out.println(fizzB(15));
   }
 
   public int fizzB(int x) {
-    if ((x == 0) || (x == 1))
+    if ((x == 0))
       return x;
     else if ((x % 3 == 0) && (x % 5 == 0))
       System.out.println(x + " fizzBiz");
@@ -184,7 +184,7 @@ public void largest() {
 //    else if (x % 5 == 0)
 //      System.out.println("BIZZ " + x);
     System.out.println(x);
-    return fizzB(--x);
+     return fizzB(--x);
   }
 
 
