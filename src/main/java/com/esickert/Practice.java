@@ -171,6 +171,10 @@ public void largest() {
   //*****************************************************************
   @Test
   public void fizzBizzRecursive() {
+    fizzB(10);
+  }
+  
+  public int fizzB(int x) {
 
   }
 
