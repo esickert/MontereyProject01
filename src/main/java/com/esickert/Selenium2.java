@@ -14,7 +14,7 @@ public class Selenium2 {
     public void TestSelect() {
 
         // login to Monster website
-        System.setProperty("webdriver.chrome.driver", "c://SeleniumDrivers//chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "//Selenium/chromedriver");
         WebDriver driver = new ChromeDriver();
 //        driver.get("https://developer.mozilla.org/en-US/docs/Web/HTML/Element/select");
         driver.get("https://www.google.com");

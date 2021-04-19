@@ -8,26 +8,26 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 public class SeleniumQuestions {
 
 
-    public WebDriver fireFoxDriver() {
-        System.setProperty("webdriver.gecko.driver", "C://SeleniumDrivers//geckodriver.exe");
-        WebDriver driver = new FirefoxDriver();
-        return driver;
-    }
+ //   public WebDriver fireFoxDriver() {
+ //       System.setProperty("webdriver.gecko.driver", "C://SeleniumDrivers//geckodriver.exe");
+ //       WebDriver driver = new FirefoxDriver();
+ //       return driver;
+ //   }
 
     public WebDriver chromeDriver() {
-        System.setProperty("webdriver.chrome.driver","C://SeleniumDrivers/chromeDriver.exe");
+        System.setProperty("webdriver.chrome.driver","home//esickert//SeleniumDrivers//chromedriver");
         WebDriver driver = new ChromeDriver();
         driver.manage().window().maximize();
         return driver;
 
     }
 
-    @Test
+ /*   @Test
     public void openFireFox() {
 
         fireFoxDriver().get("http://www.google.com");
     }
-
+*/
     @Test
     public void openChrome()    {
 

@@ -10,8 +10,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="078280d5-5042-4862-850d-0c24f97ab4a9" name="Default" comment="plus">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/esickert/Practice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/esickert/Practice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/esickert/Selenium2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/esickert/Selenium2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/interview/questions/CodeQuestions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/interview/questions/CodeQuestions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/interview/questions/SeleniumQuestions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/interview/questions/SeleniumQuestions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/esickert/Selenium2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/esickert/Selenium2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/interview/questions/SeleniumQuestions.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/interview/questions/SeleniumQuestions.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="true" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -369,7 +375,7 @@
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$2/Languages" value="JAVA" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.3632184" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
@@ -395,7 +401,7 @@
       <recent name="TDD" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Practice.fizzBizzRecursive">
+  <component name="RunManager" selected="JUnit.Practice.chromeSeleniumTest">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -420,7 +426,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Practice" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Practice.chromeSeleniumTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MontereyProject01" />
       <extension name="coverage">
         <pattern>
@@ -430,30 +436,14 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.esickert" />
       <option name="MAIN_CLASS_NAME" value="com.esickert.Practice" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Practice.fibRecurrsion" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="MontereyProject01" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.esickert.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.esickert" />
-      <option name="MAIN_CLASS_NAME" value="com.esickert.Practice" />
-      <option name="METHOD_NAME" value="fibRecurrsion" />
+      <option name="METHOD_NAME" value="chromeSeleniumTest" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Practice.fizzBizz" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Practice.firefoxSeleniumTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MontereyProject01" />
       <extension name="coverage">
         <pattern>
@@ -463,14 +453,14 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.esickert" />
       <option name="MAIN_CLASS_NAME" value="com.esickert.Practice" />
-      <option name="METHOD_NAME" value="fizzBizz" />
+      <option name="METHOD_NAME" value="firefoxSeleniumTest" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Practice.fizzBizzRecursive" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Practice.seleniumTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MontereyProject01" />
       <extension name="coverage">
         <pattern>
@@ -480,14 +470,14 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.esickert" />
       <option name="MAIN_CLASS_NAME" value="com.esickert.Practice" />
-      <option name="METHOD_NAME" value="fizzBizzRecursive" />
+      <option name="METHOD_NAME" value="seleniumTest" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Practice.googleIsFucked" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Practice.toFile" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MontereyProject01" />
       <extension name="coverage">
         <pattern>
@@ -497,7 +487,24 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.esickert" />
       <option name="MAIN_CLASS_NAME" value="com.esickert.Practice" />
-      <option name="METHOD_NAME" value="googleIsFucked" />
+      <option name="METHOD_NAME" value="toFile" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Selenium2.TestSelect" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MontereyProject01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.esickert.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.esickert" />
+      <option name="MAIN_CLASS_NAME" value="com.esickert.Selenium2" />
+      <option name="METHOD_NAME" value="TestSelect" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
@@ -531,19 +538,19 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.MorePracticeJava.fibR" />
-      <item itemvalue="JUnit.Practice" />
-      <item itemvalue="JUnit.Practice.fibRecurrsion" />
-      <item itemvalue="JUnit.Practice.fizzBizzRecursive" />
-      <item itemvalue="JUnit.Practice.fizzBizz" />
-      <item itemvalue="JUnit.Practice.googleIsFucked" />
+      <item itemvalue="JUnit.Selenium2.TestSelect" />
+      <item itemvalue="JUnit.Practice.toFile" />
+      <item itemvalue="JUnit.Practice.seleniumTest" />
+      <item itemvalue="JUnit.Practice.chromeSeleniumTest" />
+      <item itemvalue="JUnit.Practice.firefoxSeleniumTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.Practice.fizzBizzRecursive" />
-        <item itemvalue="JUnit.Practice" />
-        <item itemvalue="JUnit.Practice.fizzBizz" />
-        <item itemvalue="JUnit.Practice.googleIsFucked" />
-        <item itemvalue="JUnit.Practice.fibRecurrsion" />
+        <item itemvalue="JUnit.Practice.chromeSeleniumTest" />
+        <item itemvalue="JUnit.Practice.firefoxSeleniumTest" />
+        <item itemvalue="JUnit.Selenium2.TestSelect" />
+        <item itemvalue="JUnit.Practice.seleniumTest" />
+        <item itemvalue="JUnit.Practice.toFile" />
       </list>
     </recent_temporary>
   </component>
@@ -558,13 +565,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1520195848238</updated>
-    </task>
-    <task id="LOCAL-00994" summary="plus">
-      <created>1615077490080</created>
-      <option name="number" value="00994" />
-      <option name="presentableId" value="LOCAL-00994" />
-      <option name="project" value="LOCAL" />
-      <updated>1615077490081</updated>
     </task>
     <task id="LOCAL-00995" summary="plus">
       <created>1615174914253</created>
@@ -902,7 +902,14 @@
       <option name="project" value="LOCAL" />
       <updated>1618806417995</updated>
     </task>
-    <option name="localTasksCounter" value="1043" />
+    <task id="LOCAL-01043" summary="plus">
+      <created>1618850119327</created>
+      <option name="number" value="01043" />
+      <option name="presentableId" value="LOCAL-01043" />
+      <option name="project" value="LOCAL" />
+      <updated>1618850119328</updated>
+    </task>
+    <option name="localTasksCounter" value="1044" />
     <servers />
   </component>
   <component name="TestHistory">

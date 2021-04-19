@@ -1,9 +1,19 @@
 package com.esickert;
 
 import org.junit.Test;
+import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.remote.server.handler.SendKeys;
 import org.testng.collections.Maps;
 
+import java.io.File;
 import java.util.*;
+
+import static org.openqa.selenium.Keys.ENTER;
 
 public class Practice {
 
@@ -170,7 +180,7 @@ public void largest() {
 
   //*****************************************************************
   @Test
-  public void fizzBizzRecursive() {
+  public void fizzBizzRecursive() {  //this is not correct!!!!
     System.out.println(fizzB(15));
   }
 
@@ -187,9 +197,43 @@ public void largest() {
      return fizzB(x);
   }
 
+  //*****************************************************************
+  @Test
+  public void toFile()  {
+    String filename = "//home//esickert//temp//erich.txt";
+    File file = new File(filename);
 
+  }
+//okay these 2 SELENIUM  code fragments work!!!!!*************************
+  @Test
+  public void chromeSeleniumTest()  {
+    System.setProperty("webdriver.chrome.driver","SeleniumDrivers//chromedriver");
+ //   System.setProperty("webdriver.chrome.driver","~//home//esickert//SeleniumDrivers//chromedriver");
+    WebDriver driver = new ChromeDriver();
+    driver.get("https://www.bing.com");
+    driver.manage().window().maximize();
 
+    WebElement search = driver.findElement(By.id("sb_form_q"));
+    search.click();
+    search.sendKeys("CAT");
+    search.sendKeys(Keys.ENTER);
 
+    try {
+      Thread.sleep(6000);
+    }
+    catch(Exception e)  {
+      e.printStackTrace();
+    }
+    driver.close();
+  }
 
+  @Test
+  public void firefoxSeleniumTest() {
+    System.setProperty("webdriver.gecko.driver","SeleniumDrivers//geckodriver");
+    WebDriver driver = new FirefoxDriver();
+    driver.get("http://www.yahoo.com");
+    driver.manage().window().maximize();
+  }
+//*******************************************************************
 }
 

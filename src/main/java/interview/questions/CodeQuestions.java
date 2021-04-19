@@ -394,7 +394,7 @@ import static org.testng.AssertJUnit.assertEquals;
         }
 
         //**********************************************************
-//this works!!! . It creates a file, writes to it then close it
+//this works!!! . It creates a file, writes to it then close it, but this is for WINDOWS
         @Test
         public void writeToFile() throws FileNotFoundException {
 
