@@ -181,8 +181,8 @@ public void largest() {
       System.out.println(x + " fizzBiz");
     else if (x % 3 == 0)
       System.out.println("fizz " + x);
-//    else if (x % 5 == 0)
-//      System.out.println("BIZZ " + x);
+    else if (x % 5 == 0)
+      System.out.println("BIZZ " + x);
     System.out.println(--x);
      return fizzB(x);
   }
