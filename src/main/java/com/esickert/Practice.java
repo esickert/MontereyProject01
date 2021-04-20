@@ -219,7 +219,7 @@ public void largest() {
     search.sendKeys(Keys.ENTER);
 
     try {
-      Thread.sleep(6000);
+      Thread.sleep(10000);
     }
     catch(Exception e)  {
       e.printStackTrace();
@@ -235,5 +235,17 @@ public void largest() {
     driver.manage().window().maximize();
   }
 //*******************************************************************
+
+  @Test
+  public void countOccurances() {
+    int[] d = {2,4,1,2,3,3,3,4,1,4,5,9,3,6,7};
+    int num = 4;
+    int count = 0;
+    for(int i = 0; i <= d.length -1; i++)   {
+      if(num == d[i])
+        count++;
+    }
+    System.out.println("There are " + count + " " + num + "'s.");
+  }
 }
 

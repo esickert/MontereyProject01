@@ -10,14 +10,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="078280d5-5042-4862-850d-0c24f97ab4a9" name="Default" comment="plus">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/esickert/Practice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/esickert/Practice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/esickert/Selenium2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/esickert/Selenium2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/interview/questions/CodeQuestions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/interview/questions/CodeQuestions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/interview/questions/SeleniumQuestions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/interview/questions/SeleniumQuestions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/esickert/Selenium2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/esickert/Selenium2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/interview/questions/SeleniumQuestions.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/interview/questions/SeleniumQuestions.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="true" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -401,7 +395,7 @@
       <recent name="TDD" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Practice.chromeSeleniumTest">
+  <component name="RunManager" selected="JUnit.Practice.countOccurances">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -443,6 +437,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Practice.countOccurances" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MontereyProject01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.esickert.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.esickert" />
+      <option name="MAIN_CLASS_NAME" value="com.esickert.Practice" />
+      <option name="METHOD_NAME" value="countOccurances" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Practice.firefoxSeleniumTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MontereyProject01" />
       <extension name="coverage">
@@ -471,23 +482,6 @@
       <option name="PACKAGE_NAME" value="com.esickert" />
       <option name="MAIN_CLASS_NAME" value="com.esickert.Practice" />
       <option name="METHOD_NAME" value="seleniumTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Practice.toFile" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="MontereyProject01" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.esickert.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.esickert" />
-      <option name="MAIN_CLASS_NAME" value="com.esickert.Practice" />
-      <option name="METHOD_NAME" value="toFile" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
@@ -539,18 +533,18 @@
     <list>
       <item itemvalue="JUnit.MorePracticeJava.fibR" />
       <item itemvalue="JUnit.Selenium2.TestSelect" />
-      <item itemvalue="JUnit.Practice.toFile" />
       <item itemvalue="JUnit.Practice.seleniumTest" />
       <item itemvalue="JUnit.Practice.chromeSeleniumTest" />
       <item itemvalue="JUnit.Practice.firefoxSeleniumTest" />
+      <item itemvalue="JUnit.Practice.countOccurances" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Practice.countOccurances" />
         <item itemvalue="JUnit.Practice.chromeSeleniumTest" />
         <item itemvalue="JUnit.Practice.firefoxSeleniumTest" />
         <item itemvalue="JUnit.Selenium2.TestSelect" />
         <item itemvalue="JUnit.Practice.seleniumTest" />
-        <item itemvalue="JUnit.Practice.toFile" />
       </list>
     </recent_temporary>
   </component>
@@ -565,13 +559,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1520195848238</updated>
-    </task>
-    <task id="LOCAL-00995" summary="plus">
-      <created>1615174914253</created>
-      <option name="number" value="00995" />
-      <option name="presentableId" value="LOCAL-00995" />
-      <option name="project" value="LOCAL" />
-      <updated>1615174914254</updated>
     </task>
     <task id="LOCAL-00996" summary="plus">
       <created>1615266380055</created>
@@ -909,7 +896,14 @@
       <option name="project" value="LOCAL" />
       <updated>1618850119328</updated>
     </task>
-    <option name="localTasksCounter" value="1044" />
+    <task id="LOCAL-01044" summary="plus">
+      <created>1618873963782</created>
+      <option name="number" value="01044" />
+      <option name="presentableId" value="LOCAL-01044" />
+      <option name="project" value="LOCAL" />
+      <updated>1618873963782</updated>
+    </task>
+    <option name="localTasksCounter" value="1045" />
     <servers />
   </component>
   <component name="TestHistory">
