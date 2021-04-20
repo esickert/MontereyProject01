@@ -395,7 +395,7 @@
       <recent name="TDD" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Practice.countOccurances">
+  <component name="RunManager" selected="JUnit.Practice.occur">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -471,7 +471,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Practice.seleniumTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Practice.occur" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MontereyProject01" />
       <extension name="coverage">
         <pattern>
@@ -481,7 +481,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.esickert" />
       <option name="MAIN_CLASS_NAME" value="com.esickert.Practice" />
-      <option name="METHOD_NAME" value="seleniumTest" />
+      <option name="METHOD_NAME" value="occur" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
@@ -533,18 +533,18 @@
     <list>
       <item itemvalue="JUnit.MorePracticeJava.fibR" />
       <item itemvalue="JUnit.Selenium2.TestSelect" />
-      <item itemvalue="JUnit.Practice.seleniumTest" />
       <item itemvalue="JUnit.Practice.chromeSeleniumTest" />
       <item itemvalue="JUnit.Practice.firefoxSeleniumTest" />
       <item itemvalue="JUnit.Practice.countOccurances" />
+      <item itemvalue="JUnit.Practice.occur" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Practice.occur" />
         <item itemvalue="JUnit.Practice.countOccurances" />
         <item itemvalue="JUnit.Practice.chromeSeleniumTest" />
         <item itemvalue="JUnit.Practice.firefoxSeleniumTest" />
         <item itemvalue="JUnit.Selenium2.TestSelect" />
-        <item itemvalue="JUnit.Practice.seleniumTest" />
       </list>
     </recent_temporary>
   </component>
@@ -559,13 +559,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1520195848238</updated>
-    </task>
-    <task id="LOCAL-00996" summary="plus">
-      <created>1615266380055</created>
-      <option name="number" value="00996" />
-      <option name="presentableId" value="LOCAL-00996" />
-      <option name="project" value="LOCAL" />
-      <updated>1615266380056</updated>
     </task>
     <task id="LOCAL-00997" summary="plus">
       <created>1615266517461</created>
@@ -903,7 +896,14 @@
       <option name="project" value="LOCAL" />
       <updated>1618873963782</updated>
     </task>
-    <option name="localTasksCounter" value="1045" />
+    <task id="LOCAL-01045" summary="plus">
+      <created>1618876856086</created>
+      <option name="number" value="01045" />
+      <option name="presentableId" value="LOCAL-01045" />
+      <option name="project" value="LOCAL" />
+      <updated>1618876856086</updated>
+    </task>
+    <option name="localTasksCounter" value="1046" />
     <servers />
   </component>
   <component name="TestHistory">

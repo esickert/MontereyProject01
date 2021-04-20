@@ -235,11 +235,18 @@ public void largest() {
     driver.manage().window().maximize();
   }
 //*******************************************************************
-
   @Test
-  public void countOccurances() {
-    int[] d = {2,4,1,2,3,3,3,4,1,4,5,9,3,6,7};
-    int num = 4;
+  public void occur() {
+    int[] e = {2,4,1,2,3,3,3,4,1,4,5,9,3,6,7};
+    for(int i = 0; i <= 10; i++) {
+      countOccurances(i, e);
+    }
+  }
+
+//  @Test
+  public void countOccurances(int num, int[] d) {
+//    int[] d = {2,4,1,2,3,3,3,4,1,4,5,9,3,6,7};
+//    int num = 4;
     int count = 0;
     for(int i = 0; i <= d.length -1; i++)   {
       if(num == d[i])
