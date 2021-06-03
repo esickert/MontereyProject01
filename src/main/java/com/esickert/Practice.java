@@ -19,7 +19,7 @@ public class Practice {
 
   @Test
   public void helloWorld()  {
-    System.out.println("\n nHELLO WORLD");
+    System.out.println("\n HELLO WORLD");
   }
 
   //*****************************************************************
