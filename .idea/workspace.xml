@@ -395,7 +395,7 @@
       <recent name="TDD" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Practice.fibanacci">
+  <component name="RunManager" selected="JUnit.Practice.fibRec">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -436,7 +436,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Practice.countOccurances" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Practice.fibRec" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MontereyProject01" />
       <extension name="coverage">
         <pattern>
@@ -446,7 +446,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.esickert" />
       <option name="MAIN_CLASS_NAME" value="com.esickert.Practice" />
-      <option name="METHOD_NAME" value="countOccurances" />
+      <option name="METHOD_NAME" value="fibRec" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
@@ -531,19 +531,19 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.MorePracticeJava.fibR" />
-      <item itemvalue="JUnit.Practice.countOccurances" />
       <item itemvalue="JUnit.Practice.occur" />
       <item itemvalue="JUnit.Practice" />
       <item itemvalue="JUnit.Practice.helloWorld" />
       <item itemvalue="JUnit.Practice.fibanacci" />
+      <item itemvalue="JUnit.Practice.fibRec" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Practice.fibRec" />
         <item itemvalue="JUnit.Practice.fibanacci" />
         <item itemvalue="JUnit.Practice.helloWorld" />
         <item itemvalue="JUnit.Practice" />
         <item itemvalue="JUnit.Practice.occur" />
-        <item itemvalue="JUnit.Practice.countOccurances" />
       </list>
     </recent_temporary>
   </component>
@@ -558,13 +558,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1520195848238</updated>
-    </task>
-    <task id="LOCAL-00999" summary="plus">
-      <created>1615352367355</created>
-      <option name="number" value="00999" />
-      <option name="presentableId" value="LOCAL-00999" />
-      <option name="project" value="LOCAL" />
-      <updated>1615352367355</updated>
     </task>
     <task id="LOCAL-01000" summary="plus">
       <created>1615511251476</created>
@@ -902,7 +895,14 @@
       <option name="project" value="LOCAL" />
       <updated>1622679134403</updated>
     </task>
-    <option name="localTasksCounter" value="1048" />
+    <task id="LOCAL-01048" summary="plus">
+      <created>1622776856965</created>
+      <option name="number" value="01048" />
+      <option name="presentableId" value="LOCAL-01048" />
+      <option name="project" value="LOCAL" />
+      <updated>1622776856966</updated>
+    </task>
+    <option name="localTasksCounter" value="1049" />
     <servers />
   </component>
   <component name="TestHistory">

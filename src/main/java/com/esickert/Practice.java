@@ -36,16 +36,22 @@ public class Practice {
       b = c;
     }
   }
-
+//*********************************************************
   @Test
   public void fibRec()  {
-    for(int i = 0; i < 10; i++) {
-      recussive(i);
-    {
+    for(int i = 0; i <= 10; i++) {
+      System.out.print(" " + recursive(i));
+    }
   }
 
-  public int recussive(int x );
-      if x == 0
+  public int recursive(int x)  {
+      if ((x == 0) || (x == 1))
+        return x;
+      else  {
+        return (recursive(x-1) + recursive(x-2));
+      }
+    }
+  //*******************************************************
 
 
 }
