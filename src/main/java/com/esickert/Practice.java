@@ -18,7 +18,7 @@ public class Practice {
 
   @Test
   public void helloWorld()  {
-    System.out.println("\n HELLO WORLD");
+    System.out.println("\n Hello world. We are using junit and maven");
   }
 
   //*****************************************************************
@@ -55,7 +55,31 @@ public class Practice {
 
   @Test
   public void palindrome()  {
-
+    String word = "abcdcba";
+    String temp = "";
+    for(int i = word.length() -1 ; i >= 0; i--) {
+      temp = temp + word.charAt(i);
+      System.out.println(temp);
+    }
+    if(word.equals(temp))
+      System.out.println("\n Palindrome");
+    else
+      System.out.println("NOT");
   }
+  //*******************************************************
+  @Test
+  public void palinStringBuffer() {
+    String word = "abcdcba";
+    String temp = "";  //not used!!
+
+    StringBuffer str = new StringBuffer(word);
+    if (str.reverse().toString().equals(word))
+      System.out.println("PALINDROME");
+    else
+      System.out.println("not");
+  }
+
+
+
 }
 

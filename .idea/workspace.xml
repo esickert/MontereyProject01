@@ -395,7 +395,7 @@
       <recent name="TDD" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Practice.fibRec">
+  <component name="RunManager" selected="JUnit.Practice">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -470,7 +470,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Practice.helloWorld" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Practice.palinStringBuffer" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MontereyProject01" />
       <extension name="coverage">
         <pattern>
@@ -480,14 +480,14 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.esickert" />
       <option name="MAIN_CLASS_NAME" value="com.esickert.Practice" />
-      <option name="METHOD_NAME" value="helloWorld" />
+      <option name="METHOD_NAME" value="palinStringBuffer" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Practice.occur" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Practice.palindrome" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MontereyProject01" />
       <extension name="coverage">
         <pattern>
@@ -497,7 +497,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.esickert" />
       <option name="MAIN_CLASS_NAME" value="com.esickert.Practice" />
-      <option name="METHOD_NAME" value="occur" />
+      <option name="METHOD_NAME" value="palindrome" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
@@ -531,19 +531,19 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.MorePracticeJava.fibR" />
-      <item itemvalue="JUnit.Practice.occur" />
-      <item itemvalue="JUnit.Practice" />
-      <item itemvalue="JUnit.Practice.helloWorld" />
       <item itemvalue="JUnit.Practice.fibanacci" />
       <item itemvalue="JUnit.Practice.fibRec" />
+      <item itemvalue="JUnit.Practice.palindrome" />
+      <item itemvalue="JUnit.Practice.palinStringBuffer" />
+      <item itemvalue="JUnit.Practice" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Practice" />
+        <item itemvalue="JUnit.Practice.palinStringBuffer" />
+        <item itemvalue="JUnit.Practice.palindrome" />
         <item itemvalue="JUnit.Practice.fibRec" />
         <item itemvalue="JUnit.Practice.fibanacci" />
-        <item itemvalue="JUnit.Practice.helloWorld" />
-        <item itemvalue="JUnit.Practice" />
-        <item itemvalue="JUnit.Practice.occur" />
       </list>
     </recent_temporary>
   </component>
@@ -558,13 +558,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1520195848238</updated>
-    </task>
-    <task id="LOCAL-01002" summary="plus">
-      <created>1615686118269</created>
-      <option name="number" value="01002" />
-      <option name="presentableId" value="LOCAL-01002" />
-      <option name="project" value="LOCAL" />
-      <updated>1615686118270</updated>
     </task>
     <task id="LOCAL-01003" summary="plus">
       <created>1615770734953</created>
@@ -902,7 +895,14 @@
       <option name="project" value="LOCAL" />
       <updated>1622867431610</updated>
     </task>
-    <option name="localTasksCounter" value="1051" />
+    <task id="LOCAL-01051" summary="plus">
+      <created>1623020607965</created>
+      <option name="number" value="01051" />
+      <option name="presentableId" value="LOCAL-01051" />
+      <option name="project" value="LOCAL" />
+      <updated>1623020607966</updated>
+    </task>
+    <option name="localTasksCounter" value="1052" />
     <servers />
   </component>
   <component name="TestHistory">
