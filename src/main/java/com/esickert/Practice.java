@@ -116,6 +116,31 @@ public class Practice {
   public void sumOfDigits() {
     int num = 123456;
     int temp = 0;
+    while (num > 0)  {      //??????????????
+      temp = temp + (num%10);
+      num = num / 10;
+    }
+    System.out.println(temp);
+  }
+  //*******************************************************
+
+  @Test
+  public void reverseDigits() {
+    int num = 123456;
+    int temp = 0;
+    while (num > 0) {
+      temp = (temp * 10) + (num % 10);
+      num = num / 10;
+    }
+    System.out.println(temp);
+  }
+  //*******************************************************
+
+  @Test
+  public void pairs() {
+
     
+
+
 }
 
