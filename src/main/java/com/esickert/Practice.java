@@ -138,9 +138,8 @@ public class Practice {
 
   @Test
   public void pairs() {
-
-    
-
-
+    int[] c = {3,6,1,7,5,8,9,4,6,4,5,7,9,7,3,4,2,5}
+    int sum = 13;
+  }
 }
 
