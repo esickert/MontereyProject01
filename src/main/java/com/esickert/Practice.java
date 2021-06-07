@@ -42,6 +42,7 @@ public class Practice {
     for(int i = 0; i <= 10; i++) {
       System.out.print(" " + recursive(i));
     }
+    System.out.println("\n");
   }
 
   public int recursive(int x)  {
@@ -50,7 +51,7 @@ public class Practice {
       else  {
         return (recursive(x-1) + recursive(x-2));
       }
-    }
+  }
   //*******************************************************
 
   @Test
@@ -78,8 +79,43 @@ public class Practice {
     else
       System.out.println("not");
   }
-
-
-
+ //********************************************************
+ @Test
+ public void findLargest()  {
+    int[] a = {3,66,4,65,2,3,54,8,5,76,444,6,7,8};
+    int temp = 0;
+    for(int i = 0; i < a.length -1; i++)  {
+      if (temp < a[i])
+        temp = a[i];
+    }
+    System.out.println("The largest is " + temp);
+ }
+ //********************************************************
+  @Test
+  public void secondLargest() {
+    int[] b = {2,4,5,8,5,6,99,33,7,665};
+    int temp = 0;
+    int temp2 = 0;
+    for (int i = 0; i < b.length; i++)  {
+      if (temp < b[i])  {
+        temp2 = temp;
+        temp = b[i];
+//        System.out.println(temp);
+      }
+      else
+        if (temp2 < b[i]) {
+          temp2 = b[i];
+//          System.out.println(temp2);
+        }
+    }
+    System.out.println(temp + " is the largest");
+    System.out.println(temp2 + " is the second largest");
+  }
+  //*******************************************************
+  @Test
+  public void sumOfDigits() {
+    int num = 123456;
+    int temp = 0;
+    
 }
 
