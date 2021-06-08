@@ -7,6 +7,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.testng.collections.Maps;
 
 
 import java.io.File;
@@ -138,8 +139,16 @@ public class Practice {
 
   @Test
   public void pairs() {
-    int[] c = {3,6,1,7,5,8,9,4,6,4,5,7,9,7,3,4,2,5}
+    int[] c = {3,6,1,7,5,8,9,4,6,4,5,7,9,7,3,4,2,5};
     int sum = 13;
-  }
+      Map<Integer,Integer> pairs = new HashMap<>();
+      for(int i = 0; i <= c.length - 1; i++)    {
+        if (pairs.containsKey(sum-c[i]))
+          System.out.println("(" + (sum - c[i]) + ";" + c[i] + ")");
+        else
+          pairs.put(c[i], 0);
+      }
+ }
 }
+
 
