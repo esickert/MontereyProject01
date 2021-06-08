@@ -149,6 +149,10 @@ public class Practice {
           pairs.put(c[i], 0);
       }
  }
+ \\********************************************************
+    @Test
+    public void printInFile()   {
+      String filename = " 
 }
 
 
