@@ -11,6 +11,7 @@ import org.testng.collections.Maps;
 
 
 import java.io.File;
+import java.io.PrintStream;
 import java.util.*;
 
 import static org.openqa.selenium.Keys.ENTER;
@@ -149,10 +150,18 @@ public class Practice {
           pairs.put(c[i], 0);
       }
  }
- \\********************************************************
+ //********************************************************
     @Test
     public void printInFile()   {
-      String filename = " 
-}
+      String testFile = "/home/esickert/temp/erich.txt";
 
+ //     try
+//           output = new PrintStream(new File(testFile));
+
+
+
+
+    }
+    }
+}
 
