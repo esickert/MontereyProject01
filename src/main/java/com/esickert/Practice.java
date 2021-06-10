@@ -152,16 +152,20 @@ public class Practice {
  }
  //********************************************************
     @Test
-    public void printInFile()   {
+    public void printInFile() throws Exception   {
       String testFile = "/home/esickert/temp/erich.txt";
+//      PrintStream output = null;
 
- //     try
-//           output = new PrintStream(new File(testFile));
+        PrintStream output = new PrintStream(new File(testFile));
+
+        output.println("This is the end; beautiful friend");
+
+
 
 
 
 
     }
     }
-}
+
 
