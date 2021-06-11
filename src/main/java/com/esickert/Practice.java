@@ -160,6 +160,7 @@ public class Practice {
 
         output.println("This is the end; beautiful friend");
 
+        Scanner sc = new Scanner();
 
 
 
