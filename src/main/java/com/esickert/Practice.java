@@ -176,7 +176,23 @@ public class Practice {
     @Test
     public void fizzBizz()  {
 
+      int num = 30;
+
+      while (num >= 0)   {
+          if ((num == 0)|| (num == 1))
+              System.out.println(num);
+          else if ((num % 3 == 0) && (num % 5 ==0))
+              System.out.println("fizzBizz");
+          else if ( num % 3 == 0)
+              System.out.println("fizz");
+          else if (num % 5 == 0)
+              System.out.println("BIZZ");
+          else
+              System.out.println(num);
+          num--;
+
+
     }
  }
-
+}
 
