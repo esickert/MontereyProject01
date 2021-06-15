@@ -10,7 +10,9 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.collections.Maps;
 
 
+import java.io.BufferedReader;
 import java.io.File;
+import java.io.FileReader;
 import java.io.PrintStream;
 import java.util.*;
 
@@ -151,22 +153,30 @@ public class Practice {
       }
  }
  //********************************************************
+ //********************************************************
     @Test
     public void printInFile() throws Exception   {
-      String testFile = "/home/esickert/temp/erich.txt";
+      String testFile = "//home//esickert//temp//erich.txt";
 //      PrintStream output = null;
 
         PrintStream output = new PrintStream(new File(testFile));
 
         output.println("This is the end; beautiful friend");
+        output.println("This is the end, my only friend the end");
 
-        Scanner sc = new Scanner();
-//
-
-
-
+        try (BufferedReader br = new BufferedReader(new FileReader(testFile))) {
+            String line;
+            while ((line = br.readLine()) != null) {
+                System.out.println(line);
+            }
+        }
+    }
+    //*****************************************************
+    //*****************************************************
+    @Test
+    public void fizzBizz()  {
 
     }
-    }
+ }
 
 
