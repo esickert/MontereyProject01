@@ -196,11 +196,22 @@ public class Practice {
  //********************************************************
     @Test
     public void fizzBizzRecur() {
-      fizzBizzrec();
+      System.out.println(fizzBizzrec(30));
     }
 
-    public void fizzBizzrec()   {
+    public int fizzBizzrec(int x)   {
+      if ((x == 0) || (x == 1))
+          return x;
+      else if ((x % 3 == 0) && (x % 5 == 0))
+          System.out.println("FizzBIZZ");
+      else if (x % 3 == 0)
+          System.out.println("fizz");
+      else if (x % 5 == 0)
+          System.out.println("BIZZ");
 
-    }
+    System.out.println(--x);
+    return fizzBizzrec(x);
+   }
+//*********************************************************
 }
 
