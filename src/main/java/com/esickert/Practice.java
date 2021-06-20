@@ -225,6 +225,27 @@ public class Practice {
         System.out.println("a is now " + a);
         System.out.println("b is now " + b);
     }
+    //*****************************************************
+
+    @Test
+    public void aCount()    {
+      int[] d = {2,9,1,7,5,6,7,8,8,777,5,6,4,3,6,8,5,33,98,9,9,87};
+
+      countElements(d);
+    }
+
+
+    public void countElements(int[] d)  {
+   //   int num = 8;
+      int count = 0;
+      for(int i = 0; i <= 10; i++)    {
+          if (i == d[i]) {
+              count++;
+          }
+      System.out.println("There are " + count + " istances of " + i);
+      }
+
+  }
 
 }
 
