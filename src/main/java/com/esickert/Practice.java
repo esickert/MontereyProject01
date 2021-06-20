@@ -215,7 +215,11 @@ public class Practice {
 //*********************************************************
     @Test
     public void swapNum()   {
+        int a = 0;
+        int b = 999;
 
+        a = a + b;
+         = b -a
     }
 
 }
