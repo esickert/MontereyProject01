@@ -215,11 +215,15 @@ public class Practice {
 //*********************************************************
     @Test
     public void swapNum()   {
-        int a = 0;
+        int a = 11;
         int b = 999;
 
         a = a + b;
-         = b -a
+        b = a - b;
+        a = a - b;
+
+        System.out.println("a is now " + a);
+        System.out.println("b is now " + b);
     }
 
 }
