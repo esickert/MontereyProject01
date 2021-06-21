@@ -234,13 +234,13 @@ public class Practice {
       countElements(d);
     }
 
-
     public void countElements(int[] d)  {
    //   int num = 8;
       int count = 0;
-      for(int i = 0; i <= 10; i++)    {
+      for(int i = 0; i <= d.length-1; i++)    {
           if (i == d[i]) {
               count++;
+              System.out.println(count);
           }
       System.out.println("There are " + count + " istances of " + i);
       }
