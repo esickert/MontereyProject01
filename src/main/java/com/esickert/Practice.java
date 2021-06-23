@@ -235,17 +235,21 @@ public class Practice {
     }
 
     public void countElements(int[] d)  {
-   //   int num = 8;
+      int num = 8;
       int count = 0;
       for(int i = 0; i <= d.length-1; i++)    {
-          if (i == d[i]) {
+          if (num == d[i]) {
               count++;
               System.out.println(count);
           }
-      System.out.println("There are " + count + " istances of " + i);
+      System.out.println("There are " + count + " instances of " + i);
       }
-
-  }
-
+    }
+//*********************************************************
+    @Test
+    public void 
 }
+
+
+
 
