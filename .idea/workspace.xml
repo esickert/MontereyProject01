@@ -395,7 +395,7 @@
       <recent name="TDD" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Practice.aCount">
+  <component name="RunManager" selected="JUnit.Practice.queue">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -415,22 +415,6 @@
       <option name="MAIN_CLASS_NAME" value="MorePracticeJava" />
       <option name="METHOD_NAME" value="fibR" />
       <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Practice" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="MontereyProject01" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.esickert.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.esickert" />
-      <option name="MAIN_CLASS_NAME" value="com.esickert.Practice" />
-      <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -487,6 +471,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Practice.queue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MontereyProject01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.esickert.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.esickert" />
+      <option name="MAIN_CLASS_NAME" value="com.esickert.Practice" />
+      <option name="METHOD_NAME" value="queue" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Practice.swapNum" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MontereyProject01" />
       <extension name="coverage">
@@ -531,19 +532,19 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.MorePracticeJava.fibR" />
-      <item itemvalue="JUnit.Practice" />
       <item itemvalue="JUnit.Practice.fizzBizzRecur" />
       <item itemvalue="JUnit.Practice.swapNum" />
       <item itemvalue="JUnit.Practice.countElements" />
       <item itemvalue="JUnit.Practice.aCount" />
+      <item itemvalue="JUnit.Practice.queue" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Practice.queue" />
         <item itemvalue="JUnit.Practice.aCount" />
         <item itemvalue="JUnit.Practice.countElements" />
         <item itemvalue="JUnit.Practice.swapNum" />
         <item itemvalue="JUnit.Practice.fizzBizzRecur" />
-        <item itemvalue="JUnit.Practice" />
       </list>
     </recent_temporary>
   </component>

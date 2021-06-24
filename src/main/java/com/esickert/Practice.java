@@ -254,13 +254,13 @@ public class Practice {
       Stack stk2 = new Stack();
       //local class
       class mySize  {
-          public int test()    {
+          int test()    {
               return stk1.size() + stk2.size();
           }
       }
         System.out.println(mySize.test());
 
-
+    }
 }
 
 
