@@ -229,25 +229,38 @@ public class Practice {
 
     @Test
     public void aCount()    {
-      int[] d = {2,9,1,7,5,6,7,8,8,777,5,6,4,3,6,8,5,33,98,9,9,87};
-
-      countElements(d);
+      int[] d = {2,2,2,2,3,3,4,4,4,5,5,5,6,6,7,7,8,8,9,9};
+      int x = 0;
+      while (x <= 10) {
+          countElements(x, d);
+        x++;
+      }
     }
 
-    public void countElements(int[] d)  {
-      int num = 8;
+    public void countElements(int num, int[] d)  {
       int count = 0;
+
       for(int i = 0; i <= d.length-1; i++)    {
           if (num == d[i]) {
               count++;
-              System.out.println(count);
           }
-      System.out.println("There are " + count + " instances of " + i);
-      }
+     }
+      System.out.println("There are " + count + " instances of " + num);
     }
 //*********************************************************
     @Test
-    public void 
+    public void queue() {
+      Stack stk1 = new Stack();
+      Stack stk2 = new Stack();
+      //local class
+      class mySize  {
+          public int test()    {
+              return stk1.size() + stk2.size();
+          }
+      }
+        System.out.println(mySize.test());
+
+
 }
 
 
