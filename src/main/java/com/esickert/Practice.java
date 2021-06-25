@@ -255,17 +255,22 @@ public class Practice {
       int num1 = 2;
       int num3 = 3;
       //local class
-      class mySize  {
+      class theQueue  {
           int test()    {
               return stk1.size() + stk2.size();
           }
           boolean isEmpty() {
               return stk1.empty();
           }
+          void enqueue (int x) {
+              stk1.push(x);
+          }
       }
 //      stk1.push(num1);
 //      stk1.push(num3);
-      mySize testMe = new mySize();
+      theQueue testMe = new theQueue();
+      testMe.enqueue(5);
+      testMe.enqueue(2);
       System.out.println(testMe.test());
       System.out.println(testMe.isEmpty());
 
