@@ -252,13 +252,22 @@ public class Practice {
     public void queue() {
       Stack stk1 = new Stack();
       Stack stk2 = new Stack();
+      int num1 = 2;
+      int num3 = 3;
       //local class
       class mySize  {
           int test()    {
               return stk1.size() + stk2.size();
           }
+          boolean isEmpty() {
+              return stk1.empty();
+          }
       }
-        System.out.println(mySize.test());
+//      stk1.push(num1);
+//      stk1.push(num3);
+      mySize testMe = new mySize();
+      System.out.println(testMe.test());
+      System.out.println(testMe.isEmpty());
 
     }
 }
