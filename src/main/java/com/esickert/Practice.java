@@ -266,7 +266,7 @@ public class Practice {
               stk1.push(x);
           }
       }
-//      stk1.push(num1);
+//        stk1.push(num1);
 //      stk1.push(num3);
       theQueue testMe = new theQueue();
       testMe.enqueue(5);
