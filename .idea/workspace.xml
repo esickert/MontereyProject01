@@ -408,23 +408,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CodeQuestions" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="MontereyProject01" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="interview.questions.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="interview.questions" />
-      <option name="MAIN_CLASS_NAME" value="interview.questions.CodeQuestions" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MontereyProjectCheck" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MontereyProjectCheck.checkChrome" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MontereyProject01" />
       <extension name="coverage">
         <pattern>
@@ -434,7 +418,42 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.esickert" />
       <option name="MAIN_CLASS_NAME" value="com.esickert.MontereyProjectCheck" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="METHOD_NAME" value="checkChrome" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MontereyProjectCheck.checkJunit" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MontereyProject01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.esickert.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.esickert" />
+      <option name="MAIN_CLASS_NAME" value="com.esickert.MontereyProjectCheck" />
+      <option name="METHOD_NAME" value="checkJunit" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MontereyProjectCheck.thisIsATest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MontereyProject01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.esickert.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.esickert" />
+      <option name="MAIN_CLASS_NAME" value="com.esickert.MontereyProjectCheck" />
+      <option name="METHOD_NAME" value="thisIsATest" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -467,7 +486,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Practice.queue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Practice.helloWorld" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MontereyProject01" />
       <extension name="coverage">
         <pattern>
@@ -477,24 +496,8 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.esickert" />
       <option name="MAIN_CLASS_NAME" value="com.esickert.Practice" />
-      <option name="METHOD_NAME" value="queue" />
+      <option name="METHOD_NAME" value="helloWorld" />
       <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SeleniumQuestions" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="MontereyProject01" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="interview.questions.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="interview.questions" />
-      <option name="MAIN_CLASS_NAME" value="interview.questions.SeleniumQuestions" />
-      <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -527,19 +530,19 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.MorePracticeJava.fibR" />
-      <item itemvalue="JUnit.Practice.queue" />
       <item itemvalue="JUnit.Practice" />
-      <item itemvalue="JUnit.SeleniumQuestions" />
-      <item itemvalue="JUnit.MontereyProjectCheck" />
-      <item itemvalue="JUnit.CodeQuestions" />
+      <item itemvalue="JUnit.Practice.helloWorld" />
+      <item itemvalue="JUnit.MontereyProjectCheck.checkChrome" />
+      <item itemvalue="JUnit.MontereyProjectCheck.thisIsATest" />
+      <item itemvalue="JUnit.MontereyProjectCheck.checkJunit" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.Practice" />
-        <item itemvalue="JUnit.CodeQuestions" />
-        <item itemvalue="JUnit.MontereyProjectCheck" />
-        <item itemvalue="JUnit.SeleniumQuestions" />
-        <item itemvalue="JUnit.Practice.queue" />
+        <item itemvalue="JUnit.MontereyProjectCheck.checkJunit" />
+        <item itemvalue="JUnit.MontereyProjectCheck.thisIsATest" />
+        <item itemvalue="JUnit.MontereyProjectCheck.checkChrome" />
+        <item itemvalue="JUnit.Practice.helloWorld" />
       </list>
     </recent_temporary>
   </component>
@@ -554,13 +557,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1520195848238</updated>
-    </task>
-    <task id="LOCAL-01053" summary="plus">
-      <created>1623089581667</created>
-      <option name="number" value="01053" />
-      <option name="presentableId" value="LOCAL-01053" />
-      <option name="project" value="LOCAL" />
-      <updated>1623089581668</updated>
     </task>
     <task id="LOCAL-01054" summary="plus">
       <created>1623097444146</created>
@@ -898,7 +894,14 @@
       <option name="project" value="LOCAL" />
       <updated>1628358097322</updated>
     </task>
-    <option name="localTasksCounter" value="1102" />
+    <task id="LOCAL-01102" summary="plus">
+      <created>1629042038067</created>
+      <option name="number" value="01102" />
+      <option name="presentableId" value="LOCAL-01102" />
+      <option name="project" value="LOCAL" />
+      <updated>1629042038068</updated>
+    </task>
+    <option name="localTasksCounter" value="1103" />
     <servers />
   </component>
   <component name="TestHistory">
