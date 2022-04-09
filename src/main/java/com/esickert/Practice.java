@@ -20,7 +20,7 @@ import static org.openqa.selenium.Keys.ENTER;
 
 public class Practice {
 
-  @Test 
+  @Test
   public void helloWorld()  {
     System.out.println("\n Hello world. We are using junit and maven");
   }
