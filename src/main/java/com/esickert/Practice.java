@@ -16,7 +16,7 @@ import java.io.FileReader;
 import java.io.PrintStream;
 import java.util.*;
 
-import static org.openqa.selenium.Keys.ENTER;
+import  static org.openqa.selenium.Keys.ENTER;
 
 public class Practice {
 
