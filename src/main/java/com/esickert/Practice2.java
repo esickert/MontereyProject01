@@ -15,7 +15,12 @@ public class Practice2 {
     public void fibanacci() {
     int a = 0;
     int b = 1;
-    int c = a + b;  //this is not correct!!
-    System.out.println( " " + c);
+    int c = 0;
+    for(int i = 0; i <= 10; i++) {
+            c = a + b;
+            a = b;
+            System.out.print( " " + c);
+    }
+ //   System.out.println( " " + c);
     }
 }
