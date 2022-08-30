@@ -22,6 +22,11 @@ public class Practice2 {
             b = c;
             System.out.print( " " + c);
     }
- //   System.out.println( " " + c);
+    }
+
+    //********************************************************
+    @Test
+    public void fibinacciRecursive()   {
+        System.out.println("This is fibinacci recursive");
     }
 }
