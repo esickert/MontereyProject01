@@ -11,7 +11,6 @@
   <component name="ChangeListManager">
     <list default="true" id="078280d5-5042-4862-850d-0c24f97ab4a9" name="Default" comment="plus">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/esickert/Practice2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/esickert/Practice2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="true" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -530,10 +529,10 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.MorePracticeJava.fibR" />
-      <item itemvalue="JUnit.Practice" />
-      <item itemvalue="JUnit.Practice2.printme" />
       <item itemvalue="JUnit.Practice2" />
       <item itemvalue="JUnit.Practice2.fibanacci" />
+      <item itemvalue="JUnit.Practice2.printme" />
+      <item itemvalue="JUnit.Practice" />
       <item itemvalue="JUnit.Practice.fibanacci" />
     </list>
     <recent_temporary>
@@ -557,13 +556,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1520195848238</updated>
-    </task>
-    <task id="LOCAL-01079" summary="plus">
-      <created>1624223390342</created>
-      <option name="number" value="01079" />
-      <option name="presentableId" value="LOCAL-01079" />
-      <option name="project" value="LOCAL" />
-      <updated>1624223390342</updated>
     </task>
     <task id="LOCAL-01080" summary="plus">
       <created>1624249959824</created>
@@ -901,7 +893,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659793460096</updated>
     </task>
-    <option name="localTasksCounter" value="1128" />
+    <task id="LOCAL-01128" summary="plus">
+      <created>1661387583919</created>
+      <option name="number" value="01128" />
+      <option name="presentableId" value="LOCAL-01128" />
+      <option name="project" value="LOCAL" />
+      <updated>1661387583920</updated>
+    </task>
+    <option name="localTasksCounter" value="1129" />
     <servers />
   </component>
   <component name="TestHistory">
