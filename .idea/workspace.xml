@@ -526,11 +526,11 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.MorePracticeJava.fibR" />
-      <item itemvalue="JUnit.Practice2" />
       <item itemvalue="JUnit.Practice2.fibinacciRecursive" />
-      <item itemvalue="JUnit.Practice" />
-      <item itemvalue="JUnit.Practice.helloWorld" />
+      <item itemvalue="JUnit.Practice2" />
       <item itemvalue="JUnit.Selenium" />
+      <item itemvalue="JUnit.Practice.helloWorld" />
+      <item itemvalue="JUnit.Practice" />
     </list>
     <recent_temporary>
       <list>
