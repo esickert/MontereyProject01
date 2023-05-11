@@ -535,8 +535,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.Practice" />
-        <item itemvalue="JUnit.Practice2" />
         <item itemvalue="JUnit.Practice.helloWorld" />
+        <item itemvalue="JUnit.Practice2" />
         <item itemvalue="JUnit.Selenium" />
         <item itemvalue="JUnit.Practice2.fibinacciRecursive" />
       </list>
@@ -553,13 +553,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1520195848238</updated>
-    </task>
-    <task id="LOCAL-01101" summary="plus">
-      <created>1628358097321</created>
-      <option name="number" value="01101" />
-      <option name="presentableId" value="LOCAL-01101" />
-      <option name="project" value="LOCAL" />
-      <updated>1628358097322</updated>
     </task>
     <task id="LOCAL-01102" summary="plus">
       <created>1629042038067</created>
@@ -897,7 +890,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681104584048</updated>
     </task>
-    <option name="localTasksCounter" value="1150" />
+    <task id="LOCAL-01150" summary="plus">
+      <created>1681858646135</created>
+      <option name="number" value="01150" />
+      <option name="presentableId" value="LOCAL-01150" />
+      <option name="project" value="LOCAL" />
+      <updated>1681858646136</updated>
+    </task>
+    <option name="localTasksCounter" value="1151" />
     <servers />
   </component>
   <component name="TestHistory">
