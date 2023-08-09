@@ -9,7 +9,9 @@
     <bookmark url="file://$PROJECT_DIR$/src/main/java/com/esickert/Playground.java" line="60" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="078280d5-5042-4862-850d-0c24f97ab4a9" name="Default" comment="plus" />
+    <list default="true" id="078280d5-5042-4862-850d-0c24f97ab4a9" name="Default" comment="plus">
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/esickert/Practice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/esickert/Practice.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="true" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -449,7 +451,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Practice2.printme" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Practice.constructor" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MontereyProject01" />
       <extension name="coverage">
         <pattern>
@@ -458,8 +460,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.esickert" />
-      <option name="MAIN_CLASS_NAME" value="com.esickert.Practice2" />
-      <option name="METHOD_NAME" value="printme" />
+      <option name="MAIN_CLASS_NAME" value="com.esickert.Practice" />
+      <option name="METHOD_NAME" value="constructor" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
@@ -527,18 +529,18 @@
     <list>
       <item itemvalue="JUnit.MorePracticeJava.fibR" />
       <item itemvalue="JUnit.Practice2" />
-      <item itemvalue="JUnit.Practice2.printme" />
       <item itemvalue="JUnit.Practice" />
       <item itemvalue="JUnit.Practice.fibanacci" />
       <item itemvalue="JUnit.Selenium" />
+      <item itemvalue="JUnit.Practice.constructor" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.Practice" />
+        <item itemvalue="JUnit.Practice.constructor" />
         <item itemvalue="JUnit.Practice.fibanacci" />
         <item itemvalue="JUnit.Selenium" />
         <item itemvalue="JUnit.Practice2" />
-        <item itemvalue="JUnit.Practice2.printme" />
       </list>
     </recent_temporary>
   </component>
