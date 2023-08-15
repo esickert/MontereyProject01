@@ -392,7 +392,7 @@
       <recent name="TDD" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Practice">
+  <component name="RunManager" selected="JUnit.Practice2.printme">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -433,7 +433,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Practice2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Practice2.printme" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MontereyProject01" />
       <extension name="coverage">
         <pattern>
@@ -443,7 +443,8 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.esickert" />
       <option name="MAIN_CLASS_NAME" value="com.esickert.Practice2" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="METHOD_NAME" value="printme" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -526,19 +527,19 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.MorePracticeJava.fibR" />
-      <item itemvalue="JUnit.Practice2" />
       <item itemvalue="JUnit.Practice" />
       <item itemvalue="JUnit.Practice.fibanacci" />
       <item itemvalue="JUnit.Selenium" />
       <item itemvalue="JUnit.Practice.constructor" />
+      <item itemvalue="JUnit.Practice2.printme" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Practice2.printme" />
         <item itemvalue="JUnit.Practice" />
         <item itemvalue="JUnit.Practice.constructor" />
         <item itemvalue="JUnit.Practice.fibanacci" />
         <item itemvalue="JUnit.Selenium" />
-        <item itemvalue="JUnit.Practice2" />
       </list>
     </recent_temporary>
   </component>
@@ -553,13 +554,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1520195848238</updated>
-    </task>
-    <task id="LOCAL-01131" summary="plus">
-      <created>1661902193934</created>
-      <option name="number" value="01131" />
-      <option name="presentableId" value="LOCAL-01131" />
-      <option name="project" value="LOCAL" />
-      <updated>1661902193934</updated>
     </task>
     <task id="LOCAL-01132" summary="plus">
       <created>1662004749982</created>
@@ -897,7 +891,14 @@
       <option name="project" value="LOCAL" />
       <updated>1691960346064</updated>
     </task>
-    <option name="localTasksCounter" value="1180" />
+    <task id="LOCAL-01180" summary="plus">
+      <created>1692033273298</created>
+      <option name="number" value="01180" />
+      <option name="presentableId" value="LOCAL-01180" />
+      <option name="project" value="LOCAL" />
+      <updated>1692033273299</updated>
+    </task>
+    <option name="localTasksCounter" value="1181" />
     <servers />
   </component>
   <component name="TestHistory">
