@@ -53,6 +53,7 @@ public class Practice {
     System.out.println("\n");
   }
 
+
   public int recursive(int x)  {
       if ((x == 0) || (x == 1))
         return x;
