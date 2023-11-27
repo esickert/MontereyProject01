@@ -14,8 +14,9 @@ public void openBrowser()       {
 
 //NOTE THIS WILL NOT RUN IN LINUX!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
-    System.setProperty("webdriver.gecko.driver","c://SeleniumDrivers//geckodriver.exe");
+    System.setProperty("webdriver.gecko.driver","home/esickert/SeleniumDrivers//geckodriver");
     WebDriver driver = new FirefoxDriver();
+    
 
     driver.get("https://www.google.com");
     try {
