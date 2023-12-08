@@ -392,7 +392,7 @@
       <recent name="TDD" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Practice2">
+  <component name="RunManager" selected="JUnit.Practice">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -534,8 +534,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.Practice2" />
         <item itemvalue="JUnit.Practice" />
+        <item itemvalue="JUnit.Practice2" />
         <item itemvalue="JUnit.Practice.helloWorld" />
         <item itemvalue="JUnit.Selenium.openBrowser" />
         <item itemvalue="JUnit.Selenium" />
