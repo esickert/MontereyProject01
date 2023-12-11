@@ -9,7 +9,7 @@ public class Practice2 {
         System.out.println(" This is a test");
         System.out.println("Of the emergency broadcast system.");
     }
-    //********************************************************
+    //**********************************************************
 
     @Test
     public void fibanacci() {
