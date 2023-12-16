@@ -11,7 +11,6 @@
   <component name="ChangeListManager">
     <list default="true" id="078280d5-5042-4862-850d-0c24f97ab4a9" name="Default" comment="plus">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/esickert/Practice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/esickert/Practice.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="true" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -368,7 +367,7 @@
     <property name="ToolWindowMessages.ShowToolbar" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$2/Languages" value="JAVA" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../PythonStuff/PythonPlayground/HelloWorld.py" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.3632184" />
@@ -405,6 +404,22 @@
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MontereyProjectCheck" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MontereyProject01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.esickert.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.esickert" />
+      <option name="MAIN_CLASS_NAME" value="com.esickert.MontereyProjectCheck" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -452,6 +467,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Practice.fibanacci" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
+      <module name="MontereyProject01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.esickert.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.esickert" />
+      <option name="MAIN_CLASS_NAME" value="com.esickert.Practice" />
+      <option name="METHOD_NAME" value="fibanacci" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Practice.helloWorld" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MontereyProject01" />
       <extension name="coverage">
@@ -464,22 +496,6 @@
       <option name="MAIN_CLASS_NAME" value="com.esickert.Practice" />
       <option name="METHOD_NAME" value="helloWorld" />
       <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Selenium" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="MontereyProject01" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.esickert.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.esickert" />
-      <option name="MAIN_CLASS_NAME" value="com.esickert.Selenium" />
-      <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -529,19 +545,20 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.MorePracticeJava.fibR" />
+      <item itemvalue="JUnit.Practice.fibanacci" />
       <item itemvalue="JUnit.Practice2" />
       <item itemvalue="JUnit.Practice" />
       <item itemvalue="JUnit.Practice.helloWorld" />
-      <item itemvalue="JUnit.Selenium" />
       <item itemvalue="JUnit.Selenium.openBrowser" />
+      <item itemvalue="JUnit.MontereyProjectCheck" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.Practice" />
-        <item itemvalue="JUnit.Practice.helloWorld" />
         <item itemvalue="JUnit.Practice2" />
+        <item itemvalue="JUnit.MontereyProjectCheck" />
+        <item itemvalue="JUnit.Practice.helloWorld" />
         <item itemvalue="JUnit.Selenium.openBrowser" />
-        <item itemvalue="JUnit.Selenium" />
       </list>
     </recent_temporary>
   </component>
