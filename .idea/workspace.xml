@@ -11,7 +11,6 @@
   <component name="ChangeListManager">
     <list default="true" id="078280d5-5042-4862-850d-0c24f97ab4a9" name="Default" comment="plus">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/esickert/Practice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/esickert/Practice.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="true" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -409,22 +408,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MontereyProjectCheck" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="MontereyProject01" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.esickert.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.esickert" />
-      <option name="MAIN_CLASS_NAME" value="com.esickert.MontereyProjectCheck" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="MorePracticeJava.fibR" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
       <module name="MontereyProject01" />
       <option name="PACKAGE_NAME" value="" />
@@ -502,7 +485,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Selenium.openBrowser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Selenium" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MontereyProject01" />
       <extension name="coverage">
         <pattern>
@@ -512,8 +495,23 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.esickert" />
       <option name="MAIN_CLASS_NAME" value="com.esickert.Selenium" />
-      <option name="METHOD_NAME" value="openBrowser" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Selenium2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MontereyProject01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.esickert.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.esickert" />
+      <option name="MAIN_CLASS_NAME" value="com.esickert.Selenium2" />
+      <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -550,16 +548,16 @@
       <item itemvalue="JUnit.Practice2" />
       <item itemvalue="JUnit.Practice" />
       <item itemvalue="JUnit.Practice.helloWorld" />
-      <item itemvalue="JUnit.Selenium.openBrowser" />
-      <item itemvalue="JUnit.MontereyProjectCheck" />
+      <item itemvalue="JUnit.Selenium2" />
+      <item itemvalue="JUnit.Selenium" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.Practice" />
+        <item itemvalue="JUnit.Selenium" />
+        <item itemvalue="JUnit.Selenium2" />
         <item itemvalue="JUnit.Practice.helloWorld" />
         <item itemvalue="JUnit.Practice2" />
-        <item itemvalue="JUnit.MontereyProjectCheck" />
-        <item itemvalue="JUnit.Selenium.openBrowser" />
       </list>
     </recent_temporary>
   </component>
@@ -574,13 +572,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1520195848238</updated>
-    </task>
-    <task id="LOCAL-01244" summary="plus">
-      <created>1698738195882</created>
-      <option name="number" value="01244" />
-      <option name="presentableId" value="LOCAL-01244" />
-      <option name="project" value="LOCAL" />
-      <updated>1698738195885</updated>
     </task>
     <task id="LOCAL-01245" summary="plus">
       <created>1698738304888</created>
@@ -918,7 +909,14 @@
       <option name="project" value="LOCAL" />
       <updated>1702851698579</updated>
     </task>
-    <option name="localTasksCounter" value="1293" />
+    <task id="LOCAL-01293" summary="plus">
+      <created>1703025298456</created>
+      <option name="number" value="01293" />
+      <option name="presentableId" value="LOCAL-01293" />
+      <option name="project" value="LOCAL" />
+      <updated>1703025298457</updated>
+    </task>
+    <option name="localTasksCounter" value="1294" />
     <servers />
   </component>
   <component name="TestHistory">
