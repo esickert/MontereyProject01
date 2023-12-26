@@ -394,7 +394,7 @@
       <recent name="TDD" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Practice2">
+  <component name="RunManager" selected="JUnit.Practice">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -553,8 +553,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.Practice2" />
         <item itemvalue="JUnit.Practice" />
+        <item itemvalue="JUnit.Practice2" />
         <item itemvalue="JUnit.Selenium" />
         <item itemvalue="JUnit.Selenium2" />
         <item itemvalue="JUnit.Practice.helloWorld" />
@@ -572,13 +572,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1520195848238</updated>
-    </task>
-    <task id="LOCAL-01250" summary="plus">
-      <created>1699225776262</created>
-      <option name="number" value="01250" />
-      <option name="presentableId" value="LOCAL-01250" />
-      <option name="project" value="LOCAL" />
-      <updated>1699225776263</updated>
     </task>
     <task id="LOCAL-01251" summary="plus">
       <created>1699227147126</created>
@@ -916,7 +909,14 @@
       <option name="project" value="LOCAL" />
       <updated>1703297599602</updated>
     </task>
-    <option name="localTasksCounter" value="1299" />
+    <task id="LOCAL-01299" summary="plus">
+      <created>1703399802033</created>
+      <option name="number" value="01299" />
+      <option name="presentableId" value="LOCAL-01299" />
+      <option name="project" value="LOCAL" />
+      <updated>1703399802034</updated>
+    </task>
+    <option name="localTasksCounter" value="1300" />
     <servers />
   </component>
   <component name="TestHistory">
