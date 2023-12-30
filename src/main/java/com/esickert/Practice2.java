@@ -24,10 +24,15 @@ public class Practice2 {
             System.out.print( " " + c);
     }
     }
+    //******************************************************
+    @Test
+    public void printMe() {
+    System.out.println("Testingggggggggg");
+    }
 
     //********************************************************
-    @Test
-    public void fibinacciRecursive()   {
-        System.out.println(" This is fibinacci recursive");
-    }
-}
+//    @Test
+//    public void fibinacciRecursive()   {
+//        System.out.println(" This is fibinacci recursive");
+ }
+
