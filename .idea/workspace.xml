@@ -11,7 +11,6 @@
   <component name="ChangeListManager">
     <list default="true" id="078280d5-5042-4862-850d-0c24f97ab4a9" name="Default" comment="plus">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/esickert/Practice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/esickert/Practice.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="true" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -576,13 +575,6 @@
       <option name="presentableId" value="Default" />
       <updated>1520195848238</updated>
     </task>
-    <task id="LOCAL-01256" summary="plus">
-      <created>1699410477873</created>
-      <option name="number" value="01256" />
-      <option name="presentableId" value="LOCAL-01256" />
-      <option name="project" value="LOCAL" />
-      <updated>1699410477874</updated>
-    </task>
     <task id="LOCAL-01257" summary="plus">
       <created>1699410661493</created>
       <option name="number" value="01257" />
@@ -919,7 +911,14 @@
       <option name="project" value="LOCAL" />
       <updated>1703967425751</updated>
     </task>
-    <option name="localTasksCounter" value="1305" />
+    <task id="LOCAL-01305" summary="plus">
+      <created>1703974680945</created>
+      <option name="number" value="01305" />
+      <option name="presentableId" value="LOCAL-01305" />
+      <option name="project" value="LOCAL" />
+      <updated>1703974680945</updated>
+    </task>
+    <option name="localTasksCounter" value="1306" />
     <servers />
   </component>
   <component name="TestHistory">
