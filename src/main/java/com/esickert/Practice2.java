@@ -27,12 +27,25 @@ public class Practice2 {
     //******************************************************
     @Test
     public void printMe() {
-    System.out.println("Testingggggggggg");
+    System.out.println("TestinggggggggggJUST TESTING");
     }
 
     //********************************************************
-//    @Test
-//    public void fibinacciRecursive()   {
-//        System.out.println(" This is fibinacci recursive");
+    @Test
+    public void fibinacciRecursive()   {
+        System.out.println(" This is fibinacci recursive");
+        for(int i = 0; i <= 2; i++)    {
+            System.out.println("for loop !!!!!");
+        }
  }
+
+ pracice2() public practice2() {
+    System.out.println("This is creting a constructor");
+}
+
+practice2 test = new practice2()   //create an object of class practice {
+
+test();
+}
+}
 
