@@ -30,7 +30,7 @@ public class Practice2 {
     System.out.println("TestinggggggggggJUST TESTING");
     }
 
-    //********************************************************
+    //*******************************************************
     @Test
     public void fibinacciRecursive()   {
         System.out.println(" This is fibinacci recursive");
@@ -39,13 +39,13 @@ public class Practice2 {
         }
  }
 
- pracice2() public practice2() {
-    System.out.println("This is creting a constructor");
+ //pracice2() public practice2() {
+//    System.out.println("This is creting a constructor");
 }
 
-practice2 test = new practice2()   //create an object of class practice {
+//practice2 test = new practice2()   //create an object of class practice {
 
-test();
-}
-}
+//test();
+//}
+//}
 
