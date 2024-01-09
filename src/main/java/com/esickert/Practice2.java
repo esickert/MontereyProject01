@@ -47,5 +47,5 @@ public class Practice2 {
 
 //test();
 //}
-//}
+// }
 
