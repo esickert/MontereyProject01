@@ -372,7 +372,7 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.3632184" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.language" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -556,13 +556,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1520195848238</updated>
-    </task>
-    <task id="LOCAL-01268" summary="plus">
-      <created>1700017580781</created>
-      <option name="number" value="01268" />
-      <option name="presentableId" value="LOCAL-01268" />
-      <option name="project" value="LOCAL" />
-      <updated>1700017580781</updated>
     </task>
     <task id="LOCAL-01269" summary="plus">
       <created>1700501660800</created>
@@ -900,7 +893,14 @@
       <option name="project" value="LOCAL" />
       <updated>1704953697337</updated>
     </task>
-    <option name="localTasksCounter" value="1317" />
+    <task id="LOCAL-01317" summary="plus">
+      <created>1705295536279</created>
+      <option name="number" value="01317" />
+      <option name="presentableId" value="LOCAL-01317" />
+      <option name="project" value="LOCAL" />
+      <updated>1705295536280</updated>
+    </task>
+    <option name="localTasksCounter" value="1318" />
     <servers />
   </component>
   <component name="TestHistory">
