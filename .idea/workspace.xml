@@ -529,11 +529,11 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.MorePracticeJava.fibR" />
-      <item itemvalue="JUnit.Practice.fibanacci" />
       <item itemvalue="JUnit.Practice2" />
-      <item itemvalue="JUnit.Practice" />
       <item itemvalue="JUnit.Practice2.fibinacciRecursive" />
       <item itemvalue="JUnit.Practice2.printme" />
+      <item itemvalue="JUnit.Practice" />
+      <item itemvalue="JUnit.Practice.fibanacci" />
     </list>
     <recent_temporary>
       <list>
@@ -556,13 +556,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1520195848238</updated>
-    </task>
-    <task id="LOCAL-01272" summary="plus">
-      <created>1700621205292</created>
-      <option name="number" value="01272" />
-      <option name="presentableId" value="LOCAL-01272" />
-      <option name="project" value="LOCAL" />
-      <updated>1700621205292</updated>
     </task>
     <task id="LOCAL-01273" summary="plus">
       <created>1700622792160</created>
@@ -900,7 +893,14 @@
       <option name="project" value="LOCAL" />
       <updated>1705638040095</updated>
     </task>
-    <option name="localTasksCounter" value="1321" />
+    <task id="LOCAL-01321" summary="plus">
+      <created>1705981905616</created>
+      <option name="number" value="01321" />
+      <option name="presentableId" value="LOCAL-01321" />
+      <option name="project" value="LOCAL" />
+      <updated>1705981905617</updated>
+    </task>
+    <option name="localTasksCounter" value="1322" />
     <servers />
   </component>
   <component name="TestHistory">
