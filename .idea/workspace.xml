@@ -394,7 +394,7 @@
       <recent name="TDD" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Practice2">
+  <component name="RunManager" selected="JUnit.Practice">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -414,6 +414,22 @@
       <option name="MAIN_CLASS_NAME" value="MorePracticeJava" />
       <option name="METHOD_NAME" value="fibR" />
       <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Practice" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MontereyProject01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.esickert.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.esickert" />
+      <option name="MAIN_CLASS_NAME" value="com.esickert.Practice" />
+      <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -486,23 +502,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Practice2.printme" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="MontereyProject01" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.esickert.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.esickert" />
-      <option name="MAIN_CLASS_NAME" value="com.esickert.Practice2" />
-      <option name="METHOD_NAME" value="printme" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -531,18 +530,18 @@
     <list>
       <item itemvalue="JUnit.MorePracticeJava.fibR" />
       <item itemvalue="JUnit.Practice2" />
-      <item itemvalue="JUnit.Practice2.printme" />
       <item itemvalue="JUnit.Practice2.fibanacci" />
       <item itemvalue="JUnit.Practice2.printMe" />
       <item itemvalue="JUnit.Practice2.fibinacciRecursive" />
+      <item itemvalue="JUnit.Practice" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Practice" />
         <item itemvalue="JUnit.Practice2" />
         <item itemvalue="JUnit.Practice2.printMe" />
         <item itemvalue="JUnit.Practice2.fibanacci" />
         <item itemvalue="JUnit.Practice2.fibinacciRecursive" />
-        <item itemvalue="JUnit.Practice2.printme" />
       </list>
     </recent_temporary>
   </component>
@@ -557,13 +556,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1520195848238</updated>
-    </task>
-    <task id="LOCAL-01281" summary="plus">
-      <created>1701378971586</created>
-      <option name="number" value="01281" />
-      <option name="presentableId" value="LOCAL-01281" />
-      <option name="project" value="LOCAL" />
-      <updated>1701378971587</updated>
     </task>
     <task id="LOCAL-01282" summary="plus">
       <created>1701417420086</created>
@@ -901,7 +893,14 @@
       <option name="project" value="LOCAL" />
       <updated>1706760149541</updated>
     </task>
-    <option name="localTasksCounter" value="1330" />
+    <task id="LOCAL-01330" summary="plus">
+      <created>1706936745383</created>
+      <option name="number" value="01330" />
+      <option name="presentableId" value="LOCAL-01330" />
+      <option name="project" value="LOCAL" />
+      <updated>1706936745384</updated>
+    </task>
+    <option name="localTasksCounter" value="1331" />
     <servers />
   </component>
   <component name="TestHistory">
