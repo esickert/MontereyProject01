@@ -283,7 +283,8 @@ public class Practice {
     @Test
     import java.io.*;
 
-    public void CmdTest {
+    public class CmdTest {
+    //I need to work on this code!!!!!!!!!!!!!!!!!!!!!!!!!!!.
     //    public static void main(String[] args) throws Exception {
             ProcessBuilder builder = new ProcessBuilder(
                     "cmd.exe", "/c", "cd \"C:\\Program Files\\Microsoft SQL Server\" && dir");
@@ -297,7 +298,7 @@ public class Practice {
                 System.out.println(line);
             }
         }
-    }     */
+    }  */
 }
 
 
