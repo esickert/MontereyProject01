@@ -11,6 +11,7 @@
   <component name="ChangeListManager">
     <list default="true" id="078280d5-5042-4862-850d-0c24f97ab4a9" name="Default" comment="plus">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/esickert/Selenium2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/esickert/Selenium2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="true" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -394,7 +395,7 @@
       <recent name="TDD" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Practice">
+  <component name="RunManager" selected="JUnit.Selenium2.TestSelect">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -468,7 +469,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Practice2.printMe" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Selenium2.TestSelect" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MontereyProject01" />
       <extension name="coverage">
         <pattern>
@@ -477,8 +478,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.esickert" />
-      <option name="MAIN_CLASS_NAME" value="com.esickert.Practice2" />
-      <option name="METHOD_NAME" value="printMe" />
+      <option name="MAIN_CLASS_NAME" value="com.esickert.Selenium2" />
+      <option name="METHOD_NAME" value="TestSelect" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
@@ -529,19 +530,19 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.MorePracticeJava.fibR" />
-      <item itemvalue="JUnit.Practice2.printMe" />
       <item itemvalue="JUnit.Practice" />
       <item itemvalue="JUnit.Practice2.fibanacci" />
       <item itemvalue="JUnit.Practice2" />
       <item itemvalue="JUnit.capabilities.openFirefox" />
+      <item itemvalue="JUnit.Selenium2.TestSelect" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Selenium2.TestSelect" />
         <item itemvalue="JUnit.Practice" />
         <item itemvalue="JUnit.capabilities.openFirefox" />
         <item itemvalue="JUnit.Practice2" />
         <item itemvalue="JUnit.Practice2.fibanacci" />
-        <item itemvalue="JUnit.Practice2.printMe" />
       </list>
     </recent_temporary>
   </component>
@@ -556,13 +557,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1520195848238</updated>
-    </task>
-    <task id="LOCAL-01297" summary="plus">
-      <created>1703214532268</created>
-      <option name="number" value="01297" />
-      <option name="presentableId" value="LOCAL-01297" />
-      <option name="project" value="LOCAL" />
-      <updated>1703214532269</updated>
     </task>
     <task id="LOCAL-01298" summary="plus">
       <created>1703297599599</created>
@@ -900,7 +894,14 @@
       <option name="project" value="LOCAL" />
       <updated>1708671103175</updated>
     </task>
-    <option name="localTasksCounter" value="1346" />
+    <task id="LOCAL-01346" summary="plus">
+      <created>1708822872441</created>
+      <option name="number" value="01346" />
+      <option name="presentableId" value="LOCAL-01346" />
+      <option name="project" value="LOCAL" />
+      <updated>1708822872442</updated>
+    </task>
+    <option name="localTasksCounter" value="1347" />
     <servers />
   </component>
   <component name="TestHistory">
