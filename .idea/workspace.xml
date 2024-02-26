@@ -11,7 +11,6 @@
   <component name="ChangeListManager">
     <list default="true" id="078280d5-5042-4862-850d-0c24f97ab4a9" name="Default" comment="plus">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/esickert/Selenium2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/esickert/Selenium2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="true" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -395,7 +394,7 @@
       <recent name="TDD" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Selenium2.TestSelect">
+  <component name="RunManager" selected="JUnit.Selenium">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -452,7 +451,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Practice2.fibanacci" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Selenium" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MontereyProject01" />
       <extension name="coverage">
         <pattern>
@@ -461,9 +460,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.esickert" />
-      <option name="MAIN_CLASS_NAME" value="com.esickert.Practice2" />
-      <option name="METHOD_NAME" value="fibanacci" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="com.esickert.Selenium" />
+      <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -531,18 +529,18 @@
     <list>
       <item itemvalue="JUnit.MorePracticeJava.fibR" />
       <item itemvalue="JUnit.Practice" />
-      <item itemvalue="JUnit.Practice2.fibanacci" />
       <item itemvalue="JUnit.Practice2" />
       <item itemvalue="JUnit.capabilities.openFirefox" />
       <item itemvalue="JUnit.Selenium2.TestSelect" />
+      <item itemvalue="JUnit.Selenium" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Selenium" />
         <item itemvalue="JUnit.Selenium2.TestSelect" />
         <item itemvalue="JUnit.Practice" />
         <item itemvalue="JUnit.capabilities.openFirefox" />
         <item itemvalue="JUnit.Practice2" />
-        <item itemvalue="JUnit.Practice2.fibanacci" />
       </list>
     </recent_temporary>
   </component>
@@ -557,20 +555,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1520195848238</updated>
-    </task>
-    <task id="LOCAL-01298" summary="plus">
-      <created>1703297599599</created>
-      <option name="number" value="01298" />
-      <option name="presentableId" value="LOCAL-01298" />
-      <option name="project" value="LOCAL" />
-      <updated>1703297599602</updated>
-    </task>
-    <task id="LOCAL-01299" summary="plus">
-      <created>1703399802033</created>
-      <option name="number" value="01299" />
-      <option name="presentableId" value="LOCAL-01299" />
-      <option name="project" value="LOCAL" />
-      <updated>1703399802034</updated>
     </task>
     <task id="LOCAL-01300" summary="plus">
       <created>1703567365283</created>
@@ -901,7 +885,21 @@
       <option name="project" value="LOCAL" />
       <updated>1708822872442</updated>
     </task>
-    <option name="localTasksCounter" value="1347" />
+    <task id="LOCAL-01347" summary="plus">
+      <created>1708840331507</created>
+      <option name="number" value="01347" />
+      <option name="presentableId" value="LOCAL-01347" />
+      <option name="project" value="LOCAL" />
+      <updated>1708840331508</updated>
+    </task>
+    <task id="LOCAL-01348" summary="plus">
+      <created>1708840471173</created>
+      <option name="number" value="01348" />
+      <option name="presentableId" value="LOCAL-01348" />
+      <option name="project" value="LOCAL" />
+      <updated>1708840471173</updated>
+    </task>
+    <option name="localTasksCounter" value="1349" />
     <servers />
   </component>
   <component name="TestHistory">
