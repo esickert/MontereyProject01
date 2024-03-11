@@ -394,7 +394,7 @@
       <recent name="TDD" />
     </key>
   </component>
-  <component name="RunManager" selected="Android JUnit.Practice">
+  <component name="RunManager" selected="JUnit.Practice">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -527,18 +527,18 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Android JUnit.Practice" />
       <item itemvalue="JUnit.MorePracticeJava.fibR" />
       <item itemvalue="JUnit.Practice" />
-      <item itemvalue="JUnit.capabilities.openFirefox" />
       <item itemvalue="JUnit.Selenium2.TestSelect" />
       <item itemvalue="JUnit.Selenium" />
-      <item itemvalue="Android JUnit.Practice" />
+      <item itemvalue="JUnit.capabilities.openFirefox" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Android JUnit.Practice" />
         <item itemvalue="JUnit.Practice" />
         <item itemvalue="JUnit.Selenium" />
+        <item itemvalue="Android JUnit.Practice" />
         <item itemvalue="JUnit.Selenium2.TestSelect" />
         <item itemvalue="JUnit.capabilities.openFirefox" />
       </list>
@@ -555,13 +555,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1520195848238</updated>
-    </task>
-    <task id="LOCAL-01307" summary="plus">
-      <created>1704174523814</created>
-      <option name="number" value="01307" />
-      <option name="presentableId" value="LOCAL-01307" />
-      <option name="project" value="LOCAL" />
-      <updated>1704174523815</updated>
     </task>
     <task id="LOCAL-01308" summary="plus">
       <created>1704175431072</created>
@@ -899,7 +892,14 @@
       <option name="project" value="LOCAL" />
       <updated>1709790033630</updated>
     </task>
-    <option name="localTasksCounter" value="1356" />
+    <task id="LOCAL-01356" summary="plus">
+      <created>1709961264559</created>
+      <option name="number" value="01356" />
+      <option name="presentableId" value="LOCAL-01356" />
+      <option name="project" value="LOCAL" />
+      <updated>1709961264560</updated>
+    </task>
+    <option name="localTasksCounter" value="1357" />
     <servers />
   </component>
   <component name="TestHistory">
