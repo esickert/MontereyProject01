@@ -7,12 +7,12 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
-public class Selenium {
+public class                                                  Selenium {
 
 @Test
 public void openBrowser()       {
 
-//NOTE THIS WILL NOT RUN IN LINUX!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+//NOTE THIS WILL NOT RUN IN LINUX!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
     System.setProperty("webdriver.gecko.driver","home/esickert/SeleniumDrivers//geckodriver");
     WebDriver driver = new FirefoxDriver();
