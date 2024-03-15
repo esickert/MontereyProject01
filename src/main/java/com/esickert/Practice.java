@@ -21,7 +21,8 @@ import static org.openqa.selenium.Keys.ENTER;
 public class Practice {
 
   @Test
-  public  void constructor()  {System.out.println("\nWe will be defining a constructor ...");
+  public  void constructor()
+  {System.out.println("\nWe will be defining a constructor ...");
    }
 
   @Test
