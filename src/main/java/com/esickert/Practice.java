@@ -20,9 +20,9 @@ import static org.openqa.selenium.Keys.ENTER;
 
 public class Practice {
 
- // @Test
- // public  void constructor()  {System.out.println("\nWe will be defining a constructor ...");
-  //  }
+  @Test
+  public  void constructor()  {System.out.println("\nWe will be defining a constructor ...");
+   }
 
   @Test
   public void helloWorld()  {System.out.println("\n Hello world. We are using junit and maven");
