@@ -34,14 +34,19 @@ public class Practice2 {
     //*******************************************************
     @Test
     public void fibinacciRecursive()   {
-        System.out.println(" This is fibinacci recursive");
+        System.out.println("This is fibinacci recursive");
         for(int i = 0; i <= 2; i++)    {
             System.out.println("for loop !!!!!");
         }
  }
 
+ @Test
+ public void palindrome()   {
+    System.out.println("This is coding for a PALINDROME");
+ }
+
  //pracice2() public practice2() {
-//    System.out.println("This is creting a constructor");
+//    System.out.println("This is creating a constructor");
 }
 
 //practice2 test = new practice2()   //create an object of class practice {
