@@ -43,8 +43,8 @@ public class Practice2 {
  @Test
  public void palindrome()   {
     System.out.println("This is coding for a PALINDROME");
-    String a="abcdefg";
-    System.out.println(a);
+    String word="abcdefg";
+    System.out.println(word);
 }
  //pracice2() public practice2() {
 //    System.out.println("This is creating a constructor");
