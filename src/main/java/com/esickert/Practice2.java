@@ -44,7 +44,11 @@ public class Practice2 {
  public void palindrome()   {
     System.out.println("This is coding for a PALINDROME");
     String word="abcdefg";
+    String temp = "";
     System.out.println(word);
+    System.out.println(temp);
+
+
 }
  //pracice2() public practice2() {
 //    System.out.println("This is creating a constructor");
