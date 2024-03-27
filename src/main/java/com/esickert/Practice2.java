@@ -25,7 +25,7 @@ public class Practice2 {
             System.out.print( " " + c);
     }
     }
-    //******************************************************
+    //***************************************************
     @Test
     public void printMe() {
     System.out.println("\nTesting JUST TESTING");
