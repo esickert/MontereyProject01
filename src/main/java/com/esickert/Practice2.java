@@ -51,7 +51,7 @@ public class Practice2 {
 
 }
  //pracice2() public practice2() {
-//    System.out.println("This is creating a constructor");
+//    System.out.println("This is creating a constructor- practice");
 }
 
 //practice2 test = new practice2()   //create an object of class practice {
