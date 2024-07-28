@@ -47,15 +47,14 @@ public class Practice2 {
     String temp = "";
     System.out.println(word);
     System.out.println(temp);
+ }
 
-
+  @Test
+public void  palindromeSTRINGBuff()    {
+    System.out.println("testing for palindrome using String Buffer");
 }
- //pracice2() public practice2() {
-//    System.out.println("This is creating a constructor- practice");
-}
-
 //practice2 test = new practice2()   //create an object of class practice {
-
+}
 //test();
 //}
 // }
