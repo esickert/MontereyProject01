@@ -51,7 +51,7 @@ public class Practice2 {
 
   @Test
 public void  palindromeSTRINGBuff()    {
-    System.out.println("testing for palindrome using String Buffer");
+    System.out.println("codeing for palindrome using String Buffer");
 }
 //practice2 test = new practice2()   //create an object of class practice {
 }
