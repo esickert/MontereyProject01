@@ -9,7 +9,9 @@
     <bookmark url="file://$PROJECT_DIR$/src/main/java/com/esickert/Playground.java" line="60" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="078280d5-5042-4862-850d-0c24f97ab4a9" name="Default" comment="plus" />
+    <list default="true" id="078280d5-5042-4862-850d-0c24f97ab4a9" name="Default" comment="plus">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="true" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -393,7 +395,7 @@
       <recent name="TDD" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Practice">
+  <component name="RunManager" selected="JUnit.Practice2">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -536,9 +538,9 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Practice2" />
         <item itemvalue="JUnit.Practice" />
         <item itemvalue="JUnit.Practice2.printme" />
-        <item itemvalue="JUnit.Practice2" />
         <item itemvalue="JUnit.Practice.palindrome" />
         <item itemvalue="JUnit.Practice.palinStringBuffer" />
       </list>
@@ -555,13 +557,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1520195848238</updated>
-    </task>
-    <task id="LOCAL-01394" summary="plus">
-      <created>1716175417382</created>
-      <option name="number" value="01394" />
-      <option name="presentableId" value="LOCAL-01394" />
-      <option name="project" value="LOCAL" />
-      <updated>1716175417384</updated>
     </task>
     <task id="LOCAL-01395" summary="plus">
       <created>1717540275802</created>
@@ -899,7 +894,14 @@
       <option name="project" value="LOCAL" />
       <updated>1741844053777</updated>
     </task>
-    <option name="localTasksCounter" value="1443" />
+    <task id="LOCAL-01443" summary="plus">
+      <created>1742179808773</created>
+      <option name="number" value="01443" />
+      <option name="presentableId" value="LOCAL-01443" />
+      <option name="project" value="LOCAL" />
+      <updated>1742179808773</updated>
+    </task>
+    <option name="localTasksCounter" value="1444" />
     <servers />
   </component>
   <component name="TestHistory">
