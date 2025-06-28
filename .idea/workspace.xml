@@ -11,6 +11,7 @@
   <component name="ChangeListManager">
     <list default="true" id="078280d5-5042-4862-850d-0c24f97ab4a9" name="Default" comment="plus">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/esickert/Practice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/esickert/Practice.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="true" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -395,7 +396,7 @@
       <recent name="TDD" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SeleniumDropDownTests">
+  <component name="RunManager" selected="JUnit.Practice.constructor">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -452,7 +453,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Practice2.printme" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Practice.constructor" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MontereyProject01" />
       <extension name="coverage">
         <pattern>
@@ -461,8 +462,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.esickert" />
-      <option name="MAIN_CLASS_NAME" value="com.esickert.Practice2" />
-      <option name="METHOD_NAME" value="printme" />
+      <option name="MAIN_CLASS_NAME" value="com.esickert.Practice" />
+      <option name="METHOD_NAME" value="constructor" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
@@ -530,18 +531,18 @@
     <list>
       <item itemvalue="JUnit.MorePracticeJava.fibR" />
       <item itemvalue="JUnit.Practice2" />
-      <item itemvalue="JUnit.Practice2.printme" />
       <item itemvalue="JUnit.Practice" />
       <item itemvalue="JUnit.SeleniumDropDownTests" />
       <item itemvalue="JUnit.SeleniumDropDownTests.TestSelect" />
+      <item itemvalue="JUnit.Practice.constructor" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Practice.constructor" />
+        <item itemvalue="JUnit.Practice" />
         <item itemvalue="JUnit.SeleniumDropDownTests" />
         <item itemvalue="JUnit.SeleniumDropDownTests.TestSelect" />
         <item itemvalue="JUnit.Practice2" />
-        <item itemvalue="JUnit.Practice" />
-        <item itemvalue="JUnit.Practice2.printme" />
       </list>
     </recent_temporary>
   </component>
@@ -556,13 +557,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1520195848238</updated>
-    </task>
-    <task id="LOCAL-01399" summary="plus">
-      <created>1718778103292</created>
-      <option name="number" value="01399" />
-      <option name="presentableId" value="LOCAL-01399" />
-      <option name="project" value="LOCAL" />
-      <updated>1718778103293</updated>
     </task>
     <task id="LOCAL-01400" summary="plus">
       <created>1718869194673</created>
@@ -900,7 +894,14 @@
       <option name="project" value="LOCAL" />
       <updated>1750746887302</updated>
     </task>
-    <option name="localTasksCounter" value="1448" />
+    <task id="LOCAL-01448" summary="plus">
+      <created>1750906184620</created>
+      <option name="number" value="01448" />
+      <option name="presentableId" value="LOCAL-01448" />
+      <option name="project" value="LOCAL" />
+      <updated>1750906184621</updated>
+    </task>
+    <option name="localTasksCounter" value="1449" />
     <servers />
   </component>
   <component name="TestHistory">

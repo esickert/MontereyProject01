@@ -22,7 +22,8 @@ public class Practice {
 
   @Test
   public  void constructor()
-  {System.out.println("\nWe will be defining a constructor ...hopefully!!!!");
+  {System.out.println("OK WE ARE STARTING AGAIN!!!!!!!!!");
+   System.out.println("\nWe will be defining a constructor ...hopefully!!!!");
    }
 
   @Test
