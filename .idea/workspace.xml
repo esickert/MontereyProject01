@@ -11,8 +11,6 @@
   <component name="ChangeListManager">
     <list default="true" id="078280d5-5042-4862-850d-0c24f97ab4a9" name="Default" comment="plus">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/esickert/Practice$1theQueue.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/esickert/Practice$1theQueue.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/esickert/Practice.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/esickert/Practice.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="true" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -540,10 +538,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.Practice" />
+        <item itemvalue="JUnit.Practice2" />
         <item itemvalue="JUnit.Practice.constructor" />
         <item itemvalue="JUnit.SeleniumDropDownTests" />
         <item itemvalue="JUnit.SeleniumDropDownTests.TestSelect" />
-        <item itemvalue="JUnit.Practice2" />
       </list>
     </recent_temporary>
   </component>
@@ -558,13 +556,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1520195848238</updated>
-    </task>
-    <task id="LOCAL-01401" summary="plus">
-      <created>1719183866200</created>
-      <option name="number" value="01401" />
-      <option name="presentableId" value="LOCAL-01401" />
-      <option name="project" value="LOCAL" />
-      <updated>1719183866201</updated>
     </task>
     <task id="LOCAL-01402" summary="plus">
       <created>1719288089828</created>
@@ -902,7 +893,14 @@
       <option name="project" value="LOCAL" />
       <updated>1751089574532</updated>
     </task>
-    <option name="localTasksCounter" value="1450" />
+    <task id="LOCAL-01450" summary="plus">
+      <created>1751263688114</created>
+      <option name="number" value="01450" />
+      <option name="presentableId" value="LOCAL-01450" />
+      <option name="project" value="LOCAL" />
+      <updated>1751263688114</updated>
+    </task>
+    <option name="localTasksCounter" value="1451" />
     <servers />
   </component>
   <component name="TestHistory">
