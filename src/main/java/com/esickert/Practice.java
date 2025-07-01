@@ -30,7 +30,7 @@ public class Practice {
   public void helloWorld()  {System.out.println("\n Hello world. We are using junit and maven");
   }
 
-  //**************************************************
+  //************************************************
   // *
 
   @Test
