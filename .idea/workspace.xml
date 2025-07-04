@@ -452,6 +452,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Practice2.printme" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MontereyProject01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.esickert.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.esickert" />
+      <option name="MAIN_CLASS_NAME" value="com.esickert.Practice2" />
+      <option name="METHOD_NAME" value="printme" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Practice.constructor" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MontereyProject01" />
       <extension name="coverage">
@@ -480,23 +497,6 @@
       <option name="PACKAGE_NAME" value="seleniumDropDowns" />
       <option name="MAIN_CLASS_NAME" value="seleniumDropDowns.SeleniumDropDownTests" />
       <option name="TEST_OBJECT" value="class" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SeleniumDropDownTests.TestSelect" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="MontereyProject01" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="seleniumDropDowns.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="seleniumDropDowns" />
-      <option name="MAIN_CLASS_NAME" value="seleniumDropDowns.SeleniumDropDownTests" />
-      <option name="METHOD_NAME" value="TestSelect" />
-      <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -532,16 +532,16 @@
       <item itemvalue="JUnit.Practice2" />
       <item itemvalue="JUnit.Practice" />
       <item itemvalue="JUnit.SeleniumDropDownTests" />
-      <item itemvalue="JUnit.SeleniumDropDownTests.TestSelect" />
       <item itemvalue="JUnit.Practice.constructor" />
+      <item itemvalue="JUnit.Practice2.printme" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.Practice2" />
+        <item itemvalue="JUnit.Practice2.printme" />
         <item itemvalue="JUnit.Practice" />
         <item itemvalue="JUnit.Practice.constructor" />
         <item itemvalue="JUnit.SeleniumDropDownTests" />
-        <item itemvalue="JUnit.SeleniumDropDownTests.TestSelect" />
       </list>
     </recent_temporary>
   </component>
@@ -556,20 +556,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1520195848238</updated>
-    </task>
-    <task id="LOCAL-01404" summary="plus">
-      <created>1719376369620</created>
-      <option name="number" value="01404" />
-      <option name="presentableId" value="LOCAL-01404" />
-      <option name="project" value="LOCAL" />
-      <updated>1719376369621</updated>
-    </task>
-    <task id="LOCAL-01405" summary="plus">
-      <created>1719376444456</created>
-      <option name="number" value="01405" />
-      <option name="presentableId" value="LOCAL-01405" />
-      <option name="project" value="LOCAL" />
-      <updated>1719376444456</updated>
     </task>
     <task id="LOCAL-01406" summary="plus">
       <created>1719731713801</created>
@@ -900,7 +886,21 @@
       <option name="project" value="LOCAL" />
       <updated>1751344362293</updated>
     </task>
-    <option name="localTasksCounter" value="1453" />
+    <task id="LOCAL-01453" summary="plus">
+      <created>1751433090726</created>
+      <option name="number" value="01453" />
+      <option name="presentableId" value="LOCAL-01453" />
+      <option name="project" value="LOCAL" />
+      <updated>1751433090727</updated>
+    </task>
+    <task id="LOCAL-01454" summary="plus">
+      <created>1751433147128</created>
+      <option name="number" value="01454" />
+      <option name="presentableId" value="LOCAL-01454" />
+      <option name="project" value="LOCAL" />
+      <updated>1751433147128</updated>
+    </task>
+    <option name="localTasksCounter" value="1455" />
     <servers />
   </component>
   <component name="TestHistory">
