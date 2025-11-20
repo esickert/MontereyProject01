@@ -163,11 +163,12 @@ public class Practice {
     public void printInFile() throws Exception   {
       String testFile = "//home//esickert//temp//erich.txt";
 //      PrintStream output = null;
-
+//        );
         PrintStream output = new PrintStream(new File(testFile));
 
         output.println("This is the end; beautiful friend");
         output.println("This is the end, my only friend the end");
+        output.println("This is to test printing to file");
 
         try (BufferedReader br = new BufferedReader(new FileReader(testFile))) {
             String line;
