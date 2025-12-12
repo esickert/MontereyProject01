@@ -452,6 +452,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Practice2.printMe" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MontereyProject01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.esickert.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.esickert" />
+      <option name="MAIN_CLASS_NAME" value="com.esickert.Practice2" />
+      <option name="METHOD_NAME" value="printMe" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Practice.constructor" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MontereyProject01" />
       <extension name="coverage">
@@ -463,23 +480,6 @@
       <option name="PACKAGE_NAME" value="com.esickert" />
       <option name="MAIN_CLASS_NAME" value="com.esickert.Practice" />
       <option name="METHOD_NAME" value="constructor" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Practice.fibRec" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="MontereyProject01" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.esickert.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.esickert" />
-      <option name="MAIN_CLASS_NAME" value="com.esickert.Practice" />
-      <option name="METHOD_NAME" value="fibRec" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
@@ -532,17 +532,17 @@
       <item itemvalue="JUnit.MorePracticeJava.fibR" />
       <item itemvalue="JUnit.Practice2" />
       <item itemvalue="JUnit.Practice" />
-      <item itemvalue="JUnit.Practice.fibRec" />
       <item itemvalue="JUnit.Practice.printInFile" />
       <item itemvalue="JUnit.Practice.constructor" />
+      <item itemvalue="JUnit.Practice2.printMe" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.Practice2" />
+        <item itemvalue="JUnit.Practice2.printMe" />
         <item itemvalue="JUnit.Practice" />
         <item itemvalue="JUnit.Practice.constructor" />
         <item itemvalue="JUnit.Practice.printInFile" />
-        <item itemvalue="JUnit.Practice.fibRec" />
       </list>
     </recent_temporary>
   </component>
@@ -557,13 +557,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1520195848238</updated>
-    </task>
-    <task id="LOCAL-01412" summary="plus">
-      <created>1720411454587</created>
-      <option name="number" value="01412" />
-      <option name="presentableId" value="LOCAL-01412" />
-      <option name="project" value="LOCAL" />
-      <updated>1720411454588</updated>
     </task>
     <task id="LOCAL-01413" summary="plus">
       <created>1720515955903</created>
@@ -901,7 +894,14 @@
       <option name="project" value="LOCAL" />
       <updated>1764402456494</updated>
     </task>
-    <option name="localTasksCounter" value="1461" />
+    <task id="LOCAL-01461" summary="plus">
+      <created>1764750675740</created>
+      <option name="number" value="01461" />
+      <option name="presentableId" value="LOCAL-01461" />
+      <option name="project" value="LOCAL" />
+      <updated>1764750675743</updated>
+    </task>
+    <option name="localTasksCounter" value="1462" />
     <servers />
   </component>
   <component name="TestHistory">
