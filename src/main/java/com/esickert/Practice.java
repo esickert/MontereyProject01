@@ -22,9 +22,11 @@ public class Practice {
 
 @Test
 public void method()    {
-System.out.println("PRINT STATTEMENT");
+//System.out.println("PRINT STATTEMENT");
+System.out .println("********************************************************");
 System.out.println("FIBINACI");
-System.out.println("Palindrome");
+System.out.println("PALINDROME");
+System.out.println("********************************************************");
 }
 
   @Test
