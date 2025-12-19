@@ -20,6 +20,13 @@ import static org.openqa.selenium.Keys.ENTER;
 
 public class Practice {
 
+@Test
+public void method()    {
+System.out.println("PRINT STATTEMENT");
+System.out.println("FIBINACI");
+System.out.println("Palindrome");
+}
+
   @Test
   public  void constructor()
   {System.out.println("OK WE ARE STARTING AGAIN!!!!!!!!!");
