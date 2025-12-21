@@ -12,8 +12,6 @@
     <list default="true" id="078280d5-5042-4862-850d-0c24f97ab4a9" name="Default" comment="plus">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/esickert/Practice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/esickert/Practice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/esickert/Practice$1theQueue.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/esickert/Practice$1theQueue.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/esickert/Practice.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/esickert/Practice.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="true" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -398,7 +396,7 @@
       <recent name="TDD" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Practice">
+  <component name="RunManager" selected="JUnit.Practice.method">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -541,8 +539,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.Practice" />
         <item itemvalue="JUnit.Practice.method" />
+        <item itemvalue="JUnit.Practice" />
         <item itemvalue="JUnit.Practice2" />
         <item itemvalue="JUnit.Practice2.printMe" />
         <item itemvalue="JUnit.Practice.constructor" />
@@ -560,13 +558,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1520195848238</updated>
-    </task>
-    <task id="LOCAL-01416" summary="plus">
-      <created>1721218980043</created>
-      <option name="number" value="01416" />
-      <option name="presentableId" value="LOCAL-01416" />
-      <option name="project" value="LOCAL" />
-      <updated>1721218980043</updated>
     </task>
     <task id="LOCAL-01417" summary="plus">
       <created>1721638769044</created>
@@ -904,7 +895,14 @@
       <option name="project" value="LOCAL" />
       <updated>1766116726980</updated>
     </task>
-    <option name="localTasksCounter" value="1465" />
+    <task id="LOCAL-01465" summary="plus">
+      <created>1766124050288</created>
+      <option name="number" value="01465" />
+      <option name="presentableId" value="LOCAL-01465" />
+      <option name="project" value="LOCAL" />
+      <updated>1766124050288</updated>
+    </task>
+    <option name="localTasksCounter" value="1466" />
     <servers />
   </component>
   <component name="TestHistory">
