@@ -11,7 +11,8 @@
   <component name="ChangeListManager">
     <list default="true" id="078280d5-5042-4862-850d-0c24f97ab4a9" name="Default" comment="plus">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/esickert/Practice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/esickert/Practice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/esickert/Practice$1theQueue.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/esickert/Practice$1theQueue.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/esickert/Practice.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/esickert/Practice.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="true" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -396,7 +397,7 @@
       <recent name="TDD" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Practice.method">
+  <component name="RunManager" selected="JUnit.Practice">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -532,15 +533,15 @@
     <list>
       <item itemvalue="JUnit.MorePracticeJava.fibR" />
       <item itemvalue="JUnit.Practice2" />
+      <item itemvalue="JUnit.Practice2.printMe" />
       <item itemvalue="JUnit.Practice" />
       <item itemvalue="JUnit.Practice.constructor" />
-      <item itemvalue="JUnit.Practice2.printMe" />
       <item itemvalue="JUnit.Practice.method" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.Practice.method" />
         <item itemvalue="JUnit.Practice" />
+        <item itemvalue="JUnit.Practice.method" />
         <item itemvalue="JUnit.Practice2" />
         <item itemvalue="JUnit.Practice2.printMe" />
         <item itemvalue="JUnit.Practice.constructor" />
@@ -558,13 +559,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1520195848238</updated>
-    </task>
-    <task id="LOCAL-01417" summary="plus">
-      <created>1721638769044</created>
-      <option name="number" value="01417" />
-      <option name="presentableId" value="LOCAL-01417" />
-      <option name="project" value="LOCAL" />
-      <updated>1721638769045</updated>
     </task>
     <task id="LOCAL-01418" summary="plus">
       <created>1722135996439</created>
@@ -902,7 +896,14 @@
       <option name="project" value="LOCAL" />
       <updated>1766124050288</updated>
     </task>
-    <option name="localTasksCounter" value="1466" />
+    <task id="LOCAL-01466" summary="plus">
+      <created>1766307668757</created>
+      <option name="number" value="01466" />
+      <option name="presentableId" value="LOCAL-01466" />
+      <option name="project" value="LOCAL" />
+      <updated>1766307668757</updated>
+    </task>
+    <option name="localTasksCounter" value="1467" />
     <servers />
   </component>
   <component name="TestHistory">
